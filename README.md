@@ -1,2 +1,2 @@
-# Gosim_v72_stress_test
+# Gosim_v72
 The stress test code of v7.2
