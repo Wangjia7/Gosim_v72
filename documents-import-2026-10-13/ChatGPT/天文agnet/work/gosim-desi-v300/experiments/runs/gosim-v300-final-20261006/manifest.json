@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "run_id": "gosim-v300-final-20261006",
+  "status": "completed",
+  "registered_at": "2026-10-06T08:11:18.397297+00:00",
+  "started_at": "2026-10-06T08:06:40.218036+00:00",
+  "ended_at": "2026-10-06T08:08:50.034158+00:00",
+  "runtime_seconds": 129.816122,
+  "failure_reason": null,
+  "project_root": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-desi-v300",
+  "source_config": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-desi-v300/experiments/final-config.yaml",
+  "config_sha256": "aa5936177a7a288e35c69dfbdf5c374e2fa9a680f7c6ae3708f20572bea3c699",
+  "config": {
+    "schema_version": 1,
+    "experiment_id": "gosim-desi-final-layout-regression",
+    "project_id": "astronomy-observer-v300",
+    "parent_run_id": null,
+    "hypothesis": "Window, raw-bound and geometry safeguards execute under official interface/CPU budget; unknown-layout nonregression is evaluated, not assumed.",
+    "baseline": "official python-pro in experiments/matrix-results-v2.json",
+    "command": "/Library/Developer/CommandLineTools/usr/bin/python3 run_request_guard.py",
+    "output_dir": "evidence/final-series",
+    "data_contract_revision": "DATA_CONTRACT.md v300",
+    "datasets": [
+      {
+        "name": "corrected synthetic layouts",
+        "version": "v2",
+        "uri": "cases-v2",
+        "identity": "b0f0461e4a367f85107149f70ae47a6b0f797a11465f584c0d721554d27f9745"
+      }
+    ],
+    "random": {
+      "stochastic": true,
+      "seed": 202610061,
+      "rng": "official Python random.Random MT19937; individual seeds in case manifest",
+      "stream_policy": "same frozen generated catalogue/weather/request products per baseline/candidate pair"
+    },
+    "parallel": {
+      "backend": "serial inside each matrix; independent L1/long processes on host",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "reduction": "no threaded numeric reduction"
+    },
+    "environment": {
+      "dependency_lock": "dependency-lock.txt",
+      "hardware": "arm64",
+      "software": "3.9.6 stdlib; C++17; PyYAML used only for registry"
+    },
+    "parameters": {
+      "api": false,
+      "standard_cpu_budget": 120,
+      "final_source_manifest": "request-guard-source-frozen.json"
+    },
+    "controls": {
+      "sample_ids": "identical target IDs within each paired card",
+      "skeleton": "not-applicable; telescope scheduler",
+      "selection": "all corrected cases; preserve both gains and regressions",
+      "units_and_coordinates": "UTC and degrees; gnomonic Alt-Az as public engine",
+      "bin_edges_and_denominator": "one total per task card; no selected-target renormalization"
+    },
+    "metrics": {
+      "totals": {
+        "definition": "totals from full official score_report/fair_clock",
+        "unit": "points",
+        "uncertainty": "single per-case measurement; OS pacing variation not estimated"
+      },
+      "required_missing": {
+        "definition": "required_missing from full official score_report/fair_clock",
+        "unit": "count",
+        "uncertainty": "single per-case measurement; OS pacing variation not estimated"
+      },
+      "requests_completed": {
+        "definition": "requests_completed from full official score_report/fair_clock",
+        "unit": "count",
+        "uncertainty": "single per-case measurement; OS pacing variation not estimated"
+      },
+      "cpu_charged": {
+        "definition": "cpu_charged from full official score_report/fair_clock",
+        "unit": "standard_cpu_seconds",
+        "uncertainty": "single per-case measurement; OS pacing variation not estimated"
+      }
+    },
+    "reproducibility": {
+      "level": "numerical",
+      "tolerance": "exact scorer for saved action trace; fresh adaptive run action identity not guaranteed"
+    },
+    "success_criterion": "Interface/legal actions/no CPU expiry; no universal score nonregression assumed",
+    "budget": {
+      "max_runs": 8,
+      "max_walltime_hours": 1,
+      "stop_condition": "six corrected paired-input candidate runs plus long and L1 regression; retain failures"
+    }
+  },
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "limitation": "无 git commit；需外部源码快照，不能仅靠登记复现"
+  },
+  "metrics": {
+    "totals": {
+      "value": [
+        341.748499,
+        2563.381294,
+        718.629241,
+        820.590491,
+        2645.900584,
+        671.862207
+      ],
+      "unit": "points",
+      "sample_count": 6,
+      "denominator": "one final scorer total per corrected card",
+      "artifact": "experiments/request-guard-results.json"
+    },
+    "required_missing": {
+      "value": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "unit": "count",
+      "sample_count": 6
+    },
+    "requests_completed": {
+      "value": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unit": "count",
+      "sample_count": 6
+    },
+    "cpu_charged": {
+      "value": [
+        6.676,
+        45.559,
+        10.144,
+        16.917,
+        43.805,
+        9.031
+      ],
+      "unit": "standard_cpu_seconds",
+      "sample_count": 6
+    }
+  },
+  "environment_lock": {
+    "source": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-desi-v300/dependency-lock.txt",
+    "sha256": "7d12cb668d7a19a22d700e7d6d627af1f917ac171543d89ca6acc5279188497e",
+    "snapshot": "dependency-lock.snapshot"
+  },
+  "registrar": {
+    "python": "3.9.6 (default, May  7 2023, 23:32:44) \n[Clang 14.0.3 (clang-1403.0.22.14.1)]",
+    "pyyaml": "6.0.3",
+    "script_sha256": "ff5b1941c783012454c051c6b6878ee97bd990fa0e9c2406bebd89ca6d251a39"
+  },
+  "output_dir": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-desi-v300/evidence/final-series",
+  "output_inventory": [
+    {
+      "path": "case-manifest-v2.json",
+      "size": 10825,
+      "mtime_ns": 1791273295329879474,
+      "sha256": "b0f0461e4a367f85107149f70ae47a6b0f797a11465f584c0d721554d27f9745"
+    },
+    {
+      "path": "dense-held-score_report.json",
+      "size": 2863,
+      "mtime_ns": 1791274120766858829,
+      "sha256": "4aaede49f6f88275e912cdc724fdca7962974fe5ddc5e23131e280856442d1ec"
+    },
+    {
+      "path": "dense-held-workflow_result.json",
+      "size": 4046,
+      "mtime_ns": 1791274120769073354,
+      "sha256": "9b734176f354468a9067f17b6b75f8ff39500bcd2e34edf4bf294fb4a4708582"
+    },
+    {
+      "path": "dense-score_report.json",
+      "size": 2861,
+      "mtime_ns": 1791274050540036909,
+      "sha256": "165f7926a9e69a563c3713e8238666b31564d279f7b9d6ba5f36489142d7a6e1"
+    },
+    {
+      "path": "dense-workflow_result.json",
+      "size": 4043,
+      "mtime_ns": 1791274050542421270,
+      "sha256": "4012d2b7d8bc02a47b885c0e17760e8a2747a227b37db5e0b14e3011423bc853"
+    },
+    {
+      "path": "mixed-score_report.json",
+      "size": 2962,
+      "mtime_ns": 1791274081147918533,
+      "sha256": "e737c380384fdf79ec065f6528fb09cb6693564e6918020d5d9aea8cb1517dea"
+    },
+    {
+      "path": "mixed-workflow_result.json",
+      "size": 4151,
+      "mtime_ns": 1791274081149261465,
+      "sha256": "a528fed5f67d6b6614e864997f9ca2361abbc6e008876add195875bb7ae07e02"
+    },
+    {
+      "path": "request-guard-source-frozen.json",
+      "size": 1891,
+      "mtime_ns": 1791274000172066930,
+      "sha256": "9aad1369a5188b3901629338efa2f530aa25fc67ada7a58d3aadc61fba98d308"
+    },
+    {
+      "path": "sparse-score_report.json",
+      "size": 2900,
+      "mtime_ns": 1791274007545888084,
+      "sha256": "34c7644008644199b239c6ebcda216924fc60d70f278fb2de4d0360ae0bbfd0a"
+    },
+    {
+      "path": "sparse-workflow_result.json",
+      "size": 4081,
+      "mtime_ns": 1791274007546519633,
+      "sha256": "2ed4e7bda23688fed9ee7fee099f0b6fc7f962402f2991e6af959d2ce5643c92"
+    },
+    {
+      "path": "stress-held-score_report.json",
+      "size": 3060,
+      "mtime_ns": 1791274130016086074,
+      "sha256": "aef069bf7a94d834308ee16aeddfda0b1bd302de3b29638f835b68a3efc56a0e"
+    },
+    {
+      "path": "stress-held-workflow_result.json",
+      "size": 4266,
+      "mtime_ns": 1791274130017117086,
+      "sha256": "e9ab60b5bde905724786a7e3d28c10547f17c2e31b32303495bfa06c34a30bc3"
+    },
+    {
+      "path": "stress-score_report.json",
+      "size": 3086,
+      "mtime_ns": 1791274062066410580,
+      "sha256": "22d7a0d96eb26585db87173d9275ff3e96949c97dc43a9ccff0c95fecb48fa4b"
+    },
+    {
+      "path": "stress-workflow_result.json",
+      "size": 4290,
+      "mtime_ns": 1791274062067596344,
+      "sha256": "4b2fe2499f5c639222fb46499d7852a17fde13ee1ae5a239d9f7baaf78343afd"
+    }
+  ],
+  "outputs_hashed": true,
+  "limitations": [
+    "登记不验证命令曾被执行、数据 identity 或用户声明的实际运行环境",
+    "源码/输入/输出必须在登记期间保持不变；登记锁不锁实验进程",
+    "默认输出 size/mtime 不能验证内容；--hash-outputs 对普通文件保存 SHA256",
+    "输出符号链接只记录目标，不捕获目标内容"
+  ]
+}

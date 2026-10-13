@@ -1,0 +1,25 @@
+{
+  "components_process_seconds": {
+    "candidate_generation": 54.125223999990055,
+    "exposure_search": 157.3187719999884,
+    "fiber_assignment": 42.997233000021566,
+    "lookahead": 0.0,
+    "season": 1.5577249999999447,
+    "state_update": 0.4018709999999761,
+    "visibility": 9.341502999999763
+  },
+  "level_counts": {
+    "0": 801,
+    "1": 47
+  },
+  "error_steps": [],
+  "note": "Recorded observer stage sums; official whole-run CPU authoritative.",
+  "requested_width_summary": {
+    "min": 1.0,
+    "median": 12.0,
+    "max": 12.0,
+    "at_cap12": 691
+  },
+  "effective_planner_width_cap": 5,
+  "width_caveat": "Agent allows/logs requested widths above5 and normalizes EMA by requested width, but planner caps actual width at5. Whole-policy results are valid; requested-width labels are not evidence of actual breadth12/20. Raw logs unchanged."
+}

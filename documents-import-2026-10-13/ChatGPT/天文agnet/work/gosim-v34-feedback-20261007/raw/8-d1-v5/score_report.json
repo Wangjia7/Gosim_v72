@@ -1,0 +1,1832 @@
+{
+  "by_class": {
+    "BGS": 1394.051136,
+    "ELG": 3485.582966,
+    "LRG": 1449.780481,
+    "QSO": 1149.7037,
+    "Star": 354.538254
+  },
+  "components": {
+    "observation_request_reward": 350.0,
+    "report_settlement": 700.0,
+    "required_penalty": -30350.0,
+    "sum_best_scores": 7833.656537,
+    "uniformity_penalty": -10.862971
+  },
+  "counts": {
+    "decisions": 10802,
+    "invalidated_observations": 5736,
+    "observation_requests_completed": 7,
+    "observation_requests_issued": 95,
+    "observations": 93166,
+    "observe_actions": 4419,
+    "required_missing": 607,
+    "targets_observed": 24105
+  },
+  "invalidations": [
+    {
+      "event_id": "V4ST0001",
+      "invalidated_observations": 5736,
+      "window": [
+        189,
+        421
+      ]
+    }
+  ],
+  "observation_requests": [
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-01-04T07:30:00Z",
+      "issued_at_utc": "2027-01-02T07:30:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1001",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T010939",
+        "V4T003013",
+        "V4T019918",
+        "V4T013879"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T001671"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-01-04T10:45:00Z",
+      "issued_at_utc": "2027-01-03T07:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0001",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016486",
+        "V4T028123",
+        "V4T028929",
+        "V4T015556",
+        "V4T011025",
+        "V4T016359",
+        "V4T001671",
+        "V4T010670"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-01-07T06:38:00Z",
+      "issued_at_utc": "2027-01-05T06:38:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1002",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T027355",
+        "V4T028405",
+        "V4T010137",
+        "V4T006534",
+        "V4T013400"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-01-15T06:38:00Z",
+      "issued_at_utc": "2027-01-13T06:38:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1003",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T015464",
+        "V4T023122",
+        "V4T004866",
+        "V4T024021"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-01-22T05:50:00Z",
+      "issued_at_utc": "2027-01-20T05:50:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1004",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013394",
+        "V4T022534",
+        "V4T011385"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 2,
+      "completed_target_ids": [
+        "V4T029256",
+        "V4T005005"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 300.0,
+      "deadline_utc": "2027-01-25T11:30:00Z",
+      "issued_at_utc": "2027-01-25T08:30:00Z",
+      "minimum_completed": 3,
+      "request_id": "V4RQ2001",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T029256",
+        "V4T005005",
+        "V4T002752",
+        "V4T014036",
+        "V4T018984"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-01-29T05:34:00Z",
+      "issued_at_utc": "2027-01-27T05:34:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1005",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016894",
+        "V4T026575",
+        "V4T007211",
+        "V4T019813"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-01T05:46:00Z",
+      "issued_at_utc": "2027-01-30T05:46:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1006",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T025018",
+        "V4T018123",
+        "V4T020477",
+        "V4T022439"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-04T05:48:00Z",
+      "issued_at_utc": "2027-02-02T05:48:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1007",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T005721",
+        "V4T015258",
+        "V4T013362",
+        "V4T022668",
+        "V4T004552"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-04T06:02:00Z",
+      "issued_at_utc": "2027-02-02T06:02:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1008",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016319",
+        "V4T007713",
+        "V4T001734",
+        "V4T005507",
+        "V4T012495"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-11T05:51:00Z",
+      "issued_at_utc": "2027-02-09T05:51:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1009",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T001689",
+        "V4T009077",
+        "V4T010562"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-15T05:23:00Z",
+      "issued_at_utc": "2027-02-13T05:23:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1010",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T004546",
+        "V4T024559",
+        "V4T018156",
+        "V4T024288",
+        "V4T026770"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-17T05:19:00Z",
+      "issued_at_utc": "2027-02-15T05:19:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1011",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024933",
+        "V4T014610",
+        "V4T017207"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-02-24T05:04:00Z",
+      "issued_at_utc": "2027-02-22T05:04:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1012",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016854",
+        "V4T010632",
+        "V4T013083",
+        "V4T017153",
+        "V4T002014"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-03T04:34:00Z",
+      "issued_at_utc": "2027-03-01T04:34:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1013",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T019710",
+        "V4T005585",
+        "V4T016608"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-10T04:37:00Z",
+      "issued_at_utc": "2027-03-08T04:37:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1014",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024385",
+        "V4T017973",
+        "V4T000872",
+        "V4T025288"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-13T04:23:00Z",
+      "issued_at_utc": "2027-03-11T04:23:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1015",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T001563",
+        "V4T017210",
+        "V4T023543",
+        "V4T019843",
+        "V4T022133"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-17T04:18:00Z",
+      "issued_at_utc": "2027-03-15T04:18:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1016",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T004515",
+        "V4T010055",
+        "V4T005755"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-03-17T13:15:00Z",
+      "issued_at_utc": "2027-03-16T05:15:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0002",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T008318",
+        "V4T018037",
+        "V4T019456",
+        "V4T017218",
+        "V4T015648",
+        "V4T025820",
+        "V4T005206",
+        "V4T023950"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-20T04:02:00Z",
+      "issued_at_utc": "2027-03-18T04:02:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1017",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T020872",
+        "V4T003790",
+        "V4T008035",
+        "V4T001924"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 400.0,
+      "deadline_utc": "2027-03-18T09:15:00Z",
+      "issued_at_utc": "2027-03-18T06:15:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2103",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013986",
+        "V4T001099",
+        "V4T019680",
+        "V4T003428"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-03-25T04:13:00Z",
+      "issued_at_utc": "2027-03-23T04:13:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1018",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T021206",
+        "V4T022107",
+        "V4T006736"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 300.0,
+      "deadline_utc": "2027-03-29T11:15:00Z",
+      "issued_at_utc": "2027-03-29T07:15:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2002",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T008161",
+        "V4T004043",
+        "V4T008520",
+        "V4T022549"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-02T03:39:00Z",
+      "issued_at_utc": "2027-03-31T03:39:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1019",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T018837",
+        "V4T011821",
+        "V4T029683"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T002087"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-03T10:33:00Z",
+      "issued_at_utc": "2027-04-01T10:33:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1020",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T002087",
+        "V4T009705",
+        "V4T005518",
+        "V4T018980",
+        "V4T016174"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T005525"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-04T03:40:00Z",
+      "issued_at_utc": "2027-04-02T03:40:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1021",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016216",
+        "V4T026864",
+        "V4T005525"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-07T03:40:00Z",
+      "issued_at_utc": "2027-04-05T03:40:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1022",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T007787",
+        "V4T005529",
+        "V4T005595",
+        "V4T021935"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-10T03:08:00Z",
+      "issued_at_utc": "2027-04-08T03:08:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1023",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T019510",
+        "V4T015512",
+        "V4T015840",
+        "V4T008800",
+        "V4T006041"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-16T03:25:00Z",
+      "issued_at_utc": "2027-04-14T03:25:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1024",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T020165",
+        "V4T004960",
+        "V4T005532",
+        "V4T006311",
+        "V4T002858"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-22T03:00:00Z",
+      "issued_at_utc": "2027-04-20T03:00:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1025",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T028667",
+        "V4T020419",
+        "V4T011542"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-04-30T02:21:00Z",
+      "issued_at_utc": "2027-04-28T02:21:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1026",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T009697",
+        "V4T021393",
+        "V4T020323"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-05-08T02:59:00Z",
+      "issued_at_utc": "2027-05-06T02:59:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1027",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016390",
+        "V4T025829",
+        "V4T025694",
+        "V4T017717",
+        "V4T026549"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-05-15T02:43:00Z",
+      "issued_at_utc": "2027-05-13T02:43:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1028",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T003202",
+        "V4T005033",
+        "V4T015596"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 400.0,
+      "deadline_utc": "2027-05-13T08:45:00Z",
+      "issued_at_utc": "2027-05-13T05:45:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2104",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T027131",
+        "V4T012731",
+        "V4T001462",
+        "V4T023806"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-05-16T03:00:00Z",
+      "issued_at_utc": "2027-05-14T03:00:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1029",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T006472",
+        "V4T018532",
+        "V4T017215",
+        "V4T020716",
+        "V4T009787"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 300.0,
+      "deadline_utc": "2027-05-17T09:00:00Z",
+      "issued_at_utc": "2027-05-17T04:00:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2003",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T026344",
+        "V4T008541",
+        "V4T014418",
+        "V4T008364"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-05-23T02:01:00Z",
+      "issued_at_utc": "2027-05-21T02:01:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1030",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013184",
+        "V4T008495",
+        "V4T000576",
+        "V4T027743",
+        "V4T014288"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-05-29T02:17:00Z",
+      "issued_at_utc": "2027-05-27T02:17:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1031",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T027380",
+        "V4T018094",
+        "V4T022974"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-05-28T14:30:00Z",
+      "issued_at_utc": "2027-05-27T03:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0003",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T007642",
+        "V4T010530",
+        "V4T000027",
+        "V4T026918",
+        "V4T007137",
+        "V4T006884",
+        "V4T014325",
+        "V4T000336"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-03T16:48:00Z",
+      "issued_at_utc": "2027-06-01T16:48:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1032",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T019323",
+        "V4T012459",
+        "V4T000435",
+        "V4T011315",
+        "V4T022304"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-04T07:10:00Z",
+      "issued_at_utc": "2027-06-02T07:10:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1033",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T026877",
+        "V4T018138",
+        "V4T011451"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-05T01:48:00Z",
+      "issued_at_utc": "2027-06-03T01:48:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1034",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T002097",
+        "V4T014868",
+        "V4T018150",
+        "V4T022208"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-07T02:38:00Z",
+      "issued_at_utc": "2027-06-05T02:38:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1035",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T017731",
+        "V4T003528",
+        "V4T029212",
+        "V4T017610"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-12T02:00:00Z",
+      "issued_at_utc": "2027-06-10T02:00:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1036",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T010801",
+        "V4T026483",
+        "V4T000417"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-18T01:52:00Z",
+      "issued_at_utc": "2027-06-16T01:52:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1037",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T011026",
+        "V4T018952",
+        "V4T019599"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-24T02:28:00Z",
+      "issued_at_utc": "2027-06-22T02:28:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1038",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T007785",
+        "V4T015463",
+        "V4T000964",
+        "V4T002854"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-06-24T02:39:00Z",
+      "issued_at_utc": "2027-06-22T02:39:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1039",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T015987",
+        "V4T018879",
+        "V4T013568"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-02T02:22:00Z",
+      "issued_at_utc": "2027-06-30T02:22:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1040",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024648",
+        "V4T008406",
+        "V4T010188"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-09T02:42:00Z",
+      "issued_at_utc": "2027-07-07T02:42:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1041",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T023530",
+        "V4T028214",
+        "V4T007385",
+        "V4T022203"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-15T02:36:00Z",
+      "issued_at_utc": "2027-07-13T02:36:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1042",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T005250",
+        "V4T025874",
+        "V4T000559",
+        "V4T019641",
+        "V4T013601"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-17T16:45:00Z",
+      "issued_at_utc": "2027-07-15T16:45:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1043",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T001564",
+        "V4T026106",
+        "V4T027125",
+        "V4T017710"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-18T13:49:00Z",
+      "issued_at_utc": "2027-07-16T13:49:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1044",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013584",
+        "V4T010779",
+        "V4T028712",
+        "V4T000882"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T005745"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-19T02:47:00Z",
+      "issued_at_utc": "2027-07-17T02:47:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1045",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T005756",
+        "V4T026232",
+        "V4T005745"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T024951"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-20T02:48:00Z",
+      "issued_at_utc": "2027-07-18T02:48:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1046",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024951",
+        "V4T006146",
+        "V4T024655",
+        "V4T025591"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 2,
+      "completed_target_ids": [
+        "V4T002854",
+        "V4T005200"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 350.0,
+      "deadline_utc": "2027-07-20T07:45:00Z",
+      "issued_at_utc": "2027-07-20T04:45:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2004",
+      "reward": 350.0,
+      "target_ids": [
+        "V4T002854",
+        "V4T008118",
+        "V4T013839",
+        "V4T005200"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-26T02:16:00Z",
+      "issued_at_utc": "2027-07-24T02:16:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1047",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T003743",
+        "V4T012323",
+        "V4T025740",
+        "V4T028899"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-07-28T02:43:00Z",
+      "issued_at_utc": "2027-07-26T02:43:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1048",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T027322",
+        "V4T026589",
+        "V4T000099",
+        "V4T008680",
+        "V4T018077"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-03T02:49:00Z",
+      "issued_at_utc": "2027-08-01T02:49:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1049",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T002096",
+        "V4T015986",
+        "V4T014457",
+        "V4T021327",
+        "V4T013863"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-04T02:14:00Z",
+      "issued_at_utc": "2027-08-02T02:14:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1050",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T006599",
+        "V4T007752",
+        "V4T005199",
+        "V4T029398"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-10T02:43:00Z",
+      "issued_at_utc": "2027-08-08T02:43:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1051",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T016297",
+        "V4T019569",
+        "V4T027468",
+        "V4T028013",
+        "V4T019350"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T000928"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-08-09T14:15:00Z",
+      "issued_at_utc": "2027-08-08T03:45:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0004",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024286",
+        "V4T019682",
+        "V4T000928",
+        "V4T011259",
+        "V4T010083",
+        "V4T024673",
+        "V4T026541",
+        "V4T002879"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-17T02:28:00Z",
+      "issued_at_utc": "2027-08-15T02:28:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1052",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T001231",
+        "V4T014362",
+        "V4T015617"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-17T03:06:00Z",
+      "issued_at_utc": "2027-08-15T03:06:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1053",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T029844",
+        "V4T024152",
+        "V4T026393",
+        "V4T015567"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-08-25T02:56:00Z",
+      "issued_at_utc": "2027-08-23T02:56:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1054",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T017950",
+        "V4T018293",
+        "V4T010706"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-01T02:47:00Z",
+      "issued_at_utc": "2027-08-30T02:47:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1055",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T000486",
+        "V4T009276",
+        "V4T013163",
+        "V4T015086"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-09T03:23:00Z",
+      "issued_at_utc": "2027-09-07T03:23:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1056",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T011612",
+        "V4T001659",
+        "V4T024507"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-13T03:37:00Z",
+      "issued_at_utc": "2027-09-11T03:37:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1057",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T027796",
+        "V4T000420",
+        "V4T007051"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-15T03:54:00Z",
+      "issued_at_utc": "2027-09-13T03:54:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1058",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T000088",
+        "V4T017863",
+        "V4T015244",
+        "V4T024922"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-16T14:21:00Z",
+      "issued_at_utc": "2027-09-14T14:21:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1059",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T008170",
+        "V4T020738",
+        "V4T002529",
+        "V4T001413"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-17T10:39:00Z",
+      "issued_at_utc": "2027-09-15T10:39:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1060",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T012954",
+        "V4T021144",
+        "V4T029916",
+        "V4T015617",
+        "V4T024058"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T021083"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-18T03:16:00Z",
+      "issued_at_utc": "2027-09-16T03:16:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1061",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T019732",
+        "V4T021083",
+        "V4T009544"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-20T15:21:00Z",
+      "issued_at_utc": "2027-09-18T15:21:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1062",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T009450",
+        "V4T014894",
+        "V4T006285",
+        "V4T029057"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-21T10:01:00Z",
+      "issued_at_utc": "2027-09-19T10:01:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1063",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T014570",
+        "V4T003420",
+        "V4T001132",
+        "V4T004427",
+        "V4T027139"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-22T04:07:00Z",
+      "issued_at_utc": "2027-09-20T04:07:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1064",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T012268",
+        "V4T000974",
+        "V4T029031"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 350.0,
+      "deadline_utc": "2027-09-26T08:15:00Z",
+      "issued_at_utc": "2027-09-26T05:15:00Z",
+      "minimum_completed": 3,
+      "request_id": "V4RQ2005",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T010689",
+        "V4T024119",
+        "V4T020798",
+        "V4T028132",
+        "V4T002296"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-09-30T03:17:00Z",
+      "issued_at_utc": "2027-09-28T03:17:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1065",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T015906",
+        "V4T019381",
+        "V4T017607",
+        "V4T000798",
+        "V4T015776"
+      ]
+    },
+    {
+      "completed": true,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T002454"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-10-01T03:42:00Z",
+      "issued_at_utc": "2027-09-29T03:42:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1066",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T017733",
+        "V4T007164",
+        "V4T002454",
+        "V4T028896"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-10-07T03:51:00Z",
+      "issued_at_utc": "2027-10-05T03:51:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1067",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T004230",
+        "V4T022026",
+        "V4T001192",
+        "V4T004347",
+        "V4T011456"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-10-15T03:49:00Z",
+      "issued_at_utc": "2027-10-13T03:49:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1068",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T026753",
+        "V4T002550",
+        "V4T017744"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T027016"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-10-20T12:00:00Z",
+      "issued_at_utc": "2027-10-19T05:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0005",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013270",
+        "V4T018387",
+        "V4T027016",
+        "V4T008909",
+        "V4T027531",
+        "V4T026650",
+        "V4T018501",
+        "V4T025181"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-10-23T04:00:00Z",
+      "issued_at_utc": "2027-10-21T04:00:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1069",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013789",
+        "V4T020105",
+        "V4T028218",
+        "V4T020023"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-10-31T05:04:00Z",
+      "issued_at_utc": "2027-10-29T05:04:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1070",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T021885",
+        "V4T021431",
+        "V4T014628"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-11-08T05:17:00Z",
+      "issued_at_utc": "2027-11-06T05:17:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1071",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T015483",
+        "V4T026604",
+        "V4T018253",
+        "V4T020996",
+        "V4T016625"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-11-15T05:29:00Z",
+      "issued_at_utc": "2027-11-13T05:29:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1072",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T000290",
+        "V4T012434",
+        "V4T005624"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-11-21T05:55:00Z",
+      "issued_at_utc": "2027-11-19T05:55:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1073",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T024829",
+        "V4T014829",
+        "V4T005536"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-11-25T05:53:00Z",
+      "issued_at_utc": "2027-11-23T05:53:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1074",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T011821",
+        "V4T011446",
+        "V4T026632",
+        "V4T005966",
+        "V4T001973"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-11-27T05:45:00Z",
+      "issued_at_utc": "2027-11-25T05:45:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1075",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T026906",
+        "V4T025740",
+        "V4T006383",
+        "V4T000288",
+        "V4T018783"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-04T06:12:00Z",
+      "issued_at_utc": "2027-12-02T06:12:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1076",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T002678",
+        "V4T007217",
+        "V4T023673",
+        "V4T021226",
+        "V4T022771"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-05T06:08:00Z",
+      "issued_at_utc": "2027-12-03T06:08:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1077",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T010819",
+        "V4T019267",
+        "V4T019482"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-12T06:34:00Z",
+      "issued_at_utc": "2027-12-10T06:34:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1078",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T028350",
+        "V4T006302",
+        "V4T014099"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-14T11:46:00Z",
+      "issued_at_utc": "2027-12-12T11:46:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1079",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T028743",
+        "V4T026164",
+        "V4T024409"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 450.0,
+      "deadline_utc": "2027-12-15T10:30:00Z",
+      "issued_at_utc": "2027-12-15T07:30:00Z",
+      "minimum_completed": 2,
+      "request_id": "V4RQ2006",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T003378",
+        "V4T006994",
+        "V4T010510",
+        "V4T014984"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-20T06:11:00Z",
+      "issued_at_utc": "2027-12-18T06:11:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1080",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T012957",
+        "V4T017332",
+        "V4T021784"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 0.0,
+      "deadline_utc": "2027-12-28T06:52:00Z",
+      "issued_at_utc": "2027-12-26T06:52:00Z",
+      "minimum_completed": 1,
+      "request_id": "V4RQ1081",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T013631",
+        "V4T024801",
+        "V4T017311",
+        "V4T000897"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 1,
+      "completed_target_ids": [
+        "V4T010637"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2027-12-31T10:45:00Z",
+      "issued_at_utc": "2027-12-30T07:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0006",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T022074",
+        "V4T020600",
+        "V4T029303",
+        "V4T016706",
+        "V4T017504",
+        "V4T022466",
+        "V4T019984",
+        "V4T010637"
+      ]
+    }
+  ],
+  "scenario": "v4-d1-v5",
+  "schema_version": "v4-score-report-v1",
+  "sha256": {
+    "decisions": "c716528a160efc280700981bc5ded10bd837da4c3c5c4cf69304e2d40ad2c44c",
+    "messages": "dc5f6d5276f7e43227a5c530d2edb566320304d23a9443d4b4e33736d27eb12e",
+    "observations": "8bb8284ea6b81ad7a80be18d6518ac0dc20f72b88531eca9009c1b252eb46e65",
+    "scenario": "a768622e16a6f4f3d2c76510dee89d1543106c1f2b4160ba1f0d346062680d8c"
+  },
+  "termination": {
+    "detail": "",
+    "reason": "survey_complete"
+  },
+  "total": -21477.206434,
+  "uniformity_bands": {
+    "ra_0_10": 0.345938,
+    "ra_100_110": 0.336066,
+    "ra_10_20": 0.239863,
+    "ra_110_120": 0.24381,
+    "ra_120_130": 0.187192,
+    "ra_130_140": 0.337221,
+    "ra_140_150": 0.262082,
+    "ra_150_160": 0.396658,
+    "ra_160_170": 0.50753,
+    "ra_170_180": 0.453638,
+    "ra_180_190": 0.40625,
+    "ra_20_30": 0.277542,
+    "ra_250_260": 0.259067,
+    "ra_260_270": 0.338036,
+    "ra_270_280": 0.274916,
+    "ra_280_290": 0.24173,
+    "ra_290_300": 0.253106,
+    "ra_300_310": 0.239894,
+    "ra_30_40": 0.312032,
+    "ra_310_320": 0.280063,
+    "ra_340_350": 0.257143,
+    "ra_350_360": 0.271364,
+    "ra_40_50": 0.30732,
+    "ra_50_60": 0.321429
+  }
+}

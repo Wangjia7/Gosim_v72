@@ -1,0 +1,36 @@
+{
+  "source": {
+    "README.zh.md": "f59e26d3728d0571b6a8f5e9cde6e2515313ec30cd49c6a5cd8298a4885c3f83",
+    "planner.py": "88a039ee5319fbb60bd87619a575cf3273e49c753fb88524cdc3bad49ddd41da",
+    "advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "README.md": "97690aa0a731b4d757135b3439889a1017abca557a0acc3d2293a4ed09061103",
+    "llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "agent.py": "2684dacd0a37e30b481bc6b4b3798726c736194007c69c27f1ed6b2dec226d58",
+    "AGENTS.md": "9bc7d300b261c654cb34e3707db3b4593624b44ca6b8ffe056c28c2d4ada4ccd",
+    "observer.project.json": "8afed8b84d49944250713d2541c3a80f6beb3085d37f86ee17b10f87e2d9fae5",
+    "pack_agent.py": "832672b9eac28a1180f60b4d15b145ec962b55aab14a90336251e17c0d139309"
+  },
+  "inputs": {
+    "config/v4_scenario.json": "b9027d4acd26252ace34d129b9dff10d6c68a1e0ba2912c3b2a7e4510e70bedd",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+    "public/v4_night_calendar.csv": "e6149422d04de96c469aaaa18b9116c7c11ce1b976c0a42ad983208fcdd89484",
+    "public/v4_bulletins.jsonl": "46339be44bfffe02c3f3481561978e093f2f6e362f33c11b1a290102f962b136",
+    "public/v4_forecasts.jsonl": "41ce85cc78afa51b9d9919aba7cf6fb7d2fab7c954ef6bebdbf3c5b4677cafdc",
+    "public/targets.csv": "a85d6f8571be0e1f06c11a34943f786e21feccb32b240f8a17c5d68744ed39db",
+    "public/footprint.csv": "d0913d994cacd3200ce7a9d2036ab43ba3d1934e52dcd8bc1c9e193c2c6b04c9",
+    "truth/v4_earthquake_effects.csv": "d166afe77973cf1ea14bec45b436c06d4c3a5bb758b3b9e0b548598381987f64",
+    "truth/v4_weather_truth.csv": "5268a17e6a966a40d9f304e450e63d4b08dd243ffa8c85d254e7d6dbdb1c1022",
+    "truth/v4_slots.csv": "e6848c0d1c8b17a12776247547a0b620cbc3b667fc03da0b403e068d92b4cf2a",
+    "truth/v4_events.csv": "6ae25757056c2b8258bb392d02040e8c0a2161fd65ca8e879ec50a60c6e2f022",
+    "truth/v4_observation_requests.jsonl": "b1f4f0fc61402da40e6a13f0d70ecd929a6373e3c2fab033520cd2fcb9f1c8fd"
+  },
+  "family": "baseline",
+  "budget": 180,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "start": "2026-10-06T09:21:06.925081+00:00",
+  "end": "2026-10-06T09:23:44.967355+00:00",
+  "elapsed_wall_seconds": 158.03881033393554
+}

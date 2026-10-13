@@ -1,0 +1,45 @@
+planner: scarcity 0.55, time price fraction 0.29
+v5: 800 targets, 120 required, 7 nights; init 0.01s; model none (rules only)
+runtime review: {"state":"unknown","epoch":0,"valid_exposures":0,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+season: night 0 demand/supply 9.15 prices slot price q10 0.000573 q50 0.000881 q90 0.00167, groups 115
+v5: deep search on (cpu budget 5934 ms, deep cost 43 ms)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":8,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":16,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"inconclusive","epoch":0,"valid_exposures":24,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":31,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":31,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":39,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":47,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":55,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":63,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":71,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":79,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":87,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":92,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":92,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":100,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":108,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":109,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":109,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":117,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":120,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":120,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":128,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":136,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":144,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":152,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":160,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":168,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":175,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":175,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":183,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":191,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":199,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":207,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":215,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":217,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":217,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":225,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":233,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":241,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+{"family": "release-native-frozen", "card": "normal-b", "total": 379.492713, "counts": {"decisions": 354, "observe_actions": 244, "observations": 966, "targets_observed": 707, "required_missing": 4, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 900.0, "charged_seconds": 12.765, "speed_factor": 0.496, "speed_factor_min": 0.496, "speed_factor_max": 0.496, "speed_samples": 1, "window_seconds": 6.381, "cpu_seconds": 6.332, "wait_seconds": 0.049, "run_wall_seconds": 6.638, "hard_cap_seconds": 7200.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

@@ -1,0 +1,23 @@
+{
+  "name": "survey-observing-skills",
+  "version": "0.1.0-framework",
+  "skills": [
+    "survey-ops-orchestrator",
+    "gosim26-observer-rules",
+    "pointing-candidate-optimization",
+    "fiber-assignment-optimization",
+    "queue-scheduling",
+    "exposure-control",
+    "survey-state-ledger",
+    "budgeted-search",
+    "observation-qa-retrospective"
+  ],
+  "entrypoint": "survey-ops-orchestrator",
+  "precedence": [
+    "GOSIM authoritative rules",
+    "hard simulator/API constraints",
+    "current code behavior",
+    "generic survey operations",
+    "DESI/PFS/QPlan heuristics"
+  ]
+}

@@ -1,0 +1,4374 @@
+[
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 7,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-10-03T00:00:00Z",
+    "deadline": "2026-10-04T09:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T020945",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.856783,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005536",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.636578,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T015103",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.726304,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T013195",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018337",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T012649",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007276",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.690628,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007549",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.681332,
+        "exposures_anytime": 3
+      }
+    ]
+  },
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-10-27T00:15:00Z",
+    "deadline": "2026-10-28T08:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008089",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.737748,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T013853",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025540",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.751461,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T022852",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.885173,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T000642",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.817625,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T020924",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.850238,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T011288",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028323",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.651962,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0003",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-11-20T00:45:00Z",
+    "deadline": "2026-11-21T08:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T019511",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.883077,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T001697",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.781984,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T022311",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.862271,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T013558",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003229",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.805487,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T002989",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.677169,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T009474",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003459",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0004",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-12-13T01:00:00Z",
+    "deadline": "2026-12-14T08:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T019366",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.707902,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017885",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027894",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.746903,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T021479",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.776529,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010412",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T017112",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.752299,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006638",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.682538,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028290",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0005",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-01-06T01:15:00Z",
+    "deadline": "2027-01-07T08:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T004404",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T024733",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T019812",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T024626",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.798629,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T012079",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T015179",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.674413,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T027796",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T026772",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.680341,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "1-a",
+    "request_id": "V4RQ0006",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 7,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-01-30T01:00:00Z",
+    "deadline": "2027-01-31T08:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T006891",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.737927,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T020539",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.748477,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T016648",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T009296",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.87329,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T011307",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.603375,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T017713",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.922523,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T015822",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.757134,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T015717",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-06-02T17:15:00Z",
+    "deadline": "2027-06-04T04:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T012799",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T004113",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.758532,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T022733",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.642777,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T045860",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T031969",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.765155,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005589",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.834109,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T036453",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.954619,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T042184",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 7,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-07-08T17:30:00Z",
+    "deadline": "2027-07-10T04:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T047235",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.789908,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T000304",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.72248,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T036937",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.869767,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T000197",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T019147",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.648024,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006416",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.675991,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T009465",
+        "inside_rows": 12,
+        "valid_inside_rows": 12,
+        "best_factor": 0.636806,
+        "exposures_anytime": 13
+      },
+      {
+        "target_id": "V4T029117",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.711287,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0003",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-08-13T17:45:00Z",
+    "deadline": "2027-08-15T04:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T040851",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T011561",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.657852,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T023330",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T046223",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.902747,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T043203",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.678108,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T006656",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025108",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.752624,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T032773",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.036245,
+        "exposures_anytime": 4
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0004",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 4,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-09-17T18:15:00Z",
+    "deadline": "2027-09-19T03:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T007857",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T045514",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025511",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T045921",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T049773",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.76353,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T031673",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T013817",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.699046,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T001820",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.724357,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0005",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-10-23T18:45:00Z",
+    "deadline": "2027-10-25T02:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T000724",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T029360",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T024731",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.580717,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T037834",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.652231,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T004469",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.765382,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T030173",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.79606,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T009304",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.855854,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021119",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.790354,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "2-b",
+    "request_id": "V4RQ0006",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-11-28T19:30:00Z",
+    "deadline": "2027-11-30T01:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T048300",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.684053,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T045750",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.723919,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T036130",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.685118,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T009088",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.685056,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T011593",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T036991",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T032430",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.855532,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T040988",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.71365,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-12-03T05:00:00Z",
+    "deadline": "2026-12-04T15:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T001119",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.63836,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T012078",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T019034",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.675354,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T013631",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.812805,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003647",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021487",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.668122,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005403",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.629409,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T028434",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.732308,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-12-26T05:15:00Z",
+    "deadline": "2026-12-27T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T018355",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.761111,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028355",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017420",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T001917",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.845013,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T016068",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.828852,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003904",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T016588",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.715395,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018132",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.714854,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0003",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-01-19T05:30:00Z",
+    "deadline": "2027-01-20T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T028171",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.752562,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T001576",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003834",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T026833",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T022970",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006639",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T018458",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.891735,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T007528",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.705154,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0004",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-02-11T05:45:00Z",
+    "deadline": "2027-02-12T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T022123",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021683",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T027351",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.999145,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T023917",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010996",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T008613",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.761925,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017196",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T020163",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0005",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-03-07T05:45:00Z",
+    "deadline": "2027-03-08T15:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T014381",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010273",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.680801,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T011460",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028457",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.943433,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T004473",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010366",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.799031,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025997",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T006646",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "3-c",
+    "request_id": "V4RQ0006",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-03-30T06:00:00Z",
+    "deadline": "2027-03-31T15:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008634",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T029365",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T021579",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T025108",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.789253,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T017287",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.869562,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T003928",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.789026,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T014520",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T027486",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.838007,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-01-03T07:30:00Z",
+    "deadline": "2027-01-04T10:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T016486",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T028123",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.659595,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T028929",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.95003,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T015556",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.761064,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T011025",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T016359",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T001671",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010670",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 7,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-03-16T05:15:00Z",
+    "deadline": "2027-03-17T13:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008318",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018037",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T019456",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T017218",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T015648",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025820",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005206",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T023950",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.685298,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0003",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-05-27T03:30:00Z",
+    "deadline": "2027-05-28T14:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T007642",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010530",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.668125,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T000027",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.786607,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T026918",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.752977,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T007137",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006884",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.760304,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T014325",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.661991,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T000336",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.706349,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0004",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-08-08T03:45:00Z",
+    "deadline": "2027-08-09T14:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T024286",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.779606,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T019682",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T000928",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.829439,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T011259",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.670613,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T010083",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.514248,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T024673",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T026541",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.822208,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T002879",
+        "inside_rows": 8,
+        "valid_inside_rows": 8,
+        "best_factor": 0.622278,
+        "exposures_anytime": 9
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0005",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-10-19T05:30:00Z",
+    "deadline": "2027-10-20T12:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T013270",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T018387",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T027016",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.681623,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T008909",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T027531",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T026650",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018501",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T025181",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "4-d",
+    "request_id": "V4RQ0006",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-12-30T07:30:00Z",
+    "deadline": "2027-12-31T10:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T022074",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T020600",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T029303",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T016706",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T017504",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T022466",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T019984",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010637",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-10-03T00:00:00Z",
+    "deadline": "2026-10-04T09:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T020945",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.814336,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005536",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T015103",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.785085,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T013195",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018337",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T012649",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007276",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.865372,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007549",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.765627,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ2001",
+    "completed": true,
+    "minimum_completed": 2,
+    "official_completed_count": 3,
+    "reward_possible": 350.0,
+    "reward_earned": 350.0,
+    "issued": "2026-10-06T01:15:00Z",
+    "deadline": "2026-10-06T05:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T013166",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T017105",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.984211,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T025843",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021406",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0002",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2026-10-27T00:15:00Z",
+    "deadline": "2026-10-28T08:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008089",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T013853",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025540",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T022852",
+        "inside_rows": 6,
+        "valid_inside_rows": 6,
+        "best_factor": 0.044592,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T000642",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T020924",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T011288",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T028323",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.449475,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ2002",
+    "completed": false,
+    "minimum_completed": 3,
+    "official_completed_count": 0,
+    "reward_possible": 500.0,
+    "reward_earned": 0.0,
+    "issued": "2026-11-18T02:00:00Z",
+    "deadline": "2026-11-18T05:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T007581",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T022642",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025358",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T001704",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T007022",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0003",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 4,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2026-11-20T00:45:00Z",
+    "deadline": "2026-11-21T08:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T019511",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.589095,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T001697",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.74274,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T022311",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T013558",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003229",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T002989",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.729844,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T009474",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T003459",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0004",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 4,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2026-12-13T01:00:00Z",
+    "deadline": "2026-12-14T08:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T019366",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.590689,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017885",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027894",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.02654,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T021479",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.622394,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010412",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.594226,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T017112",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.78652,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006638",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028290",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ2003",
+    "completed": true,
+    "minimum_completed": 3,
+    "official_completed_count": 3,
+    "reward_possible": 500.0,
+    "reward_earned": 500.0,
+    "issued": "2026-12-25T02:30:00Z",
+    "deadline": "2026-12-25T06:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T026652",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.816867,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028114",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T010266",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T014801",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.412703,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T015676",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0005",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 2,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-06T01:15:00Z",
+    "deadline": "2027-01-07T08:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T004404",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T024733",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T019812",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T024626",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T012079",
+        "inside_rows": 19,
+        "valid_inside_rows": 19,
+        "best_factor": 0.040055,
+        "exposures_anytime": 23
+      },
+      {
+        "target_id": "V4T015179",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027796",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T026772",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ2102",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-18T02:30:00Z",
+    "deadline": "2027-01-18T05:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T020034",
+        "inside_rows": 4,
+        "valid_inside_rows": 4,
+        "best_factor": 0.0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T002985",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T017533",
+        "inside_rows": 5,
+        "valid_inside_rows": 5,
+        "best_factor": 0.0,
+        "exposures_anytime": 6
+      },
+      {
+        "target_id": "V4T009719",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.0,
+        "exposures_anytime": 4
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ2004",
+    "completed": true,
+    "minimum_completed": 2,
+    "official_completed_count": 4,
+    "reward_possible": 500.0,
+    "reward_earned": 500.0,
+    "issued": "2027-01-25T03:15:00Z",
+    "deadline": "2027-01-25T06:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T017460",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.830029,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T009921",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T004329",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T028242",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "5-a1-v5",
+    "request_id": "V4RQ0006",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 5,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-30T01:00:00Z",
+    "deadline": "2027-01-31T08:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T006891",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.530155,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T020539",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.794757,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T016648",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T009296",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T011307",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T017713",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T015822",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T015717",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0001",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-06-02T17:15:00Z",
+    "deadline": "2027-06-04T04:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T012799",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T004113",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T022733",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.022032,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T045860",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T031969",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.750757,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T005589",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T036453",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T042184",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2001",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 400.0,
+    "reward_earned": 0.0,
+    "issued": "2027-07-02T20:00:00Z",
+    "deadline": "2027-07-03T01:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T036584",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T034751",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T044539",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T000369",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-07-08T17:30:00Z",
+    "deadline": "2027-07-10T04:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T047235",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T000304",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.815665,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T036937",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T000197",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T019147",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T006416",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.700113,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T009465",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T029117",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.71562,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2002",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-07-14T19:45:00Z",
+    "deadline": "2027-07-14T23:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T017528",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T008113",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T038367",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T020305",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0003",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-08-13T17:45:00Z",
+    "deadline": "2027-08-15T04:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T040851",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T011561",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T023330",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T046223",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T043203",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T006656",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T025108",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T032773",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.228333,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2003",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 500.0,
+    "reward_earned": 0.0,
+    "issued": "2027-09-14T19:45:00Z",
+    "deadline": "2027-09-14T22:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T015277",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017730",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.005253,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T031418",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.398708,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T044274",
+        "inside_rows": 5,
+        "valid_inside_rows": 5,
+        "best_factor": 0.004322,
+        "exposures_anytime": 5
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0004",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-09-17T18:15:00Z",
+    "deadline": "2027-09-19T03:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T007857",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T045514",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T025511",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T045921",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T049773",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T031673",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T013817",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T001820",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2102",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 500.0,
+    "reward_earned": 0.0,
+    "issued": "2027-09-28T18:45:00Z",
+    "deadline": "2027-09-28T21:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T013697",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T042913",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 8
+      },
+      {
+        "target_id": "V4T042421",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T033031",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 9
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0005",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-10-23T18:45:00Z",
+    "deadline": "2027-10-25T02:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T000724",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T029360",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T024731",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T037834",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T004469",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T030173",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T009304",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T021119",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2004",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 500.0,
+    "reward_earned": 0.0,
+    "issued": "2027-10-24T20:15:00Z",
+    "deadline": "2027-10-25T00:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T042258",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T043463",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T008547",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T014775",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ2005",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-11-08T21:00:00Z",
+    "deadline": "2027-11-09T02:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T046313",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T032558",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T023612",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T047191",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "6-b1-v5",
+    "request_id": "V4RQ0006",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-11-28T19:30:00Z",
+    "deadline": "2027-11-30T01:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T048300",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T045750",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T036130",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T009088",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T011593",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T036991",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T032430",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T040988",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0001",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-12-03T05:00:00Z",
+    "deadline": "2026-12-04T15:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T001119",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.507246,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T012078",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T019034",
+        "inside_rows": 4,
+        "valid_inside_rows": 4,
+        "best_factor": 1.0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T013631",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.84018,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T003647",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021487",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.674451,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005403",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.63559,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028434",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.83006,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2001",
+    "completed": true,
+    "minimum_completed": 2,
+    "official_completed_count": 3,
+    "reward_possible": 500.0,
+    "reward_earned": 500.0,
+    "issued": "2026-12-15T08:00:00Z",
+    "deadline": "2026-12-15T11:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T022500",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027991",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T000041",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T016126",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2103",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 350.0,
+    "reward_earned": 0.0,
+    "issued": "2026-12-22T05:45:00Z",
+    "deadline": "2026-12-22T08:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T006919",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T010609",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T012463",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T004527",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0002",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2026-12-26T05:15:00Z",
+    "deadline": "2026-12-27T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T018355",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.725483,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028355",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T017420",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T001917",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.76373,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T016068",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.687749,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T003904",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T016588",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.734461,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T018132",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 3
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2002",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 500.0,
+    "reward_earned": 0.0,
+    "issued": "2026-12-29T07:45:00Z",
+    "deadline": "2026-12-29T10:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T028394",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007866",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T023953",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T007991",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2104",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 450.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-04T08:30:00Z",
+    "deadline": "2027-01-04T11:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T006718",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010821",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025784",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T012317",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2003",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 450.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-08T08:00:00Z",
+    "deadline": "2027-01-08T13:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T014160",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T029425",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T011920",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006573",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ2004",
+    "completed": false,
+    "minimum_completed": 3,
+    "official_completed_count": 0,
+    "reward_possible": 350.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-14T07:15:00Z",
+    "deadline": "2027-01-14T10:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T026154",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T022119",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T027924",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T023810",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T013031",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0003",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 2,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-19T05:30:00Z",
+    "deadline": "2027-01-20T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T028171",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T001576",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T003834",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T026833",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T022970",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T006639",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T018458",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.944992,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T007528",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.493242,
+        "exposures_anytime": 4
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0004",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-02-11T05:45:00Z",
+    "deadline": "2027-02-12T15:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T022123",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.797854,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021683",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T027351",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.014841,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T023917",
+        "inside_rows": 8,
+        "valid_inside_rows": 8,
+        "best_factor": 1.0,
+        "exposures_anytime": 8
+      },
+      {
+        "target_id": "V4T010996",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T008613",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.657607,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T017196",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.557749,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T020163",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0005",
+    "completed": true,
+    "minimum_completed": 6,
+    "official_completed_count": 6,
+    "reward_possible": 100.0,
+    "reward_earned": 100.0,
+    "issued": "2027-03-07T05:45:00Z",
+    "deadline": "2027-03-08T15:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T014381",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 8
+      },
+      {
+        "target_id": "V4T010273",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.69988,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T011460",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T028457",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.889233,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T004473",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.750639,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010366",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.827376,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T025997",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.522281,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T006646",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "7-c1-v5",
+    "request_id": "V4RQ0006",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 4,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-03-30T06:00:00Z",
+    "deadline": "2027-03-31T15:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008634",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T029365",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T021579",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T025108",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T017287",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T003928",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T014520",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027486",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0001",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-03T07:30:00Z",
+    "deadline": "2027-01-04T10:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T016486",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T028123",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T028929",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T015556",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T011025",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.014012,
+        "exposures_anytime": 13
+      },
+      {
+        "target_id": "V4T016359",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T001671",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T010670",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 14
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2001",
+    "completed": false,
+    "minimum_completed": 3,
+    "official_completed_count": 2,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-01-25T08:30:00Z",
+    "deadline": "2027-01-25T11:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T029256",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.524812,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T005005",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 44
+      },
+      {
+        "target_id": "V4T002752",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.027621,
+        "exposures_anytime": 54
+      },
+      {
+        "target_id": "V4T014036",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.440966,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T018984",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0002",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-03-16T05:15:00Z",
+    "deadline": "2027-03-17T13:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008318",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T018037",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T019456",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T017218",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T015648",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T025820",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T005206",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T023950",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.01977,
+        "exposures_anytime": 3
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2103",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 400.0,
+    "reward_earned": 0.0,
+    "issued": "2027-03-18T06:15:00Z",
+    "deadline": "2027-03-18T09:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T013986",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 14
+      },
+      {
+        "target_id": "V4T001099",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T019680",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.0,
+        "exposures_anytime": 6
+      },
+      {
+        "target_id": "V4T003428",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.0,
+        "exposures_anytime": 5
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2002",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-03-29T07:15:00Z",
+    "deadline": "2027-03-29T11:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T008161",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.048369,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T004043",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.027236,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T008520",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 12
+      },
+      {
+        "target_id": "V4T022549",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.03281,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2104",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 400.0,
+    "reward_earned": 0.0,
+    "issued": "2027-05-13T05:45:00Z",
+    "deadline": "2027-05-13T08:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T027131",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T012731",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T001462",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T023806",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2003",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 300.0,
+    "reward_earned": 0.0,
+    "issued": "2027-05-17T04:00:00Z",
+    "deadline": "2027-05-17T09:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T026344",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T008541",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T014418",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T008364",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0003",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 0,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-05-27T03:30:00Z",
+    "deadline": "2027-05-28T14:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T007642",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T010530",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T000027",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.004226,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T026918",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.005228,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T007137",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T006884",
+        "inside_rows": 6,
+        "valid_inside_rows": 6,
+        "best_factor": 0.07072,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T014325",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.019479,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T000336",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2004",
+    "completed": true,
+    "minimum_completed": 2,
+    "official_completed_count": 2,
+    "reward_possible": 350.0,
+    "reward_earned": 350.0,
+    "issued": "2027-07-20T04:45:00Z",
+    "deadline": "2027-07-20T07:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T002854",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T008118",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T013839",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T005200",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 6
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0004",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-08-08T03:45:00Z",
+    "deadline": "2027-08-09T14:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T024286",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.042573,
+        "exposures_anytime": 6
+      },
+      {
+        "target_id": "V4T019682",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T000928",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 1.0,
+        "exposures_anytime": 12
+      },
+      {
+        "target_id": "V4T011259",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T010083",
+        "inside_rows": 3,
+        "valid_inside_rows": 3,
+        "best_factor": 0.257661,
+        "exposures_anytime": 17
+      },
+      {
+        "target_id": "V4T024673",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.015919,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T026541",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.013417,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T002879",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2005",
+    "completed": false,
+    "minimum_completed": 3,
+    "official_completed_count": 0,
+    "reward_possible": 350.0,
+    "reward_earned": 0.0,
+    "issued": "2027-09-26T05:15:00Z",
+    "deadline": "2027-09-26T08:15:00Z",
+    "targets": [
+      {
+        "target_id": "V4T010689",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T024119",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T020798",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T028132",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.067128,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T002296",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.045029,
+        "exposures_anytime": 3
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0005",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-10-19T05:30:00Z",
+    "deadline": "2027-10-20T12:00:00Z",
+    "targets": [
+      {
+        "target_id": "V4T013270",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T018387",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 6
+      },
+      {
+        "target_id": "V4T027016",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T008909",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T027531",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 15
+      },
+      {
+        "target_id": "V4T026650",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      },
+      {
+        "target_id": "V4T018501",
+        "inside_rows": 1,
+        "valid_inside_rows": 1,
+        "best_factor": 0.266228,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T025181",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 2
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ2006",
+    "completed": false,
+    "minimum_completed": 2,
+    "official_completed_count": 0,
+    "reward_possible": 450.0,
+    "reward_earned": 0.0,
+    "issued": "2027-12-15T07:30:00Z",
+    "deadline": "2027-12-15T10:30:00Z",
+    "targets": [
+      {
+        "target_id": "V4T003378",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 9
+      },
+      {
+        "target_id": "V4T006994",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 5
+      },
+      {
+        "target_id": "V4T010510",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T014984",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 0
+      }
+    ]
+  },
+  {
+    "card": "8-d1-v5",
+    "request_id": "V4RQ0006",
+    "completed": false,
+    "minimum_completed": 6,
+    "official_completed_count": 1,
+    "reward_possible": 100.0,
+    "reward_earned": 0.0,
+    "issued": "2027-12-30T07:30:00Z",
+    "deadline": "2027-12-31T10:45:00Z",
+    "targets": [
+      {
+        "target_id": "V4T022074",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 1
+      },
+      {
+        "target_id": "V4T020600",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.098584,
+        "exposures_anytime": 10
+      },
+      {
+        "target_id": "V4T029303",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 8
+      },
+      {
+        "target_id": "V4T016706",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 7
+      },
+      {
+        "target_id": "V4T017504",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 0.056393,
+        "exposures_anytime": 2
+      },
+      {
+        "target_id": "V4T022466",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 4
+      },
+      {
+        "target_id": "V4T019984",
+        "inside_rows": 0,
+        "valid_inside_rows": 0,
+        "best_factor": 0,
+        "exposures_anytime": 3
+      },
+      {
+        "target_id": "V4T010637",
+        "inside_rows": 2,
+        "valid_inside_rows": 2,
+        "best_factor": 1.0,
+        "exposures_anytime": 8
+      }
+    ]
+  }
+]

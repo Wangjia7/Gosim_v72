@@ -1,0 +1,51 @@
+{
+  "note": "Intermediate candidate, before final offset guard; retained to show timing-sensitive adaptive-search variation. Not release results.",
+  "runs": [
+    {
+      "card": "L1",
+      "version": "pre-offset-guard candidate",
+      "total": 6215.103468,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 278.672,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 235.142,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 251.595,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8371,
+        "speed_factor_max": 0.8611,
+        "speed_factor_min": 0.8359,
+        "speed_samples": 5,
+        "wait_seconds": 3.375,
+        "window_seconds": 238.517
+      },
+      "termination": "survey_complete"
+    },
+    {
+      "card": "L3",
+      "version": "pre-offset-guard candidate",
+      "total": 6830.991515,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 541.861,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 454.613,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 478.139,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8269,
+        "speed_factor_max": 0.865,
+        "speed_factor_min": 0.8269,
+        "speed_samples": 8,
+        "wait_seconds": 5.357,
+        "window_seconds": 459.97
+      },
+      "termination": "survey_complete"
+    }
+  ]
+}

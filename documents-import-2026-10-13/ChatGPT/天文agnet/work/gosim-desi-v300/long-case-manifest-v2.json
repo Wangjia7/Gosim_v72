@@ -1,0 +1,31 @@
+[
+  {
+    "name": "long-held",
+    "split": "heldout-long",
+    "seed": 202611163,
+    "targets": 6000,
+    "days": 180,
+    "fibers": 100,
+    "area": 0.16,
+    "threshold": 0.5,
+    "stress": true,
+    "sha256": {
+      "public/footprint.csv": "548d6218c478e3e466e083f2c7635a418b77df1a2e25fdb6e4143b94f5f9c4f0",
+      "public/targets.csv": "272e796c7b2c3143368160ddc3eae24bca92fe1681cc76fa6b34bd3b356ce825",
+      "public/v4_bulletins.jsonl": "545a405a36cbcf7bb46f50bb065cb0f4905cd31a4e782bc2d3476ceca7f90d32",
+      "public/v4_forecasts.jsonl": "325feaf548818533f88b1281d9ba91249352dc599fa293509c5436f40fc067e9",
+      "public/v4_night_calendar.csv": "298ca75255e285baf0f96ec5ecbe8596defd228d19e3ec94e24826af8707eed0",
+      "truth/v4_earthquake_effects.csv": "c161b948af9e5ef544faa6bce17f6bdf53be9ccf55694096e79ae1589fa85dbb",
+      "truth/v4_events.csv": "a3afff7a7e252d2be31e9487b2b9dae30405d47204b9bc21c9b44c19fd39369b",
+      "truth/v4_observation_requests.jsonl": "3c05b567bad050200d0b3bcaf954f6dafd15260f4547ff12aad0ebac3966c5e8",
+      "truth/v4_slots.csv": "e4415a38b932684926c7bfc11fa39ff9706065ee16fd998513e90ba05098bf5f",
+      "truth/v4_stress_events.csv": "8a058f8632c4479c7e0923d6a072bb0bf34f856e739ab4aaa7f9f9a99f796471",
+      "truth/v4_weather_truth.csv": "374ee458136d94ac185e9e031a7e85a6544e2e040ea134cf54c16b050b75d16e",
+      "config/catalog-generation.json": "c0e99af849e830c45c0fff3d38251d3ffea0d5db4e481182b19992214b165b22",
+      "config/v4_fiber_config.json": "c135ce25921894681930099798ce7064ccadc4d7b313536fe09934708df3a288",
+      "config/v4_scenario.json": "542d1a59da638bd96c7210d86ec49d54d263bda6a7f466b010089dbf62bd5442",
+      "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+      "config/weather-generation.json": "8b05b5345364b833cbfe683795f89147f57e36770c7d7c6695be55da6cfedaf4"
+    }
+  }
+]

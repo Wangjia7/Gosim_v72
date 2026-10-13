@@ -1,0 +1,111 @@
+test_invalid_provider_endpoint_disables_calls (test_advisory_timeout.Deadline.test_invalid_provider_endpoint_disables_calls) ... ok
+test_response_size_and_nonfinite_json_are_rejected (test_advisory_timeout.Deadline.test_response_size_and_nonfinite_json_are_rejected) ... ok
+test_retry_backoff_fits_total_deadline (test_advisory_timeout.Deadline.test_retry_backoff_fits_total_deadline) ... ok
+test_slow_request_deadline_keeps_worker_slots_bounded (test_advisory_timeout.Deadline.test_slow_request_deadline_keeps_worker_slots_bounded) ... ok
+test_success_unchanged (test_advisory_timeout.Deadline.test_success_unchanged) ... ok
+test_adaptive_deadline_and_width_fit_spendable_cpu (test_agent.AgentTests.test_adaptive_deadline_and_width_fit_spendable_cpu) ... ok
+test_fair_clock_and_legacy_clock (test_agent.AgentTests.test_fair_clock_and_legacy_clock) ... ok
+test_final_night_clipped_observation_is_not_discarded (test_agent.AgentTests.test_final_night_clipped_observation_is_not_discarded) ... ok
+test_normalized_reserve_boundary_prevents_state_or_search_work (test_agent.AgentTests.test_normalized_reserve_boundary_prevents_state_or_search_work) ... ok
+test_normalized_reserve_tracks_current_calibration (test_agent.AgentTests.test_normalized_reserve_tracks_current_calibration) ... ok
+test_pacing_cost_is_attributed_to_selected_level (test_agent.AgentTests.test_pacing_cost_is_attributed_to_selected_level) ... ok
+test_search_expiry_does_not_start_unbudgeted_monitor (test_agent.AgentTests.test_search_expiry_does_not_start_unbudgeted_monitor) ... ok
+test_state_over_local_share_does_not_finish_episode (test_agent.AgentTests.test_state_over_local_share_does_not_finish_episode) ... ok
+test_wait_duration_obeys_loaded_bounds (test_agent.AgentTests.test_wait_duration_obeys_loaded_bounds) ... ok
+test_zero_cpu_fallback_does_not_search_or_wait_for_model (test_agent.AgentTests.test_zero_cpu_fallback_does_not_search_or_wait_for_model) ... ok
+test_nondeep_cost_does_not_divide_by_requested_width (test_agent.EffectiveWidthAccounting.test_nondeep_cost_does_not_divide_by_requested_width) ... ok
+test_decision_failure_logs_metadata_and_preserves_finish_response (test_agent.SafeErrorDiagnostics.test_decision_failure_logs_metadata_and_preserves_finish_response) ... ok
+test_initialize_failure_emits_only_metadata (test_agent.SafeErrorDiagnostics.test_initialize_failure_emits_only_metadata) ... ok
+test_traceback_metadata_excludes_sensitive_exception_content (test_agent.SafeErrorDiagnostics.test_traceback_metadata_excludes_sensitive_exception_content) ... ok
+test_costly_previous_width_can_shrink_and_fit (test_agent.WidthAwareDeepGate.test_costly_previous_width_can_shrink_and_fit) ... v5: deep search on (cpu budget 8000 ms, deep cost 2000 ms)
+ok
+test_flag_off_preserves_raw_cost_gate (test_agent.WidthAwareDeepGate.test_flag_off_preserves_raw_cost_gate) ... ok
+test_inactive_normalized_cost_decays_only_when_enabled (test_agent.WidthAwareDeepGate.test_inactive_normalized_cost_decays_only_when_enabled) ... v5: pace level 4 (cpu budget 8000 ms, wall budget 100 ms, cpu costs [100, 85, 85, 85] ms, 10 decisions left)
+v5: pace level 4 (cpu budget 8000 ms, wall budget 100 ms, cpu costs [100, 85, 85, 85] ms, 10 decisions left)
+ok
+test_reserve_still_prevents_search (test_agent.WidthAwareDeepGate.test_reserve_still_prevents_search) ... ok
+test_wall_share_limits_width (test_agent.WidthAwareDeepGate.test_wall_share_limits_width) ... v5: deep search on (cpu budget 8000 ms, deep cost 2000 ms)
+ok
+test_generated_actions_pass_official_envelope_and_exact_geometry (test_contract.OfficialContractTests.test_generated_actions_pass_official_envelope_and_exact_geometry) ... ok
+test_inflight_result_precedes_half_open_invalidation (test_contract.OfficialContractTests.test_inflight_result_precedes_half_open_invalidation) ... ok
+test_official_quality_scoring_saturates_without_accumulating_repeats (test_contract.OfficialContractTests.test_official_quality_scoring_saturates_without_accumulating_repeats) ... ok
+test_remaining_opportunities_exclude_holes_and_depend_on_duration (test_contract.OfficialContractTests.test_remaining_opportunities_exclude_holes_and_depend_on_duration) ... ok
+test_repeat_science_and_max_factor_are_independent (test_contract.OfficialContractTests.test_repeat_science_and_max_factor_are_independent) ... ok
+test_request_window_equality_and_one_second_overrun_match_official (test_contract.OfficialContractTests.test_request_window_equality_and_one_second_overrun_match_official) ... ok
+test_required_and_uniformity_use_independent_configured_thresholds (test_contract.OfficialContractTests.test_required_and_uniformity_use_independent_configured_thresholds) ... ok
+test_short_setting_interval_passes_official_whole_interval_horizon (test_contract.OfficialContractTests.test_short_setting_interval_passes_official_whole_interval_horizon) ... ok
+test_all_steps_correlated_and_pending (test_logging_integration.Integration.test_all_steps_correlated_and_pending) ... ok
+test_no_key_uses_rules (test_logging_integration.Integration.test_no_key_uses_rules) ... ok
+test_declared_limits_at_all_levels (test_planner.DurationAndBudgetTests.test_declared_limits_at_all_levels) ... ok
+test_default_limits_use_window_shorter_than_first_coarse_duration (test_planner.DurationAndBudgetTests.test_default_limits_use_window_shorter_than_first_coarse_duration) ... ok
+test_event_rounding_and_window_endpoint (test_planner.DurationAndBudgetTests.test_event_rounding_and_window_endpoint) ... ok
+test_expired_budget_returns_before_geometry (test_planner.DurationAndBudgetTests.test_expired_budget_returns_before_geometry) ... ok
+test_minimum_declaration_can_clip_at_horizon (test_planner.DurationAndBudgetTests.test_minimum_declaration_can_clip_at_horizon) ... ok
+test_narrow_request_deadline_survives_coarse_search (test_planner.DurationAndBudgetTests.test_narrow_request_deadline_survives_coarse_search) ... ok
+test_same_input_has_predictable_ties (test_planner.DurationAndBudgetTests.test_same_input_has_predictable_ties) ... ok
+test_short_setting_visibility_is_used (test_planner.DurationAndBudgetTests.test_short_setting_visibility_is_used) ... ok
+test_event_refinement_work_is_bounded_for_dense_fields (test_planner.ExposureSearchTests.test_event_refinement_work_is_bounded_for_dense_fields) ... ok
+test_interrupted_search_retains_and_revalidates_first_candidate (test_planner.ExposureSearchTests.test_interrupted_search_retains_and_revalidates_first_candidate) ... ok
+test_saturation_event_beats_coarse_grid_with_prior_best (test_planner.ExposureSearchTests.test_saturation_event_beats_coarse_grid_with_prior_best) ... ok
+test_science_time_price_is_independent_of_required_bonus_scale (test_planner.ExposureSearchTests.test_science_time_price_is_independent_of_required_bonus_scale) ... ok
+test_target_selection_changes_with_duration_in_same_cell (test_planner.ExposureSearchTests.test_target_selection_changes_with_duration_in_same_cell) ... ok
+test_full_footprint_including_shifted_center (test_planner.GeometryTests.test_full_footprint_including_shifted_center) ... ok
+test_glass_gap_is_unreachable (test_planner.GeometryTests.test_glass_gap_is_unreachable) ... ok
+test_loaded_square_grids_and_reduced_search (test_planner.GeometryTests.test_loaded_square_grids_and_reduced_search) ... ok
+test_science_seeds_can_recover_a_field_outside_proxy_pool (test_planner.GeometryTests.test_science_seeds_can_recover_a_field_outside_proxy_pool) ... ok
+test_single_anchor_opposite_corners_are_both_assigned (test_planner.GeometryTests.test_single_anchor_opposite_corners_are_both_assigned) ... ok
+test_all_or_nothing_and_no_double_count (test_planner.RequestTests.test_all_or_nothing_and_no_double_count) ... ok
+test_completed_request_has_no_new_reward (test_planner.RequestTests.test_completed_request_has_no_new_reward) ... ok
+test_inclusive_start_and_deadline_boundaries (test_planner.RequestTests.test_inclusive_start_and_deadline_boundaries) ... ok
+test_overlaps_keep_separate_thresholds (test_planner.RequestTests.test_overlaps_keep_separate_thresholds) ... ok
+test_planner_uses_actual_clipped_interval_for_request_credit (test_planner.RequestTests.test_planner_uses_actual_clipped_interval_for_request_credit) ... ok
+test_one_program_objective_replaces_optimistic_coarse_bound (test_planner_v03.ExactProgramCheckpoint.test_one_program_objective_replaces_optimistic_coarse_bound) ... ok
+test_width_above_five_reaches_pool_selection (test_planner_v03.ExpandedWidth.test_width_above_five_reaches_pool_selection) ... ok
+test_boosted_target_proxy_is_fully_cancelled (test_planner_v03.RequestChanceAndLeaderRefinement.test_boosted_target_proxy_is_fully_cancelled) ... ok
+test_dependence_free_bounds (test_planner_v03.RequestChanceAndLeaderRefinement.test_dependence_free_bounds) ... ok
+test_exact_science_time_price_excludes_obligation_bonuses (test_planner_v03.RequestChanceAndLeaderRefinement.test_exact_science_time_price_excludes_obligation_bonuses) ... ok
+test_leader_shift_improves_legal_assignment (test_planner_v03.RequestChanceAndLeaderRefinement.test_leader_shift_improves_legal_assignment) ... ok
+test_single_uncertain_hit_and_underfilled_progress (test_planner_v03.RequestChanceAndLeaderRefinement.test_single_uncertain_hit_and_underfilled_progress) ... ok
+test_high_width_zero_density_preserves_timed_anchor (test_planner_v03.SaturatedRequestDensity.test_high_width_zero_density_preserves_timed_anchor) ... ok
+test_mixed_program_events_requests_and_chance_match_scalar_cache (test_planner_v03.ScoreColumnParity.test_mixed_program_events_requests_and_chance_match_scalar_cache) ... ok
+test_append_and_redact (test_qa.QA.test_append_and_redact) ... ok
+test_disabled (test_qa.QA.test_disabled) ... ok
+test_finite_float_records_remain_numeric_for_qa (test_qa.QA.test_finite_float_records_remain_numeric_for_qa) ... ok
+test_invalid_endpoint_is_unavailable_without_network_or_credentials (test_qa.QA.test_invalid_endpoint_is_unavailable_without_network_or_credentials) ... ok
+test_large_context_retains_recent_and_declares_coverage (test_qa.QA.test_large_context_retains_recent_and_declares_coverage) ... ok
+test_malformed_and_nonfinite (test_qa.QA.test_malformed_and_nonfinite) ... ok
+test_oversized_record_and_secret_context (test_qa.QA.test_oversized_record_and_secret_context) ... ok
+test_pending_and_purity (test_qa.QA.test_pending_and_purity) ... ok
+test_remote_large_run_uses_bounded_body (test_qa.QA.test_remote_large_run_uses_bounded_body) ... ok
+test_remote_valid_and_malformed (test_qa.QA.test_remote_valid_and_malformed) ... ok
+test_replay_each_step (test_qa.QA.test_replay_each_step) ... ok
+test_step_packet_retained_when_small (test_qa.QA.test_step_packet_retained_when_small) ... ok
+test_timeout_and_retries (test_qa.QA.test_timeout_and_retries) ... ok
+test_unwritable_fallback (test_qa.QA.test_unwritable_fallback) ... ok
+test_wait_and_pending_are_not_false_alarms (test_qa.QA.test_wait_and_pending_are_not_false_alarms) ... ok
+test_disabled_flag_reproduces_old_demand_for_ablation (test_season.SeasonReplacementTests.test_disabled_flag_reproduces_old_demand_for_ablation) ... ok
+test_expired_budget_preserves_prior_prices_and_requests_retry (test_season.SeasonReplacementTests.test_expired_budget_preserves_prior_prices_and_requests_retry) ... ok
+test_full_factor_with_mismatched_score_still_has_marginal_value (test_season.SeasonReplacementTests.test_full_factor_with_mismatched_score_still_has_marginal_value) ... ok
+test_marginal_value_reduces_price_without_discounting_cost (test_season.SeasonReplacementTests.test_marginal_value_reduces_price_without_discounting_cost) ... ok
+test_market_cost_also_uses_full_replacement (test_season.SeasonReplacementTests.test_market_cost_also_uses_full_replacement) ... ok
+test_mid_auction_interrupt_retains_finite_positive_price (test_season.SeasonReplacementTests.test_mid_auction_interrupt_retains_finite_positive_price) ... ok
+test_option_partial_progress_does_not_reduce_replacement_cost (test_season.SeasonReplacementTests.test_option_partial_progress_does_not_reduce_replacement_cost) ... ok
+test_same_night_correction_invalidates_season_prices (test_season.SeasonReplacementTests.test_same_night_correction_invalidates_season_prices) ... ok
+test_ambiguous_default_mismatch (test_state.StateTests.test_ambiguous_default_mismatch) ... ok
+test_best_score_and_best_factor_differ (test_state.StateTests.test_best_score_and_best_factor_differ) ... ok
+test_configurable_threshold (test_state.StateTests.test_configurable_threshold) ... ok
+test_confirmed_and_nonaccumulating (test_state.StateTests.test_confirmed_and_nonaccumulating) ... ok
+test_duplicate_no_extra_evidence (test_state.StateTests.test_duplicate_no_extra_evidence) ... ok
+test_last_outcome_invalidation_and_repeat (test_state.StateTests.test_last_outcome_invalidation_and_repeat) ... ok
+test_learning_caches_invalidated (test_state.StateTests.test_learning_caches_invalidated) ... ok
+test_legacy_resync (test_state.StateTests.test_legacy_resync) ... ok
+test_rounding_at_threshold (test_state.StateTests.test_rounding_at_threshold) ... ok
+test_surviving_last_outcome (test_state.StateTests.test_surviving_last_outcome) ... ok
+test_zero_declared_positive_mismatch_learning (test_state.StateTests.test_zero_declared_positive_mismatch_learning) ... ok
+test_zero_mismatch_cannot_prove_zero_factor (test_state.StateTests.test_zero_mismatch_cannot_prove_zero_factor) ... ok
+test_zero_required_threshold_initial_confirmation (test_state.StateTests.test_zero_required_threshold_initial_confirmation) ... ok
+
+----------------------------------------------------------------------
+Ran 102 tests in 0.433s
+
+OK

@@ -1,0 +1,47 @@
+{
+  "root_manifest": true,
+  "official_saved_parser": true,
+  "host_manifest_build_run": true,
+  "response": {
+    "protocol_version": "participant-agent-protocol-v4",
+    "message_type": "decision_response",
+    "decision_sequence": 42,
+    "action": "observe",
+    "pointing": {
+      "alt_deg": 84.9221,
+      "az_deg": 183.575
+    },
+    "assignments": {
+      "0": "t1",
+      "5": "t0"
+    },
+    "duration_seconds": 1200,
+    "program": "DARK",
+    "reason": "2 fibres, program DARK",
+    "decision_source": "rules"
+  },
+  "native_binaries_excluded": true,
+  "truth_excluded": true,
+  "credentials_excluded": true,
+  "linux_container_tested": false,
+  "upload_sha256": "e3934d64b4e25d5719383fde8059754698d3ebced7249d236dbaacdfb89de184",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "advisor.py",
+    "agent.py",
+    "build_native.py",
+    "geometry_feedback.py",
+    "joint.cpp",
+    "llm_client.py",
+    "native.py",
+    "observer.project.json",
+    "operator_cli.py",
+    "opportunities.py",
+    "pack_agent.py",
+    "planner.py",
+    "skills/astronomy-observer/SKILL.md",
+    "skills/astronomy-observer/references/contract.md",
+    "skymath.py"
+  ]
+}

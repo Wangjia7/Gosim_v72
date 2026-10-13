@@ -1,0 +1,38 @@
+--- local
++++ official-current
+@@ -14,7 +14,7 @@
+ 
+ For example, the record `C00,0,335.000000,5.248027` describes vertex 0 of region C00, with right ascension $335^\circ$ and declination $5.248027^\circ$. Vertices within the same region are connected in `vertex_index` order, and the last vertex connects back to the first.
+ 
+-![Footprint diagram](images/sky-map.png)
++![Footprint diagram](__BASE_URL__media/docs/v4-guide/sky-map.png)
+ 
+ *Figure 1: The example footprint consists of three disjoint regions. Dark blue marks the footprint extent, light-colored dots are ordinary targets, and red circled dots are `required` targets. The image is only an aid for understanding the spatial layout; exact boundaries and target coordinates are given by the public data files.*
+ 
+@@ -157,7 +157,7 @@
+ 
+ When the Moon is below the horizon, $L_i=1$; the brighter the Moon, the higher it is, and the closer it is to the target, the smaller $L_i$ becomes, and the stronger its reduction of observing quality. Moonlight is computed per target during scoring, and is not pre-applied as a blanket deduction written into `sky_quality`. All angles above are expressed in degrees. This set of lunar-position formulas is a low-precision approximation used by the competition, not a high-precision astronomical ephemeris; participants reproducing the competition's calculations should follow the definitions given here.
+ 
+-![Day-night boundaries and complete observation slots](images/slot-selection.svg)
++![Day-night boundaries and complete observation slots](__BASE_URL__media/docs/v4-guide/slot-selection.svg)
+ 
+ *Figure 2: The black-and-white bar on top shows day and night, bounded by a Sun altitude of $-18^\circ$; below it is the grid of 900-second slots aligned to UTC quarter-hours. Slots marked with an X at either end straddle the day–night boundary and are therefore excluded from observing; an exposure ends no later than the end of the last retained slot. The number of slots shown is only illustrative.*
+ 
+@@ -176,7 +176,7 @@
+ 
+ Each `observe` command the agent issues counts as one exposure. An exposure may span ordinary slot boundaries within the same night, but it cannot span two nights. If the last slot of the night runs out before the exposure the command requested has finished, the exposure is terminated at the end of that slot, and observing quality and score are computed from the actual exposure duration. The agent decides the duration of each exposure itself. For simulation reasons, the competition requires the declared duration of a single exposure to be an integer number of seconds in the closed interval $[60,3600]$ — both 60 and 3600 seconds are valid declarations; the actual duration, if truncated because the night's slots ran out, can be shorter than 60 seconds. Because of the effect of airmass, the competition only scores a target if its altitude stays at or above $30^\circ$ for the entire exposure.
+ 
+-![Diagram of the gap-free fibre-assignable grid](images/fiber-grid.png)
++![Diagram of the gap-free fibre-assignable grid](__BASE_URL__media/docs/v4-guide/fiber-grid.png)
+ 
+ *Figure 3: The grid of fibre-assignable cells for one pointing (a $4\times4$ example). The blue cells are contiguous; white dots are targets that fall within the field of view, and red circles are targets correctly assigned and hit. Each cell corresponds to at most one target per exposure; this figure only illustrates target positions and assignment outcomes.*
+ 
+@@ -184,7 +184,7 @@
+ 
+ Fibre IDs are determined by the local tangent plane near the pointing. Define "up" in the diagram as the direction of **increasing altitude** and "right" as the direction of **increasing azimuth**; row index $r$ increases from bottom to top and column index $c$ increases from left to right, both ranging from 0 to $n-1$. The ID is $nr+c$, and a cell's center is offset along these two directions by $\bigl(r-\tfrac{n-1}{2}\bigr)p$ and $\bigl(c-\tfrac{n-1}{2}\bigr)p$ respectively, where $p$ is the cell pitch `pitch_deg` ($p=a$ when there is no gap). In the $4\times4$ example the ID is $4r+c$: cell 0 is at the bottom-left, 3 is at the bottom-right, 12 is at the top-left, and 15 is at the top-right. Here, "up, down, left, right" are local coordinate directions defined relative to the telescope's pointing — not fixed east/west/north/south on a map, nor fixed directions of increasing/decreasing right ascension and declination. The field-of-view orientation is fixed at the exposure's start by the pointing's azimuth. Even if a single cell contains multiple targets, one exposure can only assign one of them to that fibre.
+ 
+-![The 4×4 grid of fibre IDs](images/fiber-ids.svg)
++![The 4×4 grid of fibre IDs](__BASE_URL__media/docs/v4-guide/fiber-ids.svg)
+ 
+ *Figure 4: Fibre numbering, shown for a $4\times4$ grid of 16 fibres: row index $r$ from bottom to top and column index $c$ from left to right, both starting at 0, with ID $4r+c$. The arrows show the local directions of increasing altitude and azimuth at the pointing, not fixed geographic directions.*
+ 

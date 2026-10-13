@@ -1,0 +1,37 @@
+{
+  "source": {
+    "planner.py": "a787b49a10e43c8d2e99b118eb7489f2f1ebc4b658632295f2008ea4a5d34715",
+    "bandfit.py": "cd5a3415c45c4675320908b3ce490fb7c8a49649d1972bc6c1af29905dd89884",
+    "advisor.py": "572273420ce5f62e35c367dea80e887eae07cd52af03fac88978465c545a0cf3",
+    "skymath.py": "23ac21dc241d05c9164c2f9df0a2a2fe3457330c118eee3aa8abe778b1f00291",
+    "llm_client.py": "782e7d6e131339cf30f551db33afb6aead0f40bd7f3576f5bf052a47d9daf8ec",
+    "agent.py": "d1591934a95f79df2c3f004243d226e45949b9b5f03d79cdd91d92edb8ab559b",
+    "season.py": "ea15eb18da02bec4772d2dc0b0e941abe65839c98efc1c61b576624dfe6a0255",
+    "observer.project.json": "9070b3fef280c96e44f4fcd00ba1723e717e5c72824d6dc3228081e797fa4dbd",
+    "pack_agent.py": "1c5b3ce4d231c33977f06085716f3951925bbe3e3394ff16820b2274a7295f63",
+    "fault.py": "c6a97cd355e03de46ed84116c0009b8ec756cee58b281e00d671cb3577cf57c7"
+  },
+  "inputs": {
+    "config/v4_scenario.json": "c8d1a8676e4a283b55bdaa59c40f0ae53396e05a93095e6364573ad536c68c43",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+    "public/v4_night_calendar.csv": "9aa147ecf804e3473d73a32cce6ab4065e282ec0a974dbaf5e3c9f10a93a0a0e",
+    "public/v4_bulletins.jsonl": "348130a34acdca228a4f3ee35dbda9fb487753cb80d50160fe7c72a8752297b5",
+    "public/v4_forecasts.jsonl": "84caf24aaacc921ed3e8f8a3220a06e471bb3484d5d752692f0a3f75259c4d83",
+    "public/targets.csv": "e6a451caaf075402a1e130b3411b3c1b70c8cc64484a5496e99a92b24cd30348",
+    "public/footprint.csv": "dc7392de3149ef361c920d064e1d308e504f0f0326b1976c4b969d4df34bcb34",
+    "truth/v4_earthquake_effects.csv": "1be7d1b67d9d622528cff41bc3026785230ead9c622f2ce4e88ebd90e429bc03",
+    "truth/v4_weather_truth.csv": "928967c171179d0770ba6bb190f3e0ef24e2d661f309c92edc8425f609ac55f4",
+    "truth/v4_slots.csv": "188bdf4b41deb283eeb41d91787e773ac708644af39ffa1869205a3cbc7be600",
+    "truth/v4_events.csv": "7ef54bc5403048a14856c7683ef5eb943f5ac1f70795eebb0954c108205bc949",
+    "truth/v4_observation_requests.jsonl": "7d90a92826538634650f0af4748c794892def86a205485ab33155c2f49e9a045"
+  },
+  "family": "incoming",
+  "budget": 180.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {},
+  "start": "2026-10-06T12:26:15.721861+00:00",
+  "end": "2026-10-06T12:28:15.616494+00:00",
+  "elapsed_wall_seconds": 119.89330999995582
+}

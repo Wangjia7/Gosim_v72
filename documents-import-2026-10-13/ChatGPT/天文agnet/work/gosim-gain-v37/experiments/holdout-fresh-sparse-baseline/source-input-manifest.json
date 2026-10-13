@@ -1,0 +1,683 @@
+{
+  "source": {
+    "planner.py": "c71b3e2dde276b21b878523cfc726fac09452a62e3e405b2788c6b80b3f2d0e0",
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "FUSION_PROVENANCE.json": "3637fc0ec810835488e3afcdcc6a0548dcae2f29cad6a4a1468377e78cc4d4ea",
+    "log_review.py": "3a9211192c2e66aab90c30335c0add714e03bb2483526a0da333b9c53c5ab337",
+    "joint.cpp": "38f9d301022c8765a94eb4da8a4ced854863917f215e11ba7373c5ef64b47e91",
+    "CHANGELOG.md": "439f5cb085711952dfdae95ce07e0290a1158232192fe513189897aacdb2177f",
+    "budget.py": "e5a10b4d939d81a81d20b05946da7c0779ed033160d4fea15aae247631c448a8",
+    "advisor.py": "0dd7e5d8677e8c1c715fd50479437b9f875df58c182d0e82e41b868bd055ec27",
+    "VALIDATION.md": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "native.py": "9d249fdcc5320664d42fc8fe7e19eda6b594a35ddc8c2d4fa5917f4898702d99",
+    "README.md": "95b50ad93189886697ef724ed20878038167b74973435ef206194cc8218497fb",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "opportunities.py": "4e8479ce4a4d2b621d3c2f204e5faa266ed68b45d9724ae0f9e3a64be519b14c",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "llm_client.py": "a1e91cbe181b79facf214fe8f2ba5c494f7de8e830eb07b171498dbc1b248c99",
+    "routing.py": "307f9fb992e50aacf6b5513764832ccd949e6939b09d32baa48a249a977c6a9a",
+    "agent.py": "22182ce4cb8b2b682845ec23804d631348bc32931c7601ffa854b95b9ad3b460",
+    "enhanced_agent.py": "ca254239efe00a76be2891bd3d138cc5bfdfd6275579564bd8d72e4c954710f0",
+    "observer.project.json": "dc15c6f6e2c0b7439905ab4d697d5af545ed556a032a614c955452b5f03d1f47",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "fusion_core/guarded.py": "cd924d237fc1362ffb7f729cc049cab94ad32c24c739963ad23b799d6f903eda",
+    "fusion_core/planner.py": "6799634b232c68d34b469242072e0b6b369028e4285edc37961d5b234a5b8c2a",
+    "fusion_core/bandfit.py": "1415f42dbc670be5a5799c01ba11bdad18f471e87c25930b4b6928decc1d774d",
+    "fusion_core/skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "fusion_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fusion_core/agent.py": "f6df3d4b9dcf59cc1827dd23a1b126cfaa9a74bd7cbe97ef5d33baed4681782b",
+    "fusion_core/season.py": "a1c6f52b9587bba3febe63417d31560412c0583ffcb14d4019202f47449eb0e5",
+    "fusion_core/fault.py": "fe7b592519df883eaa8a460c6c01e5818287144edfd969b638cf8875a1c20bf0",
+    "official_pro/planner.py": "ca72da4ad5cf2b84be6dd84474923d47f47a96c0d5d01c21ced382cd29ff66c1",
+    "official_pro/advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "official_pro/skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "official_pro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "official_pro/opportunities.py": "6514696e20d5e8ce8bc897fa55e4327436b25b86caf4a74ceff86ba664e00317",
+    "official_pro/llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "official_pro/agent.py": "b4cef53179b2505cd563813b444ce6c25df92354bfb45807b2ca3f2764684d64",
+    "official_pro/AGENTS.md": "c75d9bed09ee4ba7b42c2b80bcc87538b798e04550dd37826f03c900553279d9",
+    "skills/astronomy-observer/SKILL.md": "8eea6149bdbe5729d15e85b112ea7db7156fb075ed9268fd3fcdc4e89b51e9d1",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd"
+  },
+  "inputs": {
+    "config/catalog-generation.json": "508a2ed12e5f1a1610962b44c00821a0a719cbd5baae266f1346159ddba7bb84",
+    "config/weather-generation.json": "5ecee3ea96b5cc5478f795b7a0bd862c0d31ac2952a8c72d3202b75c3563351e",
+    "config/v4_scenario.json": "ac453b7606255acab4c3b27fe3233a1b68d4efe0b7e8fc0d3d5f1c9da84b35b3",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "dca5381dcfd0c53c624c6002789548c9f236df6dc7589b923a3fe4b46db64906",
+    "generated-weather/v4_night_calendar.csv": "84d77f03262049e8f9a796ce971f9a87eac3b79fe59ab2f433fefdd35cc995d6",
+    "generated-weather/v4_earthquake_effects.csv": "aa528eab1458da962138bdceaf3c4baa239bf47bdba5f5ddd5ced2c1d3b15d6b",
+    "generated-weather/v4_weather_truth.csv": "10cfcbf3dae31723bbfc5ef7a0af5c32aaf298c7e2119d8bf2cbb8d5aa4435d1",
+    "generated-weather/v4_state_resync_schema.json": "8af77a1e355093fac41f15da8c097863ca076095e7676efded8b0676ac452eea",
+    "generated-weather/v4_weather_summary.json": "144ded18d6c7d8a56d427cda7fc984eff6544f5e2883535532f4c0fb96546898",
+    "generated-weather/v4_bulletins.jsonl": "3a31ad225a901e8d7e07a1c5596482c827c8de96081a729b519521ac3b7dfc70",
+    "generated-weather/v4_stress_events.csv": "a78b77fa1488d8a3d616fafcb4684b061f6cef1694d050a543e2f9fafdbb364d",
+    "generated-weather/v4_slots.csv": "000fd77537bba9c826338385dcb4498e4f09e744fbb5b72205728f722e579e7f",
+    "generated-weather/v4_forecasts.jsonl": "a5100417c3bb529c4af04e27d0d9f8aca1001db2480da9e8aae218327dc30834",
+    "generated-weather/v4_events.csv": "a2d957387ea54ab36c26eefb5b08584704fa4ca3abce1724b7d018f5bc66c80c",
+    "public/v4_night_calendar.csv": "84d77f03262049e8f9a796ce971f9a87eac3b79fe59ab2f433fefdd35cc995d6",
+    "public/v4_bulletins.jsonl": "3a31ad225a901e8d7e07a1c5596482c827c8de96081a729b519521ac3b7dfc70",
+    "public/v4_forecasts.jsonl": "a5100417c3bb529c4af04e27d0d9f8aca1001db2480da9e8aae218327dc30834",
+    "public/targets.csv": "92bab73e64e28d4c3992b9431551f02b0e703e80c6f556a4efadc637d6bd1345",
+    "public/footprint.csv": "d90c0ce92f5f9c8351d3752ff73545935dc7f39e792eb4292feb1f26e52fe0fc",
+    "truth/v4_earthquake_effects.csv": "aa528eab1458da962138bdceaf3c4baa239bf47bdba5f5ddd5ced2c1d3b15d6b",
+    "truth/v4_weather_truth.csv": "10cfcbf3dae31723bbfc5ef7a0af5c32aaf298c7e2119d8bf2cbb8d5aa4435d1",
+    "truth/v4_stress_events.csv": "a78b77fa1488d8a3d616fafcb4684b061f6cef1694d050a543e2f9fafdbb364d",
+    "truth/v4_slots.csv": "000fd77537bba9c826338385dcb4498e4f09e744fbb5b72205728f722e579e7f",
+    "truth/v4_events.csv": "a2d957387ea54ab36c26eefb5b08584704fa4ca3abce1724b7d018f5bc66c80c",
+    "truth/v4_observation_requests.jsonl": "8bcfa664e40d6cb913da73ef268d78c018884030a6f2c440f9cb16aa26df1d98",
+    "generated-catalog/summary.json": "a0e6dce0b7860fb9561c3fe1683155fc263d0169c9f44deb7c3d3411e8ff5365",
+    "generated-catalog/targets.csv": "92bab73e64e28d4c3992b9431551f02b0e703e80c6f556a4efadc637d6bd1345",
+    "generated-catalog/footprint.csv": "d90c0ce92f5f9c8351d3752ff73545935dc7f39e792eb4292feb1f26e52fe0fc"
+  },
+  "family": "baseline",
+  "budget": 900.0,
+  "wall_cap": 7200.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {
+    "PRO_FULL_FIELD": "0",
+    "PRO_BREAKPOINTS": "0",
+    "PRO_CONSERVATIVE_REQUIRED": "0",
+    "PRO_REQUEST_BATCH": "0",
+    "FUSION_QUAKE_CURVE": "0",
+    "FUSION_JOINT_PROGRAM": "1",
+    "FUSION_LOG_REVIEW": "1",
+    "FUSION_MAX_BREADTH": "1"
+  },
+  "start": "2026-10-07T08:04:12.221944+00:00",
+  "route": "fusion_core.agent",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "native_loaded": true,
+  "native_cells": true,
+  "own_clock_cpu": 15.028658,
+  "exposure_review": {
+    "recent_nights": [
+      {
+        "epoch": 0,
+        "night": 1,
+        "exposures": 50,
+        "assigned": 106,
+        "hits": 106,
+        "clean_exposures": 34,
+        "quality_bounds": [
+          0.9240539796086571,
+          1.0769721553580587
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 2,
+        "exposures": 37,
+        "assigned": 129,
+        "hits": 129,
+        "clean_exposures": 34,
+        "quality_bounds": [
+          0.9463984559984352,
+          1.1261607810553198
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 3,
+        "exposures": 72,
+        "assigned": 209,
+        "hits": 209,
+        "clean_exposures": 55,
+        "quality_bounds": [
+          0.6837381825750851,
+          0.8204413915626643
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 4,
+        "exposures": 26,
+        "assigned": 87,
+        "hits": 87,
+        "clean_exposures": 25,
+        "quality_bounds": [
+          0.7086752815079239,
+          0.8226929647415906
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 5,
+        "exposures": 18,
+        "assigned": 64,
+        "hits": 64,
+        "clean_exposures": 14,
+        "quality_bounds": [
+          0.6408710117662557,
+          0.7271034241846096
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 6,
+        "exposures": 45,
+        "assigned": 83,
+        "hits": 83,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 0,
+        "night": 7,
+        "exposures": 42,
+        "assigned": 59,
+        "hits": 59,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 0,
+        "night": 8,
+        "exposures": 56,
+        "assigned": 95,
+        "hits": 95,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      }
+    ],
+    "schema": "own-exposure-review-v1",
+    "checkpoint": 62,
+    "epoch": 0,
+    "valid_exposures": 385,
+    "invalidated_exposures": 5,
+    "cue": "weather_or_earthquake_confounded",
+    "recent_miss_fraction": 0.0,
+    "recent_independent_clean_exposures": 0,
+    "previous_independent_clean_exposures": 0,
+    "required_unconfirmed": 1,
+    "required_examples": [
+      "V4T000368"
+    ],
+    "by_class_program_duration": [
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 2,
+        "hit": 2,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 24,
+        "hit": 24,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 5,
+        "hit": 5,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 31,
+        "hit": 30,
+        "missed": 1,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 108,
+        "hit": 107,
+        "missed": 1,
+        "zero_score": 4
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 15,
+        "hit": 15,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 5,
+        "hit": 5,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 51,
+        "hit": 51,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 6,
+        "hit": 6,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 8,
+        "hit": 8,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 13,
+        "hit": 13,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 75,
+        "hit": 73,
+        "missed": 2,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 189,
+        "hit": 188,
+        "missed": 1,
+        "zero_score": 14
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 44,
+        "hit": 44,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 5,
+        "hit": 5,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 6,
+        "hit": 6,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 62,
+        "hit": 62,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 61,
+        "hit": 61,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 27,
+        "hit": 27,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 13,
+        "hit": 13,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 53,
+        "hit": 52,
+        "missed": 1,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 61,
+        "hit": 61,
+        "missed": 0,
+        "zero_score": 3
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 14,
+        "hit": 14,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 6,
+        "hit": 6,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 4,
+        "hit": 4,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 53,
+        "hit": 53,
+        "missed": 0,
+        "zero_score": 15
+      }
+    ],
+    "recent_exposures": [
+      {
+        "id": 382,
+        "utc": "2026-11-10T07:12:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BACKUP",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 2,
+        "ratio_bounds": [
+          0.26755622186170386,
+          0.2836095951734061
+        ]
+      },
+      {
+        "id": 383,
+        "utc": "2026-11-10T07:17:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BACKUP",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 1,
+        "ratio_bounds": [
+          0.2746504316677658,
+          0.29112945756783176
+        ]
+      },
+      {
+        "id": 384,
+        "utc": "2026-11-10T07:22:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BACKUP",
+        "assigned": 3,
+        "hits": 3,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.281701650565895,
+          0.2986037495998487
+        ]
+      },
+      {
+        "id": 385,
+        "utc": "2026-11-10T07:27:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BACKUP",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 2,
+        "ratio_bounds": [
+          0.28170048993230223,
+          0.29860251932824033
+        ]
+      },
+      {
+        "id": 386,
+        "utc": "2026-11-10T07:32:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BRIGHT",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 1,
+        "ratio_bounds": [
+          0.2633867193192353,
+          0.2949931256375436
+        ]
+      },
+      {
+        "id": 387,
+        "utc": "2026-11-10T07:37:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BRIGHT",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 1,
+        "ratio_bounds": [
+          0.2601913177294005,
+          0.29141427585692864
+        ]
+      },
+      {
+        "id": 388,
+        "utc": "2026-11-10T07:42:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BRIGHT",
+        "assigned": 3,
+        "hits": 3,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 2,
+        "ratio_bounds": [
+          0.2602012996039199,
+          0.2914254555563903
+        ]
+      },
+      {
+        "id": 389,
+        "utc": "2026-11-10T07:47:30+00:00",
+        "night": 8,
+        "epoch": 0,
+        "duration": 300,
+        "program": "BRIGHT",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 1,
+        "ratio_bounds": [
+          0.2549706089926772,
+          0.28556708207179854
+        ]
+      }
+    ],
+    "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+    "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+  },
+  "end": "2026-10-07T08:04:28.668366+00:00",
+  "elapsed_wall_seconds": 16.445993832778186
+}

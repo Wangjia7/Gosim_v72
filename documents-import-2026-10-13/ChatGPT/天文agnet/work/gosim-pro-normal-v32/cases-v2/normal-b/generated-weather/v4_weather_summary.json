@@ -1,0 +1,43 @@
+{
+  "events": {
+    "by_type": {
+      "cloudy": 1,
+      "cold_wave": 1,
+      "rainy": 1,
+      "rocket_launch": 1,
+      "smoggy": 1,
+      "tornado": 1
+    },
+    "earthquakes": [],
+    "rocket_launch_count": 1,
+    "terrain_sectors": [],
+    "total": 6
+  },
+  "generator": "challenge/v4_weather_simulator.py",
+  "publications": {
+    "bulletin_count": 220,
+    "contract": "notices carry only coarse event_kind plus an 8-point compass direction (or ALL); no numeric weather quantities; earthquakes and instrument faults are never forecast; instrument faults are never published",
+    "forecast_count": 1
+  },
+  "schema_version": "v4-weather-summary-v1",
+  "sha256": {
+    "bulletins": "32c8443cebec6a49888c462a421a2d1d668cadf61ae10afd010540d87a27c22b",
+    "config": "8069eb3e33828b62ef694c48b58940b6c6637bee504149a989743fc9d87ceedb",
+    "earthquake_effects": "14ea2015dcc6d5c447acf09f82f1037f50531576915625d23cf79228e338d451",
+    "events": "648ed87e1be822666c658fa31e425a922f3172e0b130365f0afe9e949ead128d",
+    "forecasts": "78621e20606ed66434b6532ff54a497a552982d2c06adef3b80f333cd9b605b8",
+    "night_calendar": "317ba7e68d2d3f8104ab8a6580bfcfbd3417f5d4b3247e46ba4c86134bb9034e",
+    "slots": "918d98bea8ec86f33b48acb47056157b0dea6539f2da7dad69f538089fd7422a",
+    "weather_truth": "13013f35386ff2fdb67acce93e2b1958ebe825803c5c85a6f2be73cdfea4d998"
+  },
+  "survey": {
+    "end_date": "2026-11-08",
+    "night_count": 7,
+    "slot_count": 220,
+    "slot_seconds": 900,
+    "start_date": "2026-11-01"
+  },
+  "weather": {
+    "closed_slot_count": 12
+  }
+}

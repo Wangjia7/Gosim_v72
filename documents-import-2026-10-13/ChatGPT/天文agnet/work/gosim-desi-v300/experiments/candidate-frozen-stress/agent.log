@@ -1,0 +1,89 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.30, time price fraction 0.21
+pro: 700 targets, 84 required, 8 nights; init 0.01s; model none (rules only)
+pro: E 2026-11-02T01:16:00Z 1.00 scale 0.665 band 0.691
+geometry: {'assigned': 8, 'hit_ids': 7, 'unmatched_assignments': 1, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': 0.0125, 'training_rows': 52, 'baseline_loss': 7, 'candidate_loss': 0, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 0, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.0, 'offset_az_deg_estimate': 0.0, 'offset_bound_deg': 0.2, 'evidence_rows': 52, 'exposures': 8, 'total_assigned': 52, 'total_hits': 45, 'pending_validation': True, 'fit_attempts': 1, 'next_fit_exposure': 16, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-02T01:30:12Z 1.00 scale 0.665 band 0.700
+geometry: {'assigned': 5, 'hit_ids': 5, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_update': {'offset_alt_deg': 0.125, 'offset_az_deg': 0.0125, 'validation_rows': 28, 'validation_exposures': 5, 'old_loss': 5, 'new_loss': 0}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 80, 'exposures': 13, 'total_assigned': 80, 'total_hits': 68, 'pending_validation': False, 'fit_attempts': 1, 'next_fit_exposure': 21, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-02T02:35:30Z 1.00 scale 0.597 band 0.629
+pro: E 2026-11-02T03:30:53Z 1.00 scale 0.548 band 0.613
+pro: E 2026-11-02T04:31:23Z 1.00 scale 0.536 band 0.568
+pro: E 2026-11-02T05:38:29Z 1.00 scale 0.592 band 0.553
+pro: E 2026-11-02T06:32:58Z 0.94 scale 0.575 band 0.641
+pro: E 2026-11-02T07:33:18Z 1.00 scale 0.617 band 0.649
+geometry: {'assigned': 7, 'hit_ids': 6, 'unmatched_assignments': 1, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05, 'training_rows': 192, 'baseline_loss': 7, 'candidate_loss': 0, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 66, 'total_assigned': 352, 'total_hits': 330, 'pending_validation': True, 'fit_attempts': 5, 'next_fit_exposure': 74, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.580 band 0.616
+pro: earthquake notice at 2026-11-03T00:56:00Z
+state_resync: replayed 71 observes; invalid 1
+geometry: {'assigned': 9, 'hit_ids': 9, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 33, 'validation_exposures': 6, 'expired': True, 'old_loss': 2, 'candidate_loss': 2, 'positive_support': True}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 72, 'total_assigned': 385, 'total_hits': 361, 'pending_validation': False, 'fit_attempts': 5, 'next_fit_exposure': 80, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.565 band 0.595
+pro: pace level 1 (cpu budget 65 ms, wall budget 192 ms, cpu costs [66, 12, 4, 1] ms, 891 decisions left)
+pro: pace level 0 (cpu budget 63 ms, wall budget 185 ms, cpu costs [60, 12, 4, 1] ms, 921 decisions left)
+pro: pace level 1 (cpu budget 59 ms, wall budget 173 ms, cpu costs [59, 15, 4, 1] ms, 985 decisions left)
+pro: E 2026-11-04T01:30:00Z 1.00 scale 0.645 band 0.595
+pro: pace level 0 (cpu budget 57 ms, wall budget 168 ms, cpu costs [55, 15, 4, 1] ms, 1017 decisions left)
+pro: pace level 1 (cpu budget 53 ms, wall budget 158 ms, cpu costs [54, 16, 3, 1] ms, 1082 decisions left)
+pro: pace level 0 (cpu budget 52 ms, wall budget 153 ms, cpu costs [50, 16, 3, 1] ms, 1116 decisions left)
+pro: pace level 1 (cpu budget 49 ms, wall budget 144 ms, cpu costs [50, 38, 3, 1] ms, 1183 decisions left)
+pro: pace level 0 (cpu budget 47 ms, wall budget 140 ms, cpu costs [46, 38, 3, 1] ms, 1218 decisions left)
+pro: pace level 1 (cpu budget 46 ms, wall budget 136 ms, cpu costs [46, 39, 3, 1] ms, 1252 decisions left)
+pro: pace level 0 (cpu budget 45 ms, wall budget 132 ms, cpu costs [43, 39, 3, 1] ms, 1286 decisions left)
+pro: pace level 1 (cpu budget 42 ms, wall budget 125 ms, cpu costs [43, 39, 3, 1] ms, 1355 decisions left)
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05, 'training_rows': 192, 'baseline_loss': 7, 'candidate_loss': 1, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 157, 'total_assigned': 648, 'total_hits': 616, 'pending_validation': True, 'fit_attempts': 13, 'next_fit_exposure': 165, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: pace level 0 (cpu budget 41 ms, wall budget 122 ms, cpu costs [40, 39, 3, 1] ms, 1390 decisions left)
+pro: E 2026-11-04T02:36:30Z 1.00 scale 0.662 band 0.697
+geometry: {'assigned': 5, 'hit_ids': 5, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 30, 'validation_exposures': 6, 'expired': True, 'old_loss': 1, 'candidate_loss': 0, 'positive_support': True}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 163, 'total_assigned': 678, 'total_hits': 645, 'pending_validation': False, 'fit_attempts': 13, 'next_fit_exposure': 171, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-04T03:34:00Z 1.00 scale 0.747 band 0.786
+pro: E 2026-11-04T06:30:00Z 1.00 scale 0.741 band 0.786
+pro: E 2026-11-04T07:45:00Z 1.00 scale 0.614 band 0.786
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.629 band 0.663
+pro: E 2026-11-05T01:31:39Z 1.00 scale 0.558 band 0.623
+pro: E 2026-11-05T02:56:39Z 0.94 scale 0.558 band 0.623
+pro: E 2026-11-05T04:19:09Z 0.94 scale 0.664 band 0.646
+pro: E 2026-11-05T04:44:09Z 1.00 scale 0.564 band 0.699
+pro: E 2026-11-05T05:59:09Z 1.00 scale 0.548 band 0.594
+pro: E 2026-11-05T07:00:00Z 0.94 scale 0.415 band 0.611
+pro: E 2026-11-05T07:30:00Z 1.00 scale 0.050 band 0.053
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.363 band 0.293
+pro: E 2026-11-06T01:30:00Z 1.00 scale 0.612 band 0.293
+pro: E 2026-11-06T02:40:00Z 1.00 scale 0.688 band 0.645
+pro: E 2026-11-06T03:40:00Z 1.00 scale 0.614 band 0.724
+pro: E 2026-11-06T04:40:00Z 1.00 scale 0.703 band 0.647
+pro: E 2026-11-06T06:00:00Z 1.00 scale 0.703 band 0.740
+pro: E 2026-11-06T06:30:00Z 1.00 scale 0.717 band 0.740
+pro: E 2026-11-06T07:30:00Z 1.00 scale 0.672 band 0.755
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.169 band 0.538
+pro: E 2026-11-07T01:40:00Z 1.00 scale 0.614 band 0.538
+pro: E 2026-11-07T02:30:00Z 1.00 scale 0.461 band 0.647
+pro: E 2026-11-07T03:30:00Z 1.00 scale 0.461 band 0.485
+pro: E 2026-11-07T04:40:00Z 1.00 scale 0.614 band 0.485
+pro: E 2026-11-07T05:30:00Z 1.00 scale 0.614 band 0.647
+pro: E 2026-11-07T06:40:00Z 1.00 scale 0.614 band 0.647
+pro: E 2026-11-07T07:35:00Z 1.00 scale 0.614 band 0.647
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.751 band 0.647
+pro: E 2026-11-08T01:31:06Z 1.00 scale 0.614 band 0.647
+pro: E 2026-11-08T02:30:57Z 1.00 scale 0.805 band 0.847
+geometry: {'assigned': 3, 'hit_ids': 2, 'unmatched_assignments': 1, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05000000000000001, 'training_rows': 192, 'baseline_loss': 9, 'candidate_loss': 3, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 282, 'total_assigned': 1122, 'total_hits': 1076, 'pending_validation': True, 'fit_attempts': 20, 'next_fit_exposure': 290, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 16, 'validation_exposures': 6, 'expired': True, 'old_loss': 0, 'candidate_loss': 0, 'positive_support': True}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 288, 'total_assigned': 1138, 'total_hits': 1092, 'pending_validation': False, 'fit_attempts': 20, 'next_fit_exposure': 296, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-08T03:38:45Z 1.00 scale 0.749 band 0.789
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05000000000000001, 'training_rows': 192, 'baseline_loss': 9, 'candidate_loss': 3, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 296, 'total_assigned': 1157, 'total_hits': 1110, 'pending_validation': True, 'fit_attempts': 21, 'next_fit_exposure': 304, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 3, 'hit_ids': 3, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 12, 'validation_exposures': 6, 'expired': True, 'old_loss': 0, 'candidate_loss': 0, 'positive_support': True}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 302, 'total_assigned': 1169, 'total_hits': 1122, 'pending_validation': False, 'fit_attempts': 21, 'next_fit_exposure': 310, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-08T04:34:03Z 1.00 scale 0.775 band 0.816
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05000000000000001, 'training_rows': 192, 'baseline_loss': 9, 'candidate_loss': 3, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 310, 'total_assigned': 1185, 'total_hits': 1138, 'pending_validation': True, 'fit_attempts': 22, 'next_fit_exposure': 318, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 2, 'hit_ids': 2, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 11, 'validation_exposures': 6, 'expired': True, 'old_loss': 0, 'candidate_loss': 0, 'positive_support': False}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 316, 'total_assigned': 1196, 'total_hits': 1149, 'pending_validation': False, 'fit_attempts': 22, 'next_fit_exposure': 324, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05000000000000001, 'training_rows': 192, 'baseline_loss': 9, 'candidate_loss': 3, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 324, 'total_assigned': 1211, 'total_hits': 1164, 'pending_validation': True, 'fit_attempts': 23, 'next_fit_exposure': 332, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 9, 'validation_exposures': 6, 'expired': True, 'old_loss': 0, 'candidate_loss': 0, 'positive_support': False}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 330, 'total_assigned': 1220, 'total_hits': 1173, 'pending_validation': False, 'fit_attempts': 23, 'next_fit_exposure': 338, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 1, 'hit_ids': 1, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.125, 'offset_az_deg': -0.05000000000000001, 'training_rows': 192, 'baseline_loss': 9, 'candidate_loss': 3, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 338, 'total_assigned': 1232, 'total_hits': 1185, 'pending_validation': True, 'fit_attempts': 24, 'next_fit_exposure': 346, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-08T05:36:33Z 1.00 scale 0.796 band 0.838
+geometry: {'assigned': 3, 'hit_ids': 3, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_rejected': {'validation_rows': 15, 'validation_exposures': 6, 'expired': True, 'old_loss': 1, 'candidate_loss': 0, 'positive_support': True}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.125, 'offset_az_deg_estimate': 0.0125, 'offset_bound_deg': 0.2, 'evidence_rows': 192, 'exposures': 344, 'total_assigned': 1247, 'total_hits': 1199, 'pending_validation': False, 'fit_attempts': 24, 'next_fit_exposure': 352, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-08T06:42:41Z 1.00 scale 0.597 band 0.628
+pro: E 2026-11-08T07:38:38Z 1.00 scale 0.550 band 0.588
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.527 band 0.555
+pro: E 2026-11-09T01:50:00Z 1.00 scale 0.507 band 0.555
+pro: E 2026-11-09T02:40:00Z 1.00 scale 0.507 band 0.555
+pro: E 2026-11-09T03:57:30Z 1.00 scale 0.512 band 0.534
+pro: E 2026-11-09T04:50:00Z 1.00 scale 0.514 band 0.539
+pro: E 2026-11-09T05:30:00Z 1.00 scale 0.514 band 0.541
+pro: E 2026-11-09T06:34:47Z 1.00 scale 0.514 band 0.563
+pro: E 2026-11-09T07:34:42Z 1.00 scale 0.545 band 0.571
+pro finished: termination_reason=agent_finished observes=391 reports=0

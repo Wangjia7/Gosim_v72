@@ -1,0 +1,5 @@
+planner: scarcity 0.68, time price fraction 0.36
+v5: 1400 targets, 210 required, 7 nights; init 0.02s; model none (rules only)
+season: night 0 demand/supply 2.66 prices slot price q10 0.00128 q50 0.00227 q90 0.00374, groups 45
+v5: deep search on (cpu budget 3543 ms, deep cost 159 ms)
+{"family": "release", "card": "normal-a", "total": 1108.502208, "counts": {"decisions": 344, "observe_actions": 235, "observations": 2111, "targets_observed": 1380, "required_missing": 3, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 18.68, "speed_factor": 1.2309, "speed_factor_min": 1.2309, "speed_factor_max": 1.2309, "speed_samples": 1, "window_seconds": 23.218, "cpu_seconds": 22.993, "wait_seconds": 0.225, "run_wall_seconds": 24.208, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

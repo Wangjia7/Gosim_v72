@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "run_id": "gosim-pro-normal-v32-20261006",
+  "status": "completed",
+  "registered_at": "2026-10-06T09:50:11.202497+00:00",
+  "started_at": "2026-10-06T09:32:02.657814+00:00",
+  "ended_at": "2026-10-06T09:48:40.620049+00:00",
+  "runtime_seconds": 997.962235,
+  "failure_reason": null,
+  "project_root": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-pro-normal-v32",
+  "source_config": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-pro-normal-v32/experiments/final-config.yaml",
+  "config_sha256": "45b6e2dc76e8d785f8c1e707fbbf2a6f7af8df4d84f15ee9a869a3e7db2d6dfb",
+  "config": {
+    "schema_version": 1,
+    "experiment_id": "gosim-pro-normal-v32-conservative",
+    "project_id": "astronomy-observer-v32",
+    "parent_run_id": null,
+    "hypothesis": "Cached common-program search and deadline protection can improve some normal cases within CPU budget; universal nonregression is tested, not assumed.",
+    "baseline": "paired official python-pro runs in selected-results.json",
+    "command": "python3 cpu_matrix.py; python3 cpu_followup.py; python3 cpu_minimal.py; python3 cpu_repaired.py; python3 cpu_windows.py",
+    "output_dir": "evidence/final",
+    "data_contract_revision": "DATA_CONTRACT.md v32",
+    "datasets": [
+      {
+        "name": "L1 L2 sparse and two new normal seeds",
+        "version": "v32 frozen products",
+        "uri": "per-run source-input-manifest.json",
+        "identity": "85d7f2181c2631e6a2c182adc9f85950d0b2f64b933e3d594680b172e75b13d3"
+      }
+    ],
+    "random": {
+      "stochastic": true,
+      "seed": 2026100617,
+      "rng": "official generator random.Random; per-case seeds/product hashes preserved",
+      "stream_policy": "identical frozen target/weather/request products in each pair; no runtime RNG; adaptive timing nondeterministic"
+    },
+    "parallel": {
+      "backend": "serial charged runs; passive supervisors and occasional unit tests on host",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "reduction": "serial per fibre"
+    },
+    "environment": {
+      "dependency_lock": "dependency-lock.txt",
+      "hardware": "x86_64",
+      "software": "3.10.9 stdlib; C++17; official scorer; local process CPU hook"
+    },
+    "parameters": {
+      "normal_preset": {
+        "JOINT_PROGRAM": 1,
+        "FULL_FIELD": 0,
+        "BREAKPOINTS": 0,
+        "REQUEST_BATCH": 0,
+        "CONSERVATIVE_REQUIRED": 0,
+        "WINDOW_URGENCY": 0
+      },
+      "api": false,
+      "standard_cpu_budget": 180
+    },
+    "controls": {
+      "sample_ids": "fixed public target IDs per pair",
+      "skeleton": "not-applicable; telescope schedule",
+      "selection": "all named pairs with gains/regressions retained; selection after development results, no blind final holdout",
+      "units_and_coordinates": "UTC/degrees, public alt-az gnomonic mapping",
+      "bin_edges_and_denominator": "one official total per complete task card"
+    },
+    "metrics": {
+      "total_points": {
+        "definition": "total_points from official final score/fair clock",
+        "unit": "points",
+        "uncertainty": "one run per card; OS pacing variance not estimated"
+      },
+      "paired_delta": {
+        "definition": "paired_delta from official final score/fair clock",
+        "unit": "points",
+        "uncertainty": "one run per card; OS pacing variance not estimated"
+      },
+      "required_missing": {
+        "definition": "required_missing from official final score/fair clock",
+        "unit": "count",
+        "uncertainty": "one run per card; OS pacing variance not estimated"
+      },
+      "cpu_charged": {
+        "definition": "cpu_charged from official final score/fair clock",
+        "unit": "standard_cpu_seconds",
+        "uncertainty": "one run per card; OS pacing variance not estimated"
+      }
+    },
+    "reproducibility": {
+      "level": "numerical",
+      "tolerance": "saved action traces exactly scoreable; adaptive reruns need not produce identical actions"
+    },
+    "success_criterion": "legal complete episodes, interface checks, retain regressions; no universal score threshold claimed",
+    "budget": {
+      "max_runs": 32,
+      "max_walltime_hours": 1,
+      "stop_condition": "planned source/switch comparisons and ZIP verification complete; stop further tuning"
+    }
+  },
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "limitation": "无 git commit；需外部源码快照，不能仅靠登记复现"
+  },
+  "metrics": {
+    "total_points": {
+      "value": [
+        6103.436279,
+        6391.849711,
+        500.334393,
+        1066.944271,
+        350.739695
+      ],
+      "unit": "points",
+      "sample_count": 5,
+      "denominator": "one final score per frozen task card"
+    },
+    "paired_delta": {
+      "value": [
+        -61.378624000000855,
+        293.5164619999996,
+        18.700963,
+        -16.634885999999824,
+        -7.604015000000004
+      ],
+      "unit": "points",
+      "sample_count": 5
+    },
+    "required_missing": {
+      "value": [
+        2,
+        3,
+        0,
+        3,
+        4
+      ],
+      "unit": "count",
+      "sample_count": 5
+    },
+    "cpu_charged": {
+      "value": [
+        83.843,
+        101.868,
+        3.283,
+        15.518,
+        5.48
+      ],
+      "unit": "standard_cpu_seconds",
+      "sample_count": 5
+    }
+  },
+  "environment_lock": {
+    "source": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-pro-normal-v32/dependency-lock.txt",
+    "sha256": "17bcdda259543845c223bab3ae6e2c417f559b30a17afda13338a196c4f01e2f",
+    "snapshot": "dependency-lock.snapshot"
+  },
+  "registrar": {
+    "python": "3.10.9 (main, Mar  1 2023, 12:33:47) [Clang 14.0.6 ]",
+    "pyyaml": "6.0",
+    "script_sha256": "ff5b1941c783012454c051c6b6878ee97bd990fa0e9c2406bebd89ca6d251a39"
+  },
+  "output_dir": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-pro-normal-v32/evidence/final",
+  "output_inventory": [
+    {
+      "path": "DATA_CONTRACT.md",
+      "size": 1779,
+      "mtime_ns": 1791278763211933000,
+      "sha256": "88734999b8964e0f4d1f89ebbb0ebec8dfbfa76543d956a9373d5985a9fb20b4"
+    },
+    {
+      "path": "VALIDATION.md",
+      "size": 4376,
+      "mtime_ns": 1791280120518873000,
+      "sha256": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a"
+    },
+    {
+      "path": "cpu-matrix-results.json",
+      "size": 7934,
+      "mtime_ns": 1791278771352546000,
+      "sha256": "194a0817a8e674a6ae95f77470f3f40fb6b1c10d93062630fae6c566baa4e61e"
+    },
+    {
+      "path": "final-metrics.json",
+      "size": 766,
+      "mtime_ns": 1791280120613021000,
+      "sha256": "1727132290eb97039d0af15a1abcf1272fa1be75d806ddd1ba42ae0245dca725"
+    },
+    {
+      "path": "final-source.json",
+      "size": 2662,
+      "mtime_ns": 1791280120527800000,
+      "sha256": "677bec15fb40d2b2f83a20337a3f81a42355fa3191937bc8a6169a1b25ab37d1"
+    },
+    {
+      "path": "followup-results.json",
+      "size": 5707,
+      "mtime_ns": 1791279006055118000,
+      "sha256": "e7f512e15c0550141363ae690ed19ddab55a6c06115afe302ba22f698fb03097"
+    },
+    {
+      "path": "minimal-results.json",
+      "size": 5673,
+      "mtime_ns": 1791279297660229000,
+      "sha256": "c08e137fb04cae39da0fe190f836a5ed0e27c13f0d72f4123e0538cc74ec7238"
+    },
+    {
+      "path": "repaired-results.json",
+      "size": 3425,
+      "mtime_ns": 1791279730365694000,
+      "sha256": "38950f2ccf759930cd4d4a3bf7790df05c6a15c78542adb09d1540028c889384"
+    },
+    {
+      "path": "selected-results.json",
+      "size": 12151,
+      "mtime_ns": 1791280120528547000,
+      "sha256": "a08b47b5ac2050a3c59ce709529d34f02e9a2e11d1cfa699df471e7b6b372aae"
+    },
+    {
+      "path": "windows-results.json",
+      "size": 3408,
+      "mtime_ns": 1791279793316410000,
+      "sha256": "bb47c07ae5f75201e2db615792a01b2636032bfde3603e7cfb21cded6f7abdf5"
+    }
+  ],
+  "outputs_hashed": true,
+  "limitations": [
+    "登记不验证命令曾被执行、数据 identity 或用户声明的实际运行环境",
+    "源码/输入/输出必须在登记期间保持不变；登记锁不锁实验进程",
+    "默认输出 size/mtime 不能验证内容；--hash-outputs 对普通文件保存 SHA256",
+    "输出符号链接只记录目标，不捕获目标内容"
+  ]
+}

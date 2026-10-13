@@ -1,0 +1,412 @@
+[
+  {
+    "card": "L1",
+    "baseline": {
+      "out": "cpu-L1-baseline",
+      "total": 6164.814903,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -100.0,
+        "sum_best_scores": 5965.435164,
+        "uniformity_penalty": -0.620261
+      },
+      "counts": {
+        "decisions": 1502,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10693,
+        "observe_actions": 939,
+        "required_missing": 2,
+        "targets_observed": 7464
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 109.347,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 131.321,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 145.517,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1118,
+        "speed_factor_max": 1.2565,
+        "speed_factor_min": 1.1118,
+        "speed_samples": 3,
+        "wait_seconds": 1.761,
+        "window_seconds": 133.083
+      }
+    },
+    "candidate": {
+      "out": "repaired-L1-minimal",
+      "total": 6103.436279,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -100.0,
+        "sum_best_scores": 5904.537797,
+        "uniformity_penalty": -1.101518
+      },
+      "counts": {
+        "decisions": 1477,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10379,
+        "observe_actions": 914,
+        "required_missing": 2,
+        "targets_observed": 7422
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 83.843,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 99.245,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 111.322,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1982,
+        "speed_factor_max": 1.1982,
+        "speed_factor_min": 1.1723,
+        "speed_samples": 2,
+        "wait_seconds": 0.158,
+        "window_seconds": 99.403
+      }
+    },
+    "delta": -61.378624000000855
+  },
+  {
+    "card": "L2",
+    "baseline": {
+      "out": "cpu-L2-baseline",
+      "total": 6098.333249,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -300.0,
+        "sum_best_scores": 6101.979298,
+        "uniformity_penalty": -3.646049
+      },
+      "counts": {
+        "decisions": 1521,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10647,
+        "observe_actions": 880,
+        "required_missing": 6,
+        "targets_observed": 7688
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 114.886,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 142.014,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 155.994,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.223,
+        "speed_factor_max": 1.2456,
+        "speed_factor_min": 1.223,
+        "speed_samples": 3,
+        "wait_seconds": 1.904,
+        "window_seconds": 143.919
+      }
+    },
+    "candidate": {
+      "out": "minimal-L2",
+      "total": 6391.849711,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -150.0,
+        "sum_best_scores": 6246.08532,
+        "uniformity_penalty": -4.235609
+      },
+      "counts": {
+        "decisions": 1573,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 11225,
+        "observe_actions": 929,
+        "required_missing": 3,
+        "targets_observed": 7803
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 101.868,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 124.583,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 139.301,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.2019,
+        "speed_factor_max": 1.2493,
+        "speed_factor_min": 1.2019,
+        "speed_samples": 3,
+        "wait_seconds": 0.816,
+        "window_seconds": 125.399
+      }
+    },
+    "delta": 293.5164619999996
+  },
+  {
+    "card": "500\u76ee\u6807\u6b63\u5e38\u6837\u4f8b",
+    "baseline": {
+      "out": "cpu-sparse-baseline",
+      "total": 481.63343,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 302.60949,
+        "uniformity_penalty": -20.97606
+      },
+      "counts": {
+        "decisions": 265,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 658,
+        "observe_actions": 192,
+        "required_missing": 0,
+        "targets_observed": 460
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 3.753,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 4.183,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 4.478,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1145,
+        "speed_factor_max": 1.1145,
+        "speed_factor_min": 1.1145,
+        "speed_samples": 1,
+        "wait_seconds": 0.005,
+        "window_seconds": 4.188
+      }
+    },
+    "candidate": {
+      "out": "minimal-sparse",
+      "total": 500.334393,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 303.573957,
+        "uniformity_penalty": -3.239564
+      },
+      "counts": {
+        "decisions": 266,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 671,
+        "observe_actions": 193,
+        "required_missing": 0,
+        "targets_observed": 460
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 3.283,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 3.82,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 4.124,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1635,
+        "speed_factor_max": 1.1635,
+        "speed_factor_min": 1.1635,
+        "speed_samples": 1,
+        "wait_seconds": 0.004,
+        "window_seconds": 3.824
+      }
+    },
+    "delta": 18.700963
+  },
+  {
+    "card": "\u65b0\u6b63\u5e38\u5361 normal-a",
+    "baseline": {
+      "out": "new-normal-a-baseline",
+      "total": 1083.579157,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -150.0,
+        "sum_best_scores": 1034.868124,
+        "uniformity_penalty": -1.288967
+      },
+      "counts": {
+        "decisions": 366,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 2196,
+        "observe_actions": 257,
+        "required_missing": 3,
+        "targets_observed": 1384
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 20.594,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 24.408,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 25.444,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1852,
+        "speed_factor_max": 1.1852,
+        "speed_factor_min": 1.1852,
+        "speed_samples": 1,
+        "wait_seconds": 0.106,
+        "window_seconds": 24.513
+      }
+    },
+    "candidate": {
+      "out": "minimal-normal-a",
+      "total": 1066.944271,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -150.0,
+        "sum_best_scores": 1018.952734,
+        "uniformity_penalty": -2.008463
+      },
+      "counts": {
+        "decisions": 355,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 2145,
+        "observe_actions": 246,
+        "required_missing": 3,
+        "targets_observed": 1371
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 15.518,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 17.022,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 17.967,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.0969,
+        "speed_factor_max": 1.0969,
+        "speed_factor_min": 1.0969,
+        "speed_samples": 1,
+        "wait_seconds": 0.033,
+        "window_seconds": 17.055
+      }
+    },
+    "delta": -16.634885999999824
+  },
+  {
+    "card": "\u65b0\u6b63\u5e38\u5361 normal-b",
+    "baseline": {
+      "out": "new-normal-b-baseline",
+      "total": 358.34371,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -200.0,
+        "sum_best_scores": 381.23171,
+        "uniformity_penalty": -22.888
+      },
+      "counts": {
+        "decisions": 359,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 954,
+        "observe_actions": 254,
+        "required_missing": 4,
+        "targets_observed": 649
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 5.962,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 7.193,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 7.708,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.2065,
+        "speed_factor_max": 1.2065,
+        "speed_factor_min": 1.2065,
+        "speed_samples": 1,
+        "wait_seconds": 0.034,
+        "window_seconds": 7.228
+      }
+    },
+    "candidate": {
+      "out": "minimal-normal-b",
+      "total": 350.739695,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -200.0,
+        "sum_best_scores": 373.00508,
+        "uniformity_penalty": -22.265385
+      },
+      "counts": {
+        "decisions": 362,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 937,
+        "observe_actions": 254,
+        "required_missing": 4,
+        "targets_observed": 643
+      },
+      "termination": "survey_complete",
+      "clock": {
+        "budget_seconds": 180.0,
+        "charged_seconds": 5.48,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 6.101,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 360.0,
+        "mode": "cpu",
+        "run_wall_seconds": 6.599,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 1.1134,
+        "speed_factor_max": 1.1134,
+        "speed_factor_min": 1.1134,
+        "speed_samples": 1,
+        "wait_seconds": 0.009,
+        "window_seconds": 6.11
+      }
+    },
+    "delta": -7.604015000000004
+  }
+]

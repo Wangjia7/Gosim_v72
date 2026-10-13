@@ -1,0 +1,24 @@
+{
+  "family": "deadline-v300-final",
+  "reason": "active request targets admitted to pool; earliest legal start loss orders reserved request anchors",
+  "files": {
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "README.md": "fda37f640ff045b4c6746880c5d20acc11e3dbbf3b4993050ad6dbd7a429552b",
+    "advisor.py": "6d9846ef2939e9ed6e744c2431f65de0a76635e53c39750d4ee1ebe637ecc1dd",
+    "agent.py": "a0e460598b94ea579957c29b8fb3866cc0d22cc1da517d4256045172cdfe36e0",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "joint.cpp": "cc9e95ac22889c5c52e222d2ad8ed563418a75666261c465935f70a4dda54cae",
+    "llm_client.py": "cf01e938267b50079c849603d4595f9064ff41d351003542d5850b9c45455640",
+    "native.py": "e91cfd27b5c33202076362130b29f587cf4a492316f09cc8d1a9dad7abc1bb5f",
+    "observer.project.json": "f1152499770bfe009715a4869cc61f0247ac4aaf6d6b2df6cd6fe2f53be66e2f",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "opportunities.py": "ce5297e161bd81728bbc389b66c8d4bd3a7eb4025f0d9a21b85a60d9690fb9b3",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "planner.py": "5de3076804dc805906dd31cf73af496ff1e0231616a5ec2ab2f4c9d7ddc30108",
+    "skills/astronomy-observer/SKILL.md": "8eea6149bdbe5729d15e85b112ea7db7156fb075ed9268fd3fcdc4e89b51e9d1",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79"
+  },
+  "evidence_scope": "long case used to diagnose and fix crowding; subsequent runs are regressions, not blind validation"
+}

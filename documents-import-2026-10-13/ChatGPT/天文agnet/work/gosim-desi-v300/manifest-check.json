@@ -1,0 +1,26 @@
+{
+  "official_saved_manifest_parser": true,
+  "host_build": true,
+  "jsonl_smoke": true,
+  "one_response": true,
+  "image": "python:3.12-bookworm",
+  "linux_container_build": "not tested; docker unavailable",
+  "response": {
+    "protocol_version": "participant-agent-protocol-v4",
+    "message_type": "decision_response",
+    "decision_sequence": 1,
+    "action": "observe",
+    "pointing": {
+      "alt_deg": 84.9221,
+      "az_deg": 183.575
+    },
+    "assignments": {
+      "0": "t1",
+      "5": "t0"
+    },
+    "duration_seconds": 1200,
+    "program": "DARK",
+    "reason": "2 fibres, program DARK",
+    "decision_source": "rules"
+  }
+}

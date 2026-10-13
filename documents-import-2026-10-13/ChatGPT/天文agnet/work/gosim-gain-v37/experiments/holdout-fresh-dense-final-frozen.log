@@ -1,0 +1,125 @@
+planner: scarcity 0.14, time price fraction 0.12
+pro: 2600 targets, 312 required, 10 nights; init 0.02s; model none (rules only)
+runtime review: {"state":"unknown","epoch":0,"valid_exposures":0,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T01:39:50Z 1.00 scale 0.732 band 1.000
+pro: E 2026-11-02T02:47:14Z 1.00 scale 0.717 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":8,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T03:42:14Z 1.00 scale 0.818 band 1.000
+pro: E 2026-11-02T04:36:25Z 1.00 scale 0.811 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":16,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":24,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T05:30:36Z 1.00 scale 0.794 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":32,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T06:43:30Z 1.00 scale 0.783 band 1.000
+pro: E 2026-11-02T07:42:30Z 1.00 scale 0.806 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":38,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":38,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.840 band 0.527
+runtime review: {"state":"normal","epoch":0,"valid_exposures":46,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T01:41:52Z 1.00 scale 0.623 band 0.665
+pro: E 2026-11-03T02:39:05Z 0.98 scale 0.669 band 0.665
+runtime review: {"state":"normal","epoch":0,"valid_exposures":54,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":62,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T03:30:43Z 1.00 scale 0.560 band 0.665
+runtime review: {"state":"normal","epoch":0,"valid_exposures":70,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T04:45:36Z 1.00 scale 0.588 band 0.665
+pro: E 2026-11-03T05:43:11Z 1.00 scale 0.606 band 0.665
+pro: E 2026-11-03T07:23:11Z 1.00 scale 0.609 band 0.627
+pro: E 2026-11-03T07:53:11Z 1.00 scale 0.650 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":78,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":84,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.661 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":92,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":100,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T02:06:00Z 1.00 scale 0.589 band 0.627
+pro: E 2026-11-04T03:02:44Z 1.00 scale 0.584 band 0.627
+pro: E 2026-11-04T04:02:44Z 1.00 scale 0.573 band 0.627
+pro: E 2026-11-04T04:46:20Z 1.00 scale 0.642 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":108,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T06:05:27Z 1.00 scale 0.636 band 0.627
+pro: E 2026-11-04T06:35:27Z 1.00 scale 0.607 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":116,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T08:08:57Z 1.00 scale 0.597 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":124,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":132,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":132,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.589 band 0.627
+pro: E 2026-11-05T02:15:00Z 1.00 scale 0.432 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":140,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T02:43:00Z 1.00 scale 0.535 band 0.627
+runtime review: {"state":"normal","epoch":0,"valid_exposures":148,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T03:35:16Z 1.00 scale 0.598 band 0.558
+runtime review: {"state":"normal","epoch":0,"valid_exposures":156,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T04:54:16Z 1.00 scale 0.529 band 0.558
+pro: E 2026-11-05T05:34:16Z 1.00 scale 0.510 band 0.558
+runtime review: {"state":"normal","epoch":0,"valid_exposures":164,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T08:00:00Z 1.00 scale 0.023 band 0.497
+runtime review: {"state":"normal","epoch":0,"valid_exposures":166,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":166,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T00:30:00Z 0.05 scale 0.023 band 0.512
+pro: E 2026-11-06T01:30:00Z 0.05 scale 0.372 band 0.512
+pro: E 2026-11-06T03:20:00Z 0.86 scale 0.507 band 0.456
+pro: E 2026-11-06T04:20:00Z 1.00 scale 0.349 band 0.576
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":174,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T05:00:00Z 1.00 scale 0.349 band 0.303
+pro: E 2026-11-06T05:40:00Z 1.00 scale 0.272 band 0.303
+pro: E 2026-11-06T06:41:00Z 1.00 scale 0.472 band 0.383
+runtime review: {"state":"normal","epoch":0,"valid_exposures":182,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T08:01:00Z 1.00 scale 0.294 band 0.512
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":184,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":184,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-07T00:35:00Z 1.00 scale 0.495 band 0.507
+pro: E 2026-11-07T01:50:00Z 1.00 scale 0.495 band 0.507
+pro: E 2026-11-07T02:30:00Z 1.00 scale 0.517 band 0.507
+pro: E 2026-11-07T03:30:00Z 1.00 scale 0.517 band 0.507
+pro: E 2026-11-07T04:30:00Z 1.00 scale 0.510 band 0.507
+pro: E 2026-11-07T05:30:00Z 1.00 scale 0.348 band 0.507
+runtime review: {"state":"normal","epoch":0,"valid_exposures":192,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-07T06:42:49Z 1.00 scale 0.348 band 0.478
+pro: E 2026-11-07T07:42:49Z 1.00 scale 0.407 band 0.478
+runtime review: {"state":"normal","epoch":0,"valid_exposures":196,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.505 band 0.453
+pro: E 2026-11-08T01:40:00Z 1.00 scale 0.426 band 0.509
+pro: E 2026-11-08T03:05:00Z 1.00 scale 0.518 band 0.509
+pro: E 2026-11-08T04:05:00Z 1.00 scale 0.518 band 0.606
+pro: E 2026-11-08T05:05:00Z 1.00 scale 0.518 band 0.606
+pro: E 2026-11-08T06:05:00Z 1.00 scale 0.208 band 0.606
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":204,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":212,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-08T07:08:29Z 0.44 scale 0.208 band 0.606
+pro: E 2026-11-08T08:08:31Z 0.44 scale 0.422 band 0.301
+runtime review: {"state":"normal","epoch":0,"valid_exposures":220,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":221,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.422 band 0.453
+pro: E 2026-11-09T02:20:00Z 1.00 scale 0.443 band 0.606
+pro: E 2026-11-09T03:20:00Z 0.81 scale 0.516 band 0.606
+pro: E 2026-11-09T04:10:00Z 0.95 scale 0.451 band 0.606
+pro: E 2026-11-09T05:10:00Z 0.95 scale 0.541 band 0.606
+pro: E 2026-11-09T06:10:00Z 1.00 scale 0.574 band 0.606
+pro: E 2026-11-09T07:10:00Z 1.00 scale 0.541 band 0.606
+runtime review: {"state":"normal","epoch":0,"valid_exposures":229,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-09T08:10:00Z 0.96 scale 0.532 band 0.606
+runtime review: {"state":"normal","epoch":0,"valid_exposures":230,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":230,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T00:30:00Z 0.95 scale 0.515 band 0.606
+pro: E 2026-11-10T01:30:00Z 0.95 scale 0.451 band 0.606
+pro: E 2026-11-10T02:55:00Z 1.00 scale 0.504 band 0.539
+runtime review: {"state":"normal","epoch":0,"valid_exposures":238,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T03:30:00Z 1.00 scale 0.504 band 0.508
+runtime review: {"state":"normal","epoch":0,"valid_exposures":246,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T04:33:05Z 1.00 scale 0.479 band 0.508
+runtime review: {"state":"normal","epoch":0,"valid_exposures":254,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T05:49:43Z 1.00 scale 0.509 band 0.508
+pro: E 2026-11-10T07:04:43Z 1.00 scale 0.546 band 0.571
+pro: E 2026-11-10T07:54:43Z 1.00 scale 0.509 band 0.571
+runtime review: {"state":"normal","epoch":0,"valid_exposures":261,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-11T00:30:00Z 1.00 scale 0.509 band 0.571
+pro: E 2026-11-11T01:30:00Z 1.00 scale 0.447 band 0.571
+pro: E 2026-11-11T03:00:00Z 1.00 scale 0.446 band 0.571
+pro: E 2026-11-11T04:00:00Z 1.00 scale 0.440 band 0.571
+pro: E 2026-11-11T05:00:00Z 1.00 scale 0.417 band 0.427
+runtime review: {"state":"normal","epoch":0,"valid_exposures":269,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-11T06:00:00Z 1.00 scale 0.475 band 0.508
+pro: E 2026-11-11T07:00:00Z 0.98 scale 0.477 band 0.508
+pro: E 2026-11-11T08:00:00Z 0.99 scale 0.504 band 0.508
+{"family": "final-frozen", "card": "fresh-dense", "total": 2711.387005, "counts": {"decisions": 439, "observe_actions": 272, "observations": 5508, "targets_observed": 2600, "required_missing": 2, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 900.0, "charged_seconds": 59.131, "speed_factor": 0.5532, "speed_factor_min": 0.5532, "speed_factor_max": 0.5532, "speed_samples": 1, "window_seconds": 33.757, "cpu_seconds": 32.709, "wait_seconds": 1.048, "run_wall_seconds": 35.156, "hard_cap_seconds": 7200.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

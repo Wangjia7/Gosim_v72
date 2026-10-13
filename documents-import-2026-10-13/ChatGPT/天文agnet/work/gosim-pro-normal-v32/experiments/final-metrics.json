@@ -1,0 +1,47 @@
+{
+  "total_points": {
+    "value": [
+      6103.436279,
+      6391.849711,
+      500.334393,
+      1066.944271,
+      350.739695
+    ],
+    "unit": "points",
+    "sample_count": 5,
+    "denominator": "one final score per frozen task card"
+  },
+  "paired_delta": {
+    "value": [
+      -61.378624000000855,
+      293.5164619999996,
+      18.700963,
+      -16.634885999999824,
+      -7.604015000000004
+    ],
+    "unit": "points",
+    "sample_count": 5
+  },
+  "required_missing": {
+    "value": [
+      2,
+      3,
+      0,
+      3,
+      4
+    ],
+    "unit": "count",
+    "sample_count": 5
+  },
+  "cpu_charged": {
+    "value": [
+      83.843,
+      101.868,
+      3.283,
+      15.518,
+      5.48
+    ],
+    "unit": "standard_cpu_seconds",
+    "sample_count": 5
+  }
+}

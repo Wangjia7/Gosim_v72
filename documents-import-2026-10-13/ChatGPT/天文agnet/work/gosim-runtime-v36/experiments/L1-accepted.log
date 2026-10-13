@@ -1,0 +1,163 @@
+planner: scarcity 0.87, time price fraction 0.45
+v5: 7800 targets, 390 required, 32 nights; init 0.13s; model none (rules only)
+runtime review: {"state":"unknown","epoch":0,"valid_exposures":0,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+season: night 0 demand/supply 1.79 prices slot price q10 0.00179 q50 0.0027 q90 0.00359, groups 102
+v5: deep search on (cpu budget 1747 ms, deep cost 266 ms)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":8,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":16,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":24,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":32,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":40,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":48,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":56,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":61,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":61,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":69,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":77,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":85,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":93,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":101,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":103,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":103,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":111,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":119,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":127,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":135,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":143,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":143,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":151,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":159,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":167,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":174,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":174,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":182,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":190,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":198,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":199,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":199,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":207,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":215,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":215,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+fault: report at h147.8: step 0.40 over 3 exposures / 1.8 h (free)
+v5: report at 2026-11-08T04:15:00Z (step 0.40 over 3 exposures / 1.8 h), free left 2
+v5: report false (delta 0.0); free left 1
+runtime review: {"state":"normal","epoch":0,"valid_exposures":223,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":226,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":226,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":234,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":242,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":250,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":258,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":258,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":266,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":274,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":282,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":290,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":295,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":295,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"inconclusive","epoch":0,"valid_exposures":303,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":311,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":319,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":327,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":334,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":334,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":342,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":350,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+v5: earthquake notice at 2026-11-12T04:50:00Z
+fault: reference reset at h244.2 (earthquake onset)
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":358,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":366,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":374,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":382,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":384,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":384,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":392,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":392,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":400,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":408,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":416,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":424,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":426,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":426,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":434,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":439,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":439,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":447,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":453,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":453,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+season: night 15 demand/supply 2.48 prices slot price q10 0.00153 q50 0.00184 q90 0.00315, groups 101
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":461,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":469,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":470,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":470,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":478,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":486,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":488,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":488,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":496,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":504,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":512,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":514,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":514,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":522,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":530,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":538,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":542,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":542,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":550,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":558,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":564,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":564,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":572,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":580,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":584,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":584,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+fault: report at h506.2: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.69) (free)
+v5: report at 2026-11-23T02:45:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.69)), free left 1
+fault: reference reset at h506.2 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+runtime review: {"state":"repaired_pending_validation","epoch":1,"valid_exposures":587,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":595,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":603,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":603,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":611,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":619,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":627,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":635,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":637,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":637,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":645,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":647,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":647,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":655,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":663,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":665,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":665,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":673,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":681,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":689,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":689,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":697,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":705,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":713,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":717,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":1,"valid_exposures":717,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":725,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":733,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":733,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":741,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":745,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":745,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":753,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":758,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":758,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+season: night 30 demand/supply 17.10 prices slot price q10 0.00244 q50 0.00317 q90 0.00684, groups 101
+runtime review: {"state":"normal","epoch":1,"valid_exposures":766,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":766,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":774,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":782,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":790,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":798,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":806,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":1,"valid_exposures":814,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+{"family": "accepted-frozen", "card": "L1", "total": 6345.924373, "counts": {"decisions": 1387, "observe_actions": 820, "observations": 9596, "targets_observed": 7282, "required_missing": 2, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 900.0, "charged_seconds": 181.881, "speed_factor": 0.5486, "speed_factor_min": 0.5467, "speed_factor_max": 0.5486, "speed_samples": 2, "window_seconds": 100.303, "cpu_seconds": 99.579, "wait_seconds": 0.724, "run_wall_seconds": 105.362, "hard_cap_seconds": 7200.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

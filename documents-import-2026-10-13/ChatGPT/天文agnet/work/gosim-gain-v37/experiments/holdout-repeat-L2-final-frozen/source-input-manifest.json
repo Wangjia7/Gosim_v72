@@ -1,0 +1,3995 @@
+{
+  "source": {
+    "planner.py": "3c67b689cc364a05b8fb52cd5fa010ff971772fff7b361101b7a2bdbf5adaee5",
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "FUSION_PROVENANCE.json": "3637fc0ec810835488e3afcdcc6a0548dcae2f29cad6a4a1468377e78cc4d4ea",
+    "log_review.py": "fc374c651b1b0753ea66a9d6541c60a90e3f7cf266961b237daa4d24d539c9ae",
+    "joint.cpp": "38f9d301022c8765a94eb4da8a4ced854863917f215e11ba7373c5ef64b47e91",
+    "CHANGELOG.md": "439f5cb085711952dfdae95ce07e0290a1158232192fe513189897aacdb2177f",
+    "events.py": "fe72fb1e5c031d5f4f98059ab91902c38c1a5a6ff2fdd2e4295d54f85628b2e6",
+    "budget.py": "e5a10b4d939d81a81d20b05946da7c0779ed033160d4fea15aae247631c448a8",
+    "advisor.py": "2d3ae1cee6f9363babc374454a0c328b2906884872fdd3672587ce4706fb1fc1",
+    "VALIDATION.md": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a",
+    "obligations.py": "14e309a27b900bddff66d56a8997c80925495a2fc28610971f6b5d3f1fd5c556",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "native.py": "9d249fdcc5320664d42fc8fe7e19eda6b594a35ddc8c2d4fa5917f4898702d99",
+    "runtime.py": "0a6e51282b9cf2c892f8199f66653b9da3fe33deb2862a231f3124780ec91996",
+    "inspection.py": "d12a27d730b5384be11534097fac265b3676eaf3c8f1be93315f10f88be85017",
+    "README.md": "1235dc7f470412bdc9ccbc638c6bdf5686916f1a9fe7f78a71baaa662d95d583",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "conditions.py": "184437ec068ea72f4a35cb600e19a4994b5062b641a7b18497c7f17747c2a291",
+    "opportunities.py": "4e8479ce4a4d2b621d3c2f204e5faa266ed68b45d9724ae0f9e3a64be519b14c",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "llm_client.py": "ad32dd3ec7ad866d3c89f8f2fa47712f0205b361557534ea134c3a7254defcec",
+    "routing.py": "307f9fb992e50aacf6b5513764832ccd949e6939b09d32baa48a249a977c6a9a",
+    "agent.py": "a8d90d4f917e9ba9d5a8c6e4bb6648651ca3580c946b9124f5e8b847fe0376ad",
+    "enhanced_agent.py": "2c466c98fffbd0faf1d22490445233227cdb6f3d4361c85354b0c060f9c2adc6",
+    "observer.project.json": "888c96a750c568a369585dfb56af12cf2d83ce5347f22543fb0f474f4712401f",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "fusion_core/guarded.py": "9803a3f14c795b468b85e9608e7b905456dc7b0407c0db17a50c27d77c6c46e7",
+    "fusion_core/planner.py": "3d4a28d1f92b9e14d45ae905a53c0d3a05982c23a142779d3cb705f0f544098d",
+    "fusion_core/bandfit.py": "1415f42dbc670be5a5799c01ba11bdad18f471e87c25930b4b6928decc1d774d",
+    "fusion_core/skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "fusion_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fusion_core/agent.py": "e6ddea83fd00d8635a1db85721b59235df866876fe644f6d72d59d81ff7b0b03",
+    "fusion_core/season.py": "a1c6f52b9587bba3febe63417d31560412c0583ffcb14d4019202f47449eb0e5",
+    "fusion_core/fault.py": "fe7b592519df883eaa8a460c6c01e5818287144edfd969b638cf8875a1c20bf0",
+    "official_pro/planner.py": "ca72da4ad5cf2b84be6dd84474923d47f47a96c0d5d01c21ced382cd29ff66c1",
+    "official_pro/advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "official_pro/skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "official_pro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "official_pro/opportunities.py": "6514696e20d5e8ce8bc897fa55e4327436b25b86caf4a74ceff86ba664e00317",
+    "official_pro/llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "official_pro/agent.py": "b4cef53179b2505cd563813b444ce6c25df92354bfb45807b2ca3f2764684d64",
+    "official_pro/AGENTS.md": "c75d9bed09ee4ba7b42c2b80bcc87538b798e04550dd37826f03c900553279d9",
+    "skills/astronomy-observer/SKILL.md": "1ab367288ec0344f104eec5ee92a5c7e1d2577925baba284ce8c8b7daa0b6b3b",
+    "skills/astronomy-observer/references/operations.md": "bce5b984a32f534656f8d17ad33f44760f54d8c748cf93206463cf2da84dab41",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd"
+  },
+  "inputs": {
+    "config/v4_scenario.json": "b9027d4acd26252ace34d129b9dff10d6c68a1e0ba2912c3b2a7e4510e70bedd",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+    "public/v4_night_calendar.csv": "e6149422d04de96c469aaaa18b9116c7c11ce1b976c0a42ad983208fcdd89484",
+    "public/v4_bulletins.jsonl": "46339be44bfffe02c3f3481561978e093f2f6e362f33c11b1a290102f962b136",
+    "public/v4_forecasts.jsonl": "41ce85cc78afa51b9d9919aba7cf6fb7d2fab7c954ef6bebdbf3c5b4677cafdc",
+    "public/targets.csv": "a85d6f8571be0e1f06c11a34943f786e21feccb32b240f8a17c5d68744ed39db",
+    "public/footprint.csv": "d0913d994cacd3200ce7a9d2036ab43ba3d1934e52dcd8bc1c9e193c2c6b04c9",
+    "truth/v4_earthquake_effects.csv": "d166afe77973cf1ea14bec45b436c06d4c3a5bb758b3b9e0b548598381987f64",
+    "truth/v4_weather_truth.csv": "5268a17e6a966a40d9f304e450e63d4b08dd243ffa8c85d254e7d6dbdb1c1022",
+    "truth/v4_slots.csv": "e6848c0d1c8b17a12776247547a0b620cbc3b667fc03da0b403e068d92b4cf2a",
+    "truth/v4_events.csv": "6ae25757056c2b8258bb392d02040e8c0a2161fd65ca8e879ec50a60c6e2f022",
+    "truth/v4_observation_requests.jsonl": "b1f4f0fc61402da40e6a13f0d70ecd929a6373e3c2fab033520cd2fcb9f1c8fd"
+  },
+  "family": "final-frozen",
+  "budget": 900.0,
+  "wall_cap": 7200.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {
+    "PRO_FULL_FIELD": "0",
+    "PRO_BREAKPOINTS": "0",
+    "PRO_CONSERVATIVE_REQUIRED": "0",
+    "PRO_REQUEST_BATCH": "0",
+    "FUSION_QUAKE_CURVE": "0",
+    "FUSION_JOINT_PROGRAM": "1",
+    "FUSION_LOG_REVIEW": "1",
+    "FUSION_MAX_BREADTH": "1",
+    "FUSION_RUNTIME": "1",
+    "FUSION_OBLIGATIONS": "1",
+    "FUSION_SCIENCE_PROBE": "1",
+    "FUSION_IDENTIFIABLE_E": "1"
+  },
+  "start": "2026-10-07T08:10:33.340120+00:00",
+  "route": "fusion_core.agent",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "native_loaded": true,
+  "native_cells": true,
+  "own_clock_cpu": 130.73336700000016,
+  "exposure_review": {
+    "recent_nights": [
+      {
+        "epoch": 1,
+        "night": 28,
+        "exposures": 13,
+        "assigned": 173,
+        "hits": 173,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 29,
+        "exposures": 22,
+        "assigned": 241,
+        "hits": 241,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 30,
+        "exposures": 17,
+        "assigned": 205,
+        "hits": 205,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 31,
+        "exposures": 15,
+        "assigned": 189,
+        "hits": 189,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 32,
+        "exposures": 14,
+        "assigned": 168,
+        "hits": 168,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 33,
+        "exposures": 29,
+        "assigned": 272,
+        "hits": 272,
+        "clean_exposures": 29,
+        "quality_bounds": [
+          0.6277245993566445,
+          0.750056495846418
+        ]
+      },
+      {
+        "epoch": 1,
+        "night": 34,
+        "exposures": 58,
+        "assigned": 513,
+        "hits": 513,
+        "clean_exposures": 58,
+        "quality_bounds": [
+          0.7127085419214614,
+          0.8550695928957543
+        ]
+      },
+      {
+        "epoch": 1,
+        "night": 35,
+        "exposures": 16,
+        "assigned": 190,
+        "hits": 189,
+        "clean_exposures": 16,
+        "quality_bounds": [
+          0.7332930060745819,
+          0.8799504649858384
+        ]
+      }
+    ],
+    "schema": "own-exposure-review-v1",
+    "checkpoint": 151,
+    "epoch": 1,
+    "valid_exposures": 792,
+    "invalidated_exposures": 0,
+    "cue": "retain",
+    "recent_miss_fraction": 0.0,
+    "recent_independent_clean_exposures": 8,
+    "previous_independent_clean_exposures": 16,
+    "required_unconfirmed": 4,
+    "required_examples": [
+      "V4T000863",
+      "V4T005007",
+      "V4T005327",
+      "V4T005505"
+    ],
+    "by_class_program_duration": [
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 17,
+        "hit": 17,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 27,
+        "hit": 27,
+        "missed": 0,
+        "zero_score": 6
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 36,
+        "hit": 36,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 203,
+        "hit": 203,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 363,
+        "hit": 363,
+        "missed": 0,
+        "zero_score": 53
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 96,
+        "hit": 96,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 619,
+        "hit": 619,
+        "missed": 0,
+        "zero_score": 49
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 959,
+        "hit": 958,
+        "missed": 1,
+        "zero_score": 42
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 8,
+        "hit": 8,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 38,
+        "hit": 38,
+        "missed": 0,
+        "zero_score": 9
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 102,
+        "hit": 102,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 536,
+        "hit": 536,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 283,
+        "hit": 283,
+        "missed": 0,
+        "zero_score": 36
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 368,
+        "hit": 368,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 1735,
+        "hit": 1734,
+        "missed": 1,
+        "zero_score": 51
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 858,
+        "hit": 858,
+        "missed": 0,
+        "zero_score": 34
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 4,
+        "hit": 4,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 7,
+        "hit": 7,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 63,
+        "hit": 63,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 230,
+        "hit": 230,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 134,
+        "hit": 134,
+        "missed": 0,
+        "zero_score": 9
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 309,
+        "hit": 309,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 970,
+        "hit": 969,
+        "missed": 1,
+        "zero_score": 28
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 287,
+        "hit": 287,
+        "missed": 0,
+        "zero_score": 3
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 11,
+        "hit": 11,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 2,
+        "hit": 2,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 2,
+        "hit": 2,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 68,
+        "hit": 68,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 118,
+        "hit": 118,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 70,
+        "hit": 70,
+        "missed": 0,
+        "zero_score": 5
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 413,
+        "hit": 413,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 557,
+        "hit": 557,
+        "missed": 0,
+        "zero_score": 13
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 204,
+        "hit": 204,
+        "missed": 0,
+        "zero_score": 7
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 5,
+        "hit": 5,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 56,
+        "hit": 56,
+        "missed": 0,
+        "zero_score": 26
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 9,
+        "hit": 9,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 14,
+        "hit": 14,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 198,
+        "hit": 198,
+        "missed": 0,
+        "zero_score": 43
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 16,
+        "hit": 16,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 70,
+        "hit": 70,
+        "missed": 0,
+        "zero_score": 8
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 350,
+        "hit": 350,
+        "missed": 0,
+        "zero_score": 26
+      }
+    ],
+    "recent_exposures": [
+      {
+        "id": 784,
+        "utc": "2026-12-14T03:52:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.736297103507497,
+          0.8835542396016764
+        ]
+      },
+      {
+        "id": 785,
+        "utc": "2026-12-14T04:17:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 13,
+        "hits": 13,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.7432286448746646,
+          0.8918743738495974
+        ]
+      },
+      {
+        "id": 786,
+        "utc": "2026-12-14T04:37:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 14,
+        "hits": 14,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 7,
+        "ratio_bounds": [
+          0.7468045512536964,
+          0.8961569581992985
+        ]
+      },
+      {
+        "id": 787,
+        "utc": "2026-12-14T04:57:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.730288908641667,
+          0.8763466903700003
+        ]
+      },
+      {
+        "id": 788,
+        "utc": "2026-12-14T05:22:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.7726556213516074,
+          0.9271867456219289
+        ]
+      },
+      {
+        "id": 789,
+        "utc": "2026-12-14T06:22:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 11,
+        "hits": 11,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 2,
+        "ratio_bounds": [
+          0.7142726306196756,
+          0.7856997690702447
+        ]
+      },
+      {
+        "id": 790,
+        "utc": "2026-12-14T06:37:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 900,
+        "program": "DARK",
+        "assigned": 10,
+        "hits": 10,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.7025168387276265,
+          0.8430202064731518
+        ]
+      },
+      {
+        "id": 791,
+        "utc": "2026-12-14T07:02:30+00:00",
+        "night": 35,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 11,
+        "hits": 11,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.6840494809062461,
+          0.8208593770874953
+        ]
+      }
+    ],
+    "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+    "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion",
+    "inspection": {
+      "recent_populations": [
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 2,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.32678699999999994,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.272516,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 7,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.167416,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 6,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.742909,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 10,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.950877,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 5,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.885275,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 9,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 2,
+          "hits": 2,
+          "original_measured_science_gain": 1.235532,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": true,
+          "fiber": 8,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.074438,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 11,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 2,
+          "hits": 2,
+          "original_measured_science_gain": 2.168307,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 15,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.7829759999999999,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 14,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.575417,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 13,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.8384959999999999,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 14,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.810041,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 13,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.811299,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 15,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.945255,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": true,
+          "fiber": 6,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.391428,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 12,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.375251,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 8,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.421952,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 4,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.939545,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 5,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.140324,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 1,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.16179299999999985,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.2,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 15,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.115761,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 11,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.740089,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 7,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.2,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 6,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.19641599999999992,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "Star",
+          "required": false,
+          "fiber": 10,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.11605499999999999,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 2,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 2.04,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": true,
+          "fiber": 3,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.8733989999999999,
+          "reasons": {
+            "BELOW_COMPLETION_THRESHOLD": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "BGS",
+          "required": true,
+          "fiber": 13,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.13315600000000005,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 8,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 1.373639,
+          "reasons": {}
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 5,
+          "duration_group": "long",
+          "weather_notices": [],
+          "night_phase": "middle",
+          "assigned": 1,
+          "hits": 1,
+          "original_measured_science_gain": 0.532395,
+          "reasons": {}
+        }
+      ],
+      "population_count": 74,
+      "population_scope": "last 8 valid exposures",
+      "schema": "realized-inspection-v1",
+      "valid_exposures": 795,
+      "invalidated_exposures": 0,
+      "gate": "PASS",
+      "rejected_results": 0,
+      "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+      "recent_visits": [
+        {
+          "night_phase": "middle",
+          "id": 787,
+          "utc": "2026-12-14T04:57:30+00:00",
+          "predicted_science_gain": 7.284260504984867,
+          "realized_science_gain": 7.235416,
+          "science_gain_efficiency": 0.9932945142542003,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.006029513333333333,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 7.235416,
+          "measurements": [
+            {
+              "target_id": "V4T005276",
+              "fiber": 2,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.873213,
+              "science_gain": 0.32678699999999994,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005488",
+              "fiber": 0,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.927484,
+              "science_gain": 0.272516,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001357",
+              "fiber": 7,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.032584,
+              "science_gain": 0.167416,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001759",
+              "fiber": 6,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.850889,
+              "score_before": 1.10798,
+              "science_gain": 0.742909,
+              "raw_factor_bounds": [
+                0.9072982843137254,
+                0.9072987745098039
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003825",
+              "fiber": 10,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.950877,
+              "score_before": 0.0,
+              "science_gain": 0.950877,
+              "raw_factor_bounds": [
+                0.7923970833333334,
+                0.9508774999999999
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000170",
+              "fiber": 5,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.143439,
+              "score_before": 0.258164,
+              "science_gain": 0.885275,
+              "raw_factor_bounds": [
+                0.9528654166666667,
+                0.9528662500000001
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001441",
+              "fiber": 9,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.781691,
+              "science_gain": 0.41830899999999993,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T008191",
+              "fiber": 8,
+              "target_class": "ELG",
+              "required": true,
+              "score": 1.2,
+              "score_before": 1.125562,
+              "science_gain": 0.074438,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006720",
+              "fiber": 11,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000569",
+              "fiber": 15,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.410926,
+              "score_before": 0.62795,
+              "science_gain": 0.7829759999999999,
+              "raw_factor_bounds": [
+                0.6916301470588234,
+                0.8299567647058823
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002745",
+              "fiber": 14,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.575417,
+              "score_before": 0.0,
+              "science_gain": 0.575417,
+              "raw_factor_bounds": [
+                0.2820669117647059,
+                0.33848088235294116
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007034",
+              "fiber": 13,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.361504,
+              "science_gain": 0.8384959999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 12,
+          "requested": {
+            "pointing": [
+              73.7993,
+              191.4801
+            ],
+            "program": "DARK",
+            "duration_seconds": 1200,
+            "assignments": [
+              {
+                "target_id": "V4T005276",
+                "fiber": 2,
+                "predicted_factor": 1.647115495400416,
+                "model": 1.4275719073621986
+              },
+              {
+                "target_id": "V4T005488",
+                "fiber": 0,
+                "predicted_factor": 1.7226303712214432,
+                "model": 1.427184198627419
+              },
+              {
+                "target_id": "V4T001357",
+                "fiber": 7,
+                "predicted_factor": 1.0132141274967308,
+                "model": 1.4290758775159589
+              },
+              {
+                "target_id": "V4T001759",
+                "fiber": 6,
+                "predicted_factor": 0.9147724562606522,
+                "model": 1.430153618565189
+              },
+              {
+                "target_id": "V4T003825",
+                "fiber": 10,
+                "predicted_factor": 0.7989208364003749,
+                "model": 1.4331154564244748
+              },
+              {
+                "target_id": "V4T000170",
+                "fiber": 5,
+                "predicted_factor": 0.9607176949687336,
+                "model": 1.4302066669417544
+              },
+              {
+                "target_id": "V4T001441",
+                "fiber": 9,
+                "predicted_factor": 1.4728880062605343,
+                "model": 1.434367156517979
+              },
+              {
+                "target_id": "V4T008191",
+                "fiber": 8,
+                "predicted_factor": 1.5969135028631463,
+                "model": 1.4340145702540437
+              },
+              {
+                "target_id": "V4T006720",
+                "fiber": 11,
+                "predicted_factor": 1.0455090520288486,
+                "model": 1.4324634935669733
+              },
+              {
+                "target_id": "V4T000569",
+                "fiber": 15,
+                "predicted_factor": 0.6973224385508038,
+                "model": 1.434598511884144
+              },
+              {
+                "target_id": "V4T002745",
+                "fiber": 14,
+                "predicted_factor": 0.28438856957184633,
+                "model": 1.4357585957610255
+              },
+              {
+                "target_id": "V4T007034",
+                "fiber": 13,
+                "predicted_factor": 1.3460869682518342,
+                "model": 1.4367246787850352
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T005488",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005276",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000170",
+                "score": 1.143439
+              },
+              {
+                "target_id": "V4T001759",
+                "score": 1.850889
+              },
+              {
+                "target_id": "V4T001357",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T008191",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T001441",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T003825",
+                "score": 0.950877
+              },
+              {
+                "target_id": "V4T006720",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007034",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002745",
+                "score": 0.575417
+              },
+              {
+                "target_id": "V4T000569",
+                "score": 1.410926
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "middle",
+          "id": 788,
+          "utc": "2026-12-14T05:22:30+00:00",
+          "predicted_science_gain": 8.790497305229765,
+          "realized_science_gain": 8.982418,
+          "science_gain_efficiency": 1.0218327459876535,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.005988278666666666,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 8.982418,
+          "measurements": [
+            {
+              "target_id": "V4T007131",
+              "fiber": 11,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.231693,
+              "science_gain": 0.9683069999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002519",
+              "fiber": 14,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.389959,
+              "science_gain": 0.810041,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005542",
+              "fiber": 13,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.991869,
+              "score_before": 0.18057,
+              "science_gain": 0.811299,
+              "raw_factor_bounds": [
+                0.8265570833333334,
+                0.9918695
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T008435",
+              "fiber": 15,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.254745,
+              "science_gain": 0.945255,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003425",
+              "fiber": 6,
+              "target_class": "ELG",
+              "required": true,
+              "score": 1.2,
+              "score_before": 0.808572,
+              "science_gain": 0.391428,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001027",
+              "fiber": 12,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.824749,
+              "science_gain": 0.375251,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003184",
+              "fiber": 8,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.421952,
+              "score_before": 0.0,
+              "science_gain": 0.421952,
+              "raw_factor_bounds": [
+                0.20683897058823528,
+                0.2482073529411765
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006053",
+              "fiber": 9,
+              "target_class": "ELG",
+              "required": false,
+              "score": 0.817223,
+              "score_before": 0.0,
+              "science_gain": 0.817223,
+              "raw_factor_bounds": [
+                0.6810187500000001,
+                0.8172235
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000587",
+              "fiber": 4,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.260455,
+              "science_gain": 0.939545,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002935",
+              "fiber": 5,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.140324,
+              "score_before": 0.0,
+              "science_gain": 1.140324,
+              "raw_factor_bounds": [
+                0.5589821078431372,
+                0.6707791176470588
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000559",
+              "fiber": 1,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.038207,
+              "science_gain": 0.16179299999999985,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006888",
+              "fiber": 0,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 12,
+          "requested": {
+            "pointing": [
+              68.6459,
+              63.1851
+            ],
+            "program": "DARK",
+            "duration_seconds": 1500,
+            "assignments": [
+              {
+                "target_id": "V4T007131",
+                "fiber": 11,
+                "predicted_factor": 0.980289476069443,
+                "model": 1.4236257433827446
+              },
+              {
+                "target_id": "V4T002519",
+                "fiber": 14,
+                "predicted_factor": 0.9919665394260309,
+                "model": 1.4265849226632519
+              },
+              {
+                "target_id": "V4T005542",
+                "fiber": 13,
+                "predicted_factor": 0.7876700369680583,
+                "model": 1.4255310419718596
+              },
+              {
+                "target_id": "V4T008435",
+                "fiber": 15,
+                "predicted_factor": 1.0801844649397148,
+                "model": 1.425060416897045
+              },
+              {
+                "target_id": "V4T003425",
+                "fiber": 6,
+                "predicted_factor": 1.7263731955297488,
+                "model": 1.419819054411391
+              },
+              {
+                "target_id": "V4T001027",
+                "fiber": 12,
+                "predicted_factor": 1.7590368440725257,
+                "model": 1.4246076169852628
+              },
+              {
+                "target_id": "V4T003184",
+                "fiber": 8,
+                "predicted_factor": 0.19710676527477697,
+                "model": 1.4224744630646156
+              },
+              {
+                "target_id": "V4T006053",
+                "fiber": 9,
+                "predicted_factor": 0.6489772330473905,
+                "model": 1.423947126781634
+              },
+              {
+                "target_id": "V4T000587",
+                "fiber": 4,
+                "predicted_factor": 1.141016275695047,
+                "model": 1.4177962326701732
+              },
+              {
+                "target_id": "V4T002935",
+                "fiber": 5,
+                "predicted_factor": 0.5326791967922132,
+                "model": 1.4193950067453078
+              },
+              {
+                "target_id": "V4T000559",
+                "fiber": 1,
+                "predicted_factor": 1.3072583226477106,
+                "model": 1.4175093124791174
+              },
+              {
+                "target_id": "V4T006888",
+                "fiber": 0,
+                "predicted_factor": 1.0076052405265483,
+                "model": 1.4171118125659852
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T006888",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000559",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000587",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002935",
+                "score": 1.140324
+              },
+              {
+                "target_id": "V4T003425",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T003184",
+                "score": 0.421952
+              },
+              {
+                "target_id": "V4T006053",
+                "score": 0.817223
+              },
+              {
+                "target_id": "V4T007131",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T001027",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005542",
+                "score": 0.991869
+              },
+              {
+                "target_id": "V4T002519",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T008435",
+                "score": 1.2
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "middle",
+          "id": 789,
+          "utc": "2026-12-14T06:22:30+00:00",
+          "predicted_science_gain": 10.00950673549685,
+          "realized_science_gain": 9.898154000000002,
+          "science_gain_efficiency": 0.988875302406066,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0027494872222222225,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 9.898154000000002,
+          "measurements": [
+            {
+              "target_id": "V4T000444",
+              "fiber": 15,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.084239,
+              "science_gain": 1.115761,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000287",
+              "fiber": 11,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.740089,
+              "score_before": 0.0,
+              "science_gain": 1.740089,
+              "raw_factor_bounds": [
+                0.8529845588235294,
+                0.8529850490196078
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007027",
+              "fiber": 7,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004418",
+              "fiber": 6,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.003584,
+              "science_gain": 0.19641599999999992,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002494",
+              "fiber": 10,
+              "target_class": "Star",
+              "required": false,
+              "score": 0.36,
+              "score_before": 0.243945,
+              "science_gain": 0.11605499999999999,
+              "raw_factor_bounds": [
+                0.9999986111111111,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T008353",
+              "fiber": 2,
+              "target_class": "QSO",
+              "required": false,
+              "score": 2.04,
+              "score_before": 0.0,
+              "science_gain": 2.04,
+              "raw_factor_bounds": [
+                0.9999997549019608,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005505",
+              "fiber": 3,
+              "target_class": "QSO",
+              "required": true,
+              "score": 1.006711,
+              "score_before": 0.133312,
+              "science_gain": 0.8733989999999999,
+              "raw_factor_bounds": [
+                0.49348553921568616,
+                0.5921832352941176
+              ],
+              "required_certified": false,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "BELOW_COMPLETION_THRESHOLD"
+              ]
+            },
+            {
+              "target_id": "V4T001560",
+              "fiber": 13,
+              "target_class": "BGS",
+              "required": true,
+              "score": 0.54,
+              "score_before": 0.406844,
+              "science_gain": 0.13315600000000005,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007172",
+              "fiber": 8,
+              "target_class": "QSO",
+              "required": false,
+              "score": 2.04,
+              "score_before": 0.666361,
+              "science_gain": 1.373639,
+              "raw_factor_bounds": [
+                0.9999997549019608,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003204",
+              "fiber": 5,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.667605,
+              "science_gain": 0.532395,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000302",
+              "fiber": 0,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.622756,
+              "science_gain": 0.577244,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 11,
+          "requested": {
+            "pointing": [
+              66.8493,
+              81.0721
+            ],
+            "program": "DARK",
+            "duration_seconds": 3600,
+            "assignments": [
+              {
+                "target_id": "V4T000444",
+                "fiber": 15,
+                "predicted_factor": 3.9430150611427854,
+                "model": 1.4383168337966505
+              },
+              {
+                "target_id": "V4T000287",
+                "fiber": 11,
+                "predicted_factor": 0.8875628851783,
+                "model": 1.434458218598321
+              },
+              {
+                "target_id": "V4T007027",
+                "fiber": 7,
+                "predicted_factor": 2.5169214742538224,
+                "model": 1.4338268355388393
+              },
+              {
+                "target_id": "V4T004418",
+                "fiber": 6,
+                "predicted_factor": 6.574899667783217,
+                "model": 1.434204011144776
+              },
+              {
+                "target_id": "V4T002494",
+                "fiber": 10,
+                "predicted_factor": 38.0076554250091,
+                "model": 1.4344836714534577
+              },
+              {
+                "target_id": "V4T008353",
+                "fiber": 2,
+                "predicted_factor": 1.7448275885842566,
+                "model": 1.4302658015599752
+              },
+              {
+                "target_id": "V4T005505",
+                "fiber": 3,
+                "predicted_factor": 0.513492377320155,
+                "model": 1.4302382089730203
+              },
+              {
+                "target_id": "V4T001560",
+                "fiber": 13,
+                "predicted_factor": 7.732705787290196,
+                "model": 1.4377753079833435
+              },
+              {
+                "target_id": "V4T007172",
+                "fiber": 8,
+                "predicted_factor": 1.3808421105544963,
+                "model": 1.4339636494245158
+              },
+              {
+                "target_id": "V4T003204",
+                "fiber": 5,
+                "predicted_factor": 2.3468832975359732,
+                "model": 1.432630694820032
+              },
+              {
+                "target_id": "V4T000302",
+                "fiber": 0,
+                "predicted_factor": 2.182417740320111,
+                "model": 1.42832964429635
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T000302",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T008353",
+                "score": 2.04
+              },
+              {
+                "target_id": "V4T005505",
+                "score": 1.006711
+              },
+              {
+                "target_id": "V4T003204",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T004418",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007027",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007172",
+                "score": 2.04
+              },
+              {
+                "target_id": "V4T002494",
+                "score": 0.36
+              },
+              {
+                "target_id": "V4T000287",
+                "score": 1.740089
+              },
+              {
+                "target_id": "V4T001560",
+                "score": 0.54
+              },
+              {
+                "target_id": "V4T000444",
+                "score": 1.2
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "late",
+          "id": 790,
+          "utc": "2026-12-14T06:37:30+00:00",
+          "predicted_science_gain": 5.545602996223959,
+          "realized_science_gain": 5.3090329999999994,
+          "science_gain_efficiency": 0.957340978720431,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.005898925555555555,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 5.3090329999999994,
+          "measurements": [
+            {
+              "target_id": "V4T004897",
+              "fiber": 0,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.299418,
+              "science_gain": 0.900582,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000639",
+              "fiber": 4,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.512886,
+              "science_gain": 0.687114,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003168",
+              "fiber": 9,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.39252,
+              "science_gain": 0.14748000000000006,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001789",
+              "fiber": 12,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.006115,
+              "score_before": 0.94855,
+              "science_gain": 0.05756500000000009,
+              "raw_factor_bounds": [
+                0.8384287500000001,
+                0.8384295833333335
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004920",
+              "fiber": 13,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.110861,
+              "score_before": 0.256793,
+              "science_gain": 0.854068,
+              "raw_factor_bounds": [
+                0.9257170833333334,
+                0.9257179166666668
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001391",
+              "fiber": 1,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.534788,
+              "science_gain": 0.6652119999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005924",
+              "fiber": 6,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.215314,
+              "score_before": 0.069298,
+              "science_gain": 0.146016,
+              "raw_factor_bounds": [
+                0.10554583333333334,
+                0.1266555882352941
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004696",
+              "fiber": 14,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.664863,
+              "score_before": 0.0,
+              "science_gain": 0.664863,
+              "raw_factor_bounds": [
+                0.32591299019607844,
+                0.3910961764705882
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002383",
+              "fiber": 3,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.755974,
+              "score_before": 0.0,
+              "science_gain": 0.755974,
+              "raw_factor_bounds": [
+                0.37057524509803924,
+                0.4446908823529412
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002784",
+              "fiber": 11,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.769841,
+              "science_gain": 0.43015899999999996,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 10,
+          "requested": {
+            "pointing": [
+              80.5618,
+              293.3567
+            ],
+            "program": "DARK",
+            "duration_seconds": 900,
+            "assignments": [
+              {
+                "target_id": "V4T004897",
+                "fiber": 0,
+                "predicted_factor": 1.259788812808267,
+                "model": 1.44971302629705
+              },
+              {
+                "target_id": "V4T000639",
+                "fiber": 4,
+                "predicted_factor": 2.039858240720838,
+                "model": 1.451196197245375
+              },
+              {
+                "target_id": "V4T003168",
+                "fiber": 9,
+                "predicted_factor": 2.4013259801273676,
+                "model": 1.453617643889698
+              },
+              {
+                "target_id": "V4T001789",
+                "fiber": 12,
+                "predicted_factor": 0.89128177671999,
+                "model": 1.4550873483908664
+              },
+              {
+                "target_id": "V4T004920",
+                "fiber": 13,
+                "predicted_factor": 0.9840758290514274,
+                "model": 1.4563662514282796
+              },
+              {
+                "target_id": "V4T001391",
+                "fiber": 1,
+                "predicted_factor": 1.470735808252197,
+                "model": 1.450575520214313
+              },
+              {
+                "target_id": "V4T005924",
+                "fiber": 6,
+                "predicted_factor": 0.1121978776774341,
+                "model": 1.4524481143397217
+              },
+              {
+                "target_id": "V4T004696",
+                "fiber": 14,
+                "predicted_factor": 0.34645692236918824,
+                "model": 1.4551105734754566
+              },
+              {
+                "target_id": "V4T002383",
+                "fiber": 3,
+                "predicted_factor": 0.39392748882507334,
+                "model": 1.4504943870543427
+              },
+              {
+                "target_id": "V4T002784",
+                "fiber": 11,
+                "predicted_factor": 1.499165140611832,
+                "model": 1.4548448425850182
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T004897",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T001391",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002383",
+                "score": 0.755974
+              },
+              {
+                "target_id": "V4T000639",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005924",
+                "score": 0.215314
+              },
+              {
+                "target_id": "V4T003168",
+                "score": 0.54
+              },
+              {
+                "target_id": "V4T002784",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T001789",
+                "score": 1.006115
+              },
+              {
+                "target_id": "V4T004920",
+                "score": 1.110861
+              },
+              {
+                "target_id": "V4T004696",
+                "score": 0.664863
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "late",
+          "id": 791,
+          "utc": "2026-12-14T07:02:30+00:00",
+          "predicted_science_gain": 7.789576720942566,
+          "realized_science_gain": 7.428488,
+          "science_gain_efficiency": 0.9536446287290854,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.004952325333333333,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 7.428488,
+          "measurements": [
+            {
+              "target_id": "V4T007466",
+              "fiber": 12,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.184206,
+              "science_gain": 1.0157939999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006629",
+              "fiber": 9,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.423008,
+              "science_gain": 0.11699200000000004,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002848",
+              "fiber": 13,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.89024,
+              "score_before": 0.0,
+              "science_gain": 1.89024,
+              "raw_factor_bounds": [
+                0.9265879901960783,
+                0.9265884803921568
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006535",
+              "fiber": 14,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.042921,
+              "score_before": 0.642179,
+              "science_gain": 0.40074199999999993,
+              "raw_factor_bounds": [
+                0.8691004166666666,
+                0.86910125
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002065",
+              "fiber": 10,
+              "target_class": "LRG",
+              "required": true,
+              "score": 1.2,
+              "score_before": 1.001002,
+              "science_gain": 0.198998,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000746",
+              "fiber": 11,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.324513,
+              "science_gain": 0.21548700000000004,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000364",
+              "fiber": 0,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.909717,
+              "score_before": 0.71632,
+              "science_gain": 0.19339700000000004,
+              "raw_factor_bounds": [
+                0.7580970833333334,
+                0.9097175
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003840",
+              "fiber": 4,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004692",
+              "fiber": 5,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.50146,
+              "science_gain": 0.6985399999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004271",
+              "fiber": 7,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.831251,
+              "score_before": 0.0,
+              "science_gain": 0.831251,
+              "raw_factor_bounds": [
+                0.4074757352941176,
+                0.48897147058823526
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002690",
+              "fiber": 3,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.667047,
+              "score_before": 0.0,
+              "science_gain": 0.667047,
+              "raw_factor_bounds": [
+                0.5558720833333334,
+                0.6670474999999999
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 11,
+          "requested": {
+            "pointing": [
+              82.261,
+              2.4346
+            ],
+            "program": "DARK",
+            "duration_seconds": 1500,
+            "assignments": [
+              {
+                "target_id": "V4T007466",
+                "fiber": 12,
+                "predicted_factor": 1.2038439141715431,
+                "model": 1.461827771290249
+              },
+              {
+                "target_id": "V4T006629",
+                "fiber": 9,
+                "predicted_factor": 6.156010437300805,
+                "model": 1.4601987181289637
+              },
+              {
+                "target_id": "V4T002848",
+                "fiber": 13,
+                "predicted_factor": 0.9892347779661907,
+                "model": 1.461771175620653
+              },
+              {
+                "target_id": "V4T006535",
+                "fiber": 14,
+                "predicted_factor": 0.9278612225600698,
+                "model": 1.4623891138152598
+              },
+              {
+                "target_id": "V4T002065",
+                "fiber": 10,
+                "predicted_factor": 1.4450762457010884,
+                "model": 1.461336192282603
+              },
+              {
+                "target_id": "V4T000746",
+                "fiber": 11,
+                "predicted_factor": 4.767032371327026,
+                "model": 1.4620290111928336
+              },
+              {
+                "target_id": "V4T000364",
+                "fiber": 0,
+                "predicted_factor": 0.8093435573770291,
+                "model": 1.4574129601256964
+              },
+              {
+                "target_id": "V4T003840",
+                "fiber": 4,
+                "predicted_factor": 1.180877925805789,
+                "model": 1.4584497274104569
+              },
+              {
+                "target_id": "V4T004692",
+                "fiber": 5,
+                "predicted_factor": 1.106316450551938,
+                "model": 1.4589218362721001
+              },
+              {
+                "target_id": "V4T004271",
+                "fiber": 7,
+                "predicted_factor": 0.4350210583980814,
+                "model": 1.4597194607356767
+              },
+              {
+                "target_id": "V4T002690",
+                "fiber": 3,
+                "predicted_factor": 0.5934475656957783,
+                "model": 1.4589731676738136
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T000364",
+                "score": 0.909717
+              },
+              {
+                "target_id": "V4T002690",
+                "score": 0.667047
+              },
+              {
+                "target_id": "V4T003840",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T004692",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T004271",
+                "score": 0.831251
+              },
+              {
+                "target_id": "V4T006629",
+                "score": 0.54
+              },
+              {
+                "target_id": "V4T002065",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000746",
+                "score": 0.54
+              },
+              {
+                "target_id": "V4T007466",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002848",
+                "score": 1.89024
+              },
+              {
+                "target_id": "V4T006535",
+                "score": 1.042921
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "late",
+          "id": 792,
+          "utc": "2026-12-14T07:32:30+00:00",
+          "predicted_science_gain": 9.256221408129374,
+          "realized_science_gain": 9.022355,
+          "science_gain_efficiency": 0.9747341384980291,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.005012419444444444,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 9.022355,
+          "measurements": [
+            {
+              "target_id": "V4T006622",
+              "fiber": 0,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.224892,
+              "score_before": 0.115471,
+              "science_gain": 1.109421,
+              "raw_factor_bounds": [
+                0.6004370098039216,
+                0.7205250000000001
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002940",
+              "fiber": 1,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.506593,
+              "science_gain": 0.693407,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007600",
+              "fiber": 5,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002004",
+              "fiber": 4,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.161656,
+              "score_before": 0.0,
+              "science_gain": 1.161656,
+              "raw_factor_bounds": [
+                0.5694389705882352,
+                0.6833273529411765
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005196",
+              "fiber": 6,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.352597,
+              "score_before": 0.45188,
+              "science_gain": 0.900717,
+              "raw_factor_bounds": [
+                0.6630375,
+                0.7956455882352942
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007633",
+              "fiber": 2,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.702231,
+              "science_gain": 0.4977689999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005668",
+              "fiber": 10,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.899353,
+              "score_before": 0.0,
+              "science_gain": 0.899353,
+              "raw_factor_bounds": [
+                0.7494604166666667,
+                0.8993534999999999
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T008467",
+              "fiber": 7,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.259162,
+              "score_before": 0.953755,
+              "science_gain": 0.3054069999999999,
+              "raw_factor_bounds": [
+                0.6172360294117646,
+                0.7406838235294118
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007628",
+              "fiber": 15,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.054625,
+              "score_before": 0.0,
+              "science_gain": 1.054625,
+              "raw_factor_bounds": [
+                0.8788537499999999,
+                0.8788545833333333
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003200",
+              "fiber": 11,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.0,
+              "science_gain": 1.2,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 10,
+          "requested": {
+            "pointing": [
+              51.7834,
+              219.3534
+            ],
+            "program": "DARK",
+            "duration_seconds": 1800,
+            "assignments": [
+              {
+                "target_id": "V4T006622",
+                "fiber": 0,
+                "predicted_factor": 0.621294467512641,
+                "model": 1.2408636645176307
+              },
+              {
+                "target_id": "V4T002940",
+                "fiber": 1,
+                "predicted_factor": 1.3074314033898957,
+                "model": 1.2371862716726407
+              },
+              {
+                "target_id": "V4T007600",
+                "fiber": 5,
+                "predicted_factor": 1.056423639215365,
+                "model": 1.2423551689342194
+              },
+              {
+                "target_id": "V4T002004",
+                "fiber": 4,
+                "predicted_factor": 0.589216651495724,
+                "model": 1.2464610450720237
+              },
+              {
+                "target_id": "V4T005196",
+                "fiber": 6,
+                "predicted_factor": 0.6860626594277549,
+                "model": 1.241359782673733
+              },
+              {
+                "target_id": "V4T007633",
+                "fiber": 2,
+                "predicted_factor": 1.812314002177713,
+                "model": 1.2405615940371633
+              },
+              {
+                "target_id": "V4T005668",
+                "fiber": 10,
+                "predicted_factor": 0.7754802102449146,
+                "model": 1.2543027725994529
+              },
+              {
+                "target_id": "V4T008467",
+                "fiber": 7,
+                "predicted_factor": 0.6386668846024278,
+                "model": 1.2471503490707518
+              },
+              {
+                "target_id": "V4T007628",
+                "fiber": 15,
+                "predicted_factor": 0.9093601078141473,
+                "model": 1.258607188762154
+              },
+              {
+                "target_id": "V4T003200",
+                "fiber": 11,
+                "predicted_factor": 1.046759627261123,
+                "model": 1.253946979471309
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T006622",
+                "score": 1.224892
+              },
+              {
+                "target_id": "V4T002940",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007633",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002004",
+                "score": 1.161656
+              },
+              {
+                "target_id": "V4T007600",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005196",
+                "score": 1.352597
+              },
+              {
+                "target_id": "V4T008467",
+                "score": 1.259162
+              },
+              {
+                "target_id": "V4T005668",
+                "score": 0.899353
+              },
+              {
+                "target_id": "V4T003200",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007628",
+                "score": 1.054625
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "late",
+          "id": 793,
+          "utc": "2026-12-14T07:57:30+00:00",
+          "predicted_science_gain": 7.732537467763239,
+          "realized_science_gain": 7.909198,
+          "science_gain_efficiency": 1.0228463855459162,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.005272798666666667,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 7.909198,
+          "measurements": [
+            {
+              "target_id": "V4T008063",
+              "fiber": 4,
+              "target_class": "QSO",
+              "required": false,
+              "score": 0.977298,
+              "score_before": 0.403292,
+              "science_gain": 0.574006,
+              "raw_factor_bounds": [
+                0.47906740196078434,
+                0.5748814705882352
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007726",
+              "fiber": 8,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.78374,
+              "science_gain": 0.41625999999999996,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000719",
+              "fiber": 5,
+              "target_class": "Star",
+              "required": false,
+              "score": 0.36,
+              "score_before": 0.265299,
+              "science_gain": 0.09470099999999998,
+              "raw_factor_bounds": [
+                0.9999986111111111,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007754",
+              "fiber": 9,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.790895,
+              "science_gain": 0.40910499999999994,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007574",
+              "fiber": 6,
+              "target_class": "ELG",
+              "required": false,
+              "score": 0.975078,
+              "score_before": 0.0,
+              "science_gain": 0.975078,
+              "raw_factor_bounds": [
+                0.8125645833333334,
+                0.9750785
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T002845",
+              "fiber": 10,
+              "target_class": "QSO",
+              "required": false,
+              "score": 2.04,
+              "score_before": 0.9610959999999998,
+              "science_gain": 1.078904,
+              "raw_factor_bounds": [
+                0.9999997549019608,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000712",
+              "fiber": 14,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.848874,
+              "science_gain": 0.35112599999999994,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005086",
+              "fiber": 11,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.41824,
+              "science_gain": 0.78176,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003604",
+              "fiber": 15,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.074286,
+              "score_before": 0.206362,
+              "science_gain": 0.8679240000000001,
+              "raw_factor_bounds": [
+                0.8952379166666667,
+                0.8952387500000002
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000850",
+              "fiber": 1,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.976708,
+              "science_gain": 0.22329199999999993,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004843",
+              "fiber": 2,
+              "target_class": "LRG",
+              "required": true,
+              "score": 1.2,
+              "score_before": 0.754305,
+              "science_gain": 0.44569499999999995,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005758",
+              "fiber": 3,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.62994,
+              "science_gain": 0.5700599999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T000201",
+              "fiber": 7,
+              "target_class": "QSO",
+              "required": false,
+              "score": 2.04,
+              "score_before": 0.918713,
+              "science_gain": 1.1212870000000001,
+              "raw_factor_bounds": [
+                0.9999997549019608,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 13,
+          "requested": {
+            "pointing": [
+              77.3276,
+              314.3181
+            ],
+            "program": "DARK",
+            "duration_seconds": 1500,
+            "assignments": [
+              {
+                "target_id": "V4T008063",
+                "fiber": 4,
+                "predicted_factor": 0.45110857470699334,
+                "model": 1.4380115666662039
+              },
+              {
+                "target_id": "V4T007726",
+                "fiber": 8,
+                "predicted_factor": 1.3009938274594268,
+                "model": 1.4407112199786303
+              },
+              {
+                "target_id": "V4T000719",
+                "fiber": 5,
+                "predicted_factor": 9.903046519799542,
+                "model": 1.4385861266525917
+              },
+              {
+                "target_id": "V4T007754",
+                "fiber": 9,
+                "predicted_factor": 1.316378058920994,
+                "model": 1.4395099644656488
+              },
+              {
+                "target_id": "V4T007574",
+                "fiber": 6,
+                "predicted_factor": 0.7651349610517761,
+                "model": 1.4387736160725866
+              },
+              {
+                "target_id": "V4T002845",
+                "fiber": 10,
+                "predicted_factor": 1.085536907834736,
+                "model": 1.4406385521552982
+              },
+              {
+                "target_id": "V4T000712",
+                "fiber": 14,
+                "predicted_factor": 2.231427869177828,
+                "model": 1.4421264234920468
+              },
+              {
+                "target_id": "V4T005086",
+                "fiber": 11,
+                "predicted_factor": 1.7082923315853977,
+                "model": 1.4417671224835982
+              },
+              {
+                "target_id": "V4T003604",
+                "fiber": 15,
+                "predicted_factor": 0.8429816850823677,
+                "model": 1.4422810683711604
+              },
+              {
+                "target_id": "V4T000850",
+                "fiber": 1,
+                "predicted_factor": 2.539350617949642,
+                "model": 1.4351228141788617
+              },
+              {
+                "target_id": "V4T004843",
+                "fiber": 2,
+                "predicted_factor": 1.2526558449385645,
+                "model": 1.4362443564847345
+              },
+              {
+                "target_id": "V4T005758",
+                "fiber": 3,
+                "predicted_factor": 1.2040752134485762,
+                "model": 1.4350753335740505
+              },
+              {
+                "target_id": "V4T000201",
+                "fiber": 7,
+                "predicted_factor": 1.036748457382427,
+                "model": 1.4387356439535324
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T000850",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T004843",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005758",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T008063",
+                "score": 0.977298
+              },
+              {
+                "target_id": "V4T000719",
+                "score": 0.36
+              },
+              {
+                "target_id": "V4T007574",
+                "score": 0.975078
+              },
+              {
+                "target_id": "V4T000201",
+                "score": 2.04
+              },
+              {
+                "target_id": "V4T007726",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T007754",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T002845",
+                "score": 2.04
+              },
+              {
+                "target_id": "V4T005086",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000712",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T003604",
+                "score": 1.074286
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        },
+        {
+          "night_phase": "late",
+          "id": 794,
+          "utc": "2026-12-14T08:12:30+00:00",
+          "predicted_science_gain": 4.785806981634249,
+          "realized_science_gain": 5.034896,
+          "science_gain_efficiency": 1.052047443476438,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.005594328888888889,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "credited_science_gain": 5.034896,
+          "measurements": [
+            {
+              "target_id": "V4T000112",
+              "fiber": 8,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.135496,
+              "score_before": 0.353053,
+              "science_gain": 0.782443,
+              "raw_factor_bounds": [
+                0.9462462500000001,
+                0.9462470833333335
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001090",
+              "fiber": 12,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.0,
+              "science_gain": 0.54,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T007301",
+              "fiber": 0,
+              "target_class": "ELG",
+              "required": true,
+              "score": 0.94516,
+              "score_before": 0.716673,
+              "science_gain": 0.228487,
+              "raw_factor_bounds": [
+                0.7876329166666667,
+                0.9451605
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003482",
+              "fiber": 5,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.922432,
+              "science_gain": 0.2775679999999999,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006744",
+              "fiber": 4,
+              "target_class": "LRG",
+              "required": false,
+              "score": 0.854336,
+              "score_before": 0.0,
+              "science_gain": 0.854336,
+              "raw_factor_bounds": [
+                0.71194625,
+                0.8543364999999999
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T004205",
+              "fiber": 9,
+              "target_class": "ELG",
+              "required": false,
+              "score": 0.721735,
+              "score_before": 0.224111,
+              "science_gain": 0.497624,
+              "raw_factor_bounds": [
+                0.6014454166666667,
+                0.7217355
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005318",
+              "fiber": 13,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 0.556862,
+              "science_gain": 0.643138,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T006602",
+              "fiber": 14,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.0,
+              "science_gain": 0.54,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T005702",
+              "fiber": 6,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.135203,
+              "science_gain": 0.064797,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T001961",
+              "fiber": 2,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.021558,
+              "score_before": 0.940212,
+              "science_gain": 0.08134599999999992,
+              "raw_factor_bounds": [
+                0.8512979166666667,
+                0.8512987500000001
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            },
+            {
+              "target_id": "V4T003562",
+              "fiber": 3,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.089252,
+              "score_before": 0.564095,
+              "science_gain": 0.5251570000000001,
+              "raw_factor_bounds": [
+                0.9077095833333334,
+                0.9077104166666669
+              ],
+              "required_certified": null,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "PASS",
+              "reason_codes": []
+            }
+          ],
+          "measurement_count": 11,
+          "requested": {
+            "pointing": [
+              64.4019,
+              279.9988
+            ],
+            "program": "DARK",
+            "duration_seconds": 900,
+            "assignments": [
+              {
+                "target_id": "V4T000112",
+                "fiber": 8,
+                "predicted_factor": 0.9053891215843146,
+                "model": 1.3705358119159028
+              },
+              {
+                "target_id": "V4T001090",
+                "fiber": 12,
+                "predicted_factor": 1.5403827552936171,
+                "model": 1.3743646384798074
+              },
+              {
+                "target_id": "V4T007301",
+                "fiber": 0,
+                "predicted_factor": 0.7536178265694489,
+                "model": 1.3623648590056099
+              },
+              {
+                "target_id": "V4T003482",
+                "fiber": 5,
+                "predicted_factor": 1.0334109485938394,
+                "model": 1.368018916521631
+              },
+              {
+                "target_id": "V4T006744",
+                "fiber": 4,
+                "predicted_factor": 0.6812037937446372,
+                "model": 1.3688005798694818
+              },
+              {
+                "target_id": "V4T004205",
+                "fiber": 9,
+                "predicted_factor": 0.5754755094076625,
+                "model": 1.3713953685042537
+              },
+              {
+                "target_id": "V4T005318",
+                "fiber": 13,
+                "predicted_factor": 1.064757236992806,
+                "model": 1.3758267171632153
+              },
+              {
+                "target_id": "V4T006602",
+                "fiber": 14,
+                "predicted_factor": 1.9416496979830278,
+                "model": 1.3764325875652599
+              },
+              {
+                "target_id": "V4T005702",
+                "fiber": 6,
+                "predicted_factor": 1.1628207005877698,
+                "model": 1.3685586828634202
+              },
+              {
+                "target_id": "V4T001961",
+                "fiber": 2,
+                "predicted_factor": 0.8145227220726156,
+                "model": 1.3596597801850416
+              },
+              {
+                "target_id": "V4T003562",
+                "fiber": 3,
+                "predicted_factor": 0.8684976779831948,
+                "model": 1.3608038490243175
+              }
+            ]
+          },
+          "realized": {
+            "hits": [
+              {
+                "target_id": "V4T007301",
+                "score": 0.94516
+              },
+              {
+                "target_id": "V4T001961",
+                "score": 1.021558
+              },
+              {
+                "target_id": "V4T003562",
+                "score": 1.089252
+              },
+              {
+                "target_id": "V4T006744",
+                "score": 0.854336
+              },
+              {
+                "target_id": "V4T003482",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T005702",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T000112",
+                "score": 1.135496
+              },
+              {
+                "target_id": "V4T004205",
+                "score": 0.721735
+              },
+              {
+                "target_id": "V4T001090",
+                "score": 0.54
+              },
+              {
+                "target_id": "V4T005318",
+                "score": 1.2
+              },
+              {
+                "target_id": "V4T006602",
+                "score": 0.54
+              }
+            ],
+            "actual_fiber_positions": null,
+            "weather_notices": []
+          },
+          "predicted_measurement_is_not_realized": true
+        }
+      ],
+      "best_score_sum": 6608.57326,
+      "replayed_visit_credit_sum": 6608.57326,
+      "credit_scope": "current valid visit credit replay; immutable measured deltas describe original planning state; engine best-score snapshot remains authoritative",
+      "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+    }
+  },
+  "runtime_summary": {
+    "health": {
+      "state": "normal",
+      "epoch": 1,
+      "zero_run": 0,
+      "healthy_reference": 0.7083439279675203,
+      "recent": [
+        {
+          "id": 789,
+          "utc": 1797229350.0,
+          "epoch": 1,
+          "bounds": [
+            0.7142713845056915,
+            0.8571256614068299
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 1
+        },
+        {
+          "id": 790,
+          "utc": 1797230250.0,
+          "epoch": 1,
+          "bounds": [
+            0.7025244503726067,
+            0.843029340447128
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 3
+        },
+        {
+          "id": 791,
+          "utc": 1797231750.0,
+          "epoch": 1,
+          "bounds": [
+            0.6840501390583918,
+            0.8208601668700701
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 3
+        },
+        {
+          "id": 792,
+          "utc": 1797233550.0,
+          "epoch": 1,
+          "bounds": [
+            0.6789470627068038,
+            0.8147364752481645
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 5
+        },
+        {
+          "id": 793,
+          "utc": 1797235050.0,
+          "epoch": 1,
+          "bounds": [
+            0.7264502011238739,
+            0.8717402413486487
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 2
+        },
+        {
+          "id": 794,
+          "utc": 1797235950.0,
+          "epoch": 1,
+          "bounds": [
+            0.7149225974670564,
+            0.8579071169604676
+          ],
+          "zero": false,
+          "confounded": false,
+          "samples": 3
+        }
+      ],
+      "recovery_pending": false,
+      "scope": "own unsaturated score bounds; low throughput alone is not a fault certificate"
+    },
+    "events": {
+      "revision": 0,
+      "accepted": 0,
+      "rejected": 0,
+      "pending_hardware": 0,
+      "events": 0,
+      "cancelled": 0
+    },
+    "obligations": {
+      "groups": 0,
+      "selected": 0,
+      "last_window_required": 0,
+      "planning_cpu_seconds": 0.00030699999999228567,
+      "truncated": false,
+      "reservations": [],
+      "assumptions": "current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion"
+    },
+    "diagnostics": 22,
+    "joint_trials": 33,
+    "joint_accepted": 1,
+    "joint_errors": 0
+  },
+  "end": "2026-10-07T08:12:55.958842+00:00",
+  "elapsed_wall_seconds": 142.61718095792457
+}

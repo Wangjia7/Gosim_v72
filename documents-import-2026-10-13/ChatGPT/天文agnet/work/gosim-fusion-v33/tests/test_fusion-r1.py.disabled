@@ -1,0 +1,59 @@
+import copy
+import math
+import unittest
+from unittest.mock import patch
+from test_normal import fixture, Planner, ObserverAgent
+from official_pro.bandfit import BandFit
+from official_pro.season import OptionPrices
+from official_pro import planner as pm
+
+class FusionTests(unittest.TestCase):
+    def test_bandfit_config_is_instance_local(self):
+        a=BandFit({'DARK':.65,'BRIGHT':.4},{'DARK':1.2,'BRIGHT':1.12,'BACKUP':1.06},1.)
+        rows=[[1.,.6,False,.72,True],[1.2,.6,False,.72,True]]
+        before=a.exposure_bounds('DARK',rows)
+        b=BandFit({'DARK':.9,'BRIGHT':.6},{'DARK':1.5,'BRIGHT':1.3,'BACKUP':1.1},1.)
+        self.assertEqual(a.exposure_bounds('DARK',rows),before)
+        self.assertNotEqual(a.edges,b.edges)
+    def test_bounds_enclose_shared_weather_efficiency(self):
+        b=BandFit({'DARK':.65,'BRIGHT':.4},{'DARK':1.2,'BRIGHT':1.12,'BACKUP':1.06},1.)
+        eff,weather=.7,.8
+        models=[.6,.7,.9,1.]
+        rows=[[m,eff*weather*(1. if m*weather>=.65 else 1./1.2),False,0.,True] for m in models]
+        lo,hi,_=b.exposure_bounds('DARK',rows)
+        self.assertLessEqual(lo,eff);self.assertGreaterEqual(hi,eff)
+    def test_zero_hits_are_geometry_not_closure(self):
+        p=Planner(fixture());now=p.nights[0][0];p.plan(now,p.nights[0][1],0,0)
+        p.on_result({'action':'observe','observe_index':0,'hits':[]},now,0)
+        self.assertFalse(p.exposure_evidence[-1]['closed'])
+        self.assertIsNone(p.exposure_evidence[-1]['bounds'])
+    def test_resync_clears_derived_exposure_and_slot_evidence(self):
+        p=Planner(fixture());now=p.nights[0][0];p.plan(now,p.nights[0][1],0,0)
+        p.on_result({'action':'observe','observe_index':0,'hits':[]},now,0)
+        p._resync({'invalidated_window':{'action_index_start':0,'action_index_end_exclusive':1},'best_scores':[]})
+        self.assertFalse(p.exposure_evidence)
+        if p.season:self.assertIsNone(p.season.price)
+    def test_survey_slot_partial_hour_uses_real_midpoint(self):
+        d=fixture();p=Planner(d)
+        from datetime import timedelta
+        calls=[]
+        from official_pro import season
+        def lst(t,lon):calls.append(t);return 10.
+        a=p.nights[0][0];b=a+timedelta(seconds=300)
+        with patch.object(season,'local_sidereal_deg',lst):
+            prices=OptionPrices(p.ra,p.dec,p.flux,[(a,b)],p.lon,p.lat,p.min_alt,p.grid.n,p.grid.fov,[900]*len(p.ra),1.,p.weight)
+        self.assertEqual(sum(prices.slot_supply),210.)
+        self.assertTrue(all(math.isfinite(w) for row in prices.region_slots for _,w in row))
+    def test_measured_pacing_reserves_cpu_without_negative_budget(self):
+        a=ObserverAgent(fixture(),rules_only=True);a.observes=31;a.night_total=4*8*3600
+        a._pace({'wallclock':{'remaining_real_cpu_seconds':10.,'wall_remaining_seconds':20.}},a.planner.nights[0][0])
+        self.assertGreaterEqual(a.planner.cpu_turn_budget,.002)
+        self.assertEqual(a.planner.fast_level,4)
+    def test_llm_evidence_is_finite_and_raw_ledger_independent(self):
+        a=ObserverAgent(fixture(),rules_only=True)
+        a.planner.exposure_evidence.append({'index':0,'hours':0,'night':0,'bounds':(.2,math.inf,'lower'),'closed':False,'clean_hits':1})
+        import json
+        json.dumps(a._fault_table(0),allow_nan=False)
+        self.assertEqual(a.planner.factor_lower,[0.,0.])
+
+if __name__=='__main__':unittest.main()

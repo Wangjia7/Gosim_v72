@@ -1,0 +1,308 @@
+[
+  {
+    "label": "candidate-all-v1",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 28.14816699999227,
+      "exposure_search": 324.37468399999733,
+      "fiber_assignment": 27.436722000010477,
+      "lookahead": 0.0,
+      "visibility": 7.231760999999787,
+      "state_update": 0.005529999999900781
+    },
+    "decision_emit_process_seconds": 0.95549200000031,
+    "turns": 1169,
+    "median_turn_cpu": 0.3168969999999831,
+    "max_turn_cpu": 0.9916410000000013,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "events-all",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 42.72271899999108,
+      "exposure_search": 230.96373400001232,
+      "fiber_assignment": 30.114269999998047,
+      "lookahead": 0.0,
+      "state_update": 0.19276499999972807,
+      "visibility": 17.866613999999483
+    },
+    "decision_emit_process_seconds": 1.200517000000858,
+    "turns": 1243,
+    "median_turn_cpu": 0.2532939999999968,
+    "max_turn_cpu": 0.8524799999999999,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "finish-aware",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 15.07382399999865,
+      "exposure_search": 49.44970500000053,
+      "fiber_assignment": 12.374172000000868,
+      "lookahead": 0.0,
+      "state_update": 0.09199699999995892,
+      "visibility": 7.341876999999933
+    },
+    "decision_emit_process_seconds": 0.6548010000000004,
+    "turns": 573,
+    "median_turn_cpu": 0.14863600000000332,
+    "max_turn_cpu": 0.3914220000000004,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "finish-k2",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 21.035025999996755,
+      "exposure_search": 65.89988200000181,
+      "fiber_assignment": 17.00954200000121,
+      "lookahead": 0.0,
+      "state_update": 0.12152000000013696,
+      "visibility": 10.485489999999857
+    },
+    "decision_emit_process_seconds": 0.7610199999998056,
+    "turns": 796,
+    "median_turn_cpu": 0.14103649999999845,
+    "max_turn_cpu": 0.35830500000000143,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "geometry",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 19.80016100000133,
+      "exposure_search": 43.425102000001274,
+      "fiber_assignment": 20.78185699999748,
+      "lookahead": 0.0,
+      "visibility": 5.992652999999901,
+      "state_update": 0.0030179999999226936
+    },
+    "decision_emit_process_seconds": 0.8528700000000442,
+    "turns": 1001,
+    "median_turn_cpu": 0.09406800000000715,
+    "max_turn_cpu": 0.2356139999999982,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "guards-cache",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 12.675497999999028,
+      "exposure_search": 40.60087199999987,
+      "fiber_assignment": 22.464762000001098,
+      "lookahead": 0.0,
+      "visibility": 5.9053020000000815,
+      "state_update": 0.0028769999999767037
+    },
+    "decision_emit_process_seconds": 0.833484999999865,
+    "turns": 1010,
+    "median_turn_cpu": 0.08620899999999843,
+    "max_turn_cpu": 0.1486369999999999,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "price-low",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 16.965475999997494,
+      "exposure_search": 52.41151100000073,
+      "fiber_assignment": 13.468662000001656,
+      "lookahead": 0.0,
+      "state_update": 0.09874300000012526,
+      "visibility": 8.320465000000073
+    },
+    "decision_emit_process_seconds": 0.6205090000000628,
+    "turns": 615,
+    "median_turn_cpu": 0.15403899999999737,
+    "max_turn_cpu": 0.34236300000000064,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "program",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 27.646990999998142,
+      "exposure_search": 82.15379899999566,
+      "fiber_assignment": 22.220419000005784,
+      "lookahead": 0.0,
+      "state_update": 0.15461400000016434,
+      "visibility": 13.708948000000582
+    },
+    "decision_emit_process_seconds": 0.9585569999996262,
+    "turns": 985,
+    "median_turn_cpu": 0.15032899999999927,
+    "max_turn_cpu": 0.43819500000000033,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "program-v2",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 25.468495000001067,
+      "exposure_search": 81.09267700000095,
+      "fiber_assignment": 21.415296999998116,
+      "lookahead": 0.0,
+      "state_update": 0.13861899999960392,
+      "visibility": 13.310036999999891
+    },
+    "decision_emit_process_seconds": 0.9089940000000192,
+    "turns": 985,
+    "median_turn_cpu": 0.14581700000000808,
+    "max_turn_cpu": 0.3549779999999991,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "program-v2",
+    "card": "L2",
+    "components_process_seconds": {
+      "candidate_generation": 32.583024999999466,
+      "exposure_search": 89.33193800000116,
+      "fiber_assignment": 25.071011999998955,
+      "lookahead": 0.0,
+      "state_update": 0.15038500000012545,
+      "visibility": 16.082122000000272
+    },
+    "decision_emit_process_seconds": 0.945694999999964,
+    "turns": 981,
+    "median_turn_cpu": 0.17096699999999032,
+    "max_turn_cpu": 0.3409349999999982,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "science-anchors32",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 36.116722000004955,
+      "exposure_search": 104.98753100000454,
+      "fiber_assignment": 29.064660999990593,
+      "lookahead": 0.0,
+      "state_update": 0.14353499999955022,
+      "visibility": 16.817356000000004
+    },
+    "decision_emit_process_seconds": 0.9437080000003293,
+    "turns": 993,
+    "median_turn_cpu": 0.19152800000000525,
+    "max_turn_cpu": 0.4409030000000058,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "science-anchors32-k05",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 43.429323999998225,
+      "exposure_search": 139.2475169999997,
+      "fiber_assignment": 38.54681600000173,
+      "lookahead": 0.0,
+      "state_update": 0.15827400000012093,
+      "visibility": 21.58614700000021
+    },
+    "decision_emit_process_seconds": 1.1390989999998233,
+    "turns": 1207,
+    "median_turn_cpu": 0.21331599999999185,
+    "max_turn_cpu": 0.4355840000000022,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "science-anchors32-price",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 26.860592000000445,
+      "exposure_search": 88.04242099999558,
+      "fiber_assignment": 21.72827100000371,
+      "lookahead": 0.0,
+      "state_update": 0.10915800000044229,
+      "visibility": 12.692331000000063
+    },
+    "decision_emit_process_seconds": 0.7468820000001861,
+    "turns": 786,
+    "median_turn_cpu": 0.1954940000000036,
+    "max_turn_cpu": 0.4619789999999995,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "science-broad",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 43.48069000001348,
+      "exposure_search": 169.64875999998947,
+      "fiber_assignment": 52.7490379999972,
+      "lookahead": 0.0,
+      "state_update": 0.13055199999947298,
+      "visibility": 16.08579200000006
+    },
+    "decision_emit_process_seconds": 0.9829810000006203,
+    "turns": 984,
+    "median_turn_cpu": 0.29149399999999304,
+    "max_turn_cpu": 0.6867799999999988,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "science-price",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 22.820782000002552,
+      "exposure_search": 77.72249400000065,
+      "fiber_assignment": 18.501442999996947,
+      "lookahead": 0.0,
+      "state_update": 0.12411000000034067,
+      "visibility": 11.329426000000044
+    },
+    "decision_emit_process_seconds": 0.8056330000001947,
+    "turns": 849,
+    "median_turn_cpu": 0.1659270000000106,
+    "max_turn_cpu": 0.4182030000000001,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "state",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 22.382956000004015,
+      "exposure_search": 46.144191999996316,
+      "fiber_assignment": 21.73329199999981,
+      "lookahead": 0.0,
+      "state_update": 0.15672000000006592,
+      "visibility": 6.321256999999796
+    },
+    "decision_emit_process_seconds": 0.8913150000002243,
+    "turns": 1001,
+    "median_turn_cpu": 0.10091800000000006,
+    "max_turn_cpu": 0.30796899999999994,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  },
+  {
+    "label": "temporal",
+    "card": "L1",
+    "components_process_seconds": {
+      "candidate_generation": 27.10053799999656,
+      "exposure_search": 68.64067600000273,
+      "fiber_assignment": 21.39219600000088,
+      "lookahead": 0.0,
+      "state_update": 0.1514890000000373,
+      "visibility": 13.495797999999876
+    },
+    "decision_emit_process_seconds": 0.8735239999996234,
+    "turns": 955,
+    "median_turn_cpu": 0.13904599999999334,
+    "max_turn_cpu": 0.38751399999999947,
+    "interrupted_searches": 0,
+    "note": "Historical v1 logs encoded finite floats as strings; parsed numerically. Component scopes are recorded by each source snapshot; do not equate their sum with judge CPU."
+  }
+]

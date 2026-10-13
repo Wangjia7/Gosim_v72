@@ -1,0 +1,4021 @@
+{
+  "runs": [
+    {
+      "run": "baseline-normal-b-900",
+      "total": 379.93474,
+      "counts": {
+        "decisions": 350,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 970,
+        "observe_actions": 242,
+        "required_missing": 4,
+        "targets_observed": 708
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -200.0,
+        "sum_best_scores": 399.803597,
+        "uniformity_penalty": -19.868857
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 9.88,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 5.255,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 5.603,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.5319,
+        "speed_factor_max": 0.5319,
+        "speed_factor_min": 0.5319,
+        "speed_samples": 1,
+        "wait_seconds": 0.048,
+        "window_seconds": 5.303
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/baseline-normal-b-900/source-input-manifest.json",
+      "own_raw_cpu": 5.220600000000002,
+      "start": "2026-10-06T15:40:34.114297+00:00",
+      "end": "2026-10-06T15:40:40.922554+00:00",
+      "inspection": {}
+    },
+    {
+      "run": "candidate-normal-b-900",
+      "total": 379.93474,
+      "counts": {
+        "decisions": 350,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 970,
+        "observe_actions": 242,
+        "required_missing": 4,
+        "targets_observed": 708
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -200.0,
+        "sum_best_scores": 399.803597,
+        "uniformity_penalty": -19.868857
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 9.768,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 5.264,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 5.615,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.5389,
+        "speed_factor_max": 0.5389,
+        "speed_factor_min": 0.5389,
+        "speed_samples": 1,
+        "wait_seconds": 0.05,
+        "window_seconds": 5.314
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/candidate-normal-b-900/source-input-manifest.json",
+      "own_raw_cpu": 5.229688000000006,
+      "start": "2026-10-06T15:40:35.205475+00:00",
+      "end": "2026-10-06T15:40:41.843954+00:00",
+      "inspection": {
+        "recent_populations": [
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 1.074312,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": true,
+            "fiber": 8,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 1.0892849999999998,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.146811,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 12,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.293609,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "science_gain": 0.5787089999999999,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 11,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.214857,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 6,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "science_gain": 0.29471400000000003,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 7,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.137341,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "Star",
+            "required": false,
+            "fiber": 8,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.357574,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.13894,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 13,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.254612,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 12,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "science_gain": 0.48164799999999997,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.221243,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 7,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "science_gain": 0.161128,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 2,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.010402000000000008,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 8,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.199725,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 9,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.159095,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 4,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.116573,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.069036,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "Star",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.352572,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.243634,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 15,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.274058,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 11,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.275612,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 13,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.144376,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 10,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.059921,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.086458,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 2,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.24669,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 4,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.244415,
+            "reasons": {}
+          }
+        ],
+        "population_count": 28,
+        "population_scope": "last 8 valid exposures",
+        "schema": "realized-inspection-v1",
+        "valid_exposures": 241,
+        "invalidated_exposures": 0,
+        "gate": "PASS",
+        "rejected_results": 0,
+        "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+        "recent_visits": [
+          {
+            "night_phase": "late",
+            "id": 233,
+            "utc": "2026-11-08T07:35:00+00:00",
+            "predicted_science_gain": 2.121653071740124,
+            "realized_science_gain": 2.1635969999999998,
+            "science_gain_efficiency": 1.019769456570708,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0006009991666666666,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000516",
+                "fiber": 1,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 0.125688,
+                "science_gain": 1.074312,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000534",
+                "fiber": 8,
+                "target_class": "QSO",
+                "required": true,
+                "score": 1.185595,
+                "score_before": 0.09631,
+                "science_gain": 1.0892849999999998,
+                "raw_factor_bounds": [
+                  0.5811737745098039,
+                  0.6974091176470588
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 2
+          },
+          {
+            "night_phase": "late",
+            "id": 234,
+            "utc": "2026-11-08T07:40:00+00:00",
+            "predicted_science_gain": 0.7315635858448786,
+            "realized_science_gain": 0.793227,
+            "science_gain_efficiency": 1.0842898899675368,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00264409,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000437",
+                "fiber": 5,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.146811,
+                "score_before": 0.0,
+                "science_gain": 0.146811,
+                "raw_factor_bounds": [
+                  0.12234208333333335,
+                  0.14681149999999998
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000048",
+                "fiber": 12,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.293609,
+                "score_before": 0.0,
+                "science_gain": 0.293609,
+                "raw_factor_bounds": [
+                  0.24467375,
+                  0.2936095
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000121",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.352807,
+                "score_before": 0.0,
+                "science_gain": 0.352807,
+                "raw_factor_bounds": [
+                  0.6533453703703702,
+                  0.7840166666666666
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3
+          },
+          {
+            "night_phase": "late",
+            "id": 235,
+            "utc": "2026-11-08T07:45:00+00:00",
+            "predicted_science_gain": 0.953634420925817,
+            "realized_science_gain": 1.005689,
+            "science_gain_efficiency": 1.054585465805279,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.003352296666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000648",
+                "fiber": 11,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.214857,
+                "score_before": 0.0,
+                "science_gain": 0.214857,
+                "raw_factor_bounds": [
+                  0.17904708333333336,
+                  0.21485749999999998
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000239",
+                "fiber": 6,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.156977,
+                "score_before": 0.0,
+                "science_gain": 0.156977,
+                "raw_factor_bounds": [
+                  0.13081375000000003,
+                  0.1569775
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000657",
+                "fiber": 7,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.137341,
+                "score_before": 0.0,
+                "science_gain": 0.137341,
+                "raw_factor_bounds": [
+                  0.11445041666666668,
+                  0.13734149999999998
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000684",
+                "fiber": 8,
+                "target_class": "Star",
+                "required": false,
+                "score": 0.357574,
+                "score_before": 0.0,
+                "science_gain": 0.357574,
+                "raw_factor_bounds": [
+                  0.9932597222222223,
+                  0.9932625
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000496",
+                "fiber": 1,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.13894,
+                "score_before": 0.0,
+                "science_gain": 0.13894,
+                "raw_factor_bounds": [
+                  0.1157829166666667,
+                  0.1389405
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 5
+          },
+          {
+            "night_phase": "late",
+            "id": 236,
+            "utc": "2026-11-08T07:50:00+00:00",
+            "predicted_science_gain": 0.7480347155649607,
+            "realized_science_gain": 0.7435109999999999,
+            "science_gain_efficiency": 0.9939525325886189,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0024783699999999997,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000536",
+                "fiber": 13,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.254612,
+                "score_before": 0.0,
+                "science_gain": 0.254612,
+                "raw_factor_bounds": [
+                  0.21217625,
+                  0.2546125
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000397",
+                "fiber": 12,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.267656,
+                "score_before": 0.0,
+                "science_gain": 0.267656,
+                "raw_factor_bounds": [
+                  0.49565833333333326,
+                  0.5947922222222223
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000569",
+                "fiber": 0,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.221243,
+                "score_before": 0.0,
+                "science_gain": 0.221243,
+                "raw_factor_bounds": [
+                  0.10845220588235294,
+                  0.13014323529411764
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3
+          },
+          {
+            "night_phase": "late",
+            "id": 237,
+            "utc": "2026-11-08T07:55:00+00:00",
+            "predicted_science_gain": 0.819009098375661,
+            "realized_science_gain": 0.811493,
+            "science_gain_efficiency": 0.9908229366553221,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0027049766666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000338",
+                "fiber": 7,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.484352,
+                "score_before": 0.441682,
+                "science_gain": 0.042669999999999986,
+                "raw_factor_bounds": [
+                  0.40362625,
+                  0.4843525
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000351",
+                "fiber": 2,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.108212,
+                "score_before": 0.09781,
+                "science_gain": 0.010402000000000008,
+                "raw_factor_bounds": [
+                  0.053044852941176474,
+                  0.06365441176470589
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000317",
+                "fiber": 12,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.213992,
+                "score_before": 0.0,
+                "science_gain": 0.213992,
+                "raw_factor_bounds": [
+                  0.3962805555555555,
+                  0.47553888888888884
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000741",
+                "fiber": 8,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.199725,
+                "score_before": 0.0,
+                "science_gain": 0.199725,
+                "raw_factor_bounds": [
+                  0.3698601851851852,
+                  0.4438344444444444
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000463",
+                "fiber": 9,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.159095,
+                "score_before": 0.0,
+                "science_gain": 0.159095,
+                "raw_factor_bounds": [
+                  0.13257875,
+                  0.15909549999999997
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000240",
+                "fiber": 4,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.116573,
+                "score_before": 0.0,
+                "science_gain": 0.116573,
+                "raw_factor_bounds": [
+                  0.09714375,
+                  0.1165735
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000444",
+                "fiber": 1,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.069036,
+                "score_before": 0.0,
+                "science_gain": 0.069036,
+                "raw_factor_bounds": [
+                  0.03384093137254902,
+                  0.040609705882352944
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 7
+          },
+          {
+            "night_phase": "late",
+            "id": 238,
+            "utc": "2026-11-08T08:00:00+00:00",
+            "predicted_science_gain": 0.7383657034031563,
+            "realized_science_gain": 0.733943,
+            "science_gain_efficiency": 0.9940101451316442,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0024464766666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000323",
+                "fiber": 5,
+                "target_class": "Star",
+                "required": false,
+                "score": 0.352572,
+                "score_before": 0.0,
+                "science_gain": 0.352572,
+                "raw_factor_bounds": [
+                  0.9793652777777777,
+                  0.9793680555555556
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000031",
+                "fiber": 6,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.137737,
+                "score_before": 0.0,
+                "science_gain": 0.137737,
+                "raw_factor_bounds": [
+                  0.11478041666666668,
+                  0.13773749999999998
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000447",
+                "fiber": 1,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.243634,
+                "score_before": 0.0,
+                "science_gain": 0.243634,
+                "raw_factor_bounds": [
+                  0.45117314814814813,
+                  0.54141
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3
+          },
+          {
+            "night_phase": "late",
+            "id": 239,
+            "utc": "2026-11-08T08:05:00+00:00",
+            "predicted_science_gain": 0.874177778457033,
+            "realized_science_gain": 0.9199480000000002,
+            "science_gain_efficiency": 1.0523580245013249,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.003066493333333334,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000386",
+                "fiber": 15,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.274058,
+                "score_before": 0.0,
+                "science_gain": 0.274058,
+                "raw_factor_bounds": [
+                  0.5075138888888888,
+                  0.609018888888889
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000267",
+                "fiber": 11,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.275612,
+                "score_before": 0.0,
+                "science_gain": 0.275612,
+                "raw_factor_bounds": [
+                  0.5103916666666667,
+                  0.6124722222222223
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000082",
+                "fiber": 13,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.144376,
+                "score_before": 0.0,
+                "science_gain": 0.144376,
+                "raw_factor_bounds": [
+                  0.07077230392156864,
+                  0.08492735294117647
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000062",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.225902,
+                "score_before": 0.0,
+                "science_gain": 0.225902,
+                "raw_factor_bounds": [
+                  0.4183361111111111,
+                  0.5020055555555555
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 4
+          },
+          {
+            "night_phase": "late",
+            "id": 240,
+            "utc": "2026-11-08T08:10:00+00:00",
+            "predicted_science_gain": 0.7328529805955006,
+            "realized_science_gain": 0.7559419999999999,
+            "science_gain_efficiency": 1.0315056635039372,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.002519806666666666,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000074",
+                "fiber": 7,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.118458,
+                "score_before": 0.0,
+                "science_gain": 0.118458,
+                "raw_factor_bounds": [
+                  0.09871458333333333,
+                  0.1184585
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000607",
+                "fiber": 10,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.316491,
+                "score_before": 0.25657,
+                "science_gain": 0.059921,
+                "raw_factor_bounds": [
+                  0.5860935185185185,
+                  0.7033144444444445
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000568",
+                "fiber": 5,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.086458,
+                "score_before": 0.0,
+                "science_gain": 0.086458,
+                "raw_factor_bounds": [
+                  0.07204791666666667,
+                  0.0864585
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000183",
+                "fiber": 2,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.24669,
+                "score_before": 0.0,
+                "science_gain": 0.24669,
+                "raw_factor_bounds": [
+                  0.4568324074074074,
+                  0.548201111111111
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000370",
+                "fiber": 4,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.244415,
+                "score_before": 0.0,
+                "science_gain": 0.244415,
+                "raw_factor_bounds": [
+                  0.4526194444444444,
+                  0.5431455555555555
+                ],
+                "required_certified": false,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 5
+          }
+        ],
+        "best_score_sum": 398.999986,
+        "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+      }
+    },
+    {
+      "run": "baseline-long-900",
+      "total": 6600.969311,
+      "counts": {
+        "decisions": 7651,
+        "invalidated_observations": 408,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10891,
+        "observe_actions": 833,
+        "required_missing": 1,
+        "targets_observed": 5989
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -50.0,
+        "sum_best_scores": 6350.985221,
+        "uniformity_penalty": -0.01591
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 100.43,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 64.066,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 90.973,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.6617,
+        "speed_factor_max": 0.6617,
+        "speed_factor_min": 0.6333,
+        "speed_samples": 2,
+        "wait_seconds": 1.888,
+        "window_seconds": 65.954
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/baseline-long-900/source-input-manifest.json",
+      "own_raw_cpu": 63.384669999999566,
+      "start": "2026-10-06T15:41:06.043092+00:00",
+      "end": "2026-10-06T15:42:38.382915+00:00",
+      "inspection": {}
+    },
+    {
+      "run": "candidate-long-900",
+      "total": 6498.21715,
+      "counts": {
+        "decisions": 7803,
+        "invalidated_observations": 458,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10727,
+        "observe_actions": 798,
+        "required_missing": 2,
+        "targets_observed": 5982
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -100.0,
+        "sum_best_scores": 6298.279622,
+        "uniformity_penalty": -0.062472
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 93.823,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 60.066,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 87.058,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.641,
+        "speed_factor_max": 0.641,
+        "speed_factor_min": 0.6401,
+        "speed_samples": 2,
+        "wait_seconds": 1.687,
+        "window_seconds": 61.752
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/candidate-long-900/source-input-manifest.json",
+      "own_raw_cpu": 59.360344000000225,
+      "start": "2026-10-06T15:41:07.135296+00:00",
+      "end": "2026-10-06T15:42:35.566007+00:00",
+      "inspection": {
+        "recent_populations": [
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.4575690000000001,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 56,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.4015989999999998,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 4,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.48767000000000005,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": true,
+            "fiber": 23,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.505044,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 90,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.49710699999999997,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "long",
+            "weather_notices": [
+              "earthquake"
+            ],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.793927,
+            "reasons": {
+              "WEATHER_OR_QUAKE_CONFOUNDED": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 80,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 2,
+            "hits": 2,
+            "science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 2
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          }
+        ],
+        "population_count": 11,
+        "population_scope": "last 8 valid exposures",
+        "schema": "realized-inspection-v1",
+        "valid_exposures": 765,
+        "invalidated_exposures": 33,
+        "gate": "PASS",
+        "rejected_results": 0,
+        "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+        "recent_visits": [
+          {
+            "night_phase": "early",
+            "id": 790,
+            "utc": "2027-02-26T02:45:00+00:00",
+            "predicted_science_gain": 0.1404249606935215,
+            "realized_science_gain": 0.8591679999999999,
+            "science_gain_efficiency": 6.118342463881049,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00023865777777777776,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T003398",
+                "fiber": 1,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.858125,
+                "score_before": 1.400556,
+                "science_gain": 0.4575690000000001,
+                "raw_factor_bounds": [
+                  0.9108453431372548,
+                  0.9108458333333334
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              },
+              {
+                "target_id": "V4T005421",
+                "fiber": 56,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.669628,
+                "score_before": 1.268029,
+                "science_gain": 0.4015989999999998,
+                "raw_factor_bounds": [
+                  0.8184448529411764,
+                  0.9821344117647058
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              }
+            ],
+            "measurement_count": 2
+          },
+          {
+            "night_phase": "early",
+            "id": 791,
+            "utc": "2027-02-27T01:45:00+00:00",
+            "predicted_science_gain": 0.19922282857002727,
+            "realized_science_gain": 1.489821,
+            "science_gain_efficiency": 7.478164077347816,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0004138391666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T001342",
+                "fiber": 4,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.9354,
+                "score_before": 1.44773,
+                "science_gain": 0.48767000000000005,
+                "raw_factor_bounds": [
+                  0.9487252450980391,
+                  0.9487257352941176
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              },
+              {
+                "target_id": "V4T003295",
+                "fiber": 23,
+                "target_class": "QSO",
+                "required": true,
+                "score": 1.949411,
+                "score_before": 1.444367,
+                "science_gain": 0.505044,
+                "raw_factor_bounds": [
+                  0.9555933823529411,
+                  0.9555938725490196
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              },
+              {
+                "target_id": "V4T001089",
+                "fiber": 90,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.955609,
+                "score_before": 1.458502,
+                "science_gain": 0.49710699999999997,
+                "raw_factor_bounds": [
+                  0.9586316176470587,
+                  0.9586321078431372
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              }
+            ],
+            "measurement_count": 3
+          },
+          {
+            "night_phase": "early",
+            "id": 792,
+            "utc": "2027-02-28T01:45:00+00:00",
+            "predicted_science_gain": 0.05289041660380067,
+            "realized_science_gain": 0.793927,
+            "science_gain_efficiency": 15.010791197718586,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00022053527777777778,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T001483",
+                "fiber": 0,
+                "target_class": "QSO",
+                "required": false,
+                "score": 2.04,
+                "score_before": 1.246073,
+                "science_gain": 0.793927,
+                "raw_factor_bounds": [
+                  0.9999997549019608,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "WEATHER_OR_QUAKE_CONFOUNDED"
+                ]
+              }
+            ],
+            "measurement_count": 1
+          },
+          {
+            "night_phase": "early",
+            "id": 793,
+            "utc": "2027-04-29T00:15:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T002118",
+                "fiber": 5,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              },
+              {
+                "target_id": "V4T004426",
+                "fiber": 80,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 2
+          },
+          {
+            "night_phase": "early",
+            "id": 794,
+            "utc": "2027-04-29T00:20:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T003368",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.54,
+                "score_before": 0.54,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999990740740742,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1
+          },
+          {
+            "night_phase": "early",
+            "id": 795,
+            "utc": "2027-04-29T00:30:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T005833",
+                "fiber": 0,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1
+          },
+          {
+            "night_phase": "early",
+            "id": 796,
+            "utc": "2027-04-29T00:40:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T002550",
+                "fiber": 0,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1
+          },
+          {
+            "night_phase": "early",
+            "id": 797,
+            "utc": "2027-04-29T01:05:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "measurements": [
+              {
+                "target_id": "V4T000585",
+                "fiber": 0,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1
+          }
+        ],
+        "best_score_sum": 6298.27962,
+        "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+      }
+    },
+    {
+      "run": "final-normal-b-900",
+      "total": 379.93474,
+      "counts": {
+        "decisions": 350,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 970,
+        "observe_actions": 242,
+        "required_missing": 4,
+        "targets_observed": 708
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -200.0,
+        "sum_best_scores": 399.803597,
+        "uniformity_penalty": -19.868857
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 10.586,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 5.231,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 5.535,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.4941,
+        "speed_factor_max": 0.4941,
+        "speed_factor_min": 0.4941,
+        "speed_samples": 1,
+        "wait_seconds": 0.016,
+        "window_seconds": 5.247
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/final-normal-b-900/source-input-manifest.json",
+      "own_raw_cpu": 5.197306000000003,
+      "start": "2026-10-06T15:45:54.490395+00:00",
+      "end": "2026-10-06T15:46:00.711955+00:00",
+      "inspection": {
+        "recent_populations": [
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 1.074312,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": true,
+            "fiber": 8,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 1.0892849999999998,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.146811,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 12,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.293609,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "original_measured_science_gain": 0.5787089999999999,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 11,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.214857,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 6,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "original_measured_science_gain": 0.29471400000000003,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 7,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.137341,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "Star",
+            "required": false,
+            "fiber": 8,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.357574,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.13894,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 13,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.254612,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 12,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "original_measured_science_gain": 0.48164799999999997,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.221243,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 7,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 2,
+            "hits": 2,
+            "original_measured_science_gain": 0.161128,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 2,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.010402000000000008,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 8,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.199725,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 9,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.159095,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 4,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.116573,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.069036,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "Star",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.352572,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.243634,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 15,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.274058,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 11,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.275612,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 13,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.144376,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 10,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.059921,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.086458,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 2,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.24669,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 4,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "late",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.244415,
+            "reasons": {}
+          }
+        ],
+        "population_count": 28,
+        "population_scope": "last 8 valid exposures",
+        "schema": "realized-inspection-v1",
+        "valid_exposures": 241,
+        "invalidated_exposures": 0,
+        "gate": "PASS",
+        "rejected_results": 0,
+        "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+        "recent_visits": [
+          {
+            "night_phase": "late",
+            "id": 233,
+            "utc": "2026-11-08T07:35:00+00:00",
+            "predicted_science_gain": 2.121653071740124,
+            "realized_science_gain": 2.1635969999999998,
+            "science_gain_efficiency": 1.019769456570708,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0006009991666666666,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 2.1635969999999998,
+            "measurements": [
+              {
+                "target_id": "V4T000516",
+                "fiber": 1,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 0.125688,
+                "science_gain": 1.074312,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000534",
+                "fiber": 8,
+                "target_class": "QSO",
+                "required": true,
+                "score": 1.185595,
+                "score_before": 0.09631,
+                "science_gain": 1.0892849999999998,
+                "raw_factor_bounds": [
+                  0.5811737745098039,
+                  0.6974091176470588
+                ],
+                "required_certified": true,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 2,
+            "requested": {
+              "pointing": [
+                61.4483,
+                168.1467
+              ],
+              "program": "DARK",
+              "duration_seconds": 3600,
+              "assignments": [
+                {
+                  "target_id": "V4T000516",
+                  "fiber": 1,
+                  "predicted_factor": 1.4897721876901573,
+                  "model": 1.3603984505763682
+                },
+                {
+                  "target_id": "V4T000534",
+                  "fiber": 8,
+                  "predicted_factor": 0.5606132704608451,
+                  "model": 1.371339366062128
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000516",
+                  "score": 1.2
+                },
+                {
+                  "target_id": "V4T000534",
+                  "score": 1.185595
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 234,
+            "utc": "2026-11-08T07:40:00+00:00",
+            "predicted_science_gain": 0.7315635858448786,
+            "realized_science_gain": 0.793227,
+            "science_gain_efficiency": 1.0842898899675368,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00264409,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.793227,
+            "measurements": [
+              {
+                "target_id": "V4T000437",
+                "fiber": 5,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.146811,
+                "score_before": 0.0,
+                "science_gain": 0.146811,
+                "raw_factor_bounds": [
+                  0.12234208333333335,
+                  0.14681149999999998
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000048",
+                "fiber": 12,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.293609,
+                "score_before": 0.0,
+                "science_gain": 0.293609,
+                "raw_factor_bounds": [
+                  0.24467375,
+                  0.2936095
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000121",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.352807,
+                "score_before": 0.0,
+                "science_gain": 0.352807,
+                "raw_factor_bounds": [
+                  0.6533453703703702,
+                  0.7840166666666666
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3,
+            "requested": {
+              "pointing": [
+                49.375,
+                87.9118
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000437",
+                  "fiber": 5,
+                  "predicted_factor": 0.11283246297439273,
+                  "model": 1.2512565377033003
+                },
+                {
+                  "target_id": "V4T000048",
+                  "fiber": 12,
+                  "predicted_factor": 0.2256549934795742,
+                  "model": 1.2629968321188032
+                },
+                {
+                  "target_id": "V4T000121",
+                  "fiber": 0,
+                  "predicted_factor": 0.6025530335187373,
+                  "model": 1.238791996699536
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000121",
+                  "score": 0.352807
+                },
+                {
+                  "target_id": "V4T000437",
+                  "score": 0.146811
+                },
+                {
+                  "target_id": "V4T000048",
+                  "score": 0.293609
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 235,
+            "utc": "2026-11-08T07:45:00+00:00",
+            "predicted_science_gain": 0.953634420925817,
+            "realized_science_gain": 1.005689,
+            "science_gain_efficiency": 1.054585465805279,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.003352296666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 1.005689,
+            "measurements": [
+              {
+                "target_id": "V4T000648",
+                "fiber": 11,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.214857,
+                "score_before": 0.0,
+                "science_gain": 0.214857,
+                "raw_factor_bounds": [
+                  0.17904708333333336,
+                  0.21485749999999998
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000239",
+                "fiber": 6,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.156977,
+                "score_before": 0.0,
+                "science_gain": 0.156977,
+                "raw_factor_bounds": [
+                  0.13081375000000003,
+                  0.1569775
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000657",
+                "fiber": 7,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.137341,
+                "score_before": 0.0,
+                "science_gain": 0.137341,
+                "raw_factor_bounds": [
+                  0.11445041666666668,
+                  0.13734149999999998
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000684",
+                "fiber": 8,
+                "target_class": "Star",
+                "required": false,
+                "score": 0.357574,
+                "score_before": 0.0,
+                "science_gain": 0.357574,
+                "raw_factor_bounds": [
+                  0.9932597222222223,
+                  0.9932625
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000496",
+                "fiber": 1,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.13894,
+                "score_before": 0.0,
+                "science_gain": 0.13894,
+                "raw_factor_bounds": [
+                  0.1157829166666667,
+                  0.1389405
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 5,
+            "requested": {
+              "pointing": [
+                50.5713,
+                115.6758
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000648",
+                  "fiber": 11,
+                  "predicted_factor": 0.1697806029618142,
+                  "model": 1.2684484012274138
+                },
+                {
+                  "target_id": "V4T000239",
+                  "fiber": 6,
+                  "predicted_factor": 0.12404351255977857,
+                  "model": 1.262519426670008
+                },
+                {
+                  "target_id": "V4T000657",
+                  "fiber": 7,
+                  "predicted_factor": 0.10852721169094831,
+                  "model": 1.2602631137589086
+                },
+                {
+                  "target_id": "V4T000684",
+                  "fiber": 8,
+                  "predicted_factor": 0.941848109197478,
+                  "model": 1.2698869408183553
+                },
+                {
+                  "target_id": "V4T000496",
+                  "fiber": 1,
+                  "predicted_factor": 0.10978959079972976,
+                  "model": 1.2530199584990676
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000496",
+                  "score": 0.13894
+                },
+                {
+                  "target_id": "V4T000239",
+                  "score": 0.156977
+                },
+                {
+                  "target_id": "V4T000657",
+                  "score": 0.137341
+                },
+                {
+                  "target_id": "V4T000684",
+                  "score": 0.357574
+                },
+                {
+                  "target_id": "V4T000648",
+                  "score": 0.214857
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 236,
+            "utc": "2026-11-08T07:50:00+00:00",
+            "predicted_science_gain": 0.7480347155649607,
+            "realized_science_gain": 0.7435109999999999,
+            "science_gain_efficiency": 0.9939525325886189,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0024783699999999997,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.7435109999999999,
+            "measurements": [
+              {
+                "target_id": "V4T000536",
+                "fiber": 13,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.254612,
+                "score_before": 0.0,
+                "science_gain": 0.254612,
+                "raw_factor_bounds": [
+                  0.21217625,
+                  0.2546125
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000397",
+                "fiber": 12,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.267656,
+                "score_before": 0.0,
+                "science_gain": 0.267656,
+                "raw_factor_bounds": [
+                  0.49565833333333326,
+                  0.5947922222222223
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000569",
+                "fiber": 0,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.221243,
+                "score_before": 0.0,
+                "science_gain": 0.221243,
+                "raw_factor_bounds": [
+                  0.10845220588235294,
+                  0.13014323529411764
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3,
+            "requested": {
+              "pointing": [
+                65.3663,
+                105.8113
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000536",
+                  "fiber": 13,
+                  "predicted_factor": 0.21346792065672324,
+                  "model": 1.3962362779517927
+                },
+                {
+                  "target_id": "V4T000397",
+                  "fiber": 12,
+                  "predicted_factor": 0.49867551865031495,
+                  "model": 1.3995088226136794
+                },
+                {
+                  "target_id": "V4T000569",
+                  "fiber": 0,
+                  "predicted_factor": 0.10911197583613859,
+                  "model": 1.3859523653700219
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000569",
+                  "score": 0.221243
+                },
+                {
+                  "target_id": "V4T000397",
+                  "score": 0.267656
+                },
+                {
+                  "target_id": "V4T000536",
+                  "score": 0.254612
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 237,
+            "utc": "2026-11-08T07:55:00+00:00",
+            "predicted_science_gain": 0.819009098375661,
+            "realized_science_gain": 0.811493,
+            "science_gain_efficiency": 0.9908229366553221,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0027049766666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.811493,
+            "measurements": [
+              {
+                "target_id": "V4T000338",
+                "fiber": 7,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.484352,
+                "score_before": 0.441682,
+                "science_gain": 0.042669999999999986,
+                "raw_factor_bounds": [
+                  0.40362625,
+                  0.4843525
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000351",
+                "fiber": 2,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.108212,
+                "score_before": 0.09781,
+                "science_gain": 0.010402000000000008,
+                "raw_factor_bounds": [
+                  0.053044852941176474,
+                  0.06365441176470589
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000317",
+                "fiber": 12,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.213992,
+                "score_before": 0.0,
+                "science_gain": 0.213992,
+                "raw_factor_bounds": [
+                  0.3962805555555555,
+                  0.47553888888888884
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000741",
+                "fiber": 8,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.199725,
+                "score_before": 0.0,
+                "science_gain": 0.199725,
+                "raw_factor_bounds": [
+                  0.3698601851851852,
+                  0.4438344444444444
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000463",
+                "fiber": 9,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.159095,
+                "score_before": 0.0,
+                "science_gain": 0.159095,
+                "raw_factor_bounds": [
+                  0.13257875,
+                  0.15909549999999997
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000240",
+                "fiber": 4,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.116573,
+                "score_before": 0.0,
+                "science_gain": 0.116573,
+                "raw_factor_bounds": [
+                  0.09714375,
+                  0.1165735
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000444",
+                "fiber": 1,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.069036,
+                "score_before": 0.0,
+                "science_gain": 0.069036,
+                "raw_factor_bounds": [
+                  0.03384093137254902,
+                  0.040609705882352944
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 7,
+            "requested": {
+              "pointing": [
+                62.8884,
+                101.7466
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000338",
+                  "fiber": 7,
+                  "predicted_factor": 0.40607525593084937,
+                  "model": 1.3729905080229647
+                },
+                {
+                  "target_id": "V4T000351",
+                  "fiber": 2,
+                  "predicted_factor": 0.053366821924446965,
+                  "model": 1.36744960837137
+                },
+                {
+                  "target_id": "V4T000317",
+                  "fiber": 12,
+                  "predicted_factor": 0.3986843148986927,
+                  "model": 1.3797998378441223
+                },
+                {
+                  "target_id": "V4T000741",
+                  "fiber": 8,
+                  "predicted_factor": 0.37210338484426997,
+                  "model": 1.3782382188591815
+                },
+                {
+                  "target_id": "V4T000463",
+                  "fiber": 9,
+                  "predicted_factor": 0.13338271512542166,
+                  "model": 1.3778296835801551
+                },
+                {
+                  "target_id": "V4T000240",
+                  "fiber": 4,
+                  "predicted_factor": 0.09773278661933488,
+                  "model": 1.3747797312176226
+                },
+                {
+                  "target_id": "V4T000444",
+                  "fiber": 1,
+                  "predicted_factor": 0.03404608861253933,
+                  "model": 1.3659316695655392
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000444",
+                  "score": 0.069036
+                },
+                {
+                  "target_id": "V4T000351",
+                  "score": 0.108212
+                },
+                {
+                  "target_id": "V4T000240",
+                  "score": 0.116573
+                },
+                {
+                  "target_id": "V4T000338",
+                  "score": 0.484352
+                },
+                {
+                  "target_id": "V4T000741",
+                  "score": 0.199725
+                },
+                {
+                  "target_id": "V4T000463",
+                  "score": 0.159095
+                },
+                {
+                  "target_id": "V4T000317",
+                  "score": 0.213992
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 238,
+            "utc": "2026-11-08T08:00:00+00:00",
+            "predicted_science_gain": 0.7383657034031563,
+            "realized_science_gain": 0.733943,
+            "science_gain_efficiency": 0.9940101451316442,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0024464766666666667,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.733943,
+            "measurements": [
+              {
+                "target_id": "V4T000323",
+                "fiber": 5,
+                "target_class": "Star",
+                "required": false,
+                "score": 0.352572,
+                "score_before": 0.0,
+                "science_gain": 0.352572,
+                "raw_factor_bounds": [
+                  0.9793652777777777,
+                  0.9793680555555556
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000031",
+                "fiber": 6,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.137737,
+                "score_before": 0.0,
+                "science_gain": 0.137737,
+                "raw_factor_bounds": [
+                  0.11478041666666668,
+                  0.13773749999999998
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000447",
+                "fiber": 1,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.243634,
+                "score_before": 0.0,
+                "science_gain": 0.243634,
+                "raw_factor_bounds": [
+                  0.45117314814814813,
+                  0.54141
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 3,
+            "requested": {
+              "pointing": [
+                50.8884,
+                102.9718
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000323",
+                  "fiber": 5,
+                  "predicted_factor": 0.985269522453734,
+                  "model": 1.2649263312891408
+                },
+                {
+                  "target_id": "V4T000031",
+                  "fiber": 6,
+                  "predicted_factor": 0.11547285977392163,
+                  "model": 1.26343917960022
+                },
+                {
+                  "target_id": "V4T000447",
+                  "fiber": 1,
+                  "predicted_factor": 0.45389119183538174,
+                  "model": 1.2590071423765163
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000447",
+                  "score": 0.243634
+                },
+                {
+                  "target_id": "V4T000323",
+                  "score": 0.352572
+                },
+                {
+                  "target_id": "V4T000031",
+                  "score": 0.137737
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 239,
+            "utc": "2026-11-08T08:05:00+00:00",
+            "predicted_science_gain": 0.874177778457033,
+            "realized_science_gain": 0.9199480000000002,
+            "science_gain_efficiency": 1.0523580245013249,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.003066493333333334,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.9199480000000002,
+            "measurements": [
+              {
+                "target_id": "V4T000386",
+                "fiber": 15,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.274058,
+                "score_before": 0.0,
+                "science_gain": 0.274058,
+                "raw_factor_bounds": [
+                  0.5075138888888888,
+                  0.609018888888889
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000267",
+                "fiber": 11,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.275612,
+                "score_before": 0.0,
+                "science_gain": 0.275612,
+                "raw_factor_bounds": [
+                  0.5103916666666667,
+                  0.6124722222222223
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000082",
+                "fiber": 13,
+                "target_class": "QSO",
+                "required": false,
+                "score": 0.144376,
+                "score_before": 0.0,
+                "science_gain": 0.144376,
+                "raw_factor_bounds": [
+                  0.07077230392156864,
+                  0.08492735294117647
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000062",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.225902,
+                "score_before": 0.0,
+                "science_gain": 0.225902,
+                "raw_factor_bounds": [
+                  0.4183361111111111,
+                  0.5020055555555555
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 4,
+            "requested": {
+              "pointing": [
+                60.4674,
+                88.9488
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000386",
+                  "fiber": 15,
+                  "predicted_factor": 0.48226675141198294,
+                  "model": 1.3636803264756039
+                },
+                {
+                  "target_id": "V4T000267",
+                  "fiber": 11,
+                  "predicted_factor": 0.4849997413155626,
+                  "model": 1.3596355811334173
+                },
+                {
+                  "target_id": "V4T000082",
+                  "fiber": 13,
+                  "predicted_factor": 0.06725153169941848,
+                  "model": 1.3626733517044793
+                },
+                {
+                  "target_id": "V4T000062",
+                  "fiber": 0,
+                  "predicted_factor": 0.39751990318026814,
+                  "model": 1.3495740147453654
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000062",
+                  "score": 0.225902
+                },
+                {
+                  "target_id": "V4T000267",
+                  "score": 0.275612
+                },
+                {
+                  "target_id": "V4T000082",
+                  "score": 0.144376
+                },
+                {
+                  "target_id": "V4T000386",
+                  "score": 0.274058
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "late",
+            "id": 240,
+            "utc": "2026-11-08T08:10:00+00:00",
+            "predicted_science_gain": 0.7328529805955006,
+            "realized_science_gain": 0.7559419999999999,
+            "science_gain_efficiency": 1.0315056635039372,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.002519806666666666,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.7559419999999999,
+            "measurements": [
+              {
+                "target_id": "V4T000074",
+                "fiber": 7,
+                "target_class": "ELG",
+                "required": false,
+                "score": 0.118458,
+                "score_before": 0.0,
+                "science_gain": 0.118458,
+                "raw_factor_bounds": [
+                  0.09871458333333333,
+                  0.1184585
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000607",
+                "fiber": 10,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.316491,
+                "score_before": 0.25657,
+                "science_gain": 0.059921,
+                "raw_factor_bounds": [
+                  0.5860935185185185,
+                  0.7033144444444445
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000568",
+                "fiber": 5,
+                "target_class": "LRG",
+                "required": false,
+                "score": 0.086458,
+                "score_before": 0.0,
+                "science_gain": 0.086458,
+                "raw_factor_bounds": [
+                  0.07204791666666667,
+                  0.0864585
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000183",
+                "fiber": 2,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.24669,
+                "score_before": 0.0,
+                "science_gain": 0.24669,
+                "raw_factor_bounds": [
+                  0.4568324074074074,
+                  0.548201111111111
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T000370",
+                "fiber": 4,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.244415,
+                "score_before": 0.0,
+                "science_gain": 0.244415,
+                "raw_factor_bounds": [
+                  0.4526194444444444,
+                  0.5431455555555555
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 5,
+            "requested": {
+              "pointing": [
+                59.2926,
+                96.4742
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T000074",
+                  "fiber": 7,
+                  "predicted_factor": 0.09646446490188439,
+                  "model": 1.3465638780556937
+                },
+                {
+                  "target_id": "V4T000607",
+                  "fiber": 10,
+                  "predicted_factor": 0.5727311483934212,
+                  "model": 1.3494819228600172
+                },
+                {
+                  "target_id": "V4T000568",
+                  "fiber": 5,
+                  "predicted_factor": 0.07040494621916764,
+                  "model": 1.3468536589995521
+                },
+                {
+                  "target_id": "V4T000183",
+                  "fiber": 2,
+                  "predicted_factor": 0.44641483498215173,
+                  "model": 1.3397467012430473
+                },
+                {
+                  "target_id": "V4T000370",
+                  "fiber": 4,
+                  "predicted_factor": 0.4422978819026458,
+                  "model": 1.346982078730104
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000183",
+                  "score": 0.24669
+                },
+                {
+                  "target_id": "V4T000370",
+                  "score": 0.244415
+                },
+                {
+                  "target_id": "V4T000568",
+                  "score": 0.086458
+                },
+                {
+                  "target_id": "V4T000074",
+                  "score": 0.118458
+                },
+                {
+                  "target_id": "V4T000607",
+                  "score": 0.316491
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          }
+        ],
+        "best_score_sum": 398.999986,
+        "replayed_visit_credit_sum": 398.999986,
+        "credit_scope": "current valid visit credit replay; immutable measured deltas describe original planning state; engine best-score snapshot remains authoritative",
+        "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+      }
+    },
+    {
+      "run": "final-long-900",
+      "total": 6585.261024,
+      "counts": {
+        "decisions": 7656,
+        "invalidated_observations": 453,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 10974,
+        "observe_actions": 821,
+        "required_missing": 1,
+        "targets_observed": 5990
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -50.0,
+        "sum_best_scores": 6335.279272,
+        "uniformity_penalty": -0.018249
+      },
+      "clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 97.693,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 55.969,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 7200.0,
+        "mode": "cpu",
+        "run_wall_seconds": 77.495,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.5805,
+        "speed_factor_max": 0.5805,
+        "speed_factor_min": 0.5719,
+        "speed_samples": 2,
+        "wait_seconds": 0.349,
+        "window_seconds": 56.317
+      },
+      "termination": "survey_complete",
+      "source_manifest": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/final-long-900/source-input-manifest.json",
+      "own_raw_cpu": 55.420762,
+      "start": "2026-10-06T15:45:55.597789+00:00",
+      "end": "2026-10-06T15:47:14.353577+00:00",
+      "inspection": {
+        "recent_populations": [
+          {
+            "program": "DARK",
+            "target_class": "Star",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.06,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.10197600000000007,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 50,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.05686199999999997,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "QSO",
+            "required": false,
+            "fiber": 1,
+            "duration_group": "long",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.37041499999999994,
+            "reasons": {}
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 5,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 80,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "BGS",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "ELG",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "short",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 2,
+            "hits": 2,
+            "original_measured_science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 2
+            }
+          },
+          {
+            "program": "DARK",
+            "target_class": "LRG",
+            "required": false,
+            "fiber": 0,
+            "duration_group": "medium",
+            "weather_notices": [],
+            "night_phase": "early",
+            "assigned": 1,
+            "hits": 1,
+            "original_measured_science_gain": 0.0,
+            "reasons": {
+              "ZERO_MARGINAL_GAIN": 1
+            }
+          }
+        ],
+        "population_count": 9,
+        "population_scope": "last 8 valid exposures",
+        "schema": "realized-inspection-v1",
+        "valid_exposures": 789,
+        "invalidated_exposures": 32,
+        "gate": "PASS",
+        "rejected_results": 0,
+        "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+        "recent_visits": [
+          {
+            "night_phase": "early",
+            "id": 813,
+            "utc": "2027-03-12T00:35:00+00:00",
+            "predicted_science_gain": 0.06,
+            "realized_science_gain": 0.06,
+            "science_gain_efficiency": 1.0,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00019999999999999998,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.06,
+            "measurements": [
+              {
+                "target_id": "V4T001932",
+                "fiber": 0,
+                "target_class": "Star",
+                "required": false,
+                "score": 0.36,
+                "score_before": 0.3,
+                "science_gain": 0.06,
+                "raw_factor_bounds": [
+                  0.9999986111111111,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                35.6987,
+                217.89
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T001932",
+                  "fiber": 0,
+                  "predicted_factor": 1.1638714644184245,
+                  "model": 1.0292372308094473
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T001932",
+                  "score": 0.36
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 814,
+            "utc": "2027-03-12T01:35:00+00:00",
+            "predicted_science_gain": 0.11087109495869285,
+            "realized_science_gain": 0.15883800000000003,
+            "science_gain_efficiency": 1.432636703544582,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 4.4121666666666675e-05,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.15883800000000003,
+            "measurements": [
+              {
+                "target_id": "V4T005513",
+                "fiber": 5,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.808495,
+                "score_before": 1.706519,
+                "science_gain": 0.10197600000000007,
+                "raw_factor_bounds": [
+                  0.8865169117647058,
+                  0.8865174019607843
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              },
+              {
+                "target_id": "V4T001237",
+                "fiber": 50,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.122538,
+                "score_before": 1.065676,
+                "science_gain": 0.05686199999999997,
+                "raw_factor_bounds": [
+                  0.5502634803921569,
+                  0.6603167647058824
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 2,
+            "requested": {
+              "pointing": [
+                77.6104,
+                350.3873
+              ],
+              "program": "DARK",
+              "duration_seconds": 3600,
+              "assignments": [
+                {
+                  "target_id": "V4T005513",
+                  "fiber": 5,
+                  "predicted_factor": 0.872025364615498,
+                  "model": 1.431471019083567
+                },
+                {
+                  "target_id": "V4T001237",
+                  "fiber": 50,
+                  "predicted_factor": 0.5412423289917044,
+                  "model": 1.4352171270244365
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T005513",
+                  "score": 1.808495
+                },
+                {
+                  "target_id": "V4T001237",
+                  "score": 1.122538
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 815,
+            "utc": "2027-03-13T01:30:00+00:00",
+            "predicted_science_gain": 0.055573495984443166,
+            "realized_science_gain": 0.37041499999999994,
+            "science_gain_efficiency": 6.665317584189614,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.00010289305555555554,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.37041499999999994,
+            "measurements": [
+              {
+                "target_id": "V4T004460",
+                "fiber": 1,
+                "target_class": "QSO",
+                "required": false,
+                "score": 1.677926,
+                "score_before": 1.307511,
+                "science_gain": 0.37041499999999994,
+                "raw_factor_bounds": [
+                  0.8225125,
+                  0.9870155882352942
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "PASS",
+                "reason_codes": []
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                74.9223,
+                18.9827
+              ],
+              "program": "DARK",
+              "duration_seconds": 3600,
+              "assignments": [
+                {
+                  "target_id": "V4T004460",
+                  "fiber": 1,
+                  "predicted_factor": 0.668178674502178,
+                  "model": 1.426084488338587
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T004460",
+                  "score": 1.677926
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 816,
+            "utc": "2027-04-29T00:10:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.0,
+            "measurements": [
+              {
+                "target_id": "V4T002118",
+                "fiber": 5,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              },
+              {
+                "target_id": "V4T004426",
+                "fiber": 80,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 2,
+            "requested": {
+              "pointing": [
+                76.7863,
+                265.3171
+              ],
+              "program": "DARK",
+              "duration_seconds": 1500,
+              "assignments": [
+                {
+                  "target_id": "V4T002118",
+                  "fiber": 5,
+                  "predicted_factor": 1.1353433934707915,
+                  "model": 1.4257662193021612
+                },
+                {
+                  "target_id": "V4T004426",
+                  "fiber": 80,
+                  "predicted_factor": 0.7498670340120713,
+                  "model": 1.4399101628595599
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T002118",
+                  "score": 1.2
+                },
+                {
+                  "target_id": "V4T004426",
+                  "score": 1.2
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 817,
+            "utc": "2027-04-29T00:15:00+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.0,
+            "measurements": [
+              {
+                "target_id": "V4T003368",
+                "fiber": 0,
+                "target_class": "BGS",
+                "required": false,
+                "score": 0.54,
+                "score_before": 0.54,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999990740740742,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                47.4051,
+                270.4495
+              ],
+              "program": "DARK",
+              "duration_seconds": 300,
+              "assignments": [
+                {
+                  "target_id": "V4T003368",
+                  "fiber": 0,
+                  "predicted_factor": 1.3128807955453772,
+                  "model": 1.1940878187332933
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T003368",
+                  "score": 0.54
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 818,
+            "utc": "2027-04-29T00:22:30+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.0,
+            "measurements": [
+              {
+                "target_id": "V4T005833",
+                "fiber": 0,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.111166,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.92597125,
+                  0.9259720833333335
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                53.282,
+                257.7435
+              ],
+              "program": "DARK",
+              "duration_seconds": 450,
+              "assignments": [
+                {
+                  "target_id": "V4T005833",
+                  "fiber": 0,
+                  "predicted_factor": 0.7106238281289734,
+                  "model": 1.2594975101695831
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T005833",
+                  "score": 1.111166
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 819,
+            "utc": "2027-04-29T00:32:30+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.0,
+            "measurements": [
+              {
+                "target_id": "V4T002550",
+                "fiber": 0,
+                "target_class": "ELG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                56.5629,
+                257.2064
+              ],
+              "program": "DARK",
+              "duration_seconds": 600,
+              "assignments": [
+                {
+                  "target_id": "V4T002550",
+                  "fiber": 0,
+                  "predicted_factor": 0.8133422514499268,
+                  "model": 1.290620148103083
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T002550",
+                  "score": 1.2
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          },
+          {
+            "night_phase": "early",
+            "id": 820,
+            "utc": "2027-04-29T00:57:30+00:00",
+            "predicted_science_gain": 0.0,
+            "realized_science_gain": 0.0,
+            "science_gain_efficiency": null,
+            "hit_efficiency": 1.0,
+            "science_gain_per_second": 0.0,
+            "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+            "credited_science_gain": 0.0,
+            "measurements": [
+              {
+                "target_id": "V4T000585",
+                "fiber": 0,
+                "target_class": "LRG",
+                "required": false,
+                "score": 1.2,
+                "score_before": 1.2,
+                "science_gain": 0.0,
+                "raw_factor_bounds": [
+                  0.9999995833333333,
+                  1.0
+                ],
+                "required_certified": null,
+                "realized_program_match": "UNKNOWN",
+                "judgement": "WARN",
+                "reason_codes": [
+                  "ZERO_MARGINAL_GAIN"
+                ]
+              }
+            ],
+            "measurement_count": 1,
+            "requested": {
+              "pointing": [
+                49.648,
+                276.4063
+              ],
+              "program": "DARK",
+              "duration_seconds": 1500,
+              "assignments": [
+                {
+                  "target_id": "V4T000585",
+                  "fiber": 0,
+                  "predicted_factor": 0.8232055860077065,
+                  "model": 1.192497174451174
+                }
+              ]
+            },
+            "realized": {
+              "hits": [
+                {
+                  "target_id": "V4T000585",
+                  "score": 1.2
+                }
+              ],
+              "actual_fiber_positions": null,
+              "weather_notices": []
+            },
+            "predicted_measurement_is_not_realized": true
+          }
+        ],
+        "best_score_sum": 6335.27928,
+        "replayed_visit_credit_sum": 6335.27928,
+        "credit_scope": "current valid visit credit replay; immutable measured deltas describe original planning state; engine best-score snapshot remains authoritative",
+        "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+      }
+    }
+  ],
+  "final_long_difference": -15.708286999999473,
+  "final_source_matches_zip": true,
+  "performance_claim": "not established; final long proxy is lower than baseline; fixed inputs and no variance estimate"
+}

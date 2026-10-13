@@ -1,0 +1,157 @@
+{
+  "accounted_wallclock_seconds": 10.361,
+  "agent_wallclock_seconds": 5.821,
+  "committed_action_count": 375,
+  "decision_requests": 263,
+  "fair_clock": {
+    "budget_seconds": 900.0,
+    "charged_seconds": 10.361,
+    "cpu_meter": "cpu",
+    "cpu_seconds": 5.724,
+    "hard_cap_reached": false,
+    "hard_cap_seconds": 7200.0,
+    "mode": "cpu",
+    "run_wall_seconds": 6.148,
+    "schema_version": "fair-clock-v1",
+    "speed_factor": 0.5525,
+    "speed_factor_max": 0.5525,
+    "speed_factor_min": 0.5525,
+    "speed_samples": 1,
+    "wait_seconds": 0.097,
+    "window_seconds": 5.821
+  },
+  "global_wallclock_seconds": 900.0,
+  "ignored_in_flight_response": false,
+  "last_decision_sequence": 263,
+  "protocol_version": "participant-agent-protocol-v4",
+  "scenario": "synthetic-stress-held",
+  "schema_version": "v4-workflow-result-v1",
+  "score_report": {
+    "by_class": {
+      "BGS": 56.905081,
+      "ELG": 154.396992,
+      "LRG": 78.778969,
+      "QSO": 64.335402,
+      "Star": 14.589022
+    },
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -50.0,
+      "sum_best_scores": 369.005467,
+      "uniformity_penalty": -27.219281
+    },
+    "counts": {
+      "decisions": 375,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 1051,
+      "observe_actions": 247,
+      "required_missing": 1,
+      "targets_observed": 617
+    },
+    "invalidations": [
+      {
+        "event_id": "V4ST0001",
+        "invalidated_observations": 0,
+        "window": [
+          0,
+          0
+        ]
+      }
+    ],
+    "observation_requests": [
+      {
+        "completed": true,
+        "completed_count": 6,
+        "completed_target_ids": [
+          "V4T000489",
+          "V4T000353",
+          "V4T000110",
+          "V4T000094",
+          "V4T000543",
+          "V4T000502"
+        ],
+        "completion_factor_threshold": 0.5,
+        "completion_reward": 100.0,
+        "deadline_utc": "2026-11-03T08:30:00Z",
+        "issued_at_utc": "2026-11-03T00:30:00Z",
+        "minimum_completed": 6,
+        "request_id": "V4RQ0001",
+        "reward": 100.0,
+        "target_ids": [
+          "V4T000489",
+          "V4T000353",
+          "V4T000110",
+          "V4T000094",
+          "V4T000543",
+          "V4T000448",
+          "V4T000636",
+          "V4T000502"
+        ]
+      },
+      {
+        "completed": true,
+        "completed_count": 6,
+        "completed_target_ids": [
+          "V4T000697",
+          "V4T000441",
+          "V4T000008",
+          "V4T000373",
+          "V4T000350",
+          "V4T000672"
+        ],
+        "completion_factor_threshold": 0.5,
+        "completion_reward": 100.0,
+        "deadline_utc": "2026-11-08T08:15:00Z",
+        "issued_at_utc": "2026-11-08T00:30:00Z",
+        "minimum_completed": 6,
+        "request_id": "V4RQ0002",
+        "reward": 100.0,
+        "target_ids": [
+          "V4T000697",
+          "V4T000441",
+          "V4T000008",
+          "V4T000279",
+          "V4T000373",
+          "V4T000176",
+          "V4T000350",
+          "V4T000672"
+        ]
+      }
+    ],
+    "scenario": "synthetic-stress-held",
+    "schema_version": "v4-score-report-v1",
+    "sha256": {
+      "decisions": "396080a2882590f2aff1966276ce1dbede7936c973a55a46f2d692f0890734ab",
+      "messages": "15124b8aa84613deb00c4a9ac6efcc0f94407bc3bc51ebc5b3e3376df9b310d9",
+      "observations": "d460885e2266fdaef62eaf32de1bd8bc1890dd3773684ed70710ae791473e375",
+      "scenario": "a3fe756c0ff03c56dd816d54c7dfecc39c0bb49c5edcbcd8972cf5cc39d5d23a"
+    },
+    "termination": {
+      "detail": "",
+      "reason": "survey_complete"
+    },
+    "total": 491.786185,
+    "uniformity_bands": {
+      "ra_0_10": 0.637363,
+      "ra_100_110": 0.661538,
+      "ra_10_20": 0.528302,
+      "ra_110_120": 0.457143,
+      "ra_120_130": 0.479167,
+      "ra_130_140": 0.0,
+      "ra_20_30": 0.493151,
+      "ra_30_40": 0.25,
+      "ra_350_360": 0.285714,
+      "ra_40_50": 0.666667,
+      "ra_50_60": 0.738462,
+      "ra_60_70": 0.470588,
+      "ra_70_80": 0.623377,
+      "ra_80_90": 0.423077
+    }
+  },
+  "speed_factor": 0.5525,
+  "termination_detail": "",
+  "termination_reason": "survey_complete"
+}

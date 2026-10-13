@@ -1,0 +1,74 @@
+schema_version: 1
+experiment_id: gosim-fusion-v33-comparison
+project_id: astronomy-observer
+parent_run_id: null
+hypothesis: Combine incoming season/fault search with local program/replay/request/LLM
+  correctness; measure scores without assuming universal improvement.
+baseline: incoming-L1/L2/normal-a/normal-b/dense-r1 and native local-r2; immutable
+  source snapshots
+command: run_cpu.py --family <family> --card <card> --out <unique-run> --budget 180;
+  unittest; verify_py312.py; package.py (commands recorded retrospectively)
+output_dir: evidence/final
+data_contract_revision: DATA_CONTRACT.md-v33
+datasets:
+- name: five fixed local task cards and all intermediate runs
+  version: frozen official v4 scorer and input manifests
+  uri: experiments/*/source-input-manifest.json
+  identity: 8d21342bf6d463a083ff95686f32ea2c45bd309b4bf69c34ede0451a05f0982f
+random:
+  stochastic: false
+  seed: null
+  rng: no runtime agent RNG; pre-generated input cards are fixed
+  stream_policy: same target/weather/request truth products in paired runs; adaptive
+    timing changes paths
+parallel:
+  backend: independent host processes across cases; serial CPU-charged agent/scorer
+    per run
+  workers: 1
+  threads_per_worker: 1
+  reduction: serial per fibre; no parallel numerical reduction
+environment:
+  dependency_lock: dependency-lock.txt
+  hardware: x86_64
+  software: 3.10.9 stdlib, C++17; process CPU hook
+parameters:
+  api: false
+  standard_cpu_budget: 180
+  real_cap: 360
+  FUSION_JOINT_PROGRAM: 1
+  FUSION_QUAKE_CURVE: 0
+  max_concurrent_cases: 6
+controls:
+  sample_ids: same public catalogue target IDs per pair
+  skeleton: 'not-applicable: telescope scheduling'
+  selection: all completed prototypes retained; no independent final holdout; initial
+    unbuilt local runs not ranked as C++ baseline
+  units_and_coordinates: UTC seconds, degrees, alt-az gnomonic square fibre geometry
+  bin_edges_and_denominator: one official total per complete task card
+metrics:
+  scores:
+    definition: scores from saved workflow, tests and archive checks
+    unit: score
+    uncertainty: single paired scores; host timing variance not estimated
+  all_experiments:
+    definition: all_experiments from saved workflow, tests and archive checks
+    unit: score
+    uncertainty: single paired scores; host timing variance not estimated
+  tests:
+    definition: tests from saved workflow, tests and archive checks
+    unit: count
+    uncertainty: single paired scores; host timing variance not estimated
+  zip_valid:
+    definition: zip_valid from saved workflow, tests and archive checks
+    unit: boolean
+    uncertainty: single paired scores; host timing variance not estimated
+reproducibility:
+  level: numerical
+  tolerance: saved score/action evidence exact; adaptive CPU reruns can differ
+success_criterion: complete legal episodes and interface checks; tests pass; preserve
+  all regressions, no universal score threshold
+budget:
+  max_runs: 32
+  max_walltime_hours: 2
+  stop_condition: 32 recorded comparisons complete; stop further score tuning; retrospective
+    budget record

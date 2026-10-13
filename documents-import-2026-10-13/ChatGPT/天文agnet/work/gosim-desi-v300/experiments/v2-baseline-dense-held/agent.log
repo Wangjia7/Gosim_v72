@@ -1,0 +1,73 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.19, time price fraction 0.13
+pro: 2400 targets, 288 required, 7 nights; init 0.02s; model none (rules only)
+pro: pace level 1 (cpu budget 1001 ms, wall budget 2667 ms, cpu costs [1017, 342, 114, 38] ms, 67 decisions left)
+pro: pace level 0 (cpu budget 955 ms, wall budget 2548 ms, cpu costs [939, 342, 114, 38] ms, 70 decisions left)
+pro: E 2026-11-02T01:45:00Z 1.00 scale 0.889 band 0.907
+pro: pace level 1 (cpu budget 909 ms, wall budget 2441 ms, cpu costs [939, 416, 114, 38] ms, 72 decisions left)
+pro: pace level 0 (cpu budget 868 ms, wall budget 2334 ms, cpu costs [865, 416, 114, 38] ms, 75 decisions left)
+pro: pace level 1 (cpu budget 828 ms, wall budget 2243 ms, cpu costs [865, 470, 114, 38] ms, 78 decisions left)
+pro: pace level 0 (cpu budget 798 ms, wall budget 2163 ms, cpu costs [796, 470, 114, 38] ms, 81 decisions left)
+pro: pace level 1 (cpu budget 766 ms, wall budget 2089 ms, cpu costs [796, 512, 114, 38] ms, 84 decisions left)
+pro: E 2026-11-02T02:32:30Z 1.00 scale 0.872 band 0.946
+pro: pace level 0 (cpu budget 745 ms, wall budget 2034 ms, cpu costs [733, 512, 114, 38] ms, 86 decisions left)
+pro: pace level 1 (cpu budget 715 ms, wall budget 1967 ms, cpu costs [733, 551, 114, 38] ms, 88 decisions left)
+pro: pace level 0 (cpu budget 696 ms, wall budget 1917 ms, cpu costs [680, 551, 114, 38] ms, 91 decisions left)
+pro: pace level 1 (cpu budget 670 ms, wall budget 1857 ms, cpu costs [680, 576, 114, 38] ms, 93 decisions left)
+pro: pace level 0 (cpu budget 647 ms, wall budget 1796 ms, cpu costs [628, 576, 114, 38] ms, 96 decisions left)
+pro: E 2026-11-02T03:37:30Z 1.00 scale 0.846 band 0.990
+pro: pace level 2 (cpu budget 603 ms, wall budget 1696 ms, cpu costs [651, 608, 114, 38] ms, 101 decisions left)
+pro: pace level 1 (cpu budget 582 ms, wall budget 1636 ms, cpu costs [587, 196, 114, 38] ms, 105 decisions left)
+pro: E 2026-11-02T04:37:30Z 1.00 scale 0.871 band 0.916
+pro: E 2026-11-02T05:32:30Z 1.00 scale 0.847 band 0.891
+pro: E 2026-11-02T06:52:30Z 1.00 scale 0.752 band 0.791
+pro: E 2026-11-02T07:37:30Z 1.00 scale 0.852 band 0.895
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.747 band 0.885
+pro: E 2026-11-03T01:40:00Z 1.00 scale 0.809 band 0.836
+pro: E 2026-11-03T02:50:00Z 1.00 scale 0.771 band 0.812
+pro: E 2026-11-03T03:30:00Z 1.00 scale 0.854 band 0.845
+pro: E 2026-11-03T04:35:00Z 1.00 scale 0.812 band 0.815
+pro: E 2026-11-03T05:30:00Z 1.00 scale 0.753 band 0.793
+pro: E 2026-11-03T06:50:00Z 1.00 scale 0.762 band 0.803
+pro: E 2026-11-03T08:00:00Z 1.00 scale 0.719 band 0.760
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.719 band 0.757
+pro: E 2026-11-04T01:30:00Z 1.00 scale 0.678 band 0.714
+pro: E 2026-11-04T02:45:00Z 1.00 scale 0.635 band 0.658
+pro: E 2026-11-04T03:30:00Z 1.00 scale 0.693 band 0.668
+pro: E 2026-11-04T04:30:00Z 1.00 scale 0.693 band 0.730
+pro: E 2026-11-04T05:30:00Z 1.00 scale 0.713 band 0.730
+pro: E 2026-11-04T06:30:00Z 1.00 scale 0.759 band 0.764
+pro: pace level 0 (cpu budget 520 ms, wall budget 1584 ms, cpu costs [424, 96, 27, 9] ms, 104 decisions left)
+pro: E 2026-11-04T07:30:00Z 1.00 scale 0.791 band 0.832
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.689 band 0.726
+pro: E 2026-11-05T02:05:00Z 1.00 scale 0.404 band 0.807
+pro: E 2026-11-05T02:40:00Z 1.00 scale 0.840 band 0.884
+pro: E 2026-11-05T03:40:00Z 1.00 scale 0.815 band 0.884
+pro: E 2026-11-05T05:15:00Z 1.00 scale 0.923 band 0.935
+pro: E 2026-11-05T06:05:00Z 1.00 scale 0.923 band 0.972
+pro: E 2026-11-05T07:05:00Z 1.00 scale 0.866 band 0.972
+pro: E 2026-11-05T07:35:00Z 1.00 scale 0.888 band 0.912
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.836 band 0.880
+pro: E 2026-11-06T01:30:00Z 1.00 scale 0.710 band 0.880
+pro: E 2026-11-06T03:20:00Z 1.00 scale 0.156 band 0.666
+pro: E 2026-11-06T04:20:00Z 1.00 scale 0.156 band 0.666
+pro: E 2026-11-06T05:20:00Z 0.28 scale 0.725 band 0.593
+pro: E 2026-11-06T05:45:00Z 1.00 scale 0.832 band 0.866
+pro: E 2026-11-06T06:32:30Z 1.00 scale 0.753 band 0.757
+pro: E 2026-11-06T07:30:00Z 1.00 scale 0.753 band 0.793
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.756 band 0.796
+pro: E 2026-11-07T01:57:30Z 1.00 scale 0.656 band 0.690
+pro: E 2026-11-07T02:45:00Z 1.00 scale 0.709 band 0.739
+pro: E 2026-11-07T03:50:00Z 1.00 scale 0.712 band 0.746
+pro: E 2026-11-07T04:40:00Z 1.00 scale 0.763 band 0.803
+pro: E 2026-11-07T05:30:00Z 1.00 scale 0.677 band 0.736
+pro: E 2026-11-07T07:30:00Z 1.00 scale 0.627 band 0.660
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.647 band 0.643
+pro: E 2026-11-08T01:40:00Z 1.00 scale 0.764 band 0.810
+pro: E 2026-11-08T02:40:00Z 1.00 scale 0.759 band 0.804
+pro: E 2026-11-08T03:47:30Z 1.00 scale 0.691 band 0.727
+pro: E 2026-11-08T04:42:30Z 1.00 scale 0.711 band 0.727
+pro: E 2026-11-08T06:12:30Z 1.00 scale 0.763 band 0.770
+pro: E 2026-11-08T07:02:30Z 1.00 scale 0.777 band 0.803
+pro: E 2026-11-08T07:42:30Z 1.00 scale 0.824 band 0.818
+pro finished: termination_reason=survey_complete observes=190 reports=0

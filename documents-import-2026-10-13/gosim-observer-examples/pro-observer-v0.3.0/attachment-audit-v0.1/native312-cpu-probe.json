@@ -1,0 +1,30 @@
+{
+  "platform": "darwin",
+  "machine": "arm64",
+  "timebase_numer": 125,
+  "timebase_denom": 3,
+  "timebase_ratio": 41.666666666666664,
+  "trials": [
+    {
+      "process_time": 0.30009600000000003,
+      "getrusage": 0.300119,
+      "runner_darwin_cpu": 0.3001032083333333,
+      "monotonic": 0.30524341692216694,
+      "runner_over_process_ratio": 1.0000240200913484
+    },
+    {
+      "process_time": 0.6001859999999999,
+      "getrusage": 0.600186,
+      "runner_darwin_cpu": 0.600071375,
+      "monotonic": 0.6020455420948565,
+      "runner_over_process_ratio": 0.9998090175378967
+    },
+    {
+      "process_time": 1.00001,
+      "getrusage": 1.0000090000000001,
+      "runner_darwin_cpu": 1.00001675,
+      "monotonic": 1.003202582942322,
+      "runner_over_process_ratio": 1.0000067499325005
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+test_applied_anomaly_review_expires_at_next_ledger_version (test_core.CoreTests) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+season: night 0 demand/supply 1.18 prices slot price q10 6.43e-05 q50 9.56e-05 q90 0.000108, groups 2
+offset box: outcomes contradict it, widened to +-0.150 deg
+v5: deep search on (cpu budget 3600 ms, deep cost 5 ms)
+ok
+test_bandfit_configuration_and_known_physics (test_core.CoreTests) ... ok
+test_common_program_uses_marginal_science (test_core.CoreTests) ... ok
+test_duplicate_result_does_not_add_fault_evidence (test_core.CoreTests) ... ok
+test_each_request_uses_its_own_full_exposure_window (test_core.CoreTests) ... ok
+test_fused_native_matches_python_including_cell_ties (test_core.CoreTests) ... ok
+test_loss_removes_geometry_evidence (test_core.CoreTests) ... ok
+test_monitor_is_available_without_science_value (test_core.CoreTests) ... ok
+test_new_weather_notice_filters_pending_but_quake_preserves_band (test_core.CoreTests) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+v5: earthquake notice at 2026-11-02T01:00:00Z
+fault: reference reset at h-0.1 (earthquake onset)
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+ok
+test_no_oracle_or_truth_hooks_in_fused_runtime (test_core.CoreTests) ... ok
+test_pacing_records_actual_search_level (test_core.CoreTests) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_quake_curve_disabled_and_no_absolute_probe (test_core.CoreTests) ... ok
+test_raw_and_science_maxima_are_independent_after_loss (test_core.CoreTests) ... ok
+test_repair_epoch_survives_replay (test_core.CoreTests) ... ok
+test_runtime_required_threshold_and_duration_bounds (test_core.CoreTests) ... ok
+test_two_mock_llm_roles_in_fused_agent (test_core.CoreTests) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+season: night 0 demand/supply 1.18 prices slot price q10 6.43e-05 q50 9.56e-05 q90 0.000108, groups 2
+ok
+test_strict_json_accepts_one_object_or_fence (test_llm.ModelTests) ... ok
+test_strict_json_rejects_multiple_objects_and_nonfinite (test_llm.ModelTests) ... ok
+test_two_local_model_roles_with_normal_planner (test_llm.ModelTests) ... ok
+test_unknown_target_and_stale_ledger_are_rejected (test_llm.ModelTests) ... ok
+test_best_exposure_does_not_sum (test_normal.Tests) ... ok
+test_cpu_attribution_uses_actual_level (test_normal.Tests) ... ok
+test_data_loss_removes_learning_and_factor_contributions (test_normal.Tests) ... ok
+test_duplicate_result_not_recorded_twice (test_normal.Tests) ... ok
+test_duration_never_exceeds_instrument_limit (test_normal.Tests) ... ok
+test_earthquake_does_not_erase_independent_band_evidence (test_normal.Tests) ... planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+pro: earthquake notice at 2026-11-02T01:07:26Z
+ok
+test_expired_or_impossible_request_has_no_bonus (test_normal.Tests) ... ok
+test_future_rising_request_target_cannot_break_current_search (test_normal.Tests) ... ok
+test_geometry_full_neighbourhood_contains_opposite_cell (test_normal.Tests) ... ok
+test_geometry_windows_require_entire_exposure (test_normal.Tests) ... ok
+test_jsonl_missing_key_and_duplicate_sequence (test_normal.Tests) ... ok
+test_native_and_python_choose_same_action (test_normal.Tests) ... ok
+test_program_uses_marginal_scores (test_normal.Tests) ... ok
+test_raw_factor_and_science_best_replay_separately (test_normal.Tests) ... ok
+test_repair_epoch_does_not_resurrect_old_calibration (test_normal.Tests) ... ok
+test_request_deadline_and_reward_cap (test_normal.Tests) ... ok
+test_request_progress_zero_is_not_reactivated (test_normal.Tests) ... ok
+test_required_bound_and_runtime_threshold (test_normal.Tests) ... ok
+test_unknown_program_factor_lower_is_independent_of_estimate (test_normal.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.232s
+
+OK

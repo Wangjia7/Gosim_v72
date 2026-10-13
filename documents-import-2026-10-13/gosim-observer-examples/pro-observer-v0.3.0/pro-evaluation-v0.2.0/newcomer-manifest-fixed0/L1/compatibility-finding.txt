@@ -1,0 +1,1 @@
+The supplied dutylog.py lacks postponed annotations and requires Python >=3.10 at import. Native CLT Python3.9 startup failed at dutylog.py142 int|None before any decisions. This failure is not a measured score or policy comparison. Attachment source hashes unchanged; subsequent same-interpreter comparison uses native Python3.12.14.

@@ -1,0 +1,54 @@
+v5: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+v7 switches: {"V6_DESI_HA":"0","V6_DL_FAULT":"0","V6_DL_FLAT":"0","V6_DL_HORIZON":"1","V6_DL_REQ":"1","V6_DL_WEATHER":"0","V6_FAULT_DEEP":"1","V6_FAULT_FIX":"1","V6_GROUP_REQUESTS":"0","V6_LP_EVENTS":"0","V6_LP_MOON":"0","V6_LP_WEATHER":"0","V6_POINT_MODEL":"0","V6_REWARD_SPLIT":"0","V7_API_ASYNC":"1","V7_API_POLICY":"tiered","V7_FAULT_MH":"0","V7_FAULT_U":"off","V7_FREE_POLICY":"v5","V7_MODEL_EFFORT":"auto","V7_NIGHTPLAN":"on","V7_PAID":"v5","V7_QA0":"0","V7_SHADOW":"1","V7_SHORT_API":"0","V7_SKILL":"0","V7_SPLIT_EV":"0","V7_WAIT_SKIP":"0","V7_WALL":"1"}
+planner: scarcity 0.87, time price fraction 0.60
+v5: 7800 targets, 390 required, 32 nights; init 0.61s; model none (rules only)
+season: night 0 demand/supply 1.79 prices slot price q10 0.00184 q50 0.00214 q90 0.0036, groups 102
+v5: deep search on (cpu budget 1714 ms, deep cost 452 ms)
+season: night 0 demand/supply 1.79 prices slot price q10 0.00182 q50 0.0022 q90 0.00359, groups 102
+season: night 0 demand/supply 1.79 prices slot price q10 0.0018 q50 0.00228 q90 0.00357, groups 102
+season: night 0 demand/supply 1.79 prices slot price q10 0.00177 q50 0.00238 q90 0.00354, groups 102
+season: night 0 demand/supply 1.80 prices slot price q10 0.00172 q50 0.00246 q90 0.00349, groups 102
+season: night 0 demand/supply 1.80 prices slot price q10 0.00171 q50 0.0025 q90 0.00352, groups 102
+season: night 0 demand/supply 1.80 prices slot price q10 0.00169 q50 0.00257 q90 0.00351, groups 102
+v5: deep search off (cpu budget 267 ms, deep cost 322 ms)
+season: night 0 demand/supply 1.80 prices slot price q10 0.00164 q50 0.00254 q90 0.00347, groups 102
+v5: pace level 1 (cpu budget 248 ms, wall budget 975 ms, cpu costs [248, 71, 24, 8] ms, 1535 decisions left)
+season: night 0 demand/supply 1.80 prices slot price q10 0.00159 q50 0.00248 q90 0.00342, groups 102
+v5: pace level 0 (cpu budget 266 ms, wall budget 1051 ms, cpu costs [248, 83, 24, 8] ms, 1420 decisions left)
+v5: pace level 1 (cpu budget 264 ms, wall budget 1044 ms, cpu costs [268, 71, 20, 7] ms, 1432 decisions left)
+v5: pace level 0 (cpu budget 271 ms, wall budget 1073 ms, cpu costs [268, 71, 20, 7] ms, 1392 decisions left)
+v5: pace level 1 (cpu budget 278 ms, wall budget 1101 ms, cpu costs [279, 71, 20, 7] ms, 1357 decisions left)
+v5: deep search on (cpu budget 306 ms, deep cost 274 ms)
+v5: pace level 0 (cpu budget 306 ms, wall budget 1211 ms, cpu costs [279, 72, 20, 7] ms, 1234 decisions left)
+fault: report at h147.8: step 0.57 over 3 exposures / 1.4 h (free)
+v7 shadow: {"hours":147.83333333333334,"candidate":true,"evidence":"step 0.57 over 3 exposures / 1.4 h","free_left":2,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-11-08T04:20:00Z (step 0.57 over 3 exposures / 1.4 h), free left 2
+v5: report false (delta 0.0); free left 1
+v5: earthquake notice at 2026-11-12T04:47:30Z
+fault: reference reset at h244.4 (earthquake onset)
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+season: night 15 demand/supply 3.49 prices slot price q10 0.00148 q50 0.0025 q90 0.00293, groups 102
+fault: report at h507.5: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68) (free)
+v7 shadow: {"hours":507.5,"candidate":true,"evidence":"1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68)","free_left":1,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-11-23T04:00:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68)), free left 1
+fault: reference reset at h507.5 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+season: night 30 demand/supply 29.11 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.07 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.05 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.01 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.01 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.01 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.01 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+season: night 30 demand/supply 29.01 prices slot price q10 0.00153 q50 0.0034 q90 0.00476, groups 101
+v5: deep search off (cpu budget 312 ms, deep cost 68 ms)
+v5: pace level 4 (cpu budget 312 ms, wall budget 110383 ms, cpu costs [279, 6, 2, 1] ms, 10 decisions left)
+v7model {"model_blocking_seconds": 0.04564008419401944, "wall_limit_seconds": 1800.0, "advice_applications": 0, "valid_model_responses": 0, "model_state_changes": 0, "model_report_vetoes": 0, "night_plan_cache_hits": 0, "application_note": "state changes and vetoes; not counterfactual action gain", "level_counts": {"0": 845, "1": 43, "4": 15}, "no_plan_waits": 0, "action_counts": {"observe": 839, "wait": 62, "report": 2}, "monitors": 0, "observes": 839}
+v5 finished: termination_reason=survey_complete observes=839 monitors=0 reports=2

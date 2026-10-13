@@ -1,0 +1,136 @@
+[
+  {
+    "label": "reported-run",
+    "archive": "/Users/jqwang/Downloads/observer-result (1).zip",
+    "sha256": "4a983d7c6aa7971e68a0af279df8a2accf4c0b987ae439f6249ebc715d991b28",
+    "members": [
+      {
+        "path": "actions.jsonl",
+        "sha256": "34a834e612686dda34dedda4dac2acd30514037d35bbdee984967df40db1760f",
+        "bytes": 83215
+      },
+      {
+        "path": "agent.log",
+        "sha256": "8f609a41c92bd0b441563f8acdfb9da5c76bd853d237046f67f122f9976040fc",
+        "bytes": 4409
+      },
+      {
+        "path": "decisions.csv",
+        "sha256": "f5f6a50e5245b986bc4e4684ecae0eb0d5dcda9cd10ccc0cc70a16fa596170c1",
+        "bytes": 37511
+      },
+      {
+        "path": "egress.json",
+        "sha256": "3d001d493dfffedd264bbbdbcb422362da3b5a0a4848f77c9341a8f573c5df98",
+        "bytes": 221
+      },
+      {
+        "path": "messages.jsonl",
+        "sha256": "97dc20c639c2db4d3feb5c05abf9c870e36482c1296781b8349494136ccccb7f",
+        "bytes": 41518
+      },
+      {
+        "path": "observations.csv",
+        "sha256": "1675d33123942e0cfcfe8289a7b15efeee5e937a795373aa660a3eaa803bf535",
+        "bytes": 136814
+      },
+      {
+        "path": "score_report.json",
+        "sha256": "23f4b48798611c677c8072aa0aa0e8731db11985f929e1667130d8b6e56d673d",
+        "bytes": 1403
+      },
+      {
+        "path": "workflow_result.json",
+        "sha256": "a5226f998d240c5f80385a7185cf7a511e94dc28b8702334ed0baab29620838e",
+        "bytes": 2461
+      }
+    ]
+  },
+  {
+    "label": "improved-source",
+    "archive": "/Users/jqwang/Downloads/AGENTIC-OBSERVER26-runner-3-participant-b3cec1b5210f49279e13956eca4ae555-9c656650910c2e2abce96444115bc72a9a2eb645.zip",
+    "sha256": "bd1b293b660b8a30c6d1a7b1ddece4519b115840c26b4b912b0b7baa689c75d1",
+    "members": [
+      {
+        "path": "advisor.py",
+        "sha256": "c24f012e022bf18d75df2b0f98f8554c43759c081c3900e53230a3e9712742b3",
+        "bytes": 15522
+      },
+      {
+        "path": "agent.py",
+        "sha256": "d9d2cc62d171b1cabe2255914235950e9c75d505ad6b183584427dae4b9993da",
+        "bytes": 51073
+      },
+      {
+        "path": "bandfit.py",
+        "sha256": "cd5a3415c45c4675320908b3ce490fb7c8a49649d1972bc6c1af29905dd89884",
+        "bytes": 5485
+      },
+      {
+        "path": "dutylog.py",
+        "sha256": "88e406099145852bc0193fb93ae6bfd0bebac315ce9fe6fedf03787a8c4d5744",
+        "bytes": 35726
+      },
+      {
+        "path": "fault.py",
+        "sha256": "222b7168cac727afe76f904038fd22f1b751e2e6b6da6a97bc301debad466a64",
+        "bytes": 25580
+      },
+      {
+        "path": "fault_mh.py",
+        "sha256": "2edafa31ba826378e47231645f8decb1e3b88ac45b797c3599828e1daaa47514",
+        "bytes": 3821
+      },
+      {
+        "path": "llm_client.py",
+        "sha256": "64c6ce38c3a1b122151d3c79a79ea109b77548c22d054f7b61e8596ee2678166",
+        "bytes": 10385
+      },
+      {
+        "path": "longplan.py",
+        "sha256": "7846b05a1dc6b6b9fd05b8b5c2ed24c85d6ccc3cb82965deed6eb3047718b1fe",
+        "bytes": 7199
+      },
+      {
+        "path": "observer.project.json",
+        "sha256": "7c028724290fa664e567e29702d13eb4d8adc3a0bf9f47e922a4d4cabeda4d97",
+        "bytes": 866
+      },
+      {
+        "path": "planner.py",
+        "sha256": "4eaaf1180981fb61710f8c3165b7d85d447ed99b855d57fa77b84a2de55a8939",
+        "bytes": 99736
+      },
+      {
+        "path": "pointing.py",
+        "sha256": "4f872add7c2d600d57ceb380c51d4e64bfc182d84417337887640fcd3c13fdf7",
+        "bytes": 8627
+      },
+      {
+        "path": "rolling.py",
+        "sha256": "60c75e92d4116e6018e42925671130c436e4a010dfc9e3025414a127c7155b47",
+        "bytes": 7770
+      },
+      {
+        "path": "season.py",
+        "sha256": "a55f2da0c40b6cb8272d143bd5d50c2d9e14ece4cce658d313fc4f0587a37e14",
+        "bytes": 22013
+      },
+      {
+        "path": "skymath.py",
+        "sha256": "23ac21dc241d05c9164c2f9df0a2a2fe3457330c118eee3aa8abe778b1f00291",
+        "bytes": 9229
+      },
+      {
+        "path": "switches.py",
+        "sha256": "4da5810ee83144c6cef2af08513bc1a7e1b88d83bd5069d5a6ff1ab228fe20e7",
+        "bytes": 2720
+      },
+      {
+        "path": "walltime.py",
+        "sha256": "241a727bc182024cdd0ca3a470491961c8cac6ec1dea2ab49e7719044240cba9",
+        "bytes": 7017
+      }
+    ]
+  }
+]

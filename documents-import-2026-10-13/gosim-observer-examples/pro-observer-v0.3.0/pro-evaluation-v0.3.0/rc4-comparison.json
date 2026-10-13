@@ -1,0 +1,40 @@
+[
+  {
+    "label": "rc4-dense-fix",
+    "card": "L1",
+    "status": "success",
+    "total": 6587.434006,
+    "science": 6387.917565,
+    "required_missing": 2,
+    "request_reward": 200.0,
+    "uniformity_penalty": -0.483558,
+    "cpu_seconds": 474.465,
+    "charged_seconds": 870.546,
+    "wall_seconds": 490.417,
+    "actual_width_median": 4.540120703123506,
+    "actual_width_max": 20.0,
+    "deep_width_gt1_fraction": 0.6141826923076923,
+    "source_unchanged": true,
+    "execution_source_unchanged": true,
+    "card_files_unchanged": true
+  },
+  {
+    "label": "rc4-width-gate",
+    "card": "L1",
+    "status": "success",
+    "total": 6592.094057,
+    "science": 6392.534293,
+    "required_missing": 2,
+    "request_reward": 200.0,
+    "uniformity_penalty": -0.440236,
+    "cpu_seconds": 488.964,
+    "charged_seconds": 873.807,
+    "wall_seconds": 503.176,
+    "actual_width_median": 3.8999844108169395,
+    "actual_width_max": 20.0,
+    "deep_width_gt1_fraction": 0.9285714285714286,
+    "source_unchanged": true,
+    "execution_source_unchanged": true,
+    "card_files_unchanged": true
+  }
+]

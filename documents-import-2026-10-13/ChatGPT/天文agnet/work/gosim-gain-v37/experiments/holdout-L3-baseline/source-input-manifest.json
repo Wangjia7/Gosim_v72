@@ -1,0 +1,761 @@
+{
+  "source": {
+    "planner.py": "c71b3e2dde276b21b878523cfc726fac09452a62e3e405b2788c6b80b3f2d0e0",
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "FUSION_PROVENANCE.json": "3637fc0ec810835488e3afcdcc6a0548dcae2f29cad6a4a1468377e78cc4d4ea",
+    "log_review.py": "3a9211192c2e66aab90c30335c0add714e03bb2483526a0da333b9c53c5ab337",
+    "joint.cpp": "38f9d301022c8765a94eb4da8a4ced854863917f215e11ba7373c5ef64b47e91",
+    "CHANGELOG.md": "439f5cb085711952dfdae95ce07e0290a1158232192fe513189897aacdb2177f",
+    "budget.py": "e5a10b4d939d81a81d20b05946da7c0779ed033160d4fea15aae247631c448a8",
+    "advisor.py": "0dd7e5d8677e8c1c715fd50479437b9f875df58c182d0e82e41b868bd055ec27",
+    "VALIDATION.md": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "native.py": "9d249fdcc5320664d42fc8fe7e19eda6b594a35ddc8c2d4fa5917f4898702d99",
+    "README.md": "95b50ad93189886697ef724ed20878038167b74973435ef206194cc8218497fb",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "opportunities.py": "4e8479ce4a4d2b621d3c2f204e5faa266ed68b45d9724ae0f9e3a64be519b14c",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "llm_client.py": "a1e91cbe181b79facf214fe8f2ba5c494f7de8e830eb07b171498dbc1b248c99",
+    "routing.py": "307f9fb992e50aacf6b5513764832ccd949e6939b09d32baa48a249a977c6a9a",
+    "agent.py": "22182ce4cb8b2b682845ec23804d631348bc32931c7601ffa854b95b9ad3b460",
+    "enhanced_agent.py": "ca254239efe00a76be2891bd3d138cc5bfdfd6275579564bd8d72e4c954710f0",
+    "observer.project.json": "dc15c6f6e2c0b7439905ab4d697d5af545ed556a032a614c955452b5f03d1f47",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "fusion_core/guarded.py": "cd924d237fc1362ffb7f729cc049cab94ad32c24c739963ad23b799d6f903eda",
+    "fusion_core/planner.py": "6799634b232c68d34b469242072e0b6b369028e4285edc37961d5b234a5b8c2a",
+    "fusion_core/bandfit.py": "1415f42dbc670be5a5799c01ba11bdad18f471e87c25930b4b6928decc1d774d",
+    "fusion_core/skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "fusion_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fusion_core/agent.py": "f6df3d4b9dcf59cc1827dd23a1b126cfaa9a74bd7cbe97ef5d33baed4681782b",
+    "fusion_core/season.py": "a1c6f52b9587bba3febe63417d31560412c0583ffcb14d4019202f47449eb0e5",
+    "fusion_core/fault.py": "fe7b592519df883eaa8a460c6c01e5818287144edfd969b638cf8875a1c20bf0",
+    "official_pro/planner.py": "ca72da4ad5cf2b84be6dd84474923d47f47a96c0d5d01c21ced382cd29ff66c1",
+    "official_pro/advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "official_pro/skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "official_pro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "official_pro/opportunities.py": "6514696e20d5e8ce8bc897fa55e4327436b25b86caf4a74ceff86ba664e00317",
+    "official_pro/llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "official_pro/agent.py": "b4cef53179b2505cd563813b444ce6c25df92354bfb45807b2ca3f2764684d64",
+    "official_pro/AGENTS.md": "c75d9bed09ee4ba7b42c2b80bcc87538b798e04550dd37826f03c900553279d9",
+    "skills/astronomy-observer/SKILL.md": "8eea6149bdbe5729d15e85b112ea7db7156fb075ed9268fd3fcdc4e89b51e9d1",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd"
+  },
+  "inputs": {
+    "config/v4_scenario.json": "8f6ed8404147282a48bd3b7bf8d2df5bbbbff147f7e3e06f37065a75a2414a32",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+    "public/v4_night_calendar.csv": "e552565d9e309ceeadccd3cfac8179847d41eaf1b8c17bfcbd1ba875c0f198ba",
+    "public/v4_bulletins.jsonl": "4e96e05cbd2104bf81fae71167e20456854d012428e17b54ee890578d18e8ef7",
+    "public/v4_forecasts.jsonl": "803924d45e2598daa3fce857d90e6bb33a395b16262c7d49c8f2a2f568853b18",
+    "public/targets.csv": "cb0114de562a9199167e8ad4fd3fb030afcffe498cda58021f3a6ce336bd5ffc",
+    "public/footprint.csv": "021aace550aa0ad5cd6afa4a7cd0f09d772c6ca0151bc90e2861d7510c153027",
+    "truth/v4_earthquake_effects.csv": "9f28d1546ca9f77003fd251b4ea01effab794ea8df93e344c53447941d2f25f3",
+    "truth/v4_weather_truth.csv": "6d91ac3e1869f23bf9a6b86aa666cbbc738dd85ff32a2e8b00f06c815f865643",
+    "truth/v4_stress_events.csv": "a1a4e9b184b6f20a7a7b8d22a24bfedb5d62817f17f4e712ea5d7aded70277a3",
+    "truth/v4_slots.csv": "26e15e0c9a91b0333b0639fdc85a2af1e9c200a179f3db8cc49d8ff7a33222f6",
+    "truth/v4_events.csv": "2568aea2fdc1410c7cd31d3a8d9d0c6654db6adbf13639d7bc3ea4a7cf402f9a",
+    "truth/v4_observation_requests.jsonl": "13dd8743ac832770de5dbc3599167fff24ad35c86aca707d715fb6ec3d3241ca"
+  },
+  "family": "baseline",
+  "budget": 900.0,
+  "wall_cap": 7200.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {
+    "PRO_FULL_FIELD": "0",
+    "PRO_BREAKPOINTS": "0",
+    "PRO_CONSERVATIVE_REQUIRED": "0",
+    "PRO_REQUEST_BATCH": "0",
+    "FUSION_QUAKE_CURVE": "0",
+    "FUSION_JOINT_PROGRAM": "1",
+    "FUSION_LOG_REVIEW": "1",
+    "FUSION_MAX_BREADTH": "1"
+  },
+  "start": "2026-10-07T07:54:19.065733+00:00",
+  "route": "fusion_core.agent",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "native_loaded": true,
+  "native_cells": true,
+  "own_clock_cpu": 112.51557900000022,
+  "exposure_review": {
+    "recent_nights": [
+      {
+        "epoch": 0,
+        "night": 30,
+        "exposures": 9,
+        "assigned": 110,
+        "hits": 110,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 30,
+        "exposures": 1,
+        "assigned": 14,
+        "hits": 14,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 31,
+        "exposures": 9,
+        "assigned": 119,
+        "hits": 119,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 32,
+        "exposures": 10,
+        "assigned": 125,
+        "hits": 125,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 33,
+        "exposures": 10,
+        "assigned": 137,
+        "hits": 137,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 34,
+        "exposures": 17,
+        "assigned": 176,
+        "hits": 176,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 35,
+        "exposures": 48,
+        "assigned": 461,
+        "hits": 461,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 36,
+        "exposures": 24,
+        "assigned": 263,
+        "hits": 263,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      }
+    ],
+    "schema": "own-exposure-review-v1",
+    "checkpoint": 151,
+    "epoch": 1,
+    "valid_exposures": 758,
+    "invalidated_exposures": 1,
+    "cue": "weather_or_earthquake_confounded",
+    "recent_miss_fraction": 0.0,
+    "recent_independent_clean_exposures": 0,
+    "previous_independent_clean_exposures": 0,
+    "required_unconfirmed": 1,
+    "required_examples": [
+      "V4T001503"
+    ],
+    "by_class_program_duration": [
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 24,
+        "hit": 24,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 43,
+        "hit": 43,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 45,
+        "hit": 45,
+        "missed": 0,
+        "zero_score": 14
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 68,
+        "hit": 68,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 90,
+        "hit": 90,
+        "missed": 0,
+        "zero_score": 13
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 90,
+        "hit": 90,
+        "missed": 0,
+        "zero_score": 15
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 151,
+        "hit": 151,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 406,
+        "hit": 406,
+        "missed": 0,
+        "zero_score": 5
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 1274,
+        "hit": 1271,
+        "missed": 3,
+        "zero_score": 137
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 54,
+        "hit": 54,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 14,
+        "hit": 14,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 16,
+        "hit": 16,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 157,
+        "hit": 157,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 56,
+        "hit": 56,
+        "missed": 0,
+        "zero_score": 5
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 37,
+        "hit": 37,
+        "missed": 0,
+        "zero_score": 9
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 476,
+        "hit": 476,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 1607,
+        "hit": 1607,
+        "missed": 0,
+        "zero_score": 20
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 1249,
+        "hit": 1249,
+        "missed": 0,
+        "zero_score": 107
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 16,
+        "hit": 16,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 17,
+        "hit": 17,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 14,
+        "hit": 14,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 125,
+        "hit": 125,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 31,
+        "hit": 31,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 36,
+        "hit": 36,
+        "missed": 0,
+        "zero_score": 7
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 403,
+        "hit": 403,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 870,
+        "hit": 870,
+        "missed": 0,
+        "zero_score": 15
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 408,
+        "hit": 408,
+        "missed": 0,
+        "zero_score": 28
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 15,
+        "hit": 15,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 9,
+        "hit": 9,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 8,
+        "hit": 8,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 91,
+        "hit": 91,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 19,
+        "hit": 19,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 16,
+        "hit": 16,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 425,
+        "hit": 425,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 511,
+        "hit": 511,
+        "missed": 0,
+        "zero_score": 6
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 251,
+        "hit": 251,
+        "missed": 0,
+        "zero_score": 25
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 2,
+        "hit": 2,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 15,
+        "hit": 15,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 32,
+        "hit": 32,
+        "missed": 0,
+        "zero_score": 13
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 5,
+        "hit": 5,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 35,
+        "hit": 35,
+        "missed": 0,
+        "zero_score": 6
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 106,
+        "hit": 106,
+        "missed": 0,
+        "zero_score": 25
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 22,
+        "hit": 22,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 66,
+        "hit": 66,
+        "missed": 0,
+        "zero_score": 1
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 533,
+        "hit": 533,
+        "missed": 0,
+        "zero_score": 144
+      }
+    ],
+    "recent_exposures": [
+      {
+        "id": 751,
+        "utc": "2026-12-22T05:20:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 14,
+        "hits": 14,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.6760892794542036,
+          0.8112597520177933
+        ]
+      },
+      {
+        "id": 752,
+        "utc": "2026-12-22T05:45:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.6835555250730632,
+          0.6836052024366349
+        ]
+      },
+      {
+        "id": 753,
+        "utc": "2026-12-22T06:00:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 900,
+        "program": "DARK",
+        "assigned": 10,
+        "hits": 10,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 5,
+        "ratio_bounds": [
+          0.7112367405559608,
+          0.8534840886671529
+        ]
+      },
+      {
+        "id": 754,
+        "utc": "2026-12-22T06:15:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 900,
+        "program": "DARK",
+        "assigned": 10,
+        "hits": 10,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.6901205861257895,
+          0.7591307922622745
+        ]
+      },
+      {
+        "id": 755,
+        "utc": "2026-12-22T06:35:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 11,
+        "hits": 11,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.640029000255272,
+          0.7680348003063264
+        ]
+      },
+      {
+        "id": 756,
+        "utc": "2026-12-22T06:55:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 9,
+        "ratio_bounds": [
+          0.5944310529854183,
+          0.7133076029456488
+        ]
+      },
+      {
+        "id": 757,
+        "utc": "2026-12-22T07:15:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1200,
+        "program": "DARK",
+        "assigned": 12,
+        "hits": 12,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 7,
+        "ratio_bounds": [
+          0.6261188504561128,
+          0.7513426205473354
+        ]
+      },
+      {
+        "id": 758,
+        "utc": "2026-12-22T07:45:00+00:00",
+        "night": 36,
+        "epoch": 1,
+        "duration": 1800,
+        "program": "DARK",
+        "assigned": 14,
+        "hits": 14,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.6885685615606655,
+          0.8262401738737314
+        ]
+      }
+    ],
+    "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+    "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+  },
+  "end": "2026-10-07T07:56:23.932197+00:00",
+  "elapsed_wall_seconds": 124.86526541598141
+}

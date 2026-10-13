@@ -1,0 +1,30 @@
+{
+  "all_python_sources_match": true,
+  "archive_sha256": "bd1b293b660b8a30c6d1a7b1ddece4519b115840c26b4b912b0b7baa689c75d1",
+  "implicit_defaults": {
+    "V5_DEEP": 1
+  },
+  "manifest_matches_archive": true,
+  "manifest_sha256": "7c028724290fa664e567e29702d13eb4d8adc3a0bf9f47e922a4d4cabeda4d97",
+  "note": "V5_DEEP1 is source default agent.py59, not a manifest env entry. Original attachment unmodified.",
+  "phase_override": {
+    "V5_FIXED_LEVEL": 0
+  },
+  "source_python_hash_matches_archive": {
+    "advisor.py": true,
+    "agent.py": true,
+    "bandfit.py": true,
+    "dutylog.py": true,
+    "fault.py": true,
+    "fault_mh.py": true,
+    "llm_client.py": true,
+    "longplan.py": true,
+    "planner.py": true,
+    "pointing.py": true,
+    "rolling.py": true,
+    "season.py": true,
+    "skymath.py": true,
+    "switches.py": true,
+    "walltime.py": true
+  }
+}

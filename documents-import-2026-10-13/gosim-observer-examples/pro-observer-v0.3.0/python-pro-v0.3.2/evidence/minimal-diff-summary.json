@@ -1,0 +1,71 @@
+{
+  "changes": [
+    {
+      "file": "agent.py",
+      "status": "modified",
+      "added_lines": 213,
+      "removed_lines": 20
+    },
+    {
+      "file": "decision_log.py",
+      "status": "added",
+      "added_lines": 56,
+      "removed_lines": 0
+    },
+    {
+      "file": "llm_client.py",
+      "status": "modified",
+      "added_lines": 69,
+      "removed_lines": 23
+    },
+    {
+      "file": "observer.project.json",
+      "status": "modified",
+      "added_lines": 57,
+      "removed_lines": 1
+    },
+    {
+      "file": "pack_agent.py",
+      "status": "added",
+      "added_lines": 75,
+      "removed_lines": 0
+    },
+    {
+      "file": "planner.py",
+      "status": "modified",
+      "added_lines": 730,
+      "removed_lines": 119
+    },
+    {
+      "file": "qa_review.py",
+      "status": "added",
+      "added_lines": 198,
+      "removed_lines": 0
+    },
+    {
+      "file": "season.py",
+      "status": "modified",
+      "added_lines": 36,
+      "removed_lines": 10
+    },
+    {
+      "file": "skymath.py",
+      "status": "modified",
+      "added_lines": 6,
+      "removed_lines": 0
+    }
+  ],
+  "unchanged_python_files": [
+    "advisor.py",
+    "bandfit.py",
+    "dutylog.py",
+    "fault.py",
+    "fault_mh.py",
+    "longplan.py",
+    "pointing.py",
+    "rolling.py",
+    "switches.py",
+    "walltime.py"
+  ],
+  "note": "Normalized line-ending diff of runtime Python and manifest only; tests/docs/evidence are additive. Original CRLF runtime convention retained."
+}

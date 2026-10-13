@@ -1,0 +1,10 @@
+[
+ {"name":"required_success","hits":[{"target_id":"t0","score":1.8}],"judgement":"PASS","required_certified":true},
+ {"name":"required_missed","hits":[],"judgement":"UNKNOWN","reasons":["FIBER_MISS_CAUSE_UNKNOWN"]},
+ {"name":"below_threshold","hits":[{"target_id":"t0","score":0.4}],"judgement":"WARN","required_certified":false,"reasons":["BELOW_COMPLETION_THRESHOLD"]},
+ {"name":"program_ambiguous","hits":[{"target_id":"t0","score":0.3}],"judgement":"WARN","required_certified":false},
+ {"name":"mismatch_candidate","hits":[{"target_id":"t0","score":2.0}],"judgement":"WARN","reasons":["PROGRAM_MISMATCH_CANDIDATE"]},
+ {"name":"zero_gain_repeat","before":1.8,"hits":[{"target_id":"t0","score":1.8}],"judgement":"WARN","reasons":["ZERO_MARGINAL_GAIN"]},
+ {"name":"zero_hit_score","hits":[{"target_id":"t0","score":0}],"judgement":"WARN","reasons":["ZERO_SCORE_CAUSE_UNKNOWN"]},
+ {"name":"weather_confounded","hits":[{"target_id":"t0","score":0.4}],"weather":[["haze","ALL"]],"judgement":"WARN","reasons":["WEATHER_OR_QUAKE_CONFOUNDED"]}
+]

@@ -1,0 +1,218 @@
+{
+  "environment_overrides": {
+    "PRO_FIXED_LEVEL": "0",
+    "OBSERVER_MODEL_DISABLED": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "model_calls": 0,
+  "randomness": "No RNG introduced; fixed card inputs; no observer random seed setting found",
+  "constants": {
+    "planner": {
+      "SIDEREAL_DEG_PER_SECOND": 0.004178074622295023,
+      "LAMBDA_FRAC": 0.6,
+      "LAMBDA_EMA": 0.03,
+      "SCARCITY_REF": 0.86,
+      "SCARCITY_POWER": 1.0,
+      "TYPICAL_Q": 0.6,
+      "N_ANCHORS": 12,
+      "N_DENSE": 20,
+      "DENSE_BIN_DEG": 2.5,
+      "DENSE_FIBERS": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "REFINE": 0.1,
+      "REFINE_ROUNDS": 4,
+      "REFINE_FIXED_T": 1,
+      "REFINE_STEPS": [
+        [
+          -0.1,
+          -0.1
+        ],
+        [
+          -0.1,
+          0.0
+        ],
+        [
+          -0.1,
+          0.1
+        ],
+        [
+          0.0,
+          -0.1
+        ],
+        [
+          0.0,
+          0.1
+        ],
+        [
+          0.1,
+          -0.1
+        ],
+        [
+          0.1,
+          0.0
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ],
+      "POOL": 600,
+      "NEIGHBOUR_RADIUS_DEG": 2.1,
+      "EDGE_MARGIN_DEG": 0.04,
+      "DURATIONS": [
+        300,
+        450,
+        600,
+        750,
+        900,
+        1200,
+        1500,
+        1800,
+        2400,
+        3000,
+        3600
+      ],
+      "LEVEL_DURATIONS": [
+        [
+          300,
+          450,
+          600,
+          750,
+          900,
+          1200,
+          1500,
+          1800,
+          2400,
+          3000,
+          3600
+        ],
+        [
+          300,
+          600,
+          900,
+          1200,
+          1800,
+          2400,
+          3600
+        ],
+        [
+          450,
+          900,
+          1800,
+          3600
+        ],
+        [
+          900,
+          1800
+        ]
+      ],
+      "MIN_T": 0,
+      "MIN_VISIBLE_SECONDS": 600,
+      "ALT_MARGIN_DEG": 0.6,
+      "PLAN_FACTOR_SAFETY": 0.97,
+      "REQUIRED_BONUS": 80.0,
+      "REQ_P_LO": 0.95,
+      "REQ_P_HI": 1.35,
+      "REQUEST_MULT": 3.0,
+      "REQ_CALIB_POWER": 0.0,
+      "FORECAST_DISCOUNT": 0.2,
+      "REQ_CALENDAR": 0,
+      "REQ_TIMING": 0.85,
+      "REQ_TIMING_NIGHTS": 5,
+      "REQ_TIMING_DISCOUNT": 0.3,
+      "URGENCY": 1.5,
+      "PARTIAL_DISCOUNT": 1.0,
+      "PARTIAL_DONE": 0.9,
+      "PARTIAL_NIGHTS": 3,
+      "PLAN_UTIL": 0.55,
+      "PLAN_Q": 0.7,
+      "KAPPA": 1.0,
+      "REQUIRED_SAFE_FACTOR": 0.62,
+      "DONE_FACTOR": 0.95,
+      "OFFSET_STEPS": 16,
+      "OFFSET_MIN_MISSES": 6,
+      "OFFSET_REFINE_EVERY": 10,
+      "OFFSET_FINE_EVIDENCE": 150,
+      "OFFSET_MARGIN": 8,
+      "SKY_MEMORY_HOURS": 2.0,
+      "BAND_OPT": 1.0,
+      "BAND_HALF_LIFE": 0.0,
+      "BAND_MEMORY_HOURS": 2.0,
+      "BAND_FALLBACK": 0,
+      "BAND_FALLBACK_HOURS": 12.0,
+      "BAND_CONT": 0,
+      "CLOSED_KINDS": [
+        "rain",
+        "storm"
+      ],
+      "SKY_WEATHER_KINDS": [
+        "cold_snap",
+        "haze",
+        "overcast",
+        "rain",
+        "storm"
+      ],
+      "WEATHER_GATE": 0,
+      "NEUTRAL_KINDS": [
+        "earthquake"
+      ],
+      "BLOCKING_KINDS": [
+        "rocket_launch",
+        "terrain_obstruction"
+      ],
+      "DIRECTION_AZ": {
+        "N": 0.0,
+        "NE": 45.0,
+        "E": 90.0,
+        "SE": 135.0,
+        "S": 180.0,
+        "SW": 225.0,
+        "W": 270.0,
+        "NW": 315.0
+      }
+    },
+    "agent": {
+      "WEATHER_KINDS": [
+        "cold_snap",
+        "haze",
+        "overcast",
+        "rain",
+        "storm"
+      ],
+      "BAD_KINDS": [
+        "haze",
+        "overcast",
+        "rain",
+        "storm"
+      ],
+      "PROTOCOL": "participant-agent-protocol-v4",
+      "E_LOW_FREE": 0.9,
+      "E_LOW_FREE2": 0.9,
+      "E_FREE_HOURS": 4,
+      "E_LOW": 0.85,
+      "E_PAID_LOW": 0.75,
+      "E_PAID_HOURS": 12,
+      "E_RECOVER": 0.95,
+      "MAX_PAID_FALSE": 6,
+      "PERSIST_NIGHTS": 3,
+      "E_PAID_STEP": 0.05,
+      "MAX_FALSE_REPORTS": 8,
+      "QUAKE_HOLD_HOURS": 12.0,
+      "QUAKE_STEP": 0.8,
+      "QUAKE_TAIL_HOURS": 24.0,
+      "PAID_SPACING_HOURS": 20.0,
+      "MIN_REPORT_SPACING_HOURS": 2.0,
+      "PACE_SAFETY": 0.75,
+      "MODEL_WAIT_MAX": 20.0,
+      "MODEL_FAULT_HIGH": 0.6,
+      "MODEL_FAULT_LOW": 0.15,
+      "SCALE_STEP": 0.7,
+      "MODEL_FREE_PROBE": 0,
+      "FIXED_LEVEL": 0
+    }
+  }
+}

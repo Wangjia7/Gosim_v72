@@ -1,0 +1,6 @@
+v5: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+v7 switches: {"V6_DESI_HA":"0","V6_DL_FAULT":"0","V6_DL_FLAT":"0","V6_DL_HORIZON":"1","V6_DL_REQ":"1","V6_DL_WEATHER":"0","V6_FAULT_DEEP":"1","V6_FAULT_FIX":"1","V6_GROUP_REQUESTS":"0","V6_LP_EVENTS":"0","V6_LP_MOON":"0","V6_LP_WEATHER":"0","V6_POINT_MODEL":"0","V6_REWARD_SPLIT":"0","V7_API_ASYNC":"1","V7_API_POLICY":"tiered","V7_FAULT_MH":"0","V7_FAULT_U":"off","V7_FREE_POLICY":"v5","V7_MODEL_EFFORT":"auto","V7_NIGHTPLAN":"on","V7_PAID":"v5","V7_QA0":"0","V7_SHADOW":"1","V7_SHORT_API":"0","V7_SKILL":"0","V7_SPLIT_EV":"0","V7_WAIT_SKIP":"0","V7_WALL":"1"}
+planner: scarcity 0.00, time price fraction 0.09
+v5: 1 targets, 1 required, 1 nights; init 0.02s; model none (rules only)
+v7model {"model_blocking_seconds": 0.0, "wall_limit_seconds": null, "advice_applications": 0, "valid_model_responses": 0, "model_state_changes": 0, "model_report_vetoes": 0, "night_plan_cache_hits": 0, "application_note": "state changes and vetoes; not counterfactual action gain", "level_counts": {"0": 1}, "no_plan_waits": 0, "action_counts": {"finish": 1}, "monitors": 0, "observes": 0}
+v5 finished: termination_reason=agent_finished observes=0 monitors=0 reports=0

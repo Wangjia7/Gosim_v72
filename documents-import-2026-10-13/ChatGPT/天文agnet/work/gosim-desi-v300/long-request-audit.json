@@ -1,0 +1,57 @@
+{
+  "request_id": "V4RQ0001",
+  "threshold": 0.5,
+  "minimum_completed": 6,
+  "sampled_individually_feasible": 8,
+  "scope": "post-run truth; 60s start grid, perfect fiber placement, no shared telescope capacity; not a rigorous infeasibility proof",
+  "rows": [
+    {
+      "target_id": "V4T005797",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T05:20:00+00:00",
+      "feature_flux": 0.32767458
+    },
+    {
+      "target_id": "V4T000172",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T00:30:00+00:00",
+      "feature_flux": 0.36397211
+    },
+    {
+      "target_id": "V4T000704",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T00:41:00+00:00",
+      "feature_flux": 0.68286135
+    },
+    {
+      "target_id": "V4T000296",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T02:53:00+00:00",
+      "feature_flux": 1.41386907
+    },
+    {
+      "target_id": "V4T004506",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T00:30:00+00:00",
+      "feature_flux": 0.4876348
+    },
+    {
+      "target_id": "V4T005292",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T00:30:00+00:00",
+      "feature_flux": 1.60706155
+    },
+    {
+      "target_id": "V4T000706",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T00:30:00+00:00",
+      "feature_flux": 0.49559243
+    },
+    {
+      "target_id": "V4T002723",
+      "max_factor_sampled": 1.0,
+      "start_utc": "2026-11-03T02:18:00+00:00",
+      "feature_flux": 3.23410442
+    }
+  ]
+}

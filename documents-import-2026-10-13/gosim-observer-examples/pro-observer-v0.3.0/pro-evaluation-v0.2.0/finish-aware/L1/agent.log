@@ -1,0 +1,282 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.87, time price fraction 0.30
+pro: 7800 targets, 390 required, 32 nights; init 0.64s; model none (rules only)
+season plan: 6842 targets to complete
+pro: E 2026-11-02T01:42:30Z 1.00 scale 0.662 band 0.696
+pro: E 2026-11-02T02:42:30Z 1.00 scale 0.639 band 0.673
+pro: E 2026-11-02T03:35:00Z 1.00 scale 0.740 band 0.718
+pro: E 2026-11-02T04:30:00Z 1.00 scale 0.708 band 0.745
+pro: E 2026-11-02T05:35:00Z 1.00 scale 0.736 band 0.796
+pro: E 2026-11-02T06:32:30Z 1.00 scale 0.767 band 0.808
+pro: E 2026-11-02T07:32:30Z 1.00 scale 0.700 band 0.737
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.681 band 0.732
+season plan: 6451 targets to complete
+pro: E 2026-11-03T01:35:00Z 1.00 scale 0.595 band 0.614
+pro: E 2026-11-03T02:37:30Z 1.00 scale 0.558 band 0.596
+pro: E 2026-11-03T03:47:30Z 1.00 scale 0.583 band 0.613
+pro: E 2026-11-03T04:30:00Z 1.00 scale 0.585 band 0.616
+pro: E 2026-11-03T05:42:30Z 1.00 scale 0.667 band 0.673
+pro: E 2026-11-03T06:30:00Z 1.00 scale 0.658 band 0.702
+pro: E 2026-11-03T07:37:30Z 1.00 scale 0.637 band 0.670
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.637 band 0.670
+season plan: 6140 targets to complete
+pro: E 2026-11-04T01:35:00Z 1.00 scale 0.660 band 0.694
+pro: E 2026-11-04T02:37:30Z 1.00 scale 0.691 band 0.728
+pro: E 2026-11-04T03:37:30Z 1.00 scale 0.675 band 0.682
+pro: E 2026-11-04T04:32:30Z 1.00 scale 0.655 band 0.689
+pro: E 2026-11-04T05:40:00Z 1.00 scale 0.701 band 0.738
+pro: E 2026-11-04T06:32:30Z 1.00 scale 0.714 band 0.751
+pro: E 2026-11-04T07:32:30Z 1.00 scale 0.626 band 0.685
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.594 band 0.625
+season plan: 5815 targets to complete
+pro: E 2026-11-05T01:35:00Z 1.00 scale 0.680 band 0.689
+pro: E 2026-11-05T02:42:30Z 1.00 scale 0.670 band 0.705
+pro: E 2026-11-05T03:42:30Z 1.00 scale 0.729 band 0.724
+pro: E 2026-11-05T04:47:30Z 1.00 scale 0.750 band 0.754
+pro: E 2026-11-05T05:52:30Z 1.00 scale 0.730 band 0.768
+pro: E 2026-11-05T06:47:30Z 1.00 scale 0.730 band 0.768
+pro: E 2026-11-05T07:55:00Z 1.00 scale 0.617 band 0.694
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.618 band 0.651
+season plan: 5578 targets to complete
+pro: E 2026-11-06T01:50:00Z 1.00 scale 0.522 band 0.549
+pro: E 2026-11-06T02:50:00Z 1.00 scale 0.539 band 0.567
+pro: E 2026-11-06T03:30:00Z 1.00 scale 0.539 band 0.567
+pro: E 2026-11-06T04:45:00Z 1.00 scale 0.588 band 0.598
+pro: E 2026-11-06T05:55:00Z 1.00 scale 0.587 band 0.618
+pro: E 2026-11-06T06:35:00Z 1.00 scale 0.587 band 0.618
+pro: E 2026-11-06T08:05:00Z 1.00 scale 0.656 band 0.639
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.607 band 0.691
+season plan: 5397 targets to complete
+pro: E 2026-11-07T01:50:00Z 1.00 scale 0.547 band 0.576
+pro: E 2026-11-07T02:55:00Z 1.00 scale 0.547 band 0.576
+pro: E 2026-11-07T03:32:30Z 1.00 scale 0.564 band 0.593
+pro: E 2026-11-07T05:02:30Z 1.00 scale 0.437 band 0.556
+pro: E 2026-11-07T05:52:30Z 1.00 scale 0.575 band 0.479
+pro: E 2026-11-07T06:32:30Z 1.00 scale 0.575 band 0.479
+pro: E 2026-11-07T07:42:30Z 1.00 scale 0.568 band 0.605
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.607 band 0.649
+season plan: 5156 targets to complete
+pro: E 2026-11-08T01:30:00Z 1.00 scale 0.614 band 0.649
+pro: E 2026-11-08T02:30:00Z 1.00 scale 0.614 band 0.646
+pro: E 2026-11-08T03:57:30Z 1.00 scale 0.099 band 0.474
+pro: E 2026-11-08T04:57:30Z 0.20 scale 0.099 band 0.532
+pro: E 2026-11-08T05:57:30Z 0.20 scale 0.113 band 0.532
+pro: E 2026-11-08T06:57:30Z 0.23 scale 0.607 band 0.512
+pro: report at 2026-11-08T06:57:30Z (quality below what the program bands allow), free left 2
+pro: report false (delta 0.0); free left 1
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.614 band 0.646
+season plan: 4986 targets to complete
+pro: E 2026-11-09T01:40:00Z 1.00 scale 0.607 band 0.639
+pro: E 2026-11-09T03:25:00Z 1.00 scale 0.530 band 0.639
+pro: E 2026-11-09T04:25:00Z 1.00 scale 0.530 band 0.558
+pro: E 2026-11-09T05:05:00Z 1.00 scale 0.530 band 0.558
+pro: quality recovered at 2026-11-09T05:05:00Z; probing re-armed
+pro: E 2026-11-09T05:45:00Z 1.00 scale 0.606 band 0.558
+pro: E 2026-11-09T06:55:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-09T07:35:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-10T00:30:00Z 1.00 scale 0.657 band 0.638
+season plan: 4809 targets to complete
+pro: E 2026-11-10T01:35:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-10T02:50:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-10T04:10:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-10T04:30:00Z 1.00 scale 0.741 band 0.638
+pro: E 2026-11-10T05:40:00Z 1.00 scale 0.741 band 0.780
+pro: E 2026-11-10T06:50:00Z 1.00 scale 0.716 band 0.754
+pro: E 2026-11-10T07:45:00Z 1.00 scale 0.742 band 0.758
+pro: E 2026-11-11T00:30:00Z 1.00 scale 0.742 band 0.781
+season plan: 4609 targets to complete
+pro: E 2026-11-11T01:45:00Z 1.00 scale 0.606 band 0.638
+pro: E 2026-11-11T02:35:00Z 1.00 scale 0.701 band 0.638
+pro: E 2026-11-11T03:50:00Z 1.00 scale 0.678 band 0.738
+pro: E 2026-11-11T04:40:00Z 1.00 scale 0.643 band 0.677
+pro: E 2026-11-11T05:35:00Z 1.00 scale 0.431 band 0.509
+pro: E 2026-11-11T06:35:00Z 1.00 scale 0.431 band 0.525
+pro: E 2026-11-11T07:45:00Z 1.00 scale 0.614 band 0.525
+pro: E 2026-11-12T00:30:00Z 1.00 scale 0.594 band 0.646
+season plan: 4409 targets to complete
+pro: E 2026-11-12T02:10:00Z 1.00 scale 0.594 band 0.624
+pro: E 2026-11-12T02:35:00Z 1.00 scale 0.577 band 0.626
+pro: E 2026-11-12T03:45:00Z 1.00 scale 0.553 band 0.582
+pro: E 2026-11-12T04:35:00Z 1.00 scale 0.550 band 0.582
+pro: earthquake notice at 2026-11-12T05:15:00Z
+pro: E 2026-11-13T05:30:00Z 0.56 scale 0.263 band 0.495
+season plan: 4180 targets to complete
+pro: E 2026-11-13T06:50:00Z 0.84 scale 0.416 band 0.521
+pro: E 2026-11-13T07:55:00Z 0.84 scale 0.416 band 0.521
+pro: E 2026-11-14T00:30:00Z 0.84 scale 0.391 band 0.521
+season plan: 4120 targets to complete
+pro: E 2026-11-14T01:45:00Z 1.00 scale 0.234 band 0.246
+pro: E 2026-11-14T02:35:00Z 1.00 scale 0.234 band 0.246
+pro: E 2026-11-14T04:25:00Z 1.00 scale 0.480 band 0.246
+pro: E 2026-11-14T05:15:00Z 1.00 scale 0.480 band 0.505
+pro: E 2026-11-14T05:45:00Z 1.00 scale 0.480 band 0.505
+pro: E 2026-11-14T06:45:00Z 1.00 scale 0.478 band 0.505
+pro: E 2026-11-14T07:45:00Z 1.00 scale 0.476 band 0.504
+pro: E 2026-11-15T00:30:00Z 1.00 scale 0.431 band 0.501
+season plan: 3999 targets to complete
+pro: E 2026-11-15T01:50:00Z 1.00 scale 0.452 band 0.475
+pro: E 2026-11-15T02:50:00Z 1.00 scale 0.452 band 0.475
+pro: E 2026-11-15T03:30:00Z 1.00 scale 0.519 band 0.475
+pro: E 2026-11-15T04:40:00Z 1.00 scale 0.448 band 0.530
+pro: E 2026-11-15T05:40:00Z 0.89 scale 0.448 band 0.530
+pro: E 2026-11-15T07:10:00Z 0.89 scale 0.495 band 0.579
+pro: E 2026-11-15T07:50:00Z 1.00 scale 0.489 band 0.521
+pro: E 2026-11-16T00:30:00Z 1.00 scale 0.443 band 0.515
+season plan: 3842 targets to complete
+pro: E 2026-11-16T01:30:00Z 1.00 scale 0.521 band 0.515
+pro: E 2026-11-16T03:10:00Z 1.00 scale 0.499 band 0.548
+pro: E 2026-11-16T04:00:00Z 1.00 scale 0.464 band 0.525
+pro: E 2026-11-16T04:40:00Z 1.00 scale 0.499 band 0.488
+pro: E 2026-11-16T05:50:00Z 1.00 scale 0.468 band 0.525
+pro: E 2026-11-16T06:40:00Z 0.94 scale 0.508 band 0.523
+pro: E 2026-11-16T07:50:00Z 1.00 scale 0.497 band 0.523
+pro: E 2026-11-17T00:45:00Z 1.00 scale 0.452 band 0.523
+season plan: 3692 targets to complete
+pro: E 2026-11-17T01:35:00Z 1.00 scale 0.465 band 0.523
+pro: E 2026-11-17T03:25:00Z 1.00 scale 0.465 band 0.489
+pro: E 2026-11-17T04:05:00Z 1.00 scale 0.530 band 0.489
+pro: E 2026-11-17T04:30:00Z 1.00 scale 0.529 band 0.558
+pro: E 2026-11-17T06:10:00Z 1.00 scale 0.446 band 0.558
+pro: E 2026-11-17T06:40:00Z 0.89 scale 0.446 band 0.528
+pro: E 2026-11-17T08:10:00Z 1.00 scale 0.465 band 0.534
+pro: E 2026-11-18T00:45:00Z 1.00 scale 0.499 band 0.489
+season plan: 3538 targets to complete
+pro: E 2026-11-18T01:45:00Z 1.00 scale 0.520 band 0.489
+pro: E 2026-11-18T03:00:00Z 1.00 scale 0.398 band 0.548
+pro: E 2026-11-18T03:50:00Z 0.75 scale 0.398 band 0.561
+pro: E 2026-11-18T04:50:00Z 0.79 scale 0.398 band 0.529
+pro: E 2026-11-18T05:30:00Z 0.84 scale 0.508 band 0.499
+pro: E 2026-11-18T07:00:00Z 1.00 scale 0.512 band 0.539
+pro: E 2026-11-18T08:00:00Z 1.00 scale 0.545 band 0.539
+pro: E 2026-11-19T00:45:00Z 1.00 scale 0.549 band 0.574
+season plan: 3396 targets to complete
+pro: E 2026-11-19T01:45:00Z 1.00 scale 0.508 band 0.574
+pro: E 2026-11-19T02:45:00Z 1.00 scale 0.555 band 0.534
+pro: E 2026-11-19T03:45:00Z 1.00 scale 0.507 band 0.584
+pro: E 2026-11-19T05:10:00Z 1.00 scale 0.507 band 0.534
+pro: E 2026-11-19T05:50:00Z 1.00 scale 0.315 band 0.534
+pro: E 2026-11-19T06:50:00Z 1.00 scale 0.315 band 0.332
+pro: E 2026-11-19T07:50:00Z 1.00 scale 0.288 band 0.331
+pro: E 2026-11-20T00:45:00Z 1.00 scale 0.263 band 0.303
+season plan: 3255 targets to complete
+pro: E 2026-11-20T02:25:00Z 1.00 scale 0.354 band 0.373
+pro: E 2026-11-20T03:25:00Z 1.00 scale 0.354 band 0.373
+pro: E 2026-11-20T04:15:00Z 1.00 scale 0.325 band 0.373
+pro: E 2026-11-20T04:45:00Z 0.89 scale 0.325 band 0.384
+pro: E 2026-11-20T05:45:00Z 0.89 scale 0.346 band 0.384
+pro: E 2026-11-20T06:35:00Z 1.00 scale 0.369 band 0.365
+pro: E 2026-11-21T00:45:00Z 1.00 scale 0.391 band 0.389
+season plan: 3098 targets to complete
+pro: E 2026-11-21T01:35:00Z 1.00 scale 0.383 band 0.389
+pro: E 2026-11-21T03:15:00Z 1.00 scale 0.354 band 0.372
+pro: E 2026-11-21T04:05:00Z 1.00 scale 0.354 band 0.372
+pro: E 2026-11-21T04:55:00Z 1.00 scale 0.360 band 0.372
+pro: E 2026-11-21T05:55:00Z 1.00 scale 0.361 band 0.379
+pro: E 2026-11-21T06:55:00Z 1.00 scale 0.465 band 0.380
+pro: E 2026-11-21T07:45:00Z 1.00 scale 0.257 band 0.489
+pro: E 2026-11-22T00:45:00Z 0.79 scale 0.280 band 0.342
+season plan: 2936 targets to complete
+pro: E 2026-11-22T02:05:00Z 0.89 scale 0.277 band 0.327
+pro: E 2026-11-22T02:45:00Z 0.89 scale 0.237 band 0.327
+pro: E 2026-11-22T03:45:00Z 0.70 scale 0.176 band 0.354
+pro: E 2026-11-22T04:45:00Z 0.53 scale 0.176 band 0.352
+pro: report at 2026-11-22T04:45:00Z (quality below what the program bands allow), free left 1
+pro: report correct, fault repaired (delta 100.0)
+pro: E 2026-11-22T06:55:00Z 1.00 scale 0.724 band 0.762
+pro: E 2026-11-22T07:35:00Z 1.00 scale 0.724 band 0.762
+pro: E 2026-11-23T00:45:00Z 1.00 scale 0.625 band 0.658
+season plan: 2775 targets to complete
+pro: E 2026-11-23T01:35:00Z 1.00 scale 0.656 band 0.658
+pro: E 2026-11-23T02:50:00Z 1.00 scale 0.544 band 0.590
+pro: E 2026-11-23T03:50:00Z 1.00 scale 0.541 band 0.572
+pro: E 2026-11-23T04:40:00Z 1.00 scale 0.528 band 0.569
+pro: E 2026-11-23T06:10:00Z 1.00 scale 0.502 band 0.556
+pro: E 2026-11-23T07:00:00Z 0.94 scale 0.505 band 0.560
+pro: E 2026-11-23T07:50:00Z 1.00 scale 0.485 band 0.531
+pro: E 2026-11-24T00:45:00Z 0.94 scale 0.549 band 0.541
+season plan: 2619 targets to complete
+pro: E 2026-11-24T01:45:00Z 0.94 scale 0.476 band 0.541
+pro: E 2026-11-24T02:35:00Z 1.00 scale 0.476 band 0.501
+pro: E 2026-11-24T03:55:00Z 1.00 scale 0.348 band 0.501
+pro: E 2026-11-24T04:55:00Z 0.70 scale 0.257 band 0.520
+pro: E 2026-11-24T05:35:00Z 1.00 scale 0.268 band 0.270
+pro: E 2026-11-24T07:05:00Z 1.00 scale 0.184 band 0.270
+pro: E 2026-11-24T08:00:00Z 0.47 scale 0.219 band 0.492
+pro: E 2026-11-25T00:45:00Z 0.75 scale 0.504 band 0.513
+season plan: 2439 targets to complete
+pro: E 2026-11-25T01:35:00Z 0.75 scale 0.504 band 0.513
+pro: E 2026-11-25T03:15:00Z 0.75 scale 0.504 band 0.531
+pro: E 2026-11-25T04:15:00Z 0.75 scale 0.577 band 0.531
+pro: E 2026-11-26T01:00:00Z 1.00 scale 0.131 band 0.608
+season plan: 2277 targets to complete
+pro: E 2026-11-26T01:40:00Z 1.00 scale 0.488 band 0.608
+pro: E 2026-11-26T02:40:00Z 1.00 scale 0.488 band 0.513
+pro: E 2026-11-26T03:50:00Z 1.00 scale 0.514 band 0.541
+pro: E 2026-11-26T04:40:00Z 1.00 scale 0.514 band 0.541
+pro: E 2026-11-26T05:30:00Z 1.00 scale 0.502 band 0.541
+pro: E 2026-11-26T07:00:00Z 1.00 scale 0.550 band 0.528
+pro: E 2026-11-26T07:50:00Z 1.00 scale 0.550 band 0.579
+pro: E 2026-11-27T00:45:00Z 1.00 scale 0.550 band 0.579
+season plan: 2095 targets to complete
+pro: E 2026-11-27T02:05:00Z 1.00 scale 0.504 band 0.531
+pro: E 2026-11-27T03:05:00Z 1.00 scale 0.549 band 0.531
+pro: E 2026-11-27T04:05:00Z 1.00 scale 0.593 band 0.578
+pro: E 2026-11-27T05:05:00Z 1.00 scale 0.593 band 0.624
+pro: E 2026-11-27T05:35:00Z 1.00 scale 0.593 band 0.624
+pro: E 2026-11-27T06:40:00Z 1.00 scale 0.486 band 0.624
+pro: E 2026-11-27T08:10:00Z 1.00 scale 0.293 band 0.512
+pro: E 2026-11-28T00:45:00Z 1.00 scale 0.486 band 0.309
+season plan: 1898 targets to complete
+pro: E 2026-11-28T02:05:00Z 1.00 scale 0.504 band 0.531
+pro: E 2026-11-28T02:45:00Z 1.00 scale 0.498 band 0.531
+pro: E 2026-11-28T04:15:00Z 1.00 scale 0.409 band 0.448
+pro: E 2026-11-28T04:45:00Z 1.00 scale 0.426 band 0.431
+pro: E 2026-11-28T06:25:00Z 1.00 scale 0.436 band 0.504
+pro: E 2026-11-28T07:15:00Z 0.89 scale 0.389 band 0.516
+pro: E 2026-11-28T07:55:00Z 0.84 scale 0.389 band 0.488
+pro: E 2026-11-29T00:45:00Z 1.00 scale 0.420 band 0.409
+season plan: 1694 targets to complete
+pro: E 2026-11-29T01:35:00Z 1.00 scale 0.488 band 0.409
+pro: E 2026-11-29T03:15:00Z 1.00 scale 0.409 band 0.455
+pro: E 2026-11-29T03:55:00Z 0.94 scale 0.409 band 0.457
+pro: E 2026-11-29T04:55:00Z 1.00 scale 0.409 band 0.431
+pro: E 2026-11-29T05:35:00Z 1.00 scale 0.408 band 0.431
+pro: E 2026-11-29T06:55:00Z 1.00 scale 0.350 band 0.510
+pro: E 2026-11-29T07:35:00Z 0.70 scale 0.397 band 0.522
+pro: E 2026-11-30T00:45:00Z 0.79 scale 0.397 band 0.528
+season plan: 1473 targets to complete
+pro: E 2026-11-30T02:15:00Z 0.79 scale 0.476 band 0.501
+pro: E 2026-11-30T02:40:00Z 0.79 scale 0.498 band 0.501
+pro: E 2026-11-30T04:20:00Z 1.00 scale 0.476 band 0.514
+pro: E 2026-11-30T05:10:00Z 1.00 scale 0.498 band 0.501
+pro: E 2026-11-30T06:10:00Z 1.00 scale 0.498 band 0.495
+pro: E 2026-11-30T06:40:00Z 1.00 scale 0.492 band 0.524
+pro: E 2026-11-30T07:30:00Z 1.00 scale 0.492 band 0.518
+pro: E 2026-12-01T00:45:00Z 1.00 scale 0.492 band 0.518
+season plan: 1226 targets to complete
+pro: E 2026-12-01T01:35:00Z 1.00 scale 0.543 band 0.510
+pro: E 2026-12-01T02:30:00Z 1.00 scale 0.543 band 0.572
+pro: E 2026-12-01T03:47:30Z 1.00 scale 0.532 band 0.560
+pro: E 2026-12-01T04:42:30Z 1.00 scale 0.523 band 0.560
+pro: E 2026-12-01T05:35:00Z 1.00 scale 0.507 band 0.499
+pro: E 2026-12-01T06:30:00Z 1.00 scale 0.531 band 0.498
+pro: E 2026-12-01T07:35:00Z 1.00 scale 0.531 band 0.559
+pro: E 2026-12-02T00:45:00Z 1.00 scale 0.531 band 0.559
+season plan: 896 targets to complete
+pro: E 2026-12-02T01:45:00Z 1.00 scale 0.455 band 0.479
+pro: E 2026-12-02T02:40:00Z 1.00 scale 0.481 band 0.506
+pro: E 2026-12-02T03:30:00Z 1.00 scale 0.488 band 0.510
+pro: E 2026-12-02T04:35:00Z 1.00 scale 0.484 band 0.513
+pro: E 2026-12-02T05:45:00Z 1.00 scale 0.472 band 0.497
+pro: E 2026-12-02T06:30:00Z 1.00 scale 0.437 band 0.476
+pro: E 2026-12-02T07:40:00Z 1.00 scale 0.417 band 0.434
+pro: E 2026-12-03T01:00:00Z 0.94 scale 0.400 band 0.501
+season plan: 561 targets to complete
+pro: E 2026-12-03T02:00:00Z 0.94 scale 0.473 band 0.501
+pro: E 2026-12-03T03:00:00Z 1.00 scale 0.473 band 0.498
+pro: E 2026-12-03T03:30:00Z 1.00 scale 0.473 band 0.498
+pro: E 2026-12-03T04:30:00Z 1.00 scale 0.458 band 0.498
+pro: E 2026-12-03T05:50:00Z 1.00 scale 0.436 band 0.483
+pro: E 2026-12-03T07:20:00Z 1.00 scale 0.476 band 0.495
+pro: E 2026-12-03T07:45:00Z 1.00 scale 0.476 band 0.501
+pro finished: termination_reason=survey_complete observes=504 reports=2

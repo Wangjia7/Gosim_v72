@@ -1,0 +1,1 @@
+默认保守组合，最终上传 gosim-pro-normal-v3.2-upload.zip；全组合阶段包保留。23 项测试、manifest/build/JSONL/Python fallback。L2 +293.52，L1 -61.38；两个新正常卡仍有回归，非普遍超越。真 API、Linux、网站成绩未测。CPU 计量本机 subprocess reader 异常，使用官方 scorer + 可信同进程 hook。详见 VALIDATION.md。

@@ -1,0 +1,43 @@
+         48225590 function calls (45849354 primitive calls) in 60.773 seconds
+
+   Ordered by: cumulative time
+   List reduced from 132 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.000    0.000   60.773    3.039 agent.py:140(respond)
+       20    0.010    0.001   60.772    3.039 agent.py:164(_respond)
+       20    0.665    0.033   60.750    3.037 planner.py:634(plan)
+     5490    2.410    0.000   56.376    0.010 planner.py:826(evaluate)
+4174727/1798491    4.142    0.000   30.288    0.000 {built-in method builtins.max}
+  2767818    2.971    0.000   27.594    0.000 planner.py:844(<genexpr>)
+  2078735   11.785    0.000   24.623    0.000 planner.py:748(gain)
+   687942   10.391    0.000   19.122    0.000 skymath.py:75(tangent_offsets)
+  2078735    2.610    0.000    5.097    0.000 planner.py:731(full)
+   687942    2.647    0.000    4.978    0.000 skymath.py:118(classify)
+  6871373    3.846    0.000    3.846    0.000 {built-in method math.cos}
+  6090198    3.424    0.000    3.424    0.000 {built-in method math.sin}
+  4897129    2.977    0.000    2.977    0.000 {built-in method builtins.min}
+    92209    1.432    0.000    2.695    0.000 skymath.py:34(radec_to_altaz)
+  4199070    2.364    0.000    2.364    0.000 planner.py:743(shaped)
+    92982    0.381    0.000    2.221    0.000 planner.py:706(exact)
+      567    0.079    0.000    1.833    0.003 planner.py:861(<listcomp>)
+  3144040    1.656    0.000    1.656    0.000 {built-in method math.radians}
+  2190889    1.493    0.000    1.493    0.000 planner.py:554(_band)
+  2519966    1.405    0.000    1.405    0.000 {method 'get' of 'dict' objects}
+  1595798    0.842    0.000    0.842    0.000 {built-in method builtins.abs}
+  1571418    0.832    0.000    0.832    0.000 {built-in method math.degrees}
+   242439    0.351    0.000    0.493    0.000 skymath.py:113(fiber_center)
+   560068    0.308    0.000    0.308    0.000 {method 'append' of 'list' objects}
+    20800    0.145    0.000    0.305    0.000 planner.py:773(quick)
+    92746    0.188    0.000    0.290    0.000 skymath.py:132(normalized_airmass)
+   475716    0.265    0.000    0.265    0.000 {built-in method math.floor}
+     5508    0.127    0.000    0.228    0.000 skymath.py:90(shift_altaz)
+     2043    0.037    0.000    0.203    0.000 {built-in method builtins.sum}
+      567    0.098    0.000    0.160    0.000 planner.py:266(neighbours)
+   242439    0.142    0.000    0.142    0.000 {built-in method builtins.divmod}
+   209845    0.130    0.000    0.130    0.000 {method 'setdefault' of 'dict' objects}
+       20    0.003    0.000    0.110    0.005 planner.py:502(calibrated_band_scale)
+       20    0.002    0.000    0.101    0.005 planner.py:530(clean_e)
+    56518    0.069    0.000    0.087    0.000 planner.py:585(_direction_factor)
+
+

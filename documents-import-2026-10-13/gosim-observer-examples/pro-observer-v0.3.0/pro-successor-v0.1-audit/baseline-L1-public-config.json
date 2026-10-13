@@ -1,0 +1,822 @@
+{
+  "schema_version": "v4-initialize-v1",
+  "task_card": {
+    "card_id": "L1",
+    "scenario_slug": "v4-l1",
+    "phase": "practice-projects"
+  },
+  "site": {
+    "name": "Paranal, Chile (virtual)",
+    "latitude_deg": -24.6157,
+    "longitude_deg": -70.3976,
+    "utc_offset_hours": -4.0,
+    "sun_altitude_limit_deg": -18.0,
+    "minimum_altitude_deg": 30.0
+  },
+  "survey": {
+    "start_utc": "2026-11-02T00:30:00Z",
+    "end_utc": "2026-12-03T08:15:00Z",
+    "slot_seconds": 900,
+    "nights": [
+      {
+        "night_id": "N20261101",
+        "night_date": "2026-11-01",
+        "observing_start_utc": "2026-11-02T00:30:00Z",
+        "observing_end_utc": "2026-11-02T08:30:00Z",
+        "slot_count": 32
+      },
+      {
+        "night_id": "N20261102",
+        "night_date": "2026-11-02",
+        "observing_start_utc": "2026-11-03T00:30:00Z",
+        "observing_end_utc": "2026-11-03T08:30:00Z",
+        "slot_count": 32
+      },
+      {
+        "night_id": "N20261103",
+        "night_date": "2026-11-03",
+        "observing_start_utc": "2026-11-04T00:30:00Z",
+        "observing_end_utc": "2026-11-04T08:30:00Z",
+        "slot_count": 32
+      },
+      {
+        "night_id": "N20261104",
+        "night_date": "2026-11-04",
+        "observing_start_utc": "2026-11-05T00:30:00Z",
+        "observing_end_utc": "2026-11-05T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261105",
+        "night_date": "2026-11-05",
+        "observing_start_utc": "2026-11-06T00:30:00Z",
+        "observing_end_utc": "2026-11-06T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261106",
+        "night_date": "2026-11-06",
+        "observing_start_utc": "2026-11-07T00:30:00Z",
+        "observing_end_utc": "2026-11-07T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261107",
+        "night_date": "2026-11-07",
+        "observing_start_utc": "2026-11-08T00:30:00Z",
+        "observing_end_utc": "2026-11-08T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261108",
+        "night_date": "2026-11-08",
+        "observing_start_utc": "2026-11-09T00:30:00Z",
+        "observing_end_utc": "2026-11-09T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261109",
+        "night_date": "2026-11-09",
+        "observing_start_utc": "2026-11-10T00:30:00Z",
+        "observing_end_utc": "2026-11-10T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261110",
+        "night_date": "2026-11-10",
+        "observing_start_utc": "2026-11-11T00:30:00Z",
+        "observing_end_utc": "2026-11-11T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261111",
+        "night_date": "2026-11-11",
+        "observing_start_utc": "2026-11-12T00:30:00Z",
+        "observing_end_utc": "2026-11-12T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261112",
+        "night_date": "2026-11-12",
+        "observing_start_utc": "2026-11-13T00:30:00Z",
+        "observing_end_utc": "2026-11-13T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261113",
+        "night_date": "2026-11-13",
+        "observing_start_utc": "2026-11-14T00:30:00Z",
+        "observing_end_utc": "2026-11-14T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261114",
+        "night_date": "2026-11-14",
+        "observing_start_utc": "2026-11-15T00:30:00Z",
+        "observing_end_utc": "2026-11-15T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261115",
+        "night_date": "2026-11-15",
+        "observing_start_utc": "2026-11-16T00:30:00Z",
+        "observing_end_utc": "2026-11-16T08:15:00Z",
+        "slot_count": 31
+      },
+      {
+        "night_id": "N20261116",
+        "night_date": "2026-11-16",
+        "observing_start_utc": "2026-11-17T00:45:00Z",
+        "observing_end_utc": "2026-11-17T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261117",
+        "night_date": "2026-11-17",
+        "observing_start_utc": "2026-11-18T00:45:00Z",
+        "observing_end_utc": "2026-11-18T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261118",
+        "night_date": "2026-11-18",
+        "observing_start_utc": "2026-11-19T00:45:00Z",
+        "observing_end_utc": "2026-11-19T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261119",
+        "night_date": "2026-11-19",
+        "observing_start_utc": "2026-11-20T00:45:00Z",
+        "observing_end_utc": "2026-11-20T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261120",
+        "night_date": "2026-11-20",
+        "observing_start_utc": "2026-11-21T00:45:00Z",
+        "observing_end_utc": "2026-11-21T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261121",
+        "night_date": "2026-11-21",
+        "observing_start_utc": "2026-11-22T00:45:00Z",
+        "observing_end_utc": "2026-11-22T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261122",
+        "night_date": "2026-11-22",
+        "observing_start_utc": "2026-11-23T00:45:00Z",
+        "observing_end_utc": "2026-11-23T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261123",
+        "night_date": "2026-11-23",
+        "observing_start_utc": "2026-11-24T00:45:00Z",
+        "observing_end_utc": "2026-11-24T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261124",
+        "night_date": "2026-11-24",
+        "observing_start_utc": "2026-11-25T00:45:00Z",
+        "observing_end_utc": "2026-11-25T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261125",
+        "night_date": "2026-11-25",
+        "observing_start_utc": "2026-11-26T00:45:00Z",
+        "observing_end_utc": "2026-11-26T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261126",
+        "night_date": "2026-11-26",
+        "observing_start_utc": "2026-11-27T00:45:00Z",
+        "observing_end_utc": "2026-11-27T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261127",
+        "night_date": "2026-11-27",
+        "observing_start_utc": "2026-11-28T00:45:00Z",
+        "observing_end_utc": "2026-11-28T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261128",
+        "night_date": "2026-11-28",
+        "observing_start_utc": "2026-11-29T00:45:00Z",
+        "observing_end_utc": "2026-11-29T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261129",
+        "night_date": "2026-11-29",
+        "observing_start_utc": "2026-11-30T00:45:00Z",
+        "observing_end_utc": "2026-11-30T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261130",
+        "night_date": "2026-11-30",
+        "observing_start_utc": "2026-12-01T00:45:00Z",
+        "observing_end_utc": "2026-12-01T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261201",
+        "night_date": "2026-12-01",
+        "observing_start_utc": "2026-12-02T00:45:00Z",
+        "observing_end_utc": "2026-12-02T08:15:00Z",
+        "slot_count": 30
+      },
+      {
+        "night_id": "N20261202",
+        "night_date": "2026-12-02",
+        "observing_start_utc": "2026-12-03T01:00:00Z",
+        "observing_end_utc": "2026-12-03T08:15:00Z",
+        "slot_count": 29
+      }
+    ]
+  },
+  "instrument": {
+    "n_fibers": 16,
+    "grid_side": 4,
+    "fiber_area_deg2": 0.4,
+    "gap_deg": 0.0,
+    "glass_side_deg": 0.632456,
+    "pitch_deg": 0.632456,
+    "fov_side_deg": 2.529822,
+    "layout": "row-major, fiber 0 bottom-left; rows along +alt, columns along +az at exposure start; gnomonic plane centred on the actual pointing",
+    "exposure": {
+      "min_duration_seconds": 60,
+      "max_duration_seconds": 3600
+    }
+  },
+  "scoring": {
+    "schema_version": "v4-score-v1",
+    "q0": 0.68,
+    "flux_zero_point": 0.5,
+    "exposure_zero_point_seconds": 900,
+    "airmass_exponent": 0.6,
+    "lunar_model": {
+      "angular_decay_scale_deg": 35.0,
+      "altitude_exponent": 1.0,
+      "maximum_penalty": 0.75
+    },
+    "program": {
+      "bands": {
+        "DARK": 0.65,
+        "BRIGHT": 0.4
+      },
+      "multipliers": {
+        "DARK": 1.2,
+        "BRIGHT": 1.12,
+        "BACKUP": 1.06
+      },
+      "mismatch_multiplier": 1.0
+    },
+    "required": {
+      "penalty_per_missing": 50,
+      "observed_factor_threshold": 0.5
+    },
+    "uniformity": {
+      "weight": 200.0,
+      "ra_band_width_deg": 10.0,
+      "observed_factor_threshold": 0.5
+    },
+    "reporting": {
+      "correct_reward": 100,
+      "false_penalty": -150,
+      "false_report_free_allowance": 2,
+      "max_consecutive_reports": 32
+    },
+    "observation_requests": {
+      "completion_factor_threshold": 0.5,
+      "miss_penalty": 0
+    }
+  },
+  "footprint": [
+    {
+      "component_id": "C00",
+      "vertices": [
+        [
+          56.3,
+          -35.554757
+        ],
+        [
+          58.821615,
+          -35.853754
+        ],
+        [
+          61.222517,
+          -36.514673
+        ],
+        [
+          63.431568,
+          -37.481193
+        ],
+        [
+          65.410464,
+          -38.671648
+        ],
+        [
+          67.162169,
+          -40.000598
+        ],
+        [
+          68.725705,
+          -41.40122
+        ],
+        [
+          70.156681,
+          -42.84073
+        ],
+        [
+          71.498604,
+          -44.323094
+        ],
+        [
+          72.754701,
+          -45.877969
+        ],
+        [
+          73.870439,
+          -47.540063
+        ],
+        [
+          74.732651,
+          -49.326406
+        ],
+        [
+          75.185644,
+          -51.219041
+        ],
+        [
+          75.061388,
+          -53.158351
+        ],
+        [
+          74.219637,
+          -55.049337
+        ],
+        [
+          72.591045,
+          -56.78037
+        ],
+        [
+          70.208964,
+          -58.250388
+        ],
+        [
+          67.208878,
+          -59.395585
+        ],
+        [
+          63.783184,
+          -60.202717
+        ],
+        [
+          60.109725,
+          -60.699488
+        ],
+        [
+          56.3,
+          -60.924843
+        ],
+        [
+          52.403784,
+          -60.895199
+        ],
+        [
+          48.466809,
+          -60.58602
+        ],
+        [
+          44.601055,
+          -59.940168
+        ],
+        [
+          41.015129,
+          -58.900088
+        ],
+        [
+          37.974846,
+          -57.446708
+        ],
+        [
+          35.715715,
+          -55.622853
+        ],
+        [
+          34.366328,
+          -53.529308
+        ],
+        [
+          33.924534,
+          -51.299221
+        ],
+        [
+          34.282379,
+          -49.065872
+        ],
+        [
+          35.271977,
+          -46.936327
+        ],
+        [
+          36.710321,
+          -44.976756
+        ],
+        [
+          38.434276,
+          -43.210533
+        ],
+        [
+          40.323718,
+          -41.627819
+        ],
+        [
+          42.311643,
+          -40.203453
+        ],
+        [
+          44.380229,
+          -38.917844
+        ],
+        [
+          46.544116,
+          -37.774113
+        ],
+        [
+          48.826154,
+          -36.805478
+        ],
+        [
+          51.233812,
+          -36.070046
+        ],
+        [
+          53.743933,
+          -35.634841
+        ]
+      ]
+    },
+    {
+      "component_id": "C01",
+      "vertices": [
+        [
+          11.0,
+          -11.006694
+        ],
+        [
+          13.145419,
+          -11.700423
+        ],
+        [
+          15.106419,
+          -12.61816
+        ],
+        [
+          16.902792,
+          -13.661743
+        ],
+        [
+          18.580691,
+          -14.779584
+        ],
+        [
+          20.181092,
+          -15.973214
+        ],
+        [
+          21.711224,
+          -17.28388
+        ],
+        [
+          23.129694,
+          -18.765066
+        ],
+        [
+          24.350453,
+          -20.45177
+        ],
+        [
+          25.263589,
+          -22.337811
+        ],
+        [
+          25.765482,
+          -24.368871
+        ],
+        [
+          25.78869,
+          -26.453146
+        ],
+        [
+          25.322205,
+          -28.485749
+        ],
+        [
+          24.414464,
+          -30.37828
+        ],
+        [
+          23.155535,
+          -32.082369
+        ],
+        [
+          21.642616,
+          -33.596768
+        ],
+        [
+          19.94234,
+          -34.953387
+        ],
+        [
+          18.067708,
+          -36.186971
+        ],
+        [
+          15.982325,
+          -37.301201
+        ],
+        [
+          13.633042,
+          -38.246355
+        ],
+        [
+          11.0,
+          -38.919768
+        ],
+        [
+          8.143158,
+          -39.192012
+        ],
+        [
+          5.219288,
+          -38.950886
+        ],
+        [
+          2.451823,
+          -38.145217
+        ],
+        [
+          0.062721,
+          -36.807662
+        ],
+        [
+          358.202857,
+          -35.045667
+        ],
+        [
+          356.917117,
+          -33.006804
+        ],
+        [
+          356.153644,
+          -30.835717
+        ],
+        [
+          355.802575,
+          -28.639424
+        ],
+        [
+          355.743774,
+          -26.470947
+        ],
+        [
+          355.888016,
+          -24.334143
+        ],
+        [
+          356.201612,
+          -22.206447
+        ],
+        [
+          356.709086,
+          -20.070784
+        ],
+        [
+          357.474513,
+          -17.944516
+        ],
+        [
+          358.569108,
+          -15.894128
+        ],
+        [
+          0.037088,
+          -14.029827
+        ],
+        [
+          1.871295,
+          -12.481917
+        ],
+        [
+          4.005729,
+          -11.367208
+        ],
+        [
+          6.326748,
+          -10.756886
+        ],
+        [
+          8.699323,
+          -10.656729
+        ]
+      ]
+    },
+    {
+      "component_id": "C02",
+      "vertices": [
+        [
+          106.1,
+          -4.617331
+        ],
+        [
+          107.692055,
+          -4.624738
+        ],
+        [
+          109.296367,
+          -4.831371
+        ],
+        [
+          110.888041,
+          -5.260231
+        ],
+        [
+          112.431395,
+          -5.927361
+        ],
+        [
+          113.884275,
+          -6.837155
+        ],
+        [
+          115.203445,
+          -7.980793
+        ],
+        [
+          116.349185,
+          -9.337665
+        ],
+        [
+          117.287783,
+          -10.878674
+        ],
+        [
+          117.99158,
+          -12.569837
+        ],
+        [
+          118.437141,
+          -14.374759
+        ],
+        [
+          118.602853,
+          -16.255223
+        ],
+        [
+          118.467355,
+          -18.169996
+        ],
+        [
+          118.009967,
+          -20.072758
+        ],
+        [
+          117.21361,
+          -21.910443
+        ],
+        [
+          116.069892,
+          -23.623258
+        ],
+        [
+          114.585225,
+          -25.147107
+        ],
+        [
+          112.786217,
+          -26.418365
+        ],
+        [
+          110.722376,
+          -27.380085
+        ],
+        [
+          108.464702,
+          -27.988112
+        ],
+        [
+          106.1,
+          -28.215444
+        ],
+        [
+          103.722352,
+          -28.053798
+        ],
+        [
+          101.424306,
+          -27.512362
+        ],
+        [
+          99.29012,
+          -26.614822
+        ],
+        [
+          97.392085,
+          -25.396181
+        ],
+        [
+          95.789323,
+          -23.900578
+        ],
+        [
+          94.527603,
+          -22.18038
+        ],
+        [
+          93.63884,
+          -20.295888
+        ],
+        [
+          93.139801,
+          -18.314501
+        ],
+        [
+          93.030413,
+          -16.308289
+        ],
+        [
+          93.292615,
+          -14.349558
+        ],
+        [
+          93.890816,
+          -12.504798
+        ],
+        [
+          94.77471,
+          -10.828186
+        ],
+        [
+          95.88466,
+          -9.356283
+        ],
+        [
+          97.159053,
+          -8.105534
+        ],
+        [
+          98.542235,
+          -7.073647
+        ],
+        [
+          99.991121,
+          -6.244842
+        ],
+        [
+          101.478638,
+          -5.597823
+        ],
+        [
+          102.992969,
+          -5.114339
+        ],
+        [
+          104.532797,
+          -4.785982
+        ]
+      ]
+    }
+  ],
+  "targets": {
+    "columns": [
+      "target_id",
+      "ra_deg",
+      "dec_deg",
+      "target_class",
+      "feature_flux",
+      "science_weight",
+      "required"
+    ],
+    "row_count": 7800,
+    "omitted": "Rows preserved in hash-identified L1 card; agent receives public runtime payload only."
+  },
+  "limits": {
+    "global_wallclock_seconds": 900,
+    "clock": "fair-clock-v1",
+    "speed_factor": null,
+    "max_consecutive_reports": 32,
+    "response_max_bytes": 524288,
+    "decision_timeout": "global only (no per-decision timeout)"
+  }
+}

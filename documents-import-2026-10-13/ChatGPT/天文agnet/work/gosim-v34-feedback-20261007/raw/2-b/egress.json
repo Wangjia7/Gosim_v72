@@ -1,0 +1,13 @@
+[
+ {
+  "host": "api.deepseek.com",
+  "port": 443,
+  "path": "direct",
+  "connections": 81,
+  "refused": 0,
+  "bytes_up": 1141806,
+  "bytes_down": 790325,
+  "first": "2026-10-06T15:10:07Z",
+  "last": "2026-10-06T15:38:24Z"
+ }
+]

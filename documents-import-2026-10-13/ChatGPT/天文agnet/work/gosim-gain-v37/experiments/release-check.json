@@ -1,0 +1,128 @@
+{
+  "zip": "/Users/jqwang/Documents/ChatGPT/\u5929\u6587agnet/outputs/gosim-gain-v3.7-upload.zip",
+  "sha256": "6c653d786e3ca82a80565b46202fb87a10d62935a824a0473b3bccde6629ffda",
+  "bytes": 177514,
+  "official_manifest": true,
+  "host_build": true,
+  "jsonl_routes": true,
+  "python_fallback": true,
+  "missing_key_fallback": true,
+  "remote_api": false,
+  "linux_container": false,
+  "checks": [
+    {
+      "name": "standard",
+      "duplicate_exact": true,
+      "reply": {
+        "protocol_version": "participant-agent-protocol-v4",
+        "message_type": "decision_response",
+        "decision_sequence": 7,
+        "action": "observe",
+        "pointing": {
+          "alt_deg": 55.6299,
+          "az_deg": 101.1071
+        },
+        "assignments": {
+          "0": "t0",
+          "1": "t1"
+        },
+        "duration_seconds": 450,
+        "program": "DARK",
+        "reason": "2 fibres, program DARK",
+        "decision_source": "rules"
+      },
+      "runtime_summary": "{\"health\":{\"state\":\"unknown\",\"epoch\":0,\"zero_run\":0,\"healthy_reference\":null,\"recent\":[],\"recovery_pending\":false,\"scope\":\"own unsaturated score bounds; low throughput alone is not a fault certificate\"},\"events\":{\"revision\":0,\"accepted\":0,\"rejected\":0,\"pending_hardware\":0,\"events\":0,\"cancelled\":0},\"obligations\":{\"groups\":0,\"selected\":0,\"last_window_required\":0,\"planning_cpu_seconds\":6.999999999993123e-06,\"truncated\":false,\"reservations\":[],\"assumptions\":\"current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion\"},\"diagnostics\":0,\"joint_trials\":0,\"joint_accepted\":0,\"joint_errors\":0}"
+    },
+    {
+      "name": "threshold",
+      "duplicate_exact": true,
+      "reply": {
+        "protocol_version": "participant-agent-protocol-v4",
+        "message_type": "decision_response",
+        "decision_sequence": 7,
+        "action": "observe",
+        "pointing": {
+          "alt_deg": 55.6299,
+          "az_deg": 101.1071
+        },
+        "assignments": {
+          "0": "t0",
+          "1": "t1"
+        },
+        "duration_seconds": 450,
+        "program": "DARK",
+        "reason": "2 fibres, program DARK",
+        "decision_source": "rules"
+      },
+      "runtime_summary": "{\"health\":{\"state\":\"unknown\",\"epoch\":0,\"zero_run\":0,\"healthy_reference\":null,\"recent\":[],\"recovery_pending\":false,\"scope\":\"own unsaturated score bounds; low throughput alone is not a fault certificate\"},\"events\":{\"revision\":0,\"accepted\":0,\"rejected\":0,\"pending_hardware\":0,\"events\":0,\"cancelled\":0},\"obligations\":{\"groups\":0,\"selected\":0,\"last_window_required\":0,\"planning_cpu_seconds\":9.000000000009e-06,\"truncated\":false,\"reservations\":[],\"assumptions\":\"current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion\"},\"diagnostics\":0,\"joint_trials\":0,\"joint_accepted\":0,\"joint_errors\":0}"
+    },
+    {
+      "name": "large",
+      "duplicate_exact": true,
+      "reply": {
+        "protocol_version": "participant-agent-protocol-v4",
+        "message_type": "decision_response",
+        "decision_sequence": 7,
+        "action": "observe",
+        "pointing": {
+          "alt_deg": 54.8094,
+          "az_deg": 100.3093
+        },
+        "assignments": {
+          "0": "t0"
+        },
+        "duration_seconds": 600,
+        "program": "DARK",
+        "reason": "1 fibres, program DARK",
+        "decision_source": "rules"
+      },
+      "runtime_summary": "{\"health\":{\"state\":\"unknown\",\"epoch\":0,\"zero_run\":0,\"healthy_reference\":null,\"recent\":[],\"recovery_pending\":false,\"scope\":\"own unsaturated score bounds; low throughput alone is not a fault certificate\"},\"events\":{\"revision\":0,\"accepted\":0,\"rejected\":0,\"pending_hardware\":0,\"events\":0,\"cancelled\":0},\"obligations\":{\"groups\":0,\"selected\":0,\"last_window_required\":0,\"planning_cpu_seconds\":4.9999999999980616e-06,\"truncated\":false,\"reservations\":[],\"assumptions\":\"current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion\"},\"diagnostics\":0,\"joint_trials\":0,\"joint_accepted\":0,\"joint_errors\":0}"
+    },
+    {
+      "name": "python-fallback",
+      "duplicate_exact": true,
+      "reply": {
+        "protocol_version": "participant-agent-protocol-v4",
+        "message_type": "decision_response",
+        "decision_sequence": 7,
+        "action": "observe",
+        "pointing": {
+          "alt_deg": 55.6299,
+          "az_deg": 101.1071
+        },
+        "assignments": {
+          "0": "t0",
+          "1": "t1"
+        },
+        "duration_seconds": 450,
+        "program": "DARK",
+        "reason": "2 fibres, program DARK",
+        "decision_source": "rules"
+      },
+      "runtime_summary": "{\"health\":{\"state\":\"unknown\",\"epoch\":0,\"zero_run\":0,\"healthy_reference\":null,\"recent\":[],\"recovery_pending\":false,\"scope\":\"own unsaturated score bounds; low throughput alone is not a fault certificate\"},\"events\":{\"revision\":0,\"accepted\":0,\"rejected\":0,\"pending_hardware\":0,\"events\":0,\"cancelled\":0},\"obligations\":{\"groups\":0,\"selected\":0,\"last_window_required\":0,\"planning_cpu_seconds\":5.0000000000050004e-06,\"truncated\":false,\"reservations\":[],\"assumptions\":\"current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion\"},\"diagnostics\":0,\"joint_trials\":0,\"joint_accepted\":0,\"joint_errors\":0}"
+    },
+    {
+      "name": "missing-key",
+      "duplicate_exact": true,
+      "reply": {
+        "protocol_version": "participant-agent-protocol-v4",
+        "message_type": "decision_response",
+        "decision_sequence": 7,
+        "action": "observe",
+        "pointing": {
+          "alt_deg": 55.6299,
+          "az_deg": 101.1071
+        },
+        "assignments": {
+          "0": "t0",
+          "1": "t1"
+        },
+        "duration_seconds": 450,
+        "program": "DARK",
+        "reason": "2 fibres, program DARK",
+        "decision_source": "rules"
+      },
+      "runtime_summary": "{\"health\":{\"state\":\"unknown\",\"epoch\":0,\"zero_run\":0,\"healthy_reference\":null,\"recent\":[],\"recovery_pending\":false,\"scope\":\"own unsaturated score bounds; low throughput alone is not a fault certificate\"},\"events\":{\"revision\":0,\"accepted\":0,\"rejected\":0,\"pending_hardware\":0,\"events\":0,\"cancelled\":0},\"obligations\":{\"groups\":0,\"selected\":0,\"last_window_required\":0,\"planning_cpu_seconds\":6.0000000000060005e-06,\"truncated\":false,\"reservations\":[],\"assumptions\":\"current own quality; public geometric windows and known downtime; finite standalone continuation, not guaranteed completion\"},\"diagnostics\":0,\"joint_trials\":0,\"joint_accepted\":0,\"joint_errors\":0}"
+    }
+  ]
+}

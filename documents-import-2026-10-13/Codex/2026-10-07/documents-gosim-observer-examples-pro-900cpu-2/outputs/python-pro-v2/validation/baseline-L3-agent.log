@@ -1,0 +1,320 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.86, time price fraction 0.60
+pro: 8700 targets, 435 required, 37 nights; init 0.23s; model none (rules only)
+pro: E 2026-11-16T01:40:00Z 1.00 scale 0.745 band 0.784
+pro: E 2026-11-16T02:30:00Z 1.00 scale 0.675 band 0.740
+pro: E 2026-11-16T03:32:30Z 1.00 scale 0.784 band 0.777
+pointing offset: alt -0.005 az +0.095 deg explains 401/402 fibre outcomes (no offset: 389; 4 equally good grid points)
+pro: E 2026-11-16T04:32:30Z 1.00 scale 0.776 band 0.848
+pro: E 2026-11-16T05:35:00Z 1.00 scale 0.706 band 0.743
+pro: E 2026-11-16T06:35:00Z 1.00 scale 0.692 band 0.729
+pro: E 2026-11-16T07:30:00Z 1.00 scale 0.744 band 0.759
+pro: pace level 1 (cpu budget 345 ms, wall budget 804 ms, cpu costs [357, 90, 30, 10] ms, 1650 decisions left)
+pro: pace level 0 (cpu budget 337 ms, wall budget 785 ms, cpu costs [329, 90, 30, 10] ms, 1690 decisions left)
+pro: E 2026-11-17T00:45:00Z 1.00 scale 0.657 band 0.703
+pro: pace level 1 (cpu budget 334 ms, wall budget 780 ms, cpu costs [347, 107, 30, 10] ms, 1698 decisions left)
+pro: pace level 0 (cpu budget 326 ms, wall budget 762 ms, cpu costs [322, 107, 30, 10] ms, 1738 decisions left)
+pro: E 2026-11-17T01:30:00Z 1.00 scale 0.767 band 0.786
+pro: pace level 1 (cpu budget 319 ms, wall budget 745 ms, cpu costs [322, 127, 30, 10] ms, 1777 decisions left)
+pro: pace level 0 (cpu budget 330 ms, wall budget 771 ms, cpu costs [299, 127, 30, 10] ms, 1717 decisions left)
+pro: E 2026-11-17T02:37:30Z 1.00 scale 0.752 band 0.792
+pro: pace level 1 (cpu budget 327 ms, wall budget 764 ms, cpu costs [366, 145, 30, 10] ms, 1729 decisions left)
+pro: pace level 0 (cpu budget 348 ms, wall budget 814 ms, cpu costs [339, 141, 30, 10] ms, 1624 decisions left)
+pro: E 2026-11-17T03:37:30Z 1.00 scale 0.812 band 0.837
+pro: E 2026-11-17T04:32:30Z 1.00 scale 0.796 band 0.838
+pro: pace level 1 (cpu budget 355 ms, wall budget 834 ms, cpu costs [386, 156, 30, 10] ms, 1582 decisions left)
+pro: E 2026-11-17T05:32:30Z 1.00 scale 0.727 band 0.765
+pro: E 2026-11-17T06:32:30Z 1.00 scale 0.639 band 0.672
+pro: E 2026-11-17T07:37:30Z 1.00 scale 0.636 band 0.647
+pro: pace level 0 (cpu budget 304 ms, wall budget 715 ms, cpu costs [304, 132, 26, 9] ms, 1839 decisions left)
+pro: pace level 1 (cpu budget 298 ms, wall budget 700 ms, cpu costs [304, 226, 26, 9] ms, 1876 decisions left)
+pro: pace level 0 (cpu budget 298 ms, wall budget 700 ms, cpu costs [280, 226, 26, 9] ms, 1876 decisions left)
+pro: E 2026-11-18T00:45:00Z 1.00 scale 0.605 band 0.675
+pro: E 2026-11-18T01:35:00Z 1.00 scale 0.541 band 0.570
+pro: pace level 1 (cpu budget 280 ms, wall budget 661 ms, cpu costs [371, 226, 26, 9] ms, 1984 decisions left)
+pro: E 2026-11-18T02:35:00Z 1.00 scale 0.576 band 0.595
+pro: E 2026-11-18T03:30:00Z 1.00 scale 0.579 band 0.609
+pro: E 2026-11-18T04:30:00Z 1.00 scale 0.592 band 0.623
+pro: pace level 0 (cpu budget 356 ms, wall budget 843 ms, cpu costs [343, 156, 26, 9] ms, 1554 decisions left)
+pro: pace level 1 (cpu budget 411 ms, wall budget 976 ms, cpu costs [436, 138, 22, 7] ms, 1343 decisions left)
+pro: E 2026-11-18T05:50:00Z 1.00 scale 0.544 band 0.572
+pro: pace level 0 (cpu budget 419 ms, wall budget 993 ms, cpu costs [401, 138, 22, 7] ms, 1320 decisions left)
+pro: E 2026-11-18T06:30:00Z 1.00 scale 0.572 band 0.600
+pro: E 2026-11-18T07:30:00Z 1.00 scale 0.592 band 0.623
+pro: pace level 1 (cpu budget 431 ms, wall budget 1025 ms, cpu costs [432, 151, 22, 7] ms, 1276 decisions left)
+pro: pace level 0 (cpu budget 428 ms, wall budget 1018 ms, cpu costs [397, 151, 22, 7] ms, 1284 decisions left)
+pro: E 2026-11-19T00:45:00Z 1.00 scale 0.550 band 0.579
+pro: E 2026-11-19T01:35:00Z 1.00 scale 0.619 band 0.651
+pointing offset: alt -0.005 az +0.100 deg explains 2019/2020 fibre outcomes (no offset: 1927; 8 equally good grid points)
+pro: pace level 1 (cpu budget 424 ms, wall budget 1010 ms, cpu costs [438, 153, 22, 7] ms, 1291 decisions left)
+pro: pace level 0 (cpu budget 412 ms, wall budget 982 ms, cpu costs [404, 153, 22, 7] ms, 1328 decisions left)
+pro: E 2026-11-19T02:30:00Z 1.00 scale 0.589 band 0.608
+pro: E 2026-11-19T03:37:30Z 1.00 scale 0.642 band 0.676
+pointing offset: alt -0.005 az +0.090 deg explains 2013/2013 fibre outcomes (no offset: 1924; 24 equally good grid points)
+pro: E 2026-11-19T04:35:00Z 1.00 scale 0.630 band 0.664
+pro: E 2026-11-19T05:35:00Z 1.00 scale 0.640 band 0.673
+pro: pace level 1 (cpu budget 428 ms, wall budget 1027 ms, cpu costs [438, 167, 22, 7] ms, 1264 decisions left)
+pro: pace level 0 (cpu budget 435 ms, wall budget 1044 ms, cpu costs [403, 167, 22, 7] ms, 1245 decisions left)
+pro: E 2026-11-19T06:35:00Z 1.00 scale 0.589 band 0.620
+pro: E 2026-11-19T07:42:30Z 1.00 scale 0.645 band 0.664
+pro: E 2026-11-20T00:45:00Z 1.00 scale 0.692 band 0.484
+pro: pace level 1 (cpu budget 340 ms, wall budget 801 ms, cpu costs [446, 150, 18, 6] ms, 1578 decisions left)
+pro: E 2026-11-20T01:30:00Z 1.00 scale 0.665 band 0.699
+pro: E 2026-11-20T02:30:00Z 1.00 scale 0.693 band 0.716
+pro: E 2026-11-20T03:30:00Z 1.00 scale 0.726 band 0.765
+pro: E 2026-11-20T04:30:00Z 1.00 scale 0.671 band 0.722
+pro: E 2026-11-20T05:30:00Z 1.00 scale 0.654 band 0.674
+pro: pace level 0 (cpu budget 425 ms, wall budget 1024 ms, cpu costs [411, 169, 18, 6] ms, 1252 decisions left)
+pro: E 2026-11-20T06:30:00Z 1.00 scale 0.712 band 0.730
+pro: pace level 1 (cpu budget 445 ms, wall budget 1074 ms, cpu costs [497, 182, 18, 6] ms, 1194 decisions left)
+pro: E 2026-11-20T07:40:00Z 1.00 scale 0.789 band 0.772
+pro: pace level 0 (cpu budget 466 ms, wall budget 1128 ms, cpu costs [457, 149, 18, 6] ms, 1139 decisions left)
+pro: pace level 1 (cpu budget 452 ms, wall budget 1094 ms, cpu costs [457, 130, 16, 5] ms, 1173 decisions left)
+pro: pace level 0 (cpu budget 439 ms, wall budget 1063 ms, cpu costs [418, 130, 16, 5] ms, 1208 decisions left)
+pro: E 2026-11-21T00:45:00Z 1.00 scale 0.781 band 0.822
+pro: pace level 1 (cpu budget 414 ms, wall budget 1003 ms, cpu costs [505, 133, 16, 5] ms, 1278 decisions left)
+pro: E 2026-11-21T01:30:00Z 1.00 scale 0.587 band 0.618
+pro: E 2026-11-21T02:30:00Z 1.00 scale 0.587 band 0.618
+pro: E 2026-11-21T03:30:00Z 1.00 scale 0.587 band 0.618
+pro: E 2026-11-21T04:30:00Z 1.00 scale 0.778 band 0.800
+pro: E 2026-11-21T05:30:00Z 1.00 scale 0.814 band 0.857
+pro: pace level 0 (cpu budget 510 ms, wall budget 1246 ms, cpu costs [463, 180, 16, 5] ms, 1028 decisions left)
+pro: E 2026-11-21T06:55:00Z 1.00 scale 0.698 band 0.735
+pro: E 2026-11-21T07:45:00Z 1.00 scale 0.541 band 0.714
+pro: E 2026-11-22T00:45:00Z 1.00 scale 0.537 band 0.570
+pro: E 2026-11-22T01:32:30Z 1.00 scale 0.711 band 0.721
+pro: pace level 1 (cpu budget 426 ms, wall budget 1045 ms, cpu costs [453, 163, 13, 4] ms, 1218 decisions left)
+pro: pace level 0 (cpu budget 463 ms, wall budget 1137 ms, cpu costs [418, 163, 13, 4] ms, 1121 decisions left)
+pro: E 2026-11-22T02:32:30Z 1.00 scale 0.744 band 0.783
+pro: E 2026-11-22T03:37:30Z 1.00 scale 0.723 band 0.783
+pro: E 2026-11-22T04:52:30Z 1.00 scale 0.698 band 0.735
+pro: E 2026-11-22T05:37:30Z 1.00 scale 0.678 band 0.713
+pro: E 2026-11-22T07:07:30Z 1.00 scale 0.678 band 0.713
+pro: E 2026-11-22T07:52:30Z 1.00 scale 0.688 band 0.707
+pro: E 2026-11-23T00:45:00Z 1.00 scale 0.708 band 0.729
+pro: E 2026-11-23T01:40:00Z 1.00 scale 0.561 band 0.729
+pro: E 2026-11-23T02:45:00Z 1.00 scale 0.573 band 0.603
+pro: E 2026-11-23T03:45:00Z 1.00 scale 0.608 band 0.640
+pro: E 2026-11-23T04:50:00Z 1.00 scale 0.609 band 0.641
+pro: E 2026-11-23T06:00:00Z 1.00 scale 0.518 band 0.546
+pro: E 2026-11-23T07:05:00Z 1.00 scale 0.518 band 0.546
+pro: E 2026-11-23T07:35:00Z 1.00 scale 0.556 band 0.546
+pro: E 2026-11-24T00:45:00Z 1.00 scale 0.556 band 0.585
+pro: E 2026-11-24T01:35:00Z 1.00 scale 0.480 band 0.585
+pro: E 2026-11-24T03:15:00Z 1.00 scale 0.050 band 0.505
+pointing offset: alt -0.005 az +0.095 deg explains 1901/1901 fibre outcomes (no offset: 1839; 28 equally good grid points)
+pro: E 2026-11-24T04:15:00Z 1.00 scale 0.050 band 0.053
+pro: E 2026-11-24T05:15:00Z 1.00 scale 0.050 band 0.053
+pro: E 2026-11-24T06:15:00Z 1.00 scale 0.096 band 0.053
+pro: E 2026-11-24T07:15:00Z 1.00 scale 0.119 band 0.101
+pro: E 2026-11-25T00:45:00Z 0.42 scale 0.124 band 0.318
+pro: E 2026-11-25T01:45:00Z 0.42 scale 0.506 band 0.318
+pro: E 2026-11-25T02:45:00Z 1.00 scale 0.506 band 0.533
+pro: E 2026-11-25T04:05:00Z 1.00 scale 0.145 band 0.587
+pro: E 2026-11-25T05:05:00Z 0.31 scale 0.145 band 0.490
+pro: E 2026-11-25T06:05:00Z 0.26 scale 0.145 band 0.583
+pro: E 2026-11-25T07:05:00Z 0.26 scale 0.582 band 0.583
+pro: report at 2026-11-25T07:05:00Z (quality below what the program bands allow), free left 2
+pro: report false (delta 0.0); free left 1
+pro: E 2026-11-26T00:45:00Z 0.26 scale 0.550 band 0.605
+pro: E 2026-11-26T01:35:00Z 0.26 scale 0.573 band 0.605
+pro: E 2026-11-26T03:15:00Z 0.26 scale 0.516 band 0.603
+pro: E 2026-11-26T03:30:00Z 1.00 scale 0.524 band 0.543
+pro: E 2026-11-26T05:27:30Z 1.00 scale 0.525 band 0.492
+pro: E 2026-11-26T05:37:30Z 1.00 scale 0.504 band 0.521
+pro: quality recovered at 2026-11-26T05:37:30Z; probing re-armed
+pro: E 2026-11-26T06:32:30Z 1.00 scale 0.511 band 0.528
+pro: E 2026-11-26T07:37:30Z 1.00 scale 0.572 band 0.593
+pro: E 2026-11-27T00:45:00Z 1.00 scale 0.620 band 0.548
+pro: E 2026-11-27T01:40:00Z 1.00 scale 0.657 band 0.696
+pro: E 2026-11-27T02:35:00Z 1.00 scale 0.672 band 0.691
+pro: E 2026-11-27T06:45:00Z 1.00 scale 0.676 band 0.720
+pro: E 2026-11-27T07:37:30Z 1.00 scale 0.637 band 0.670
+pro: E 2026-11-28T00:45:00Z 0.50 scale 0.487 band 0.563
+pro: E 2026-11-28T02:20:00Z 1.00 scale 0.740 band 0.781
+pro: E 2026-11-28T03:20:00Z 1.00 scale 0.740 band 0.779
+pro: E 2026-11-28T04:20:00Z 1.00 scale 0.745 band 0.779
+pro: E 2026-11-28T04:40:00Z 1.00 scale 0.732 band 0.784
+pro: E 2026-11-28T05:40:00Z 1.00 scale 0.753 band 0.773
+pro: E 2026-11-28T07:15:00Z 1.00 scale 0.698 band 0.756
+pro: E 2026-11-29T00:45:00Z 1.00 scale 0.718 band 0.735
+pro: E 2026-11-29T01:30:00Z 1.00 scale 0.615 band 0.648
+pro: E 2026-11-29T02:32:30Z 1.00 scale 0.673 band 0.708
+pro: E 2026-11-29T03:35:00Z 1.00 scale 0.599 band 0.683
+pro: E 2026-11-29T05:15:00Z 1.00 scale 0.152 band 0.483
+pro: E 2026-11-29T06:15:00Z 1.00 scale 0.152 band 0.483
+pro: E 2026-11-29T07:15:00Z 1.00 scale 0.173 band 0.160
+pro: E 2026-11-29T07:40:00Z 0.63 scale 0.631 band 0.504
+pro: E 2026-11-30T00:45:00Z 1.00 scale 0.645 band 0.675
+pro: E 2026-11-30T01:30:00Z 1.00 scale 0.570 band 0.583
+pro: E 2026-11-30T02:35:00Z 1.00 scale 0.567 band 0.583
+pro: E 2026-11-30T03:35:00Z 1.00 scale 0.567 band 0.596
+pro: E 2026-11-30T04:40:00Z 1.00 scale 0.571 band 0.601
+pro: E 2026-11-30T05:30:00Z 1.00 scale 0.571 band 0.601
+pro: E 2026-11-30T06:35:00Z 1.00 scale 0.635 band 0.662
+pro: E 2026-11-30T07:45:00Z 1.00 scale 0.701 band 0.711
+pro: E 2026-12-01T00:45:00Z 1.00 scale 0.701 band 0.738
+pro: E 2026-12-01T01:30:00Z 1.00 scale 0.651 band 0.686
+pro: E 2026-12-01T02:30:00Z 1.00 scale 0.608 band 0.686
+pro: E 2026-12-01T03:40:00Z 1.00 scale 0.746 band 0.779
+pro: E 2026-12-01T04:30:00Z 1.00 scale 0.795 band 0.837
+pro: E 2026-12-01T06:10:00Z 1.00 scale 0.736 band 0.775
+pro: E 2026-12-01T06:45:00Z 1.00 scale 0.713 band 0.762
+pro: E 2026-12-01T07:42:30Z 1.00 scale 0.620 band 0.665
+pro: E 2026-12-02T00:45:00Z 1.00 scale 0.614 band 0.646
+pro: E 2026-12-02T01:32:30Z 1.00 scale 0.538 band 0.548
+pro: E 2026-12-03T01:45:00Z 1.00 scale 0.535 band 0.586
+pro: E 2026-12-03T02:35:00Z 1.00 scale 0.475 band 0.489
+pro: E 2026-12-03T03:37:30Z 1.00 scale 0.509 band 0.514
+pro: earthquake notice at 2026-12-03T03:47:30Z
+state_resync: 5632 targets keep a score; plan rebuilt
+pro: E 2026-12-04T01:00:00Z 1.00 scale 0.067 band 0.096
+pointing offset: alt -0.005 az +0.090 deg explains 2031/2031 fibre outcomes (no offset: 1996; 32 equally good grid points)
+pro: E 2026-12-04T01:30:00Z 1.00 scale 0.180 band 0.096
+pro: E 2026-12-04T02:35:00Z 1.00 scale 0.133 band 0.096
+pro: E 2026-12-04T04:00:00Z 0.50 scale 0.134 band 0.285
+pro: E 2026-12-04T04:30:00Z 0.47 scale 0.171 band 0.310
+pointing offset: alt -0.005 az +0.084 deg explains 1939/1939 fibre outcomes (no offset: 1903; 28 equally good grid points)
+pro: E 2026-12-04T05:35:00Z 0.56 scale 0.172 band 0.333
+pro: report at 2026-12-04T05:42:30Z (quality below what the program bands allow), free left 1
+pro: report false (delta 0.0); free left 0
+pro: E 2026-12-04T07:55:00Z 0.39 scale 0.222 band 0.483
+pro: E 2026-12-05T01:00:00Z 0.39 scale 0.222 band 0.498
+pro: E 2026-12-05T01:35:00Z 0.39 scale 0.277 band 0.498
+pro: E 2026-12-05T03:05:00Z 0.63 scale 0.312 band 0.469
+pro: E 2026-12-05T03:35:00Z 0.63 scale 0.326 band 0.466
+pro: E 2026-12-05T04:55:00Z 0.75 scale 0.335 band 0.472
+pro: E 2026-12-05T05:35:00Z 0.75 scale 0.335 band 0.472
+pro: E 2026-12-05T07:05:00Z 0.75 scale 0.203 band 0.483
+pro: E 2026-12-05T07:35:00Z 0.44 scale 0.203 band 0.483
+pro: E 2026-12-06T01:00:00Z 0.59 scale 0.305 band 0.483
+pro: E 2026-12-06T01:35:00Z 0.59 scale 0.289 band 0.483
+pro: E 2026-12-06T02:40:00Z 0.67 scale 0.331 band 0.457
+pro: E 2026-12-06T03:50:00Z 0.79 scale 0.360 band 0.478
+pro: E 2026-12-06T04:40:00Z 0.75 scale 0.342 band 0.507
+pro: E 2026-12-06T06:00:00Z 0.70 scale 0.354 band 0.515
+pro: E 2026-12-06T06:40:00Z 0.75 scale 0.354 band 0.498
+pro: E 2026-12-06T08:00:00Z 0.75 scale 0.370 band 0.522
+pro: E 2026-12-07T01:00:00Z 0.79 scale 0.396 band 0.492
+pro: E 2026-12-07T01:50:00Z 0.67 scale 0.322 band 0.456
+pro: E 2026-12-07T02:50:00Z 0.75 scale 0.400 band 0.453
+pro: E 2026-12-07T03:40:00Z 0.75 scale 0.440 band 0.473
+pro: E 2026-12-07T04:50:00Z 0.94 scale 0.425 band 0.491
+pro: E 2026-12-07T05:55:00Z 0.89 scale 0.414 band 0.489
+pro: E 2026-12-07T06:55:00Z 0.89 scale 0.435 band 0.489
+pro: E 2026-12-07T07:32:30Z 0.89 scale 0.143 band 0.483
+pro: E 2026-12-08T01:00:00Z 0.23 scale 0.103 band 0.495
+pro: E 2026-12-08T02:15:00Z 0.23 scale 0.111 band 0.495
+pro: E 2026-12-08T02:30:00Z 0.23 scale 0.118 band 0.495
+pro: E 2026-12-08T03:30:00Z 0.23 scale 0.117 band 0.495
+pro: E 2026-12-08T04:35:00Z 0.23 scale 0.118 band 0.495
+pro: E 2026-12-08T05:50:00Z 0.23 scale 0.111 band 0.495
+pro: E 2026-12-08T06:30:00Z 0.42 scale 0.117 band 0.314
+pro: E 2026-12-08T07:30:00Z 0.39 scale 0.135 band 0.322
+pro: report at 2026-12-08T08:10:00Z (quality below what the program bands allow), free left 0
+pro: report correct, fault repaired (delta 100.0)
+pro: E 2026-12-09T02:40:00Z 1.00 scale 0.293 band 0.319
+pro: E 2026-12-09T03:30:00Z 1.00 scale 0.299 band 0.308
+pro: E 2026-12-09T05:10:00Z 1.00 scale 0.299 band 0.312
+pro: E 2026-12-09T05:50:00Z 1.00 scale 0.307 band 0.315
+pro: E 2026-12-09T06:30:00Z 1.00 scale 0.307 band 0.323
+pro: E 2026-12-09T08:00:00Z 1.00 scale 0.278 band 0.318
+pro: E 2026-12-10T01:00:00Z 1.00 scale 0.285 band 0.293
+pro: E 2026-12-10T01:50:00Z 1.00 scale 0.293 band 0.293
+pro: E 2026-12-10T02:30:00Z 1.00 scale 0.330 band 0.308
+pro: E 2026-12-10T03:40:00Z 1.00 scale 0.330 band 0.348
+pro: E 2026-12-10T04:40:00Z 1.00 scale 0.337 band 0.348
+pro: E 2026-12-10T06:10:00Z 1.00 scale 0.180 band 0.355
+pro: E 2026-12-10T06:45:00Z 0.70 scale 0.196 band 0.293
+pro: E 2026-12-10T07:40:00Z 1.00 scale 0.259 band 0.277
+pro: E 2026-12-11T01:00:00Z 0.94 scale 0.326 band 0.283
+pro: E 2026-12-11T01:50:00Z 0.94 scale 0.399 band 0.283
+pro: E 2026-12-11T02:30:00Z 0.89 scale 0.399 band 0.472
+pro: E 2026-12-11T04:05:00Z 0.89 scale 0.554 band 0.473
+pro: E 2026-12-11T05:05:00Z 1.00 scale 0.555 band 0.583
+pro: E 2026-12-11T05:55:00Z 1.00 scale 0.548 band 0.585
+pro: E 2026-12-11T06:55:00Z 1.00 scale 0.519 band 0.577
+pro: E 2026-12-11T07:35:00Z 1.00 scale 0.529 band 0.547
+pro: E 2026-12-12T01:00:00Z 1.00 scale 0.507 band 0.543
+pro: E 2026-12-12T02:00:00Z 1.00 scale 0.614 band 0.673
+pro: E 2026-12-12T02:40:00Z 1.00 scale 0.614 band 0.646
+pro: E 2026-12-12T03:30:00Z 1.00 scale 0.609 band 0.646
+pro: E 2026-12-12T04:40:00Z 1.00 scale 0.618 band 0.651
+pro: E 2026-12-13T05:15:00Z 1.00 scale 0.630 band 0.651
+pro: E 2026-12-13T05:35:00Z 1.00 scale 0.528 band 0.651
+pro: E 2026-12-13T06:55:00Z 1.00 scale 0.522 band 0.541
+pro: E 2026-12-13T07:55:00Z 1.00 scale 0.504 band 0.541
+pro: E 2026-12-14T01:00:00Z 1.00 scale 0.496 band 0.530
+pro: E 2026-12-14T01:50:00Z 1.00 scale 0.540 band 0.567
+pro: E 2026-12-14T02:30:00Z 1.00 scale 0.563 band 0.569
+pro: E 2026-12-14T03:42:30Z 1.00 scale 0.600 band 0.631
+pro: E 2026-12-14T04:35:00Z 1.00 scale 0.586 band 0.623
+pro: E 2026-12-14T05:45:00Z 1.00 scale 0.559 band 0.570
+pro: E 2026-12-14T06:42:30Z 1.00 scale 0.578 band 0.604
+pro: E 2026-12-14T07:32:30Z 1.00 scale 0.548 band 0.608
+pro: E 2026-12-15T01:00:00Z 1.00 scale 0.564 band 0.593
+pro: E 2026-12-15T01:47:30Z 1.00 scale 0.480 band 0.509
+pro: E 2026-12-15T02:30:00Z 1.00 scale 0.450 band 0.500
+pro: E 2026-12-15T03:42:30Z 1.00 scale 0.450 band 0.474
+pro: E 2026-12-15T04:40:00Z 1.00 scale 0.440 band 0.308
+pro: E 2026-12-15T05:35:00Z 0.89 scale 0.568 band 0.533
+pro: E 2026-12-15T06:35:00Z 1.00 scale 0.578 band 0.597
+pro: E 2026-12-15T07:35:00Z 1.00 scale 0.542 band 0.608
+pro: E 2026-12-16T01:00:00Z 1.00 scale 0.531 band 0.570
+pro: E 2026-12-16T01:45:00Z 1.00 scale 0.494 band 0.520
+pro: E 2026-12-16T02:35:00Z 1.00 scale 0.478 band 0.504
+pro: E 2026-12-16T03:30:00Z 1.00 scale 0.436 band 0.523
+pro: E 2026-12-16T04:57:30Z 0.94 scale 0.478 band 0.487
+pro: E 2026-12-16T05:32:30Z 1.00 scale 0.472 band 0.474
+pro: E 2026-12-16T06:30:00Z 1.00 scale 0.491 band 0.507
+pro: E 2026-12-16T07:30:00Z 1.00 scale 0.383 band 0.495
+pro: E 2026-12-17T01:00:00Z 0.84 scale 0.393 band 0.490
+pro: E 2026-12-17T01:47:30Z 0.94 scale 0.447 band 0.499
+pro: E 2026-12-17T02:47:30Z 0.89 scale 0.415 band 0.521
+pro: E 2026-12-17T03:32:30Z 0.89 scale 0.441 band 0.521
+pro: E 2026-12-17T05:05:00Z 0.84 scale 0.422 band 0.529
+pro: E 2026-12-17T05:37:30Z 0.84 scale 0.152 band 0.515
+pro: E 2026-12-17T06:37:30Z 0.84 scale 0.472 band 0.526
+pro: E 2026-12-17T07:42:30Z 0.89 scale 0.439 band 0.497
+pro: E 2026-12-18T01:00:00Z 0.94 scale 0.445 band 0.496
+pro: E 2026-12-18T01:45:00Z 0.89 scale 0.442 band 0.523
+pro: E 2026-12-18T02:35:00Z 0.89 scale 0.479 band 0.523
+pro: E 2026-12-18T03:30:00Z 0.94 scale 0.477 band 0.534
+pro: E 2026-12-18T04:47:30Z 0.94 scale 0.477 band 0.532
+pro: E 2026-12-18T05:42:30Z 0.94 scale 0.471 band 0.539
+pro: E 2026-12-18T06:37:30Z 0.94 scale 0.452 band 0.511
+pro: E 2026-12-18T07:32:30Z 1.00 scale 0.465 band 0.489
+pro: E 2026-12-19T01:00:00Z 1.00 scale 0.488 band 0.495
+pro: E 2026-12-19T02:07:30Z 1.00 scale 0.562 band 0.592
+pro: E 2026-12-19T02:32:30Z 1.00 scale 0.562 band 0.592
+pro: E 2026-12-19T03:32:30Z 1.00 scale 0.573 band 0.603
+pro: E 2026-12-19T04:37:30Z 1.00 scale 0.546 band 0.575
+pro: E 2026-12-19T06:07:30Z 1.00 scale 0.485 band 0.541
+pro: E 2026-12-19T06:52:30Z 1.00 scale 0.572 band 0.556
+pro: E 2026-12-19T07:37:30Z 1.00 scale 0.573 band 0.603
+pro: E 2026-12-20T01:00:00Z 1.00 scale 0.569 band 0.602
+pro: E 2026-12-20T01:35:00Z 1.00 scale 0.598 band 0.637
+pro: E 2026-12-20T02:45:00Z 1.00 scale 0.565 band 0.594
+pro: E 2026-12-20T03:40:00Z 1.00 scale 0.565 band 0.594
+pro: E 2026-12-20T04:55:00Z 1.00 scale 0.565 band 0.594
+pro: E 2026-12-20T06:07:30Z 1.00 scale 0.576 band 0.606
+pro: E 2026-12-20T07:12:30Z 1.00 scale 0.543 band 0.571
+pro: E 2026-12-20T07:32:30Z 1.00 scale 0.542 band 0.570
+pro: E 2026-12-21T01:00:00Z 1.00 scale 0.577 band 0.615
+pro: E 2026-12-21T01:30:00Z 1.00 scale 0.587 band 0.664
+pro: E 2026-12-21T02:30:00Z 1.00 scale 0.648 band 0.722
+pro: E 2026-12-21T03:32:30Z 1.00 scale 0.675 band 0.677
+pro: E 2026-12-21T04:42:30Z 1.00 scale 0.629 band 0.679
+pro: E 2026-12-21T05:30:00Z 1.00 scale 0.612 band 0.634
+pro: E 2026-12-21T06:30:00Z 1.00 scale 0.606 band 0.624
+pro: E 2026-12-21T07:35:00Z 1.00 scale 0.607 band 0.638
+pro: E 2026-12-22T01:00:00Z 1.00 scale 0.607 band 0.639
+pro: E 2026-12-22T01:55:00Z 1.00 scale 0.543 band 0.656
+pro: E 2026-12-22T02:35:00Z 1.00 scale 0.591 band 0.572
+pointing offset: alt -0.005 az +0.079 deg explains 1320/1320 fibre outcomes (no offset: 1295; 32 equally good grid points)
+pro: E 2026-12-22T03:35:00Z 1.00 scale 0.594 band 0.625
+pro: E 2026-12-22T04:35:00Z 1.00 scale 0.634 band 0.650
+pro: E 2026-12-22T05:55:00Z 1.00 scale 0.647 band 0.667
+pro: E 2026-12-22T06:35:00Z 1.00 scale 0.651 band 0.709
+pro: E 2026-12-22T07:50:00Z 1.00 scale 0.651 band 0.685
+pro finished: termination_reason=survey_complete observes=941 reports=3

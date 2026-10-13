@@ -1,0 +1,130 @@
+{
+  "paired_results": {
+    "value": [
+      {
+        "label": "normal-accepted",
+        "total": 380.107246,
+        "components": {
+          "observation_request_reward": 200.0,
+          "report_settlement": 0.0,
+          "required_penalty": -200.0,
+          "sum_best_scores": 400.024378,
+          "uniformity_penalty": -19.917132
+        },
+        "counts": {
+          "decisions": 354,
+          "invalidated_observations": 0,
+          "observation_requests_completed": 2,
+          "observation_requests_issued": 2,
+          "observations": 968,
+          "observe_actions": 244,
+          "required_missing": 4,
+          "targets_observed": 709
+        },
+        "clock": {
+          "budget_seconds": 900.0,
+          "charged_seconds": 12.356,
+          "cpu_meter": "cpu",
+          "cpu_seconds": 6.339,
+          "hard_cap_reached": false,
+          "hard_cap_seconds": 7200.0,
+          "mode": "cpu",
+          "run_wall_seconds": 6.641,
+          "schema_version": "fair-clock-v1",
+          "speed_factor": 0.513,
+          "speed_factor_max": 0.513,
+          "speed_factor_min": 0.513,
+          "speed_samples": 1,
+          "wait_seconds": 0.047,
+          "window_seconds": 6.386
+        },
+        "termination": "survey_complete",
+        "start": "2026-10-06T20:17:43.730145+00:00",
+        "end": "2026-10-06T20:17:51.558831+00:00"
+      },
+      {
+        "label": "long-accepted",
+        "total": 6544.837704,
+        "components": {
+          "observation_request_reward": 200.0,
+          "report_settlement": 0.0,
+          "required_penalty": -0.0,
+          "sum_best_scores": 6344.862662,
+          "uniformity_penalty": -0.024958
+        },
+        "counts": {
+          "decisions": 7766,
+          "invalidated_observations": 355,
+          "observation_requests_completed": 2,
+          "observation_requests_issued": 2,
+          "observations": 10607,
+          "observe_actions": 823,
+          "required_missing": 0,
+          "targets_observed": 5980
+        },
+        "clock": {
+          "budget_seconds": 900.0,
+          "charged_seconds": 97.949,
+          "cpu_meter": "cpu",
+          "cpu_seconds": 53.825,
+          "hard_cap_reached": false,
+          "hard_cap_seconds": 7200.0,
+          "mode": "cpu",
+          "run_wall_seconds": 78.285,
+          "schema_version": "fair-clock-v1",
+          "speed_factor": 0.5541,
+          "speed_factor_max": 0.5541,
+          "speed_factor_min": 0.549,
+          "speed_samples": 2,
+          "wait_seconds": 2.191,
+          "window_seconds": 56.016
+        },
+        "termination": "survey_complete",
+        "start": "2026-10-06T20:17:51.559680+00:00",
+        "end": "2026-10-06T20:19:11.196953+00:00"
+      },
+      {
+        "label": "L1-accepted",
+        "total": 6345.924373,
+        "components": {
+          "observation_request_reward": 200.0,
+          "report_settlement": 100.0,
+          "required_penalty": -100.0,
+          "sum_best_scores": 6146.233767,
+          "uniformity_penalty": -0.309393
+        },
+        "counts": {
+          "decisions": 1387,
+          "invalidated_observations": 0,
+          "observation_requests_completed": 2,
+          "observation_requests_issued": 2,
+          "observations": 9596,
+          "observe_actions": 820,
+          "required_missing": 2,
+          "targets_observed": 7282
+        },
+        "clock": {
+          "budget_seconds": 900.0,
+          "charged_seconds": 181.881,
+          "cpu_meter": "cpu",
+          "cpu_seconds": 99.579,
+          "hard_cap_reached": false,
+          "hard_cap_seconds": 7200.0,
+          "mode": "cpu",
+          "run_wall_seconds": 105.362,
+          "schema_version": "fair-clock-v1",
+          "speed_factor": 0.5486,
+          "speed_factor_max": 0.5486,
+          "speed_factor_min": 0.5467,
+          "speed_samples": 2,
+          "wait_seconds": 0.724,
+          "window_seconds": 100.303
+        },
+        "termination": "survey_complete",
+        "start": "2026-10-06T20:19:11.198276+00:00",
+        "end": "2026-10-06T20:20:57.604685+00:00"
+      }
+    ],
+    "unit": "score/count/seconds"
+  }
+}

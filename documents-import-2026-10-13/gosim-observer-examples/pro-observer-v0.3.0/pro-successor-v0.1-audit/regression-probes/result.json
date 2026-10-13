@@ -1,0 +1,183 @@
+[
+  {
+    "case": "configured_min_1000",
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 60.9345,
+        "az_deg": 181.9526
+      },
+      "assignments": {
+        "0": "T0"
+      },
+      "duration_seconds": 300,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.665
+  },
+  {
+    "case": "configured_max_200",
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 60.9345,
+        "az_deg": 181.9526
+      },
+      "assignments": {
+        "0": "T0"
+      },
+      "duration_seconds": 3600,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.681
+  },
+  {
+    "case": "450sec_window",
+    "start_alt": 22.186014634717953,
+    "alt_after_200sec": 21.48198152468988,
+    "action": null,
+    "cpu_ms": 0.027
+  },
+  {
+    "case": "450sec_window_cutoff100_control",
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 23.1313,
+        "az_deg": 257.4134
+      },
+      "assignments": {
+        "0": "T0"
+      },
+      "duration_seconds": 300,
+      "program": "BACKUP"
+    }
+  },
+  {
+    "case": "2x2_level0_control",
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 60.3147,
+        "az_deg": 180.6385
+      },
+      "assignments": {
+        "0": "T0"
+      },
+      "duration_seconds": 300,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.272
+  },
+  {
+    "case": "2x2_level3",
+    "n_fibers": 4,
+    "anchor_fiber": 5,
+    "anchor_offset": [
+      0.9486840000000001,
+      0.316228
+    ],
+    "action": null
+  },
+  {
+    "case": "opposite_corner_geometry",
+    "separation_deg": 2.6827932940191634,
+    "declination_difference_deg": 2.680622190296802,
+    "radius_deg": 2.1,
+    "query_from_anchor0": [
+      0
+    ],
+    "exact_classifications": [
+      [
+        0,
+        0.31622799999998236
+      ],
+      [
+        15,
+        0.31622799999999557
+      ]
+    ]
+  },
+  {
+    "case": "single_anchor_radius_control",
+    "radius": 2.1,
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 59.9733,
+        "az_deg": 30.0518
+      },
+      "assignments": {
+        "0": "T0"
+      },
+      "duration_seconds": 300,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.702
+  },
+  {
+    "case": "single_anchor_radius_control",
+    "radius": 3.5,
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 59.9733,
+        "az_deg": 30.0518
+      },
+      "assignments": {
+        "0": "T0",
+        "15": "T1"
+      },
+      "duration_seconds": 300,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.751
+  },
+  {
+    "case": "resync_default_mismatch_factor",
+    "known_history_factor": 0.55,
+    "mismatch_multiplier": 1.0,
+    "top_multiplier": 1.2,
+    "score": 5.5,
+    "resynced_factor": 0.4583333333333333,
+    "resynced_cur": 0.55,
+    "crosses_required_threshold": true
+  },
+  {
+    "case": "official_config_validation",
+    "n_fibers": 4,
+    "minimum": 60,
+    "maximum": 3600,
+    "accepted": true
+  },
+  {
+    "case": "official_config_validation",
+    "n_fibers": 16,
+    "minimum": 1000,
+    "maximum": 3600,
+    "accepted": true
+  },
+  {
+    "case": "official_config_validation",
+    "n_fibers": 16,
+    "minimum": 100,
+    "maximum": 200,
+    "accepted": true
+  },
+  {
+    "case": "level4",
+    "action": {
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 60.3147,
+        "az_deg": 180.6385
+      },
+      "assignments": {
+        "5": "T0"
+      },
+      "duration_seconds": 900,
+      "program": "DARK"
+    },
+    "cpu_ms": 0.087
+  }
+]

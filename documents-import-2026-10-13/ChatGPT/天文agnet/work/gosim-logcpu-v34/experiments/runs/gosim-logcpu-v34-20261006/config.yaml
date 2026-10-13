@@ -1,0 +1,82 @@
+schema_version: 1
+experiment_id: gosim-logcpu-v34
+project_id: astronomy-observer
+parent_run_id: null
+hypothesis: Incremental cumulative exposure review and CPU-only pacing preserve legality
+  and use 900 CPU seconds effectively on long multi-night tasks.
+baseline: immutable v3.3 final-steady snapshot with the same 900 CPU allowance
+command: run_cpu.py --family <baseline|candidate> --card <normal-b|L1|long-held> --out
+  <unique> --budget 900 --wall-cap 7200
+output_dir: evidence/final
+data_contract_revision: DATA_CONTRACT-v34
+datasets:
+- name: L1, prior normal-b and 180-night/6000-target long-held
+  version: frozen official v4 and prior generated cards
+  uri: ../gosim-desi-v300/cases-v2/long-held and official local-cards/L1
+  identity: per-run full input SHA256 manifests; no runtime engine truth reads
+random:
+  stochastic: false
+  seed: null
+  rng: agent deterministic, inputs pre-generated and frozen
+  stream_policy: same fixed truth/weather/catalogue per paired run; CPU adaptation
+    can alter paths
+parallel:
+  backend: independent host processes across cards; serial agent/scorer per run
+  workers: 1
+  threads_per_worker: 1
+  reduction: serial C++ fibre selection
+environment:
+  dependency_lock: dependency-lock.txt
+  hardware: macOS arm64 host
+  software: bundled Python3.12.14 stdlib, C++17, frozen official workflow and process
+    CPU hook
+parameters:
+  cpu_budget_seconds: 900
+  local_wall_protection_seconds: 7200
+  log_checkpoint_exposures: 8
+  recent_exposure_window: 64
+  max_search_breadth: 1
+  api: false
+  switch_names:
+    FUSION_LOG_REVIEW: '1'
+    FUSION_MAX_BREADTH: '1'
+controls:
+  sample_ids: fixed public target IDs per card; own observe indices in audit
+  skeleton: 'not-applicable: telescope scheduling'
+  selection: Initial expanded smoke regressed relative to prior normal-b; amend to
+    paired smoke control + stable smoke, and two paired full-season cases. Preserve
+    expanded prototype. D1 unavailable.; add one final long rerun because a derived-evidence
+    resync patch changed the enhanced source after the first long run loaded it.;
+    one exact-final normal-b smoke after fixing reserved manifest switch names (settings
+    values unchanged); API freshness addition is model-enabled only.
+  units_and_coordinates: UTC/degrees; normalized standard CPU and raw host CPU kept
+    separate
+  bin_edges_and_denominator: one official total per card and algorithm
+metrics:
+  paired_scores:
+    definition: full official score/count/CPU report from both algorithms for L1 and
+      long-held
+    unit: score
+    uncertainty: one run each, CPU-adaptive variance not estimated
+  smoke_score:
+    definition: candidate normal-b official smoke total
+    unit: score
+    uncertainty: single integration smoke
+  tests:
+    definition: passed tests covering CPU semantics and incremental/replayed log analysis
+    unit: count
+    uncertainty: conformance checks
+  zip_valid:
+    definition: fresh extract/build/JSONL validation
+    unit: boolean
+    uncertainty: single host validation
+reproducibility:
+  level: numerical
+  tolerance: recorded action traces/score files exact; timed adaptive reruns can differ
+success_criterion: complete legal episodes without mistaking engine/model waits for
+  own CPU; test/build/protocol pass; report score tradeoffs
+budget:
+  max_runs: 9
+  max_walltime_hours: 2
+  stop_condition: nine recorded runs and successful exact-final package validation;
+    stop further score tuning

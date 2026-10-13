@@ -1,0 +1,41 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.61, time price fraction 0.43
+pro: 500 targets, 60 required, 5 nights; init 0.00s; model none (rules only)
+pro: E 2026-11-02T01:57:30Z 1.00 scale 0.613 band 0.648
+pro: E 2026-11-02T02:32:30Z 1.00 scale 0.613 band 0.648
+pro: E 2026-11-02T03:32:30Z 1.00 scale 0.616 band 0.648
+pro: E 2026-11-02T04:37:30Z 1.00 scale 0.537 band 0.579
+pro: E 2026-11-02T05:30:00Z 1.00 scale 0.529 band 0.565
+pro: E 2026-11-02T06:32:30Z 1.00 scale 0.555 band 0.581
+pro: E 2026-11-02T07:37:30Z 1.00 scale 0.585 band 0.586
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.591 band 0.622
+pro: E 2026-11-03T01:35:00Z 1.00 scale 0.605 band 0.622
+pro: E 2026-11-03T02:30:00Z 1.00 scale 0.621 band 0.622
+pro: E 2026-11-03T03:40:00Z 1.00 scale 0.646 band 0.622
+pro: E 2026-11-03T04:40:00Z 1.00 scale 0.591 band 0.622
+pro: E 2026-11-03T05:30:00Z 1.00 scale 0.574 band 0.622
+pro: E 2026-11-03T06:37:30Z 1.00 scale 0.574 band 0.595
+pro: E 2026-11-03T07:47:30Z 1.00 scale 0.602 band 0.629
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.599 band 0.629
+pro: E 2026-11-04T01:30:00Z 1.00 scale 0.591 band 0.629
+pro: E 2026-11-04T02:30:00Z 1.00 scale 0.591 band 0.622
+pro: E 2026-11-04T04:30:00Z 1.00 scale 0.544 band 0.622
+pro: E 2026-11-04T05:30:00Z 1.00 scale 0.591 band 0.572
+pro: E 2026-11-04T06:55:00Z 1.00 scale 0.589 band 0.572
+pro: E 2026-11-04T07:45:00Z 1.00 scale 0.589 band 0.620
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.595 band 0.626
+pro: E 2026-11-05T01:35:00Z 1.00 scale 0.593 band 0.626
+pro: E 2026-11-05T03:30:00Z 1.00 scale 0.598 band 0.626
+pro: E 2026-11-05T05:20:00Z 1.00 scale 0.601 band 0.626
+pro: E 2026-11-05T05:30:00Z 1.00 scale 0.601 band 0.626
+pro: E 2026-11-05T06:42:30Z 1.00 scale 0.552 band 0.626
+pro: E 2026-11-05T07:32:30Z 1.00 scale 0.601 band 0.626
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.601 band 0.633
+pro: E 2026-11-06T01:30:00Z 1.00 scale 0.540 band 0.633
+pro: E 2026-11-06T02:30:00Z 1.00 scale 0.503 band 0.633
+pro: E 2026-11-06T03:30:00Z 1.00 scale 0.499 band 0.633
+pro: E 2026-11-06T04:32:30Z 1.00 scale 0.495 band 0.633
+pro: E 2026-11-06T05:32:30Z 1.00 scale 0.525 band 0.633
+pro: E 2026-11-06T06:57:30Z 1.00 scale 0.471 band 0.633
+pro: E 2026-11-06T07:42:30Z 1.00 scale 0.458 band 0.633
+pro finished: termination_reason=survey_complete observes=223 reports=0

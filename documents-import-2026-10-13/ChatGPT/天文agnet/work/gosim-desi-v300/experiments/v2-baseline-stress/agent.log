@@ -1,0 +1,65 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.19, time price fraction 0.13
+pro: 700 targets, 84 required, 8 nights; init 0.01s; model none (rules only)
+pro: E 2026-11-02T01:25:00Z 1.00 scale 0.656 band 0.691
+pro: E 2026-11-02T01:40:00Z 1.00 scale 0.656 band 0.691
+pro: E 2026-11-02T02:32:30Z 1.00 scale 0.651 band 0.686
+pro: E 2026-11-02T03:32:30Z 1.00 scale 0.602 band 0.642
+pointing offset: alt +0.104 az -0.062 deg explains 91/91 fibre outcomes (no offset: 75; 4 equally good grid points)
+pro: E 2026-11-02T04:35:00Z 1.00 scale 0.535 band 0.563
+pro: E 2026-11-02T05:32:30Z 1.00 scale 0.535 band 0.563
+pro: E 2026-11-02T06:30:00Z 1.00 scale 0.556 band 0.581
+pro: E 2026-11-02T07:32:30Z 0.94 scale 0.575 band 0.642
+pro: E 2026-11-03T00:30:00Z 0.94 scale 0.585 band 0.626
+state_resync: 161 targets keep a score; plan rebuilt
+pro: earthquake notice at 2026-11-03T01:10:00Z
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.565 band 0.595
+pro: E 2026-11-04T01:30:00Z 1.00 scale 0.645 band 0.674
+pro: E 2026-11-04T02:30:00Z 1.00 scale 0.671 band 0.707
+pro: E 2026-11-04T03:30:00Z 1.00 scale 0.703 band 0.738
+pro: E 2026-11-04T04:30:00Z 1.00 scale 0.718 band 0.767
+pro: E 2026-11-04T06:30:00Z 1.00 scale 0.718 band 0.755
+pro: E 2026-11-04T07:35:00Z 1.00 scale 0.538 band 0.755
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.629 band 0.663
+pro: E 2026-11-05T02:15:00Z 1.00 scale 0.599 band 0.663
+pro: E 2026-11-05T03:25:00Z 1.00 scale 0.605 band 0.637
+pro: E 2026-11-05T03:30:00Z 1.00 scale 0.605 band 0.637
+pro: E 2026-11-05T04:30:00Z 1.00 scale 0.566 band 0.580
+pro: E 2026-11-05T06:12:30Z 1.00 scale 0.566 band 0.611
+pro: E 2026-11-05T07:00:00Z 1.00 scale 0.566 band 0.595
+pro: E 2026-11-05T07:30:00Z 1.00 scale 0.614 band 0.647
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.574 band 0.604
+pro: E 2026-11-06T01:30:00Z 1.00 scale 0.651 band 0.685
+pro: E 2026-11-06T02:55:00Z 1.00 scale 0.651 band 0.698
+pro: E 2026-11-06T03:40:00Z 1.00 scale 0.681 band 0.686
+pointing offset: alt +0.104 az -0.054 deg explains 713/713 fibre outcomes (no offset: 565; 8 equally good grid points)
+pro: E 2026-11-06T04:30:00Z 1.00 scale 0.697 band 0.717
+pro: E 2026-11-06T05:35:00Z 1.00 scale 0.678 band 0.714
+pro: E 2026-11-06T06:35:00Z 1.00 scale 0.678 band 0.714
+pointing offset: alt +0.104 az -0.062 deg explains 704/704 fibre outcomes (no offset: 556; 32 equally good grid points)
+pro: E 2026-11-06T07:40:00Z 1.00 scale 0.694 band 0.728
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.676 band 0.731
+pro: E 2026-11-07T01:45:00Z 1.00 scale 0.629 band 0.662
+pro: E 2026-11-07T02:35:00Z 1.00 scale 0.433 band 0.662
+pro: E 2026-11-07T03:40:00Z 0.94 scale 0.433 band 0.483
+pro: E 2026-11-07T04:35:00Z 0.79 scale 0.433 band 0.575
+pro: E 2026-11-07T05:30:00Z 1.00 scale 0.685 band 0.720
+pro: E 2026-11-07T06:40:00Z 1.00 scale 0.715 band 0.726
+pro: E 2026-11-07T07:35:00Z 1.00 scale 0.746 band 0.752
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.746 band 0.786
+pro: E 2026-11-08T01:45:00Z 1.00 scale 0.631 band 0.664
+pro: E 2026-11-08T03:05:00Z 1.00 scale 0.641 band 0.674
+pro: E 2026-11-08T03:30:00Z 1.00 scale 0.641 band 0.674
+pro: E 2026-11-08T04:35:00Z 1.00 scale 0.794 band 0.851
+pro: E 2026-11-08T05:35:00Z 1.00 scale 0.796 band 0.836
+pro: E 2026-11-08T06:40:00Z 1.00 scale 0.563 band 0.632
+pro: E 2026-11-08T07:35:00Z 1.00 scale 0.539 band 0.567
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.497 band 0.555
+pro: E 2026-11-09T01:35:00Z 1.00 scale 0.641 band 0.555
+pro: E 2026-11-09T02:32:30Z 1.00 scale 0.494 band 0.520
+pro: E 2026-11-09T03:32:30Z 1.00 scale 0.494 band 0.520
+pro: E 2026-11-09T05:02:30Z 1.00 scale 0.538 band 0.535
+pro: E 2026-11-09T05:52:30Z 1.00 scale 0.522 band 0.535
+pro: E 2026-11-09T06:42:30Z 1.00 scale 0.522 band 0.535
+pro: E 2026-11-09T07:47:30Z 1.00 scale 0.641 band 0.550
+pro finished: termination_reason=survey_complete observes=242 reports=0

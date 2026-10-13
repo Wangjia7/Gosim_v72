@@ -1,0 +1,22 @@
+{
+  "agent": {
+    "upstream_sha256": "2684dacd0a37e30b481bc6b4b3798726c736194007c69c27f1ed6b2dec226d58",
+    "imports_only_changed": true
+  },
+  "planner": {
+    "upstream_sha256": "88a039ee5319fbb60bd87619a575cf3273e49c753fb88524cdc3bad49ddd41da",
+    "imports_only_changed": true
+  },
+  "advisor": {
+    "upstream_sha256": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "imports_only_changed": true
+  },
+  "llm_client": {
+    "upstream_sha256": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "imports_only_changed": true
+  },
+  "skymath": {
+    "upstream_sha256": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "imports_only_changed": true
+  }
+}

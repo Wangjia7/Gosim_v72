@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "card": "L1",
+      "status": "success",
+      "total": 6594.574242,
+      "science": 6395.057833,
+      "original_total": 6236.572199,
+      "attachment_total": 6411.015273,
+      "gain_percent_vs_original": 5.740365565837635,
+      "gain_percent_vs_attachment": 2.8631809656273655,
+      "required_missing": 2,
+      "request_reward": 200.0,
+      "uniformity_penalty": -0.48359,
+      "cpu_seconds": 473.828,
+      "charged_seconds": 861.617,
+      "source_unchanged": true,
+      "execution_source_unchanged": true,
+      "card_files_unchanged": true
+    },
+    {
+      "card": "L2",
+      "status": "success",
+      "total": 6949.603865,
+      "science": 6801.889455,
+      "original_total": 6248.343772,
+      "attachment_total": 6715.434225,
+      "gain_percent_vs_original": 11.223135579423115,
+      "gain_percent_vs_attachment": 3.4870364618901473,
+      "required_missing": 3,
+      "request_reward": 200.0,
+      "uniformity_penalty": -2.28559,
+      "cpu_seconds": 475.452,
+      "charged_seconds": 867.781,
+      "source_unchanged": true,
+      "execution_source_unchanged": true,
+      "card_files_unchanged": true
+    }
+  ],
+  "paired_gain_vs_original_percent": 8.484335324806814,
+  "paired_gain_vs_attachment_percent": 3.1823427124269,
+  "L1_repeat": {
+    "rc4_total": 6587.434006,
+    "rc5_total": 6594.574242,
+    "delta": 7.140236,
+    "rc4_action_count": 832,
+    "rc5_action_count": 818,
+    "first_different_action_one_based": 74,
+    "exact_actions_equal": false
+  },
+  "heldout_cards_run": false
+}

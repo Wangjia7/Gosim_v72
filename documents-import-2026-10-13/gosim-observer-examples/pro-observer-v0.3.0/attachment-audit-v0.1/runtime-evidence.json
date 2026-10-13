@@ -1,0 +1,8 @@
+{
+  "interpreter": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "sha256": "b33be71b340c3829b6610a70cf5a89123a11d0afd23bc8ec5de385b410efb43a",
+  "version": "Python 3.12.14",
+  "machine": "arm64",
+  "container_reproduced": false,
+  "note": "Native runtime shared across original, successor and attachment comparisons. The manifest image digest was not resolved or executed."
+}

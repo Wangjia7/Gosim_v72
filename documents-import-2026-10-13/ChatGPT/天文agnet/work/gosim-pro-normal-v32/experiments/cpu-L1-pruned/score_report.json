@@ -1,0 +1,78 @@
+{
+  "by_class": {
+    "BGS": 112.887678,
+    "ELG": 265.134624,
+    "LRG": 54.436064,
+    "QSO": 55.052388,
+    "Star": 21.812668
+  },
+  "components": {
+    "observation_request_reward": 0.0,
+    "report_settlement": 0.0,
+    "required_penalty": -12600.0,
+    "sum_best_scores": 509.323421,
+    "uniformity_penalty": -49.12689
+  },
+  "counts": {
+    "decisions": 82,
+    "invalidated_observations": 0,
+    "observation_requests_completed": 0,
+    "observation_requests_issued": 1,
+    "observations": 889,
+    "observe_actions": 65,
+    "required_missing": 252,
+    "targets_observed": 864
+  },
+  "invalidations": [],
+  "observation_requests": [
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2026-11-04T08:30:00Z",
+      "issued_at_utc": "2026-11-03T00:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0001",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T000594",
+        "V4T003544",
+        "V4T007198",
+        "V4T007219",
+        "V4T004700",
+        "V4T001127",
+        "V4T001995",
+        "V4T000983"
+      ]
+    }
+  ],
+  "scenario": "v4-l1",
+  "schema_version": "v4-score-report-v1",
+  "sha256": {
+    "decisions": "ebe095e9eea1bbf7084b47de6a5540ae9734902612d42e50d711441fa0fdfcc5",
+    "messages": "9a19be8a3fe57dc9c4684e112582d27589a6cb36c2066780f825b01213bbc4ee",
+    "observations": "5391dd1de9be80f7764d87cdd2b5d4301cd2657c98076d72ab0a64532097efaa",
+    "scenario": "c8d1a8676e4a283b55bdaa59c40f0ae53396e05a93095e6364573ad536c68c43"
+  },
+  "termination": {
+    "detail": "KeyError",
+    "reason": "agent_error"
+  },
+  "total": -12139.803468,
+  "uniformity_bands": {
+    "ra_0_10": 0.041731,
+    "ra_100_110": 0.065004,
+    "ra_10_20": 0.055762,
+    "ra_110_120": 0.05915,
+    "ra_20_30": 0.032787,
+    "ra_30_40": 0.097561,
+    "ra_350_360": 0.038186,
+    "ra_40_50": 0.168842,
+    "ra_50_60": 0.022767,
+    "ra_60_70": 0.100446,
+    "ra_70_80": 0.123967,
+    "ra_90_100": 0.057613
+  }
+}

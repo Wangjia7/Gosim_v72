@@ -1,0 +1,65 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.30, time price fraction 0.21
+pro: 700 targets, 84 required, 8 nights; init 0.01s; model none (rules only)
+pro: E 2026-11-02T01:16:00Z 1.00 scale 0.665 band 0.691
+pro: E 2026-11-02T01:31:00Z 1.00 scale 0.666 band 0.701
+geometry: {'assigned': 8, 'hit_ids': 7, 'unmatched_assignments': 1, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.1, 'offset_az_deg': -0.012500000000000002, 'training_rows': 102, 'baseline_loss': 19, 'candidate_loss': 1, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 0, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.0, 'offset_az_deg_estimate': 0.0, 'offset_bound_deg': 0.2, 'evidence_rows': 102, 'exposures': 16, 'total_assigned': 102, 'total_hits': 83, 'pending_validation': True, 'fit_attempts': 2, 'next_fit_exposure': 24, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 5, 'hit_ids': 5, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_update': {'offset_alt_deg': 0.1, 'offset_az_deg': -0.012500000000000002, 'validation_rows': 28, 'validation_exposures': 5, 'old_loss': 5, 'new_loss': 2}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.1, 'offset_az_deg_estimate': -0.012500000000000002, 'offset_bound_deg': 0.2, 'evidence_rows': 130, 'exposures': 21, 'total_assigned': 130, 'total_hits': 106, 'pending_validation': False, 'fit_attempts': 2, 'next_fit_exposure': 29, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-02T02:31:16Z 1.00 scale 0.597 band 0.629
+pro: E 2026-11-02T03:34:12Z 1.00 scale 0.551 band 0.615
+pro: E 2026-11-02T04:42:05Z 1.00 scale 0.535 band 0.563
+pro: E 2026-11-02T05:35:14Z 1.00 scale 0.556 band 0.568
+pro: E 2026-11-02T06:36:45Z 0.94 scale 0.575 band 0.641
+pro: E 2026-11-02T07:41:45Z 0.94 scale 0.575 band 0.641
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.630 band 0.625
+pro: earthquake notice at 2026-11-03T00:56:00Z
+state_resync: replayed 66 observes; invalid 1
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.603 band 0.635
+pro: E 2026-11-04T01:35:00Z 1.00 scale 0.640 band 0.635
+pro: E 2026-11-04T02:52:00Z 1.00 scale 0.667 band 0.702
+pro: E 2026-11-04T03:30:00Z 1.00 scale 0.701 band 0.737
+pro: E 2026-11-04T04:31:00Z 1.00 scale 0.732 band 0.770
+pro: E 2026-11-04T06:30:00Z 1.00 scale 0.715 band 0.770
+pro: E 2026-11-04T07:40:00Z 1.00 scale 0.614 band 0.770
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.629 band 0.651
+pro: E 2026-11-05T02:01:21Z 1.00 scale 0.610 band 0.651
+pro: E 2026-11-05T03:01:21Z 1.00 scale 0.608 band 0.642
+pro: E 2026-11-05T04:01:21Z 1.00 scale 0.614 band 0.642
+pro: E 2026-11-05T04:41:21Z 1.00 scale 0.567 band 0.611
+pro: E 2026-11-05T05:39:18Z 1.00 scale 0.603 band 0.611
+pro: E 2026-11-05T07:00:00Z 1.00 scale 0.611 band 0.644
+pro: E 2026-11-05T07:32:30Z 1.00 scale 0.273 band 0.644
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.572 band 0.603
+pro: E 2026-11-06T01:30:00Z 1.00 scale 0.606 band 0.653
+pro: E 2026-11-06T02:50:00Z 1.00 scale 0.671 band 0.708
+pro: E 2026-11-06T03:32:30Z 1.00 scale 0.671 band 0.706
+pro: E 2026-11-06T04:42:30Z 1.00 scale 0.675 band 0.710
+pro: E 2026-11-06T05:35:00Z 1.00 scale 0.675 band 0.702
+pro: E 2026-11-06T06:35:00Z 1.00 scale 0.702 band 0.739
+pro: E 2026-11-06T07:50:00Z 1.00 scale 0.677 band 0.712
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.677 band 0.712
+pro: E 2026-11-07T01:30:00Z 1.00 scale 0.623 band 0.656
+pro: E 2026-11-07T02:32:30Z 1.00 scale 0.731 band 0.823
+pro: E 2026-11-07T03:30:00Z 0.59 scale 0.331 band 0.588
+pro: E 2026-11-07T04:34:34Z 0.59 scale 0.321 band 0.588
+pro: report at 2026-11-07T04:49:34Z (quality below what the program bands allow), free left 2
+pro: report false (delta 0.0); free left 1
+pro: E 2026-11-07T06:49:34Z 1.00 scale 0.704 band 0.730
+pro: E 2026-11-07T07:39:34Z 1.00 scale 0.777 band 0.741
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.752 band 0.818
+pro: E 2026-11-08T01:32:30Z 1.00 scale 0.776 band 0.663
+pro: E 2026-11-08T02:30:30Z 1.00 scale 0.805 band 0.847
+pro: E 2026-11-08T03:32:58Z 1.00 scale 0.858 band 0.903
+pro: E 2026-11-08T04:44:13Z 1.00 scale 0.797 band 0.839
+pro: E 2026-11-08T05:30:13Z 1.00 scale 0.747 band 0.787
+pro: E 2026-11-08T06:32:22Z 1.00 scale 0.597 band 0.635
+pro: E 2026-11-08T07:49:22Z 1.00 scale 0.528 band 0.624
+pro: E 2026-11-09T00:30:00Z 0.89 scale 0.528 band 0.624
+pro: E 2026-11-09T01:39:35Z 0.89 scale 0.509 band 0.624
+pro: E 2026-11-09T03:12:05Z 1.00 scale 0.503 band 0.536
+pro: E 2026-11-09T03:52:05Z 1.00 scale 0.539 band 0.529
+pro: E 2026-11-09T04:32:05Z 1.00 scale 0.539 band 0.568
+pro: E 2026-11-09T05:39:35Z 1.00 scale 0.510 band 0.538
+pro: E 2026-11-09T06:34:35Z 1.00 scale 0.510 band 0.537
+pro: E 2026-11-09T07:34:35Z 1.00 scale 0.534 band 0.526
+pro finished: termination_reason=agent_finished observes=395 reports=1

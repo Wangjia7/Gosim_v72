@@ -1,0 +1,24 @@
+{
+  "components_process_seconds": {
+    "candidate_generation": 66.3408830000284,
+    "exposure_search": 200.30343799999412,
+    "fiber_assignment": 60.024796999978136,
+    "lookahead": 0.0,
+    "season": 1.5766179999996686,
+    "state_update": 0.3747230000001457,
+    "visibility": 8.76762999999971
+  },
+  "level_counts": {
+    "0": 686,
+    "1": 104
+  },
+  "requested_width_summary": {
+    "min": 1.0,
+    "median": 20.0,
+    "max": 20.0,
+    "at_nominal_cap20": 699
+  },
+  "effective_planner_width_cap": 5,
+  "error_steps": [],
+  "note": "Logged widths are requests; frozen rc2 planner caps actual width at5. Recorded observer stage sums; official whole-run CPU authoritative."
+}

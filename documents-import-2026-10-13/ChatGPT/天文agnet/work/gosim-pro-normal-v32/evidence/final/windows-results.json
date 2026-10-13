@@ -1,0 +1,125 @@
+[
+  {
+    "card": "normal-a",
+    "family": "windows",
+    "total": 1135.012279,
+    "counts": {
+      "decisions": 380,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 2258,
+      "observe_actions": 270,
+      "required_missing": 2,
+      "targets_observed": 1369
+    },
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -100.0,
+      "sum_best_scores": 1036.232275,
+      "uniformity_penalty": -1.219996
+    },
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 28.82,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 34.735,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 36.067,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.2053,
+      "speed_factor_max": 1.2053,
+      "speed_factor_min": 1.2053,
+      "speed_samples": 1,
+      "wait_seconds": 0.277,
+      "window_seconds": 35.012
+    },
+    "termination": "survey_complete",
+    "out": "windows-normal-a"
+  },
+  {
+    "card": "normal-b",
+    "family": "windows",
+    "total": 300.979256,
+    "counts": {
+      "decisions": 359,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 956,
+      "observe_actions": 253,
+      "required_missing": 5,
+      "targets_observed": 658
+    },
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -250.0,
+      "sum_best_scores": 372.604396,
+      "uniformity_penalty": -21.625141
+    },
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 10.914,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 12.557,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 13.172,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1505,
+      "speed_factor_max": 1.1505,
+      "speed_factor_min": 1.1505,
+      "speed_samples": 1,
+      "wait_seconds": 0.102,
+      "window_seconds": 12.659
+    },
+    "termination": "survey_complete",
+    "out": "windows-normal-b"
+  },
+  {
+    "card": "sparse",
+    "family": "windows",
+    "total": 497.560894,
+    "counts": {
+      "decisions": 261,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 643,
+      "observe_actions": 190,
+      "required_missing": 0,
+      "targets_observed": 459
+    },
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -0.0,
+      "sum_best_scores": 300.566169,
+      "uniformity_penalty": -3.005275
+    },
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 6.763,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 7.525,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 7.901,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1126,
+      "speed_factor_max": 1.1126,
+      "speed_factor_min": 1.1126,
+      "speed_samples": 1,
+      "wait_seconds": 0.061,
+      "window_seconds": 7.586
+    },
+    "termination": "survey_complete",
+    "out": "windows-sparse"
+  }
+]

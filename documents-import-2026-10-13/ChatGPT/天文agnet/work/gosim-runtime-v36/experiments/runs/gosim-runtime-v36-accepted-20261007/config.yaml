@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "experiment_id": "gosim-runtime-v36",
+  "project_id": "gosim-observer",
+  "parent_run_id": null,
+  "hypothesis": "Correct shared-visit capacity and false last-window inference; preserve incumbent and only accept a forecast Pareto improvement, with tested source/end-time and CPU guards.",
+  "baseline": "immutable v3.4 source",
+  "command": "run_matrix.py --accepted (normal-b,long-held,L1) +102+ tests +extracted ZIP smoke",
+  "output_dir": "evidence/accepted",
+  "data_contract_revision": "v3.6-public-own-results-only",
+  "datasets": [
+    {
+      "name": "normal-b / long-held / L1",
+      "version": "existing frozen local inputs",
+      "uri": "local paired cards",
+      "identity": "per-episode source-input-manifest.json SHA256 for all input CSV/JSON/JSONL; same IDs per pair"
+    }
+  ],
+  "random": {
+    "stochastic": false,
+    "seed": null,
+    "rng": "not-applicable: deterministic agent and fixed evaluator inputs; adaptive CPU timing can affect search",
+    "stream_policy": "not-applicable; no random draws introduced"
+  },
+  "parallel": {
+    "backend": "serial per episode; paired independent subprocesses",
+    "workers": 1,
+    "threads_per_worker": 1,
+    "reduction": "stable Python/C++ candidate ordering"
+  },
+  "environment": {
+    "dependency_lock": "dependency-lock.txt",
+    "hardware": "local macOS ARM host",
+    "software": "bundled Python3.12.14, standard library, C++ native search, offline PyYAML registry"
+  },
+  "parameters": {
+    "cpu_budget": 900,
+    "wall_cap": 7200,
+    "normal_breadth": 1,
+    "model": "disabled in scorer; mocked in pipeline tests"
+  },
+  "controls": {
+    "sample_ids": "identical frozen catalogue per pair",
+    "skeleton": "not-applicable",
+    "selection": "runtime consumes only public snapshots and own feedback",
+    "units_and_coordinates": "UTC seconds, degrees; runtime score contract",
+    "bin_edges_and_denominator": "actual engine scored best single exposure, required missing counts, request completion counts"
+  },
+  "metrics": {
+    "paired_results": {
+      "definition": "Per episode official total and components, required_missing, paid requests, charged_cpu and termination. No data-derived optimum.",
+      "unit": "score/count/seconds",
+      "uncertainty": "single deterministic episode per configuration; no statistical standard error"
+    }
+  },
+  "reproducibility": {
+    "level": "numerical",
+    "tolerance": "CSV best-score sums <=0.1 rounding; direct JSON totals exact; geometry/native small test actions equal",
+    "success_criterion": "functional severe-fault and event invariants, no budget exhaustion, meaningful regressions preserved. Numeric superiority only if observed."
+  },
+  "success_criterion": "Repair false-normal estimate, preserve protocol and single-exposure semantics, validate source-time events, evaluate regressions without selecting seeds.",
+  "budget": {
+    "max_runs": 3,
+    "max_walltime_hours": 1,
+    "stop_condition": "fixed planned matrix completed; additional run only for a new correctness fix"
+  }
+}

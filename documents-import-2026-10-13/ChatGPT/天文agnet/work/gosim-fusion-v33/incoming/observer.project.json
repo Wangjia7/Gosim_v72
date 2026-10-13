@@ -1,0 +1,1 @@
+{"build":[],"environment":{"PYTHONDONTWRITEBYTECODE":"1"},"image":"python@sha256:ddb0207ae1f0356c2b724d740769b0c5f5f51cc54a0525178f721825f78fe74c","protocol":"jsonl-v2","run":["python3","-u","agent.py"],"schema_version":"observer-project-v1","working_directory":"."}

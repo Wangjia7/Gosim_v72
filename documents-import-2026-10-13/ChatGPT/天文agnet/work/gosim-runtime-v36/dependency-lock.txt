@@ -1,0 +1,4 @@
+Python 3.12.14 bundled codex primary runtime; standard library only
+C++ compiler bundled macOS toolchain; native subprocess build
+PyYAML host conda Python 3.10 for offline experiment registry only, not upload
+Official frozen scorer/workflow from work/gosim-desi-v300/runner

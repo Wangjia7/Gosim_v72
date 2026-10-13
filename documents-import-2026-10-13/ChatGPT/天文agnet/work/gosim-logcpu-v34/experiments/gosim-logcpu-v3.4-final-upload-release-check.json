@@ -1,0 +1,65 @@
+{
+  "zip": "/Users/jqwang/Documents/ChatGPT/\u5929\u6587agnet/outputs/gosim-logcpu-v3.4-final-upload.zip",
+  "bytes": 150079,
+  "sha256": "633e7f585add9b58c5d744c4a7e6bbbefea289c8e47294bdf96d0a0ce6dbc401",
+  "manifest_host_build_jsonl": true,
+  "normal_and_enhanced_routes": true,
+  "python_fallback": true,
+  "linux_container": false,
+  "remote_api": false,
+  "replies": [
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 7,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 55.6299,
+        "az_deg": 101.1071
+      },
+      "assignments": {
+        "0": "t0",
+        "1": "t1"
+      },
+      "duration_seconds": 450,
+      "program": "DARK",
+      "reason": "2 fibres, program DARK",
+      "decision_source": "rules"
+    },
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 7,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 55.6299,
+        "az_deg": 101.1071
+      },
+      "assignments": {
+        "0": "t0",
+        "1": "t1"
+      },
+      "duration_seconds": 450,
+      "program": "DARK",
+      "reason": "2 fibres, program DARK",
+      "decision_source": "rules"
+    },
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 7,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 54.8094,
+        "az_deg": 100.3093
+      },
+      "assignments": {
+        "0": "t0"
+      },
+      "duration_seconds": 600,
+      "program": "DARK",
+      "reason": "1 fibres, program DARK",
+      "decision_source": "rules"
+    }
+  ]
+}

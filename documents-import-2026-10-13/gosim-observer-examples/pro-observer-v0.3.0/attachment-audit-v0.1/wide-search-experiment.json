@@ -1,0 +1,392 @@
+{
+  "schema_version": "wide-search-retrospective-v1",
+  "control": {
+    "label": "attached-adaptive-py312",
+    "summary": {
+      "card": "L1",
+      "decision_requests": 831,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 108.369,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 61.714,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 69.494,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.5835,
+        "speed_factor_max": 0.5835,
+        "speed_factor_min": 0.5677,
+        "speed_samples": 2,
+        "wait_seconds": 2.664,
+        "window_seconds": 64.378
+      },
+      "note": "Local scores are for debugging; official results come from the platform. \u672c\u5730\u5206\u6570\u7528\u6765\u8c03\u8bd5\uff0c\u6b63\u5f0f\u6210\u7ee9\u4ee5\u5e73\u53f0\u4e3a\u51c6\u3002",
+      "observation_request_reward": 200.0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observe_actions": 770,
+      "outputs": {
+        "agent.log": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-adaptive-py312/L1/agent.log",
+        "decisions.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-adaptive-py312/L1/decisions.csv",
+        "observations.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-adaptive-py312/L1/observations.csv",
+        "score_report.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-adaptive-py312/L1/score_report.json",
+        "workflow_result.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-adaptive-py312/L1/workflow_result.json"
+      },
+      "report_settlement": 100.0,
+      "required_missing": 2,
+      "required_penalty": -100.0,
+      "runner_seconds": 70.348,
+      "speed_factor": 0.5835,
+      "sum_best_scores": 6211.378363,
+      "targets_observed": 7364,
+      "termination_detail": "",
+      "termination_reason": "survey_complete",
+      "total": 6411.015273,
+      "uniformity_penalty": -0.36309,
+      "wall_seconds": 108.369
+    },
+    "hit_stats": {
+      "first_valid_hit_targets": 7364,
+      "positive_gain_hits": 9353,
+      "repeat_hits": 2380,
+      "winning_repeat_hits": 2171,
+      "zero_score_hits": 342,
+      "nonwinning_repeat_hits": 209,
+      "positive_score_nonwinning_hits": 49,
+      "observe_actions_zero_valid_science_gain": 25,
+      "valid_hits": 9744,
+      "invalidated_hits": 0,
+      "assigned_targets": 9746,
+      "valid_final_history_distinct_targets": 7364
+    },
+    "approx_science_from_rounded_hits": 6211.378358999758,
+    "rounding_difference_from_official_science": -4.0002414607442915e-06,
+    "first_valid_hit_science_gain": 4961.73614599989,
+    "winning_repeat_science_gain": 1249.6422129999971,
+    "duration_seconds": {
+      "count": 770,
+      "sum": 847350,
+      "mean": 1100.4545454545455,
+      "median": 750.0,
+      "p10": 300,
+      "p90": 2400
+    },
+    "declared_duration_seconds": {
+      "count": 770,
+      "sum": 847350,
+      "mean": 1100.4545454545455,
+      "median": 750.0,
+      "p10": 300,
+      "p90": 2400
+    },
+    "actual_duration_histogram": {
+      "150": 5,
+      "300": 204,
+      "450": 77,
+      "600": 39,
+      "750": 63,
+      "900": 93,
+      "1200": 54,
+      "1500": 52,
+      "1800": 69,
+      "2400": 53,
+      "3000": 29,
+      "3600": 32
+    },
+    "declared_duration_histogram": {
+      "150": 5,
+      "300": 204,
+      "450": 77,
+      "600": 39,
+      "750": 63,
+      "900": 93,
+      "1200": 54,
+      "1500": 52,
+      "1800": 69,
+      "2400": 53,
+      "3000": 29,
+      "3600": 32
+    },
+    "program_multiplier_hit_counts": {
+      "1.000000": 1234,
+      "1.060000": 77,
+      "1.120000": 829,
+      "1.200000": 7604
+    },
+    "mean_realized_factor": 0.7140681598932677,
+    "median_realized_factor": 0.8405765000000001,
+    "mean_realized_quality": 0.710417579228243,
+    "mean_assigned_per_observe": 12.657142857142857,
+    "valid_hit_fraction_of_all_assignments": 0.9997947876051714,
+    "valid_hit_seconds": 11177400,
+    "total_observe_seconds": 847350,
+    "zero_science_observe_seconds": 22200,
+    "nonwinning_repeat_fiber_seconds": 267450,
+    "science_gain_per_observe_hour": 26.38928672543813
+  },
+  "wide": {
+    "label": "attached-wide-py312",
+    "summary": {
+      "card": "L1",
+      "decision_requests": 843,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 339.626,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 193.617,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 205.259,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.5547,
+        "speed_factor_max": 0.5803,
+        "speed_factor_min": 0.5547,
+        "speed_samples": 4,
+        "wait_seconds": 5.883,
+        "window_seconds": 199.499
+      },
+      "note": "Local scores are for debugging; official results come from the platform. \u672c\u5730\u5206\u6570\u7528\u6765\u8c03\u8bd5\uff0c\u6b63\u5f0f\u6210\u7ee9\u4ee5\u5e73\u53f0\u4e3a\u51c6\u3002",
+      "observation_request_reward": 200.0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observe_actions": 781,
+      "outputs": {
+        "agent.log": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-wide-py312/L1/agent.log",
+        "decisions.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-wide-py312/L1/decisions.csv",
+        "observations.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-wide-py312/L1/observations.csv",
+        "score_report.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-wide-py312/L1/score_report.json",
+        "workflow_result.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/attached-wide-py312/L1/workflow_result.json"
+      },
+      "report_settlement": 100.0,
+      "required_missing": 2,
+      "required_penalty": -100.0,
+      "runner_seconds": 206.142,
+      "speed_factor": 0.5547,
+      "sum_best_scores": 6346.031699,
+      "targets_observed": 7395,
+      "termination_detail": "",
+      "termination_reason": "survey_complete",
+      "total": 6545.72077,
+      "uniformity_penalty": -0.310929,
+      "wall_seconds": 339.626
+    },
+    "hit_stats": {
+      "first_valid_hit_targets": 7395,
+      "positive_gain_hits": 9526,
+      "repeat_hits": 2802,
+      "winning_repeat_hits": 2344,
+      "zero_score_hits": 615,
+      "nonwinning_repeat_hits": 458,
+      "positive_score_nonwinning_hits": 56,
+      "observe_actions_zero_valid_science_gain": 49,
+      "valid_hits": 10197,
+      "invalidated_hits": 0,
+      "assigned_targets": 10200,
+      "valid_final_history_distinct_targets": 7395
+    },
+    "approx_science_from_rounded_hits": 6346.03171799975,
+    "rounding_difference_from_official_science": 1.899974995467346e-05,
+    "first_valid_hit_science_gain": 5012.256057999904,
+    "winning_repeat_science_gain": 1333.7756600000002,
+    "duration_seconds": {
+      "count": 781,
+      "sum": 846600,
+      "mean": 1083.9948783610755,
+      "median": 750,
+      "p10": 300,
+      "p90": 2400
+    },
+    "declared_duration_seconds": {
+      "count": 781,
+      "sum": 846600,
+      "mean": 1083.9948783610755,
+      "median": 750,
+      "p10": 300,
+      "p90": 2400
+    },
+    "actual_duration_histogram": {
+      "150": 7,
+      "300": 224,
+      "450": 50,
+      "600": 55,
+      "750": 55,
+      "900": 95,
+      "1200": 71,
+      "1500": 47,
+      "1800": 55,
+      "2400": 68,
+      "3000": 27,
+      "3600": 27
+    },
+    "declared_duration_histogram": {
+      "150": 7,
+      "300": 224,
+      "450": 50,
+      "600": 55,
+      "750": 55,
+      "900": 95,
+      "1200": 71,
+      "1500": 47,
+      "1800": 55,
+      "2400": 68,
+      "3000": 27,
+      "3600": 27
+    },
+    "program_multiplier_hit_counts": {
+      "1.000000": 1409,
+      "1.060000": 139,
+      "1.120000": 834,
+      "1.200000": 7815
+    },
+    "mean_realized_factor": 0.6995119449838187,
+    "median_realized_factor": 0.830708,
+    "mean_realized_quality": 0.6887441352358536,
+    "mean_assigned_per_observe": 13.060179257362355,
+    "valid_hit_fraction_of_all_assignments": 0.9997058823529412,
+    "valid_hit_seconds": 11374500,
+    "total_observe_seconds": 846600,
+    "zero_science_observe_seconds": 21450,
+    "nonwinning_repeat_fiber_seconds": 302400,
+    "science_gain_per_observe_hour": 26.98525173210489
+  },
+  "target_delta_decomposition": {
+    "common_targets": 7113,
+    "only_control_targets": 251,
+    "only_wide_targets": 282,
+    "science_delta_on_common_targets": 103.32867800000025,
+    "science_from_only_wide_targets": 169.89916099999996,
+    "science_lost_only_control_targets": 138.5744800000001,
+    "common_improved_count": 2722,
+    "common_worsened_count": 2475,
+    "common_unchanged_count": 1916,
+    "top_common_improvements": [
+      [
+        "V4T000544",
+        1.75153,
+        0.28847,
+        2.04
+      ],
+      [
+        "V4T000443",
+        1.624238,
+        0.415762,
+        2.04
+      ],
+      [
+        "V4T003209",
+        1.5355219999999998,
+        0.259667,
+        1.795189
+      ],
+      [
+        "V4T002881",
+        1.493407,
+        0.546593,
+        2.04
+      ],
+      [
+        "V4T006287",
+        1.486233,
+        0.09234,
+        1.578573
+      ],
+      [
+        "V4T001103",
+        1.471109,
+        0.468024,
+        1.939133
+      ],
+      [
+        "V4T006191",
+        1.4604210000000002,
+        0.239615,
+        1.700036
+      ],
+      [
+        "V4T005910",
+        1.444806,
+        0.595194,
+        2.04
+      ],
+      [
+        "V4T001742",
+        1.409894,
+        0.185227,
+        1.595121
+      ],
+      [
+        "V4T005314",
+        1.408366,
+        0.612896,
+        2.021262
+      ]
+    ],
+    "top_common_regressions": [
+      [
+        "V4T007172",
+        -1.7972380000000001,
+        1.958747,
+        0.161509
+      ],
+      [
+        "V4T002719",
+        -1.789926,
+        2.04,
+        0.250074
+      ],
+      [
+        "V4T005892",
+        -1.690063,
+        1.792998,
+        0.102935
+      ],
+      [
+        "V4T003495",
+        -1.6321970000000001,
+        2.04,
+        0.407803
+      ],
+      [
+        "V4T000182",
+        -1.625432,
+        1.746877,
+        0.121445
+      ],
+      [
+        "V4T007632",
+        -1.621711,
+        1.974728,
+        0.353017
+      ],
+      [
+        "V4T005038",
+        -1.616635,
+        1.737004,
+        0.120369
+      ],
+      [
+        "V4T003080",
+        -1.519439,
+        1.732378,
+        0.212939
+      ],
+      [
+        "V4T006405",
+        -1.4804599999999999,
+        2.04,
+        0.55954
+      ],
+      [
+        "V4T004208",
+        -1.434692,
+        1.577942,
+        0.14325
+      ]
+    ]
+  },
+  "cpu_stage_breakdown": null,
+  "note": "Only judge artifacts used offline. Raw observed factor/quality are evaluator truth and were never read by the live observer. Final-valid-history repeat analysis excludes invalidated rows; scores rounded6decimals, so reconstructed science is approximate."
+}

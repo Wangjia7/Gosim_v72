@@ -1,0 +1,64 @@
+planner: scarcity 0.19, time price fraction 0.13
+pro: 2400 targets, 288 required, 7 nights; init 0.02s; model none (rules only)
+pro: E 2026-11-02T01:55:00Z 1.00 scale 1.066 band 1.111
+pro: E 2026-11-02T02:36:18Z 1.00 scale 1.024 band 1.090
+pro: E 2026-11-02T03:31:29Z 1.00 scale 1.040 band 1.084
+pro: E 2026-11-02T04:33:30Z 1.00 scale 0.512 band 1.008
+pro: E 2026-11-02T05:37:00Z 1.00 scale 0.948 band 1.020
+pro: E 2026-11-02T06:44:04Z 1.00 scale 0.883 band 0.929
+pro: E 2026-11-02T07:48:17Z 1.00 scale 0.858 band 0.897
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.814 band 0.857
+pro: E 2026-11-03T03:15:00Z 1.00 scale 0.292 band 1.049
+pro: E 2026-11-03T03:50:49Z 1.00 scale 0.945 band 0.995
+pro: pace level 1 (cpu budget 273 ms, wall budget 472 ms, cpu costs [283, 120, 40, 13] ms, 521 decisions left)
+pro: pace level 0 (cpu budget 299 ms, wall budget 518 ms, cpu costs [264, 117, 40, 13] ms, 476 decisions left)
+pro: E 2026-11-03T04:39:50Z 1.00 scale 1.000 band 1.053
+pro: pace level 1 (cpu budget 264 ms, wall budget 458 ms, cpu costs [272, 133, 40, 13] ms, 534 decisions left)
+pro: pace level 0 (cpu budget 234 ms, wall budget 406 ms, cpu costs [216, 125, 34, 11] ms, 601 decisions left)
+pro: pace level 1 (cpu budget 216 ms, wall budget 375 ms, cpu costs [217, 136, 34, 11] ms, 649 decisions left)
+pro: pace level 0 (cpu budget 208 ms, wall budget 361 ms, cpu costs [205, 136, 34, 11] ms, 674 decisions left)
+pro: E 2026-11-03T05:35:16Z 1.00 scale 1.035 band 1.092
+pro: pace level 1 (cpu budget 218 ms, wall budget 380 ms, cpu costs [227, 144, 34, 11] ms, 636 decisions left)
+pro: pace level 0 (cpu budget 240 ms, wall budget 418 ms, cpu costs [214, 111, 34, 11] ms, 574 decisions left)
+pro: E 2026-11-03T06:39:20Z 1.00 scale 0.947 band 0.997
+pro: E 2026-11-03T07:44:39Z 1.00 scale 0.981 band 1.033
+pro: E 2026-11-04T00:30:00Z 1.00 scale 1.016 band 1.069
+pro: E 2026-11-04T01:50:00Z 1.00 scale 0.744 band 0.784
+pro: E 2026-11-04T02:50:00Z 1.00 scale 0.744 band 0.784
+pro: E 2026-11-04T03:30:00Z 1.00 scale 0.779 band 0.784
+pro: E 2026-11-04T04:30:26Z 1.00 scale 0.693 band 0.747
+pro: E 2026-11-04T05:56:26Z 1.00 scale 0.737 band 0.776
+pro: E 2026-11-04T06:36:26Z 1.00 scale 0.737 band 0.776
+pro: E 2026-11-04T07:30:39Z 1.00 scale 0.658 band 0.693
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.690 band 0.726
+pro: E 2026-11-05T01:48:30Z 1.00 scale 0.491 band 0.513
+pro: E 2026-11-05T02:50:35Z 1.00 scale 0.503 band 0.530
+pro: E 2026-11-05T04:05:35Z 1.00 scale 0.512 band 0.567
+pro: E 2026-11-05T04:30:35Z 0.94 scale 0.512 band 0.571
+pro: E 2026-11-05T05:42:55Z 0.94 scale 0.491 band 0.562
+pro: E 2026-11-05T07:02:55Z 1.00 scale 0.481 band 0.517
+pro: E 2026-11-05T07:52:55Z 1.00 scale 0.461 band 0.478
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.461 band 0.458
+pro: E 2026-11-06T02:10:00Z 1.00 scale 0.540 band 0.566
+pro: E 2026-11-06T02:50:00Z 1.00 scale 0.563 band 0.569
+pro: E 2026-11-06T03:40:00Z 1.00 scale 0.540 band 0.592
+pro: E 2026-11-06T04:30:00Z 1.00 scale 0.345 band 0.536
+pro: E 2026-11-06T06:09:24Z 1.00 scale 0.329 band 0.349
+pro: E 2026-11-06T06:43:24Z 0.89 scale 0.510 band 0.413
+pro: E 2026-11-06T07:43:24Z 0.53 scale 0.580 band 0.639
+pro: E 2026-11-07T01:30:00Z 1.00 scale 0.580 band 0.610
+pro: E 2026-11-07T03:10:00Z 1.00 scale 0.495 band 0.528
+pro: E 2026-11-07T03:41:54Z 1.00 scale 0.513 band 0.521
+pro: E 2026-11-07T05:19:24Z 1.00 scale 0.522 band 0.547
+pro: E 2026-11-07T05:49:24Z 1.00 scale 0.522 band 0.549
+pro: E 2026-11-07T06:34:24Z 1.00 scale 0.543 band 0.559
+pro: E 2026-11-07T07:34:47Z 1.00 scale 0.533 band 0.561
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.545 band 0.574
+pro: E 2026-11-08T01:35:00Z 1.00 scale 0.594 band 0.574
+pro: E 2026-11-08T02:47:30Z 0.94 scale 0.558 band 0.623
+pro: E 2026-11-08T03:35:00Z 0.94 scale 0.558 band 0.587
+pro: E 2026-11-08T04:32:30Z 1.00 scale 0.561 band 0.587
+pro: E 2026-11-08T05:32:30Z 1.00 scale 0.116 band 0.590
+pro: E 2026-11-08T06:32:30Z 0.23 scale 0.116 band 0.524
+pro: E 2026-11-08T07:32:30Z 1.00 scale 0.116 band 0.122
+{"family": "final-steady", "card": "dense", "total": 2522.010496, "counts": {"decisions": 388, "observe_actions": 276, "observations": 5020, "targets_observed": 2400, "required_missing": 0, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 47.486, "speed_factor": 1.1691, "speed_factor_min": 1.1691, "speed_factor_max": 1.2014, "speed_samples": 2, "window_seconds": 58.703, "cpu_seconds": 57.02, "wait_seconds": 1.682, "run_wall_seconds": 62.142, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

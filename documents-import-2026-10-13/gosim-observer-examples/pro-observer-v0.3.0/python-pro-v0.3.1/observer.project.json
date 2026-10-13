@@ -1,0 +1,43 @@
+{
+  "build": [],
+  "environment": {
+    "OBSERVER_MODEL_DISABLED": "1",
+    "PRO_LEADER_REFINE": "1",
+    "PRO_SCIENCE_ANCHORS": "64",
+    "PRO_SEARCH_WIDTH_MAX": "20",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "V5_DEEP_ANCHORS": "48",
+    "V5_DEEP_DENSE": "80",
+    "V5_DEEP_POOL": "2000",
+    "V5_FIXED_LEVEL": "-1",
+    "V5_OPTION_HEDGE": "0.9",
+    "V6_DESI_HA": "0",
+    "V6_DL_FAULT": "0",
+    "V6_DL_FLAT": "0",
+    "V6_DL_HORIZON": "1",
+    "V6_DL_REQ": "1",
+    "V6_DL_WEATHER": "0",
+    "V6_FAULT_DEEP": "1",
+    "V6_FAULT_FIX": "1",
+    "V6_GROUP_REQUESTS": "0",
+    "V6_LP_EVENTS": "0",
+    "V6_LP_MOON": "0",
+    "V6_LP_WEATHER": "0",
+    "V6_POINT_MODEL": "0",
+    "V6_REWARD_SPLIT": "0",
+    "V7_API_ASYNC": "1",
+    "V7_API_POLICY": "tiered",
+    "V7_SHORT_API": "0",
+    "V7_TURN_PRIOR": "0.172",
+    "V7_WALL": "1"
+  },
+  "image": "python@sha256:05cda9777409a9c3ffddd94a4c476b79f0769a0b4857f0c7ed9226b6800b0d6f",
+  "protocol": "jsonl-v4",
+  "run": [
+    "python3",
+    "-u",
+    "agent.py"
+  ],
+  "schema_version": "observer-project-v1",
+  "working_directory": "."
+}

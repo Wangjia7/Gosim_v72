@@ -1,0 +1,31 @@
+# v0.3.1 packaging provenance
+
+This version derives from the preserved v0.3.0 RC5 delivery. Its manifest omits 14 proven source defaults to meet the observed hosted limit of 32 environment settings; it now has 29. Configuration parity and a synthetic action are checked in isolated environments, with 104 tests passing. Seventeen root Python files are byte-identical to the parent; only the standalone packager changed. Numerical observing policy, logging version and previously measured score remain RC5. The packaging revision is recorded in `VERSION`.
+
+Current fix/parity/package artifacts have `v0.3.1` in their filenames. Older v0.3.0 package/delivery/configuration artifacts below are preserved historical evidence and do not certify the rejected old ZIP. Current root-file hashes are `evidence/runtime-source-sha256.json`; prior hashes are `evidence/parent-runtime-source-sha256.json`. Actual platform preparation remains untested until this new ZIP is uploaded.
+
+---
+
+# Provenance
+
+Original baseline: `python-pro` in the supplied `gosim-observer-examples` export. Project documentation identifies Rust/TypeScript Pro as ports of Python Pro. No Git metadata exists in the export. `evidence/original-pro-provenance.json` records the audited files, hashes, configuration and engine identity. Original files were preserved.
+
+Immediate parent: extracted attachment identified by `evidence/archive-provenance.json`; its filename suffix is not treated as a verified commit. Source and supplied result archives are different artifacts and are not assumed to be a proven source/result pair.
+
+Rules: official Survey26 guide retrieved 2026-10-07 and checked against the supplied official engine/runtime schema. See `evidence/rules-snapshot.md` plus `evidence/rules-evidence-addendum.md` for sources, verified scoring/geometry/timing/budget definitions and unresolved contextual differences. The supplied skill placeholders were not treated as facts.
+
+Framework: README, manifest, source map, survey-ops-orchestrator, gosim26-observer-rules and all seven specialized skills from the supplied `survey-observing-skills` directory guided the work. Architectural principles were taken through those supplied materials. No QPlan/PFS repository implementation was used as evidence, installed, or imported.
+
+Validation runtime: native arm64 Python 3.12.14, executable SHA-256 `b33be71b340c3829b6610a70cf5a89123a11d0afd23bc8ec5de385b410efb43a`. All matching new comparisons use this runtime for observer, runner and calibration. The native meter was checked against process CPU. Earlier Python 3.9 results are not used as CPU comparators for these runs. Rosetta CPU measurements are excluded because its local meter undercounted.
+
+Every benchmark saves an immutable Python-source execution copy, exact environment/command, manifest settings, engine/card hashes, full official local score components and CPU/termination data. Runs disable external models and isolate credentials. No seeds or scenario inputs are altered. No observer reads scenario truth. Public L3/L4 remain outside tuning at this checkpoint.
+
+New source file hashes at freeze are in `evidence/runtime-source-sha256.json`. Tests use fake provider responses; no model API request, remote submission or push was performed. GPT-6.1-Sol subagents were used as requested by the user; they are development assistants, not observer runtime dependencies.
+
+Selected checkpoint: RC5 source/settings were prospectively frozen in `../pro-evaluation-v0.3.0/checkpoint-freeze.json` before L3/L4 evaluation. Exact selected-environment reproduction is documented in `benchmarks/README.md`; model calls are disabled, gate 0 / event search 0 / exact time price 0, leader refinement 1, width cap 20, science anchors 64 and deep base limits 48/80/2000. Lambda .45 and kappa 1 remain source defaults. Complete component and CPU records are consolidated by `../pro-evaluation-v0.3.0/collect_results.py`.
+
+L3 prospective validation completed: original 6480.589228, attachment 7033.333558, frozen RC5 7197.284324 (874.450 normalized CPU seconds). L4 prospective validation completed: original 6673.584941, attachment 7163.536276, RC5 7299.303567 (872.816 normalized / 492.881 process CPU seconds). No heldout input was read for tuning and no policy was changed based on L3. None of the measured cards demonstrates the requested 30% improvement. Native source execution and local engine evidence do not establish execution equivalence with the untested hosted/pinned container.
+
+The delivery manifest now contains the exact prospective freeze policy environment, including model-disabled 1, without modifying the 18 frozen Python runtime files. Direct Python execution does not read that manifest; only the platform/harness loads its environment. Direct execution requires the explicit frozen-environment command; platform/harness execution loads the manifest.
+
+Final validation: 103 tests passed with source defaults (.373s) and delivery environment (.886s); see `evidence/final-tests.json`. Test-only compatibility corrections use the configured width bound and optional fake-provider tag; initial delivery-test failures are preserved as first-pass evidence, not runtime defects. All four cards completed under prospective frozen policy, with aggregate +9.367% versus original / +2.626% versus attachment; all per-card 30% checks fail. Versioned rules are `evidence/rules-snapshot.2026-10-07.v0.3.md`. Package verification is recorded in `evidence/package-validation.json`; `../pro-evaluation-v0.3.0/delivery-receipt.json` records the external installation status and file hashes under `gosim-observer-examples/pro-observer-v0.3.0`. No remote upload or hosted-container validation occurred.

@@ -1,0 +1,53 @@
+{
+  "reason": "L3 score and request completion regressed; reverted the coarse floor experiment.",
+  "runs": [
+    {
+      "card": "L1",
+      "commit": "c006296 (rejected)",
+      "total": 6126.083439,
+      "requests_completed": 2,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 271.812,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 232.719,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 253.033,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8347,
+        "speed_factor_max": 0.8734,
+        "speed_factor_min": 0.8347,
+        "speed_samples": 5,
+        "wait_seconds": 7.734,
+        "window_seconds": 240.453
+      },
+      "termination": "survey_complete"
+    },
+    {
+      "card": "L3",
+      "commit": "c006296 (rejected)",
+      "total": 6336.528299,
+      "requests_completed": 1,
+      "fair_clock": {
+        "budget_seconds": 900.0,
+        "charged_seconds": 498.983,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 416.693,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 1800.0,
+        "mode": "cpu",
+        "run_wall_seconds": 442.852,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8441,
+        "speed_factor_max": 0.8544,
+        "speed_factor_min": 0.8286,
+        "speed_samples": 8,
+        "wait_seconds": 10.697,
+        "window_seconds": 427.39
+      },
+      "termination": "survey_complete"
+    }
+  ]
+}

@@ -1,0 +1,2654 @@
+
+--- PAGE 1 ---
+Draft version September 8, 2023
+Typeset using LATEX twocolumn style in AASTeX62
+Survey Operations for the Dark Energy Spectroscopic Instrument
+Edward F. Schlafly,1 David Kirkby,2 David J. Schlegel,3 Adam D. Myers,4 Anand Raichoor,3 Kyle Dawson,51
+Jessica Aguilar,3 Carlos Allende Prieto, 6, 7 Stephen Bailey,3 Segev BenZvi,8 Jose Bermejo-Climent,82
+David Brooks,9 Axel de la Macorra, 10 Arjun Dey,11 Peter Doel,9 Kevin Fanning,12 Andreu Font-Ribera,133
+Jaime E. Forero-Romero,14 Juan Garc´ıa-Bellido,15 Satya Gontcho A Gontcho,3 Julien Guy,34
+ChangHoon Hahn,16 Klaus Honscheid,17, 18, 12 Mustapha Ishak,19 St´ephanie Juneau,11 Robert Kehoe,205
+Theodore Kisner,3 Anthony Kremin,3 Martin Landriau,3 Dustin A. Lang, 21, 22 James Lasker,20 Michael E. Levi, 36
+Christophe Magneville,23 Christopher J. Manser, 24, 25 Paul Martini,17, 26 Aaron M. Meisner,117
+Ramon Miquel,27, 13 John Moustakas,28 Jeffrey A. Newman, 29 Jundan Nie,308
+Nathalie. Palanque-Delabrouille,23, 3 Will J. Percival,22, 21, 31 Claire Poppett,3, 32, 33 Constance Rockosi,34, 359
+Ashley J. Ross,17 Graziano Rossi,36 Gregory Tarl´e,37 Benjamin A. Weaver,11 Christophe Y`eche,23 and10
+Rongpu Zhou311
+(DESI Collaboration)12
+13
+1Space Telescope Science Institute, 3700 San Martin Dr, Baltimore, MD 21218, USA14
+2Department of Physics and Astronomy, University of California, Frederick Reines Hall, Irvine, CA 92697, USA15
+3Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA16
+4Department of Physics and Astronomy, University of Wyoming, Laramie, WY 82071, USA17
+5Department of Physics and Astronomy, The University of Utah, 115 South 1400 East, Salt Lake City, UT 84112, USA18
+6Instituto de Astrof´ ısica de Canarias, C/ V´ ıa L´ actea, s/n, E-38205 La Laguna, Tenerife, Spain19
+7Universidad de La Laguna, Dept. de Astrof´ ısica, E-38206 La Laguna, Tenerife, Spain20
+8Department of Physics & Astronomy, University of Rochester, Bausch and Lomb Hall, Rochester, NY 14627-0171, USA21
+9Department of Physics & Astronomy, University College London, Gower Street, London, WC1E 6BT, UK22
+10Instituto de F´ ısica, Universidad Nacional Aut´ onoma de M´ exico, Cd. de M´ exico C.P. 04510, M´ exico23
+11NSF’s NOIRLab, 950 N. Cherry Ave., Tucson, AZ 85719, USA24
+12The Ohio State University, Columbus, 43210 OH, USA25
+13Institut de F´ ısica d’Altes Energies (IFAE), The Barcelona Institute of Science and Technology, Campus UAB, 08193 Bellaterra26
+Barcelona, Spain27
+14Departamento de F´ ısica, Universidad de los Andes, Cra. 1 No. 18A-10, Edificio Ip, CP 111711, Bogot´ a, Colombia28
+15Instituto de F´ ısica Te´ orica (IFT) UAM/CSIC, Universidad Aut´ onoma de Madrid, Cantoblanco, E-28049, Madrid, Spain29
+16Department of Astrophysical Sciences, Princeton University, Princeton NJ 08544, USA30
+17Center for Cosmology and AstroParticle Physics, The Ohio State University, 191 West Woodruff Avenue, Columbus, OH 43210, USA31
+18Department of Physics, The Ohio State University, 191 West Woodruff Avenue, Columbus, OH 43210, USA32
+19University of Texas, Dallas, 800 W Campbell Rd, Richardson, TX 75080, USA33
+20Department of Physics, Southern Methodist University, 3215 Daniel Avenue, Dallas, TX 75275, USA34
+21Perimeter Institute for Theoretical Physics, 31 Caroline St. North, Waterloo, ON N2L 2Y5, Canada35
+22Department of Physics and Astronomy, University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada36
+23IRFU, CEA, Universit´ e Paris-Saclay, F-91191 Gif-sur-Yvette, France37
+24Astrophysics Group, Department of Physics, Imperial College London, Prince Consort Rd, London, SW7 2AZ, UK38
+25Department of Physics, University of Warwick, Coventry, CV4 7AL, UK39
+26Department of Astronomy, The Ohio State University, 4055 McPherson Laboratory, 140 W 18th Avenue, Columbus, OH 43210, USA40
+27Instituci´ o Catalana de Recerca i Estudis Avan¸ cats, Passeig de Llu´ ıs Companys, 23, 08010 Barcelona, Spain41
+28Department of Physics and Astronomy, Siena College, 515 Loudon Road, Loudonville, NY 12211, USA42
+29Department of Physics & Astronomy and Pittsburgh Particle Physics, Astrophysics, and Cosmology Center (PITT PACC), University43
+of Pittsburgh, 3941 O’Hara Street, Pittsburgh, PA 15260, USA44
+30National Astronomical Observatories, Chinese Academy of Sciences, A20 Datun Rd., Chaoyang District, Beijing, 100012, P.R. China45
+31Waterloo Centre for Astrophysics, University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada46
+32Space Sciences Laboratory, University of California, Berkeley, 7 Gauss Way, Berkeley, CA 94720, USA47
+33University of California, Berkeley, 110 Sproul Hall #5800 Berkeley, CA 94720, USA48
+34Department of Astronomy and Astrophysics, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95065, USA49
+35University of California Observatories, 1156 High St., Sana Cruz, CA 95065, USA50
+36Department of Physics and Astronomy, Sejong University, Seoul, 143-747, Korea51
+37University of Michigan, Ann Arbor, MI 48109, USA52
+
+--- PAGE 2 ---
+2 Schlafly et al.
+ABSTRACT53
+The Dark Energy Spectroscopic Instrument (DESI) survey is a spectroscopic survey of tens of millions54
+of galaxies at 0 < z < 3.5 covering 14,000 sq. deg. of the sky. In its first 1.1 years of survey operations, it55
+has observed more than 14 million galaxies and 4 million stars. We describe the processes that govern56
+DESI’s observations of the 15,000 fields composing the survey. This includes the planning of each57
+night’s observations in the afternoon; automatic selection of fields to observe during the night; real-time58
+assessment of field completeness on the basis of observing conditions during each exposure; reduction,59
+redshifting, and quality assurance of each field of targets in the morning following observation; and60
+updates to the list of future targets to observe on the basis of these results. We also compare the61
+performance of the survey with historical expectations and find good agreement. Simulations of the62
+weather and of DESI observations using the real field-selection algorithm show good agreement with63
+the actual observations. After accounting for major unplanned shutdowns, the dark time survey is64
+progressing about 7% faster than forecast, which is good agreement given approximations made in the65
+simulations.66
+Keywords: Redshift surveys (1358), Spectroscopy (1558), Observatories (1147), Telescopes (1689),67
+Cosmology (343)68
+1. INTRODUCTION69
+The Dark Energy Spectroscopic Instrument (DESI)70
+began a five year survey to measure redshifts of tens71
+of millions of galaxies and quasars on May 14, 2021.72
+Galaxies and quasars are selected to cover 0 < z < 3.573
+over 14,000 sq. deg. of the sky. The resulting redshifts74
+will be used to measure the expansion history of the uni-75
+verse and the growth of structure to better understand76
+the nature of dark energy (DESI Collaboration et al.77
+2016a).78
+The DESI survey consists of three programs. The dark79
+program targets luminous red galaxies, emission line80
+galaxies, and quasars, and covers 0 .4 < z < 3.5 (Zhou81
+et al. 2023; Raichoor et al. 2023; Chaussidon et al. 2023).82
+Dark program fields are observed whenever conditions83
+are good and represent 90% of DESI’s effective observing84
+time. The bright program targets a magnitude-limited85
+sample of bright galaxies with 0 < z < 0.4, as well as86
+Milky Way stars, and is observed when conditions are87
+not good enough to observe dark fields (Hahn et al. 2022;88
+Cooper et al. 2022). The combination of the dark pro-89
+gram and the bright program are called the “main sur-90
+vey.” Finally, a backup program observes bright stars91
+and is only observed when conditions are too poor to92
+observe bright program fields.93
+These programs consist of a number of “tiles,” which94
+are the combination of a location on the sky and an as-95
+signment of fibers to locations in the field. The aim of96
+operations is to observe these fields as efficiently as possi-97
+ble. Two strategic goals drive many of the choices made98
+in the DESI operations. First, we intend to observe in a99
+“depth-first” mode, where we observe a given part of the100
+sky to completion and never return to it, rather than a101
+“breadth-first” mode where observations are spread over102
+the full footprint each year. Second, we aim to observe103
+z > 2.1 quasars four times each to improve the signal-to-104
+noise ratio in the Ly-α forest, which enters into the DESI105
+spectral coverage for redshifts z > 2.1 (DESI Collabora-106
+tion et al. 2016a). This choice means that no observa-107
+tions may overlap a past observation until the z > 2.1108
+quasars have been identified, placing pressure on the109
+survey to rapidly and robustly deliver quasar redshifts.110
+These two goals are in tension with one another—the111
+depth-first goal means that we intend to make overlap-112
+ping observations quickly to finish parts of the sky, while113
+the goal of identifying z > 2.1 quasars means that we114
+must complete analysis of observations before we can115
+make overlapping observations.116
+Reconciling these goals means bringing together a117
+large number of different processes and analyses on a118
+daily basis to execute the survey. We focus in this pa-119
+per on the survey in the time frame from 2021–05–14,120
+the first day of the main survey, to 2022–06–14, when121
+the Contreras wildfire temporarily shut down the sur-122
+vey. Figure 1 shows the area of sky observed by DESI123
+in the dark and bright programs during this period.124
+We describe the DESI instrument in §2, and elabo-125
+rate on this broad survey strategy in §4. We then de-126
+scribe the different observational and analysis processes127
+that take place on a near-daily basis in order to en-128
+able the survey strategy in §5. The “merged target129
+list”, which plays a central role in tracking the cur-130
+rent state of DESI observations, is described in §6.131
+The DESI sky footprint is defined in §3. The deliv-132
+ered seeing, transparency, sky brightness, and uptime133
+over the first 1.1 years are described in §7. We de-134
+tail simulations of the survey in §8 and compare them135
+with the observed survey performance to date. Finally,136
+
+--- PAGE 3 ---
+Survey Operations for DESI 3
+we conclude in §9. The code and data used to pro-137
+duce the tables and figures in this paper are available at138
+https://doi.org/10.5281/zenodo.8010818.139
+2. THE DARK ENERGY SPECTROSCOPIC140
+INSTRUMENT141
+The Dark Energy Spectroscopic Instrument is a 5000-142
+fiber multi-object spectrograph on the Mayall telescope143
+at Kitt Peak. The instrument and survey were con-144
+ceived, designed, and built over a roughly ten year pe-145
+riod from 2010–2020 (Levi et al. 2013; DESI Collabora-146
+tion et al. 2016b, 2022). DESI was designed to measure147
+the expansion history of the universe using the three-148
+dimensional clustering of galaxies and the Lyman-alpha149
+forest over the course of a five-year survey (DESI Col-150
+laboration et al. 2016a). The instrument collects light151
+from astronomical sources with the 4-m Mayall primary152
+mirror and focuses it through the new corrector onto153
+a 3.2 ◦ diameter focal plane (Miller et al. 2023). 5000154
+robotically actuated fibers fill this focal plane (Silber155
+et al. 2023), piping light through fibers to an array of156
+ten high throughput spectrographs with three channels157
+each spanning the wavelength range 3600–9800 ˚A.158
+The focal plane is divided into ten “petals,” nearly159
+identical wedges of the focal plane. Each petal has 500160
+positioners, connects to one spectrograph, and contains161
+a guide-focus array imaging camera (GFA). Four of the162
+petals’ GFAs are dedicated to determining the focus of163
+the instrument and deliver out-of-focus images. The164
+other six deliver in-focus images and are used for guid-165
+ing, point spread function measurements, and through-166
+put measurements. The petals are designed to function167
+independently of one another, so that problems with one168
+petal do not affect any other petals.169
+The main survey will observe millions of stars and170
+galaxies over the course of five years. Initial results from171
+the survey validation program are now available (DESI172
+Collaboration et al. 2023a,b). The primary targets are173
+quasars (Y` eche et al. 2020; Chaussidon et al. 2023),174
+emission line galaxies with 0.6 < z < 1.6 (Raichoor et al.175
+2020, 2023), luminous red galaxies with 0 .4 < z < 1176
+(Zhou et al. 2020, 2023), bright galaxies with z < 0.4177
+(Ruiz-Macias et al. 2020; Hahn et al. 2022), and stars178
+(Allende Prieto et al. 2020; Cooper et al. 2022). Target-179
+ing catalogs (Myers et al. 2023) for these images were180
+drawn mainly from Data Release 9 of the DESI Legacy181
+Imaging Surveys (Dey et al. 2019), which included imag-182
+ing from the Dark Energy Camera on the Blanco tele-183
+scope (Flaugher et al. 2015), the 90prime imager on the184
+Bok telescope (Williams et al. 2004; Zou et al. 2017),185
+and the Mosaic3 imager on the Mayall telescope (Dey186
+et al. 2016). Targeting catalogs also incorporated flux187
+and astrometric measurements from Gaia, the Wide-188
+field Infrared Survey Explorer, and the Siena Galaxy189
+Atlas (Gaia Collaboration et al. 2016; Cutri et al. 2013;190
+Meisner et al. 2018; Schlafly et al. 2019; Moustakas et191
+al. 2023).192
+Each night, DESI observes roughly twenty tiles con-193
+taining ∼100,000 sources. By the following morning,194
+the offline pipeline automatically calibrates the result-195
+ing exposures, extracts the sources’ spectra, subtracts196
+background light, and fits the redshifts of the targets197
+(Guy et al. 2023; Bailey et al. 2023). The performance198
+of the pipeline was confirmed via a collaboration-wide199
+effort to visually inspect tens of thousands of spectra200
+and their derived redshifts (Lan et al. 2023; Alexander201
+et al. 2023).202
+The DESI GFAs and sky monitor provide real-time203
+information on the seeing, transparency, and sky bright-204
+ness seen by the Mayall (DESI Collaboration et al. 2022;205
+Tie et al. 2020). This allows the DESI system to tune206
+the length of exposures to achieve target depths; DESI207
+closes the shutter and reads out the exposure when we208
+have achieved the target signal to noise ratio (Kirkby et209
+al. 2023, §5.7). This process allows us to produce spec-210
+tra of relatively homogeneous quality even in changing211
+conditions.212
+3. SURVEY FIELDS213
+The Dark Energy Survey Instrument Final Design Re-214
+port calls for a baseline survey of 14,000 sq. deg. (DESI215
+Collaboration et al. 2016a), with a science fiber density216
+of ∼ 3000/deg2 for the dark program and ∼ 700/deg2
+217
+for the bright program. Given the DESI fiber den-218
+sity of ∼ 600/deg2, this corresponds to each region of219
+the sky being covered by five observations for the dark220
+program and one observation for the bright program.221
+The bright and dark programs nevertheless require more222
+passes to target multiple galaxies within a fiber patrol223
+radius and to obtain reasonable completeness on lower224
+priority main survey programs. We describe here the225
+specific implementation of these broad requirements for226
+the dark and bright programs.227
+We define a set of 9929 dark tiles and 5676 bright tiles228
+that cover 14,200 sq. deg.: 9800 sq. deg. in the North229
+Galactic Cap and 4400 sq. deg. in the South Galactic230
+Cap. Each tile is a location on the sky that DESI will ob-231
+serve. These tiles are distributed among several passes232
+where each pass consists of 1,427 non-overlapping tiles.233
+Approximately 75% of the footprint can be reached by234
+a DESI fiber in a tile in a particular pass. The dark pro-235
+gram consists of seven such passes, rotated with respect236
+to one another to fill in gaps between the tiles, while the237
+bright program consists of four such passes. This leads238
+
+--- PAGE 4 ---
+4 Schlafly et al.
+20
+0
+20
+40
+60
+80
+ (°)
+dark
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+dark fraction complete
+300 240 180 120 60 0 60
+ (°)
+20
+0
+20
+40
+60
+80
+ (°)
+bright
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+bright fraction complete
+Survey completeness on 2022-06-14
+Figure 1. Survey completeness on 2022–06–14, in the dark (top) and bright (bottom) programs. Green areas are completely
+finished, while white areas are unfinished. Areas not included in the footprint are in gray. Regions with E(B − V ) > 0.3 are
+outlined by the solid contours. The dotted and dashed lines show the ecliptic and Galactic planes. The survey aims to start
+observations near δ = 0◦ and build out. Notable deviations from that pattern are areas just above δ = 30◦, which are driven by
+needing to avoid strong winds from the south, and a region 50 ◦ from the ecliptic in the bright program in the north, driven by
+moon avoidance.
+to an average coverage of 5.2 for the dark program and239
+3.2 for the bright program.240
+The pattern of tiles in a single pass is given by the241
+Hardin et al. (2000) icosahedral tiling with 4112 tile cen-242
+ters distributed over the full sphere. This tiling matches243
+the size of the DESI focal plane closely and provides a244
+uniform distribution of tiles with the additional feature245
+that no two tiles overlap one another within a single246
+pass. The fraction of the sky accessible to a given num-247
+ber of tiles for the seven pass dark program and four pass248
+bright program is shown in Figure 2. The geometry of249
+the regions of relatively high and low coverage is com-250
+plicated, and is shown for the seven-pass dark program251
+in Figure 3.252
+The goal of the DESI tile selection was to select a253
+large, contiguous region that could be efficiently ob-254
+served for extragalactic targets as part of a year-round255
+survey from Kitt Peak. These objectives imply limits256
+on declination to avoid tiles that are only available at257
+high airmass, and limits on extinction and Galactic lat-258
+itude to avoid regions where extragalactic targets are259
+both extinguished and more often blended with Milky260
+Way stars.261
+We define the footprint as follows:262
+1. In the footprint of the DESI Legacy Imaging sur-263
+veys Data Release 9264
+2. −18◦ < δ < 77.7◦265
+3. b > 0◦ or δ < 32.2◦266
+4. |b| > 22◦ for −90◦ < l < 90◦, otherwise |b| > 20◦267
+These constraints produce the footprint shown in Fig-268
+ure 4.269
+Though we have imposed no explicit cuts on Galactic270
+extinction, we only target regions of the sky with imag-271
+ing from the DESI Legacy Imaging Survey. That survey272
+
+--- PAGE 5 ---
+Survey Operations for DESI 5
+0 2 4 6 8
+# of coverings
+10 7
+10 5
+10 3
+10 1
+fraction of area
+0 2 4 6 8
+# of coverings
+10 7
+10 5
+10 3
+10 1
+fraction of area
+Figure 2. The fraction of the sky that is covered by a given number of tiles in the seven-pass dark tiling and the four-pass
+bright tiling. On average, a given part of the sky is covered by 5.2 dark tiles and 3.2 bright tiles.
+300300 240 180 120 60 0 60
+ (°)
+80
+60
+40
+20
+0
+20
+40
+60
+80
+ (°)
+Figure 3. The number of exposures that can reach any particular point of the sky, for the seven-pass dark program, were
+no areas excluded (e.g., due to low Galactic latitude or low declination). The twelve star-like regions with with slightly lower
+coverage corresponds to the points of the underlying icosahedral tiling of Hardin et al. (2000).
+explicitly avoided high E(B − V ) regions, so these re-273
+gions are naturally avoided in the DESI footprint with-274
+out need for further adjustment. Cuts on Galactic lati-275
+tude do trim the edges of the imaging footprint slightly,276
+however.277
+The trend in exposure factor with declination in Fig-278
+ure 4 comes from the dependence of survey speed on279
+airmass (§5.3). The SGC is significantly more expensive280
+than the NGC due to a combination of extinction and281
+airmass. No Legacy Survey imaging was available in the282
+SGC north of δ = 32◦, though this region would other-283
+wise be favorable for extragalactic studies. The irregular284
+small-scale variation comes from Galactic extinction.285
+The sky area within 1.6 ◦ of at least three tiles for the286
+seven pass dark program is 14,246 sq. deg..287
+All main survey tile coordinates are rounded to the288
+nearest 0.001◦ to improve legibility.289
+
+--- PAGE 6 ---
+6 Schlafly et al.
+50
+050100150200250300
+ (°)
+20
+0
+20
+40
+60
+80
+ (°)
+1.00
+1.25
+1.50
+1.75
+2.00
+2.25
+2.50
+Exposure factor
+Figure 4. The footprint of the DESI survey resulting from the constraints of §3. Tiles are colored by the amount of time it
+would take to reach a fixed intrinsic galaxy depth, relative to observing at zenith in the absence of Galactic extinction. This is
+fdustfairmass, from Equations 1 and 2. Airmasses are computed using the design airmasses resulting from the optimization of
+§4.1. The Galactic plane is shown as a dotted gray line, and the gray contour shows E(B − V ) = 0.3 mag. Tiles in extinguished
+regions and at the declination bounds of the survey are most expensive, owing to both atmospheric and Galactic extinction.
+3.1. Adjustments to tile centers290
+The simple footprint definition of §3 describes our ba-291
+sic footprint selection strategy. Many tile centers are292
+additionally adjusted to avoid bright stars.293
+The wide field of view (3.2 ◦) of DESI means that294
+bright stars cannot be completely avoided. However,295
+bright stars are particularly damaging if they fall in a296
+few special parts of the DESI focal plane.297
+First, it is problematic if a very bright star falls on a298
+GFA. These can make it challenging to guide the tele-299
+scope. Worse, the filter on the GFA reflects light falling300
+outside of the GFA bandpass. Light from the bright star301
+then ends up adding to a large out-of-focus ghost image302
+covering a substantial portion of the DESI focal plane.303
+This is avoided by shifting the tile centers to move bright304
+stars off of the GFA filters. For tiles where a star with305
+Gaia magnitude G < 6 lands nears a GFA, we searched306
+for the smallest shift in RA or Dec, in steps of 10 arc-307
+seconds, that would put the star at least 25 arcseconds308
+from a GFA.309
+Second, data from a petal can be rendered useless if310
+a fiber is placed directly on a bright star, saturating311
+large parts of the detector. This is mostly avoided by312
+re-positioning such fibers (which will never have valid313
+main survey targets) away from bright stars. But in314
+rare cases a non-functional fiber happens to land on a315
+very bright object. We adjust tile centers in these cases.316
+After finding bright stars that land near the current set317
+of non-functional positioners for each tile, we search for318
+a small offset (up to 15 arcseconds) of the tile centers319
+in order to minimize the total star light reaching non-320
+functional positioners.321
+We periodically compute new offsets for tile centers to322
+account for new or bumped non-functional positioners,323
+but we do not do this on the fly when designing each324
+tile.325
+4. SURVEY STRATEGY326
+The goal of DESI is to observe a large, homogeneous,327
+reproducible, and cosmologically interesting set of tar-328
+gets over 14,000 sq. deg. of the sky (DESI Collaboration329
+et al. 2016a). The survey further aims to operate in330
+a “depth-first” fashion where all DESI observations in331
+a particular region are completed before moving on to332
+other parts of the sky.333
+A critical constraint on the DESI survey strategy is334
+that each DESI observation of a field depends on all335
+earlier, overlapping observations of that field. This is336
+primarily motivated by the need to identify z > 2.1337
+quasars in fields from their initial observations, so that338
+these Ly-α forest tracers can be targeted for repeat ob-339
+servations on subsequent overlapping fields (DESI Col-340
+laboration et al. 2016a). A secondary motivation is to341
+obtain observations of targets where initial observations342
+failed due to temporary glitches in fiber positioning or343
+in the spectrographs. This dependence places impor-344
+tant constraints on the survey strategy—an observation345
+of a field cannot be made until earlier observations of346
+all overlapping fields have been analyzed. In particular,347
+no two overlapping fields of either the dark program or348
+the bright program may be observed over the course of349
+a single night.350
+The DESI survey definition (DESI Collaboration et al.351
+2016a) provides the basic information about each pro-352
+gram, including the targets in each program, the amount353
+
+--- PAGE 7 ---
+Survey Operations for DESI 7
+of effective exposure time (in essence, signal-to-noise;354
+§5.2) required to observe these targets, and the region of355
+the sky where observations are needed. Three programs356
+are defined. First, the dark program, which consists of357
+9,929 tiles observing luminous red galaxies, emission line358
+galaxies, and quasars from 0 .4 < z < 3.5 (§3). Second,359
+the bright program, which consists of 2,657 tiles observ-360
+ing bright galaxies and Milky Way stars (§3). Third, the361
+backup program, which consists of brighter Milky Way362
+stars. Each of these programs have independent target363
+lists that are separately tracked. The bright and dark364
+programs cover the same region of the high Galactic365
+latitude sky, overlapping spatially; the backup program366
+covers the same area as the bright and dark programs,367
+as well as extending to lower Galactic latitudes.368
+The dark program is observed whenever conditions are369
+good, and the survey speed for dark tiles is better than370
+0.4 ( §5.3). When conditions are worse, due to bright371
+skies or poor seeing or transparency, DESI observes the372
+bright program, until the survey speed for bright tiles373
+is worse than 0 .08. In these poor conditions, DESI ob-374
+serves backup program tiles. This tiered approach is375
+motivated by placing the brightest targets in the worst376
+conditions, so that systematic uncertainties are limited.377
+As an added benefit, this approach reduces overheads378
+by placing the exposures needing the shortest effective379
+exposure times in the worst conditions.380
+The next broad strategic element of the survey is to381
+observe “depth-first”, completing all DESI observations382
+of a particular region of the sky as soon as possible.383
+This allows these regions of the sky to be available early384
+for cosmological investigations, and allows many scien-385
+tific programs to proceed after the first year (albeit over386
+a limited area). It also minimizes the negative impact387
+of falling behind schedule; we would prefer to end the388
+survey with a complete 13,000 sq. deg. survey than an389
+inhomogeneous 14,000 sq. deg. survey. The depth-first390
+goal is implemented in the nightly field selection ( §5.5)391
+by preferring tiles near the celestial equator 1, tiles for392
+which neighboring observations have been made, and393
+tiles which have already been started but for which ob-394
+servations are not yet complete.395
+The remaining elements of survey planning focus on396
+how we can observe the DESI footprint as efficiently397
+as possible. This means optimizing the hour angles at398
+which tiles are observed, attempting to observe all tiles399
+as they transit the meridian while reconciling that with400
+1 A preference for a particular sky region keeps the footprint
+spatially compact; equatorial fields also enable early science results
+combining DESI data with other equatorial surveys.
+the actual distribution of tiles on the sky. It also means401
+limiting the lengths of the slews between adjacent tiles.402
+4.1. Airmass Optimization403
+Survey planning assigns each tile an optimal hour an-404
+gle. These optimal hour angles need to satisfy two re-405
+quirements:406
+1. The distribution of local sidereal time (LST)407
+needed to observe all the tiles should match the408
+distribution of local sidereal time expected to be409
+available to the survey.410
+2. The total time needed to finish the survey should411
+be as short as possible.412
+Alternatively, for the dark program, these requirements413
+could be rephrased as asking how to minimize the air-414
+mass of the observations subject to the time available to415
+the survey.416
+The airmass optimization algorithm for DESI is sim-417
+ple. An initial guess of the assignment of hour angles to418
+tiles is made by matching the LST distribution available419
+to the survey to the right-ascension distribution of the420
+survey’s tiles, weighted by the tiles’ expected observa-421
+tion times. The initial assignments of tiles to LSTs is422
+then further optimized through a simulated annealing423
+process to minimize the total amount of time needed to424
+observe the tiles, while maintaining the match between425
+the distribution of LST available to the survey and the426
+distribution of LST needed to observe the tiles. See427
+appendix §A for more details about the airmass opti-428
+mization process used in DESI.429
+Ultimately, the optimization process aims to minimize430
+the expected observation time of the DESI survey. This431
+is simply the sum of the effective times needed for each432
+tile multiplied by corrections for extinction and airmass.433
+The extinction correction is given by434
+fdust = 102×2.165×E(B−V )/2.5 (1)
+using reddening E(B − V ) from Schlegel et al. (1998)435
+with the calibration of Schlafly & Finkbeiner (2011).436
+This reddening is taken to be the median SFD reddening437
+over the 3.21 ◦ diameter tile. Meanwhile the airmass438
+correction is439
+fairmass = X1.75 , (2)
+where X is the airmass of the observation. This airmass440
+adjustment is an empirical adjustment accounting for441
+lower atmospheric throughput, brighter sky background,442
+and worse seeing at higher airmass.443
+The DESI airmass optimization scheme is close to op-444
+timal for situations when the moon is down. For the445
+
+--- PAGE 8 ---
+8 Schlafly et al.
+bright time survey when the moon is usually up, de-446
+termining the optimal observing strategy is much more447
+challenging. For DESI, this added challenge is ignored448
+and we optimize both the dark and bright programs us-449
+ing the same airmass optimization algorithm—the moon450
+is not included in the optimization process. The bright451
+program efficiency could be improved by a more ad-452
+vanced optimization process.453
+The airmass optimization process should be performed454
+periodically as the survey proceeds. We aim to do this455
+about once a year, but did not update the design hour456
+angles during the first 1.1 years of the survey.457
+The backup program is not optimized for airmass; we458
+aim to observe all tiles at zero hour angle. This reflects459
+the fact that completeness and homogeneity are not as460
+important to the backup program as they are to the461
+cosmological programs.462
+4.2. Slew Optimization463
+Long slews reduce the amount of time each night dur-464
+ing which DESI can be making science observations. A465
+number of operations occur when ending one observa-466
+tion and starting a new one (DESI Collaboration et al.467
+2022):468
+1. Spectrograph readout469
+2. “Blind” positioner move470
+3. Slewing & settling471
+4. Field acquisition & guiding472
+5. “Correction” positioner move473
+The spectrograph readout and blind positioner move can474
+occur simultaneously with slewing and settling, but the475
+field acquisition and correction move must occur after476
+slewing is complete. If the slew and settle time ex-477
+ceeds ten seconds, slews begin to increase the overhead478
+between exposures. Settling time is 8 seconds, and it479
+takes 16 seconds to slew between adjacent DESI fields.480
+So slewing adds to DESI overheads regardless of slew481
+length.482
+Nevertheless, even without any explicit slew optimiza-483
+tion, slewing would only account for 3.1% of the open484
+shutter time for the DESI survey, according to survey485
+simulations. To try to reduce this, we do a simple greedy486
+slew optimization where tiles nearby the current location487
+of the telescope are preferentially observed. We penalize488
+slews in the declination or negative right ascension direc-489
+tions, but not in the positive right ascension direction,490
+since we do not want to penalize slews that are trying to491
+keep up with the sky rotation. This simple prescription492
+reduces the slew time to 2.9% in simulations, and in-493
+spection of the resulting slew patterns suggests limited494
+potential for further improvement.495
+5. SURVEY OPERATIONS496
+Survey operations broadly refers to the process by497
+which we complete the tiles composing the DESI dark,498
+bright, and backup programs. Because past exposures499
+inform future exposures, we cannot observe tiles over-500
+lapping previously observed “pending” tiles until the501
+analysis of those tiles has completed 2. So the basic op-502
+erational scheme becomes:503
+1. Each night, observe tiles that do not overlap the504
+footprint of pending tiles.505
+2. Each day, analyze observations and incorporate re-506
+sults into the targeting ledger (merged target list507
+or MTL; see §6), clearing pending tiles.508
+If data reductions are delayed, we may skip step (2),509
+in which case the footprint of pending tiles grows. We510
+repeat this process until the survey is complete. The511
+rest of this section details our implementation of this512
+scheme.513
+The ability to reproduce the particular set of targets514
+that DESI ultimately observes is a key requirement of515
+this process. We need to be able to simulate the ob-516
+servational process on mock target catalogs in order to517
+account for the effect of the DESI design on the final518
+galaxy redshift catalogs. Accordingly, we must be capa-519
+ble of reproducing the assignment of every fiber to every520
+target over the course of the survey. Since these choices521
+depend on the current observational state of the targets522
+and the current health of the instrument, we need to523
+track these quantities through time (see §6, §5.13). We524
+record the state of both the targets and the instrument525
+in ledgers. In these ledgers, each row is time-stamped526
+and changes are made by appending new rows to the527
+ledger indicating the new state of a target or fiber. Thus,528
+past decisions about the assignment of fibers to targets529
+can be reproduced by reading the ledgers through to the530
+time at which those decisions were made.531
+5.1. Daily Observation Overview532
+The broad operational model of DESI is specifically533
+implemented in operations in a number of different534
+steps, schematically illustrated in Figure 5. These steps535
+are described in more detail later in this section, and536
+include:537
+2 Note that the different programs are independent, so a pend-
+ing bright tile does not block observation of an overlapping dark
+tile.
+
+--- PAGE 9 ---
+Survey Operations for DESI 9
+1. Afternoon planning identifies completed, pending,538
+and unobserved tiles, and establishes priorities for539
+the night’s observations.540
+2. The Next Field Selector selects each program and541
+tile to observe during the night.542
+3. Targets are assigned to each positioner on the fly543
+immediately before the observation is made.544
+4. DESI positions fibers and the spectrograph shutter545
+opens to observe the targets in the field (Silber546
+et al. 2023).547
+5. The Exposure Time Calculator (ETC, Kirkby et548
+al. 2023) computes the effective time obtained on549
+each tile during an observation, determining when550
+an observation is complete.551
+6. The spectroscopic pipeline reduces, classifies, and552
+measures redshifts for all targets the following553
+morning (Guy et al. 2023; Bailey et al. 2023).554
+7. The reproducibility of the on-the-fly tile design is555
+confirmed by designing the tile a second time out-556
+side of operations on the mountain.557
+8. Humans perform quality assurance, visually in-558
+specting summary figures and statistics on each559
+tile, and declare tiles either finished or problem-560
+atic.561
+9. Reduced data products for tiles passing quality as-562
+surance are archived.563
+10. The Merged Target List (MTL) is updated with564
+the new data, updating the observation state and565
+redshift of the observed targets.566
+11. The state of the robotic positioners is updated,567
+should any have failed.568
+12. The results of the previous nights’ observations are569
+available for afternoon planning, and the process570
+repeats for the next night’s observations.571
+Some of these steps need not occur every day. Pipeline572
+reductions, quality assurance, MTL updates, and focal573
+plane state updates can all be delayed, as illustrated by574
+the dashed box in Figure 5. When MTL updates are575
+delayed, tiles will be left in a “pending” state and the576
+survey will be forced to observe new parts of the sky577
+rather than completing the survey in already observed578
+regions. Delaying focal plane state updates causes only a579
+slightly inefficient assignment of positioners to targets.580
+In practice, we perform MTL updates roughly weekly581
+Before
+During the nightAfter the night
+Afternoon Planning
+Tile Selection via Next Field Selector
+Fiber assignment to targets
+Fiber positioning & Acquisition
+Exposure
+Online exposure time calculator
+Spectroscopic extractions & redshifting
+Reproducibility
+Quality assurance
+Archiving results
+Merged Target List update
+Focal plane state update
+Begin night
+Next observation
+End night
+Begin preparation for next night
+Figure 5. Schematic flow chart of DESI operations steps,
+running from planning for the night, through each night’s ob-
+servations, through their reduction and updates to the MTL.
+Steps in the dashed box are optional and may be skipped
+temporarily if systems are not available. See §5.1 for details.
+in bright time when progress is slow and roughly every582
+other day in good weather in dark time.583
+The flow chart in Figure 5 is only intended to be584
+schematic and ignores many details. For example, the585
+exposure time calculator runs online and is simultaneous586
+with the exposure. Some visits are split into multiple587
+exposures and do not require new fiber assignment or588
+
+--- PAGE 10 ---
+10 Schlafly et al.
+full positioning & acquisition loops. The spectroscopic589
+extractions and redshift determination begin during the590
+night as the data are taken, and so do not strictly follow591
+the separation implied by the flow chart. Still, Figure 5592
+gives a good schematic overview of the DESI daily op-593
+eration procedure.594
+5.2. Effective Time595
+The concept of “effective time” is important to DESI596
+operations. We describe effective time briefly here; see597
+Guy et al. (2023) for more details. Ultimately DESI598
+seeks to measure the fluxes from distant galaxies to a599
+specified accuracy. Rather than phrasing this accuracy600
+in terms of the flux uncertainty at a particular wave-601
+length, we parameterize it in terms of the amount of602
+time it would take to reach a goal uncertainty in “nom-603
+inal” conditions, defined to be 1.1 ′′ seeing, a sky back-604
+ground of 21.07 mag per square arcsecond in the r band,605
+photometric conditions, observations at zenith, through606
+zero Galactic dust reddening. This “goal uncertainty” is607
+weighted over wavelengths and spectral features in order608
+to make it a good proxy for DESI’s ability to find a red-609
+shift for a galaxy spectrum. Observations in the dark610
+program aim for 1000 s of effective time, while bright611
+program observations aim for 180 s.612
+The concept of effective time is made more compli-613
+cated by the following effects:614
+1. Poisson noise from source flux,615
+2. different intrinsic source sizes (e.g., stars versus616
+large galaxies), and617
+3. chromatic variation in the sky background and618
+throughput.619
+The Poisson noise from source flux and the different in-620
+trinsic source sizes are challenging because they vary621
+from source to source, making it hard to define the ef-622
+fective time for a tile. We adopt fiducial source fluxes623
+and sizes for computing effective times for main survey624
+tiles, which are given in Table 1.625
+Chromatic variation in the system throughput, sky626
+brightness, and detector performance also complicates627
+the notion of effective time. The goal is to have all tiles628
+reach a nominal depth. However, for example, when629
+comparing tiles observed through a red, moonless sky630
+with tiles observed through a blue, moony sky, tiles with631
+equal depth in the r band will have different depths632
+in the g and z bands. A simple prescription for this633
+nominal depth would be an average signal-to-noise ra-634
+tio in a particular range of wavelengths for targets of635
+a given magnitude. DESI instead adopts a detailed set636
+of weights over all wavelengths that is different for each637
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+Survey speed
+Fraction of observing time
+Time by program
+all, = 0.789, f = 100.0%
+dark, = 1.148, f = 59.3%
+bright, = 0.293, f = 34.8%
+backup, = 0.096, f = 5.9%
+Figure 6. The survey speed delivered by the DESI main
+survey in different programs, as measured by the ETC. The
+survey speed describes the rate at which ( S/N)2 is accu-
+mulated relative to nominal dark conditions, and is highest
+when the seeing is good and the sky is clear and dark. The
+dark program is observed in the best conditions, while the
+bright and backup programs are observed in progressively
+worse conditions. The legend gives the mean speed µ and
+the fraction of survey time spent in each program f.
+program, reflecting the spectral lines in the different tar-638
+get classes and their redshift distribution. See Guy et al.639
+(2023) for more details. These more detailed weights are640
+intended to deliver something closer to a uniform red-641
+shift success rate for the different key target classes.642
+Finally, effective time accounts for Galactic extinction.643
+The ETC (Kirkby et al. 2023, §5.7) aims to reach a fixed644
+precision in the intrinsic r band flux of target galaxies.645
+Accordingly, the real time needed to reach a given effec-646
+tive time is increased by Equation 1 in the presence of647
+Galactic extinction.648
+5.3. Survey Speed649
+The concept of survey speed is related to effective650
+time, and is used for a variety of purposes, including the651
+selection of program to observe during the night. The652
+survey speed is computed using the current seeing, sky653
+background, transparency, and airmass from the Expo-654
+sure Time Calculator (ETC) ( §5.7). The survey speed655
+measures how many effective seconds DESI would be656
+accumulating per second, were DESI observing a tile at657
+zenith and zero dust extinction in the current conditions.658
+Survey speeds range from zero in clouded-out conditions659
+to ∼ 2.5 in the best conditions, as shown in Figure 6.660
+Dark tiles are never observed outside of 15 ◦ twilight or661
+when survey speed measurements are unavailable, lead-662
+ing to a small number of bright observations in rather663
+good conditions.664
+
+--- PAGE 11 ---
+Survey Operations for DESI 11
+T able 1. Source properties used for effective tile effective time
+program profile spectrum source counts
+dark exponential, rhalf = 0.45′′ LRG spectrum averaged over 0 .68 < z < 0.97 0.00 nMgy
+bright de Vaucouleurs, rhalf = 1.5′′ BGS spectrum averaged over 0 .13 < z < 0.37 1.71 nMgy
+See https://www.sdss4.org/dr17/help/glossary/#nanomaggie for the definition of nMgy.
+The relation between survey speed and seeing depends665
+on the program, since programs observing point sources666
+are more sensitive to seeing than programs observing667
+large galaxies.668
+The survey speed is adjusted to airmass 1 when obser-669
+vations are made away from zenith following Equation 2.670
+This adjustment is intended to account not only for at-671
+mospheric extinction, but also for worsened seeing and672
+sky background at lower elevations. The ETC assesses673
+the survey speed in real time; see §5.7 for more details.674
+5.4. Afternoon Planning675
+The role of afternoon planning is to determine the cur-676
+rent status of survey progress in order to set the base677
+priorities of tiles for the coming night’s observations.678
+Afternoon planning compiles a list of all observed ex-679
+posures and their associated effective times ( §5.2, §5.7),680
+and combines these to determine the status of each tile:681
+unobserved, pending, or completed. This status is used682
+to determine the priority of each tile ( §5.4.1), which de-683
+termines which tiles are observed in the course of the684
+night. Files describing the configuration of the sur-685
+vey strategy for each night and the state of the survey686
+progress are created. The Next Field Selector ( §5.5)687
+then uses these files in the course of the night’s observ-688
+ing.689
+There are multiple sources for the effective time of690
+each tile. The authoritative source of this information691
+is the offline pipeline. Offline pipeline effective times692
+become available in the morning after each night’s ob-693
+servations, provided that no issues with the processing694
+or computer systems prevent their computation. Absent695
+information from the offline pipeline, afternoon planning696
+uses effective times from the ETC (§5.7), which are com-697
+puted on the mountain during each exposure and are698
+always available.699
+5.4.1. Tile Priorities700
+A number of factors contribute to the priority assigned701
+to a tile, which the Next Field Selector uses to select tiles702
+for observation (see §5.5). Note that these tile priorities703
+are unrelated to the target priorities discussed in §6,704
+which determine which targets get observed within a705
+given tile. Afternoon planning sets a priority P of each706
+tile for each night according to the following equations:707
+P = dsnB (3)
+d = exp(−|δ|/160◦) (4)
+s = 1 + 0.1 × is started (5)
+n = 1 + 0.08 × fneighbor . (6)
+Here δ is the declination of a tile, is started is one if a708
+tile has been started and zero otherwise, and fneighbor is709
+the fraction of tiles overlapping this one that have been710
+finished. The factor B is a rarely used boost factor that711
+can be set to manually change the priority of a tile.712
+The broad goal of these priorities is to start the survey713
+on the celestial equator and build out ( d); to finish tiles714
+that have already been started ( s); and to finish tiles715
+where we already have a number of observations ( n).716
+The preference for equatorial tiles keeps the footprint717
+spatially compact and leads to depth-first observations.718
+Starting on the equator also enables early science using719
+cross-correlations with other equatorial surveys. Finally,720
+it permits follow-up observations of interesting targets721
+from telescopes in both hemispheres.722
+5.5. Next Field Selector723
+The Next Field Selector (NFS) is responsible for se-724
+lecting tiles to observe during each night. Roughly two725
+minutes before each observation is expected to complete,726
+the DESI Instrument Control System (ICS) requests a727
+tile from the NFS. The NFS selects a program and com-728
+putes a “score” for each tile in that program. It then729
+chooses the tile with the highest score and designs it on730
+the fly (§5.6). The resulting tile is made available to the731
+ICS and is observed.732
+Program selection is primarily driven by survey speed.733
+When the survey speed is good, averaging > 0.4 for the734
+past 20 minutes, dark program tiles are selected. When735
+the survey speed is poor, 0 .08 < speed < 0.4, bright736
+program tiles are selected. Otherwise, backup tiles are737
+selected. In addition to this selection, dark tiles are738
+never selected when the sun is within 15◦ of the horizon,739
+and bright tiles are not selected when the sun is within740
+12◦ of the horizon.741
+
+--- PAGE 12 ---
+12 Schlafly et al.
+The tile scores S used by the NFS are computed as742
+the product of the base tile priority P from afternoon743
+planning (Equation 3), and two additional factors.744
+S = P e−Tslew/400 s e−(H−HD)2/2σ2
+(7)
+σ = (d2X/dH2)−1/2/4 (8)
+where Tslew is the estimated time needed to slew to the745
+new tile from the current tile, H is the expected hour746
+angle of the midpoint of the next observation, and HD747
+is the design hour angle of the tile. X(H) is the airmass748
+of a tile as a function of its hour angle.749
+The first factor prefers tiles near the current location750
+of the telescope in order to reduce time spent slewing.751
+The variable Tslew is based on the location of the new752
+tile, the current location of the telescope, and the ac-753
+celeration and cruise speed of the telescope on its hour754
+angle and declination axes. For the computation of Tslew755
+in the NFS, we do not count time spent slewing in direc-756
+tion of increasing right ascension. Slews in declination757
+that occur while slewing toward increasing right ascen-758
+sion likewise do not contribute to Tslew. This is to avoid759
+penalizing the telescope for slewing to keep up with the760
+sky. We do not, for example, want the telescope to daw-761
+dle in one Galactic cap to avoid slewing to the other to762
+keep up with the sky.763
+The second factor penalizes tiles observed away from764
+their design hour angles. When observing tiles away765
+from their design hour angles, we prefer to observe high766
+declination tiles to low declination tiles, because the air-767
+mass of a low declination tile varies more quickly with768
+hour angle than a high declination tile. We implement769
+this preference by letting σ depend on the second deriva-770
+tive of the airmass with hour angle, evaluated at hour771
+angle zero. We clip σ to between 7 .5◦ and 15◦ to avoid772
+tiles with too-large or too-small observability windows.773
+This ultimately leads to σ taking the value of 15◦ above774
+δ = 12◦, and σ ≈ 10◦ at the southern boundary of the775
+main footprint.776
+The NFS also places some constraints that may pre-777
+vent a tile from being observed. For example, no tile778
+may be observed within 50 ◦ of the moon, though this779
+limit is occasionally relaxed when the location of the780
+moon in the survey footprint would mean that no tiles781
+were otherwise available. Similarly, no tiles may be ob-782
+served within 2 ◦ of a classical planet (one of the first783
+six planets). Most importantly, no tile may be observed784
+that overlaps a pending tile, as discussed in §5.1. Ob-785
+servers may impose additional constraints based on cur-786
+rent conditions. These constraints are most often used787
+to force observation in the north when strong southerly788
+winds would otherwise shake the telescope and degrade789
+the delivered image quality, though they can also be790
+used to chase holes in the clouds.791
+5.6. On-the-fly Fiber Assignment792
+Tiles are designed on the fly when requested by the793
+NFS. This means that we do not know which fibers will794
+be assigned to which targets until minutes before obser-795
+vations begin. When requested, the fiberassign pack-796
+age (Raichoor et al. 2023) uses the MTL ( §5.12, §6) and797
+focal plane state ( §5.13) to determine how best to allo-798
+cate fibers to targets. Secondary targets and targets of799
+opportunity are also optionally included.800
+Tile design takes roughly thirty seconds. Two minutes801
+are allocated to cover rare cases in dense fields and when802
+latency on the DESI computers is higher than typical.803
+Because reproducible assignments are critical to the804
+large scale structure analysis of the final redshift cata-805
+log, fiberassign inputs are all in the form of ledgers806
+recording the state of the system and targets at any807
+given time. Moreover, the complete state of the soft-808
+ware and input data to fiberassign is logged at run809
+time. We also recreate each tile designed on-the-fly at810
+the mountain at the National Energy Research Scien-811
+tific Computing Center (NERSC) on the following day812
+to verify that the same assignments are made ( §5.9).813
+On-the-fly assignment is convenient because it allows814
+decisions about which tile should be observed to be made815
+in response to current observing conditions, while also816
+allowing every tile to depend on all of its observed neigh-817
+bors. A disadvantage of on-the-fly assignment is that it818
+limits the optimization possibilities of fiberassign. In819
+this mode, fiberassign does not know about future ob-820
+servations and cannot adjust its assignment of fibers to821
+targets using that information.822
+Fiber assignment also needs access to the current state823
+of the DESI focal plane. A substantial number of DESI824
+positioners ( ∼ 700) cannot be assigned to science tar-825
+gets and are usually left fixed in place. Small num-826
+bers of additional positioners occasionally become non-827
+functional. In order to optimally assign targets to posi-828
+tioners, fiberassign must avoid assigning functional829
+positioners to locations that would collide with non-830
+functional positioners. Additionally, we assess whether831
+each non-functional positioner lands on a location which832
+can be used to measure the sky spectrum. If so, we re-833
+duce the number of functional positioners allocated to834
+determining sky. This has a beneficial impact on survey835
+efficiency, since the number of fibers allocated to sky is836
+nearly 10% of the total fiber budget, and is similar to837
+the number of non-functional fibers.838
+5.7. Exposure Time Calculator839
+
+--- PAGE 13 ---
+Survey Operations for DESI 13
+The ETC (Kirkby et al. 2023) is responsible for de-840
+ciding how long to observe each tile, and how much ef-841
+fective time (§5.2) each tile has accumulated during the842
+night. It is also responsible for tracking survey speed843
+and deciding when to split long observation sequences844
+into multiple exposures.845
+The ETC uses measurements of the sky background,846
+seeing, and transparency to perform these tasks. Sky847
+measurements come from the DESI sky camera, which848
+uses 20 dedicated sky fibers to measure the sky bright-849
+ness in the r band (two sky fibers on each petal) (DESI850
+Collaboration et al. 2022). Seeing and transparency851
+measurements come from the DESI GFAs, which are852
+also used for guiding and focusing the telescope (DESI853
+Collaboration et al. 2022). Measurements of the amount854
+of flux entering a fiber relative to nominal—the combina-855
+tion of seeing, throughput, and fiber mis-centering most856
+relevant to the effective time—are computed from GFA857
+frames every eight seconds.858
+These measurements of the terms contributing to the859
+signal and noise accumulated in the spectrograph are860
+then used to estimate the ( S/N)2 obtained in the expo-861
+sure in real time, which is calibrated to effective time by862
+a single scale factor in each program. The ETC makes863
+very good predictions for the completeness of dark tiles,864
+leading DESI to have final tile spectroscopic effective865
+times that very closely match their desired goal effec-866
+tive times, as shown in Figure 7. Bright program tiles867
+show worse agreement due primarily to the varying color868
+of the sky background depending on the phase and lo-869
+cation of the moon. The ETC has access only to the870
+r band sky brightness, while the spectroscopic effective871
+times use the observed brightness of the sky at all wave-872
+lengths (§5.2). Bright program tiles taken in conditions873
+of bright moon tend to be overexposed.874
+We cap the length of any single exposure to 1800 s875
+for two reasons. First, long exposures suffer more cos-876
+mic ray hits, which wipe out all signal in affected pixels.877
+By splitting long observations into multiple exposures, a878
+cosmic ray wipes out only the signal in the exposure in879
+which it occurs. Second, the airmass of a field changes880
+slowly over the course of an exposure. Splitting long881
+exposures allows us to adjust the atmospheric disper-882
+sion corrector for the new location of the field relative883
+to zenith and to reposition the positioners accordingly.884
+If the ETC determines that an observation is likely to885
+exceed 1800 s, it aims to split it into a series of exposures886
+of equal length. We cap the amount of time spent on887
+a single tile per night to 90 minutes; if an observation888
+does not reach depth in this time we return to it on a889
+later night.890
+0.8 1.0 1.2 1.4 1.6 1.8
+EFFTIME/GOALTIME (main survey)
+0
+1
+2
+3
+4
+5
+6fraction of tiles
+= 1.020 (dark)
+= 0.072 (dark)
+= 1.298 (bright)
+= 0.216 (bright)
+Figure 7. Completed dark time tiles have a narrow dis-
+tribution in EFFTIME around the goal time of 1000 s, with
+tiles having on average 102% of their goal effective time, with
+a standard deviation of 7% (blue histogram). This demon-
+strates that the ETC is able to accurately predict the spec-
+troscopic effective times from the real-time transparency, see-
+ing, and sky brightness measurements. Bright time tiles have
+a much broader range of effective time fractions and tend to
+be observed 30% longer than necessary (orange histogram).
+The required inputs for the ETC are the requested891
+effective time for a tile, the program, and the median892
+Galactic extinction over all targets on each tile. The893
+requested remaining effective time is provided by the894
+NFS, while the program and extinction are available in895
+the tile files created by fiberassign.896
+5.8. Spectroscopic Pipeline897
+The DESI spectroscopic pipeline runs each morning898
+following observations, aiming to complete processing899
+by 10:00 AM Pacific time. The pipeline carries out a900
+large number of tasks, detailed in Guy et al. (2023) and901
+Bailey et al. (2023). These include:902
+1. processing nightly calibration images (zero second,903
+arc lamp, and flat field exposures),904
+2. finding wavelength and two-dimensional line-905
+spread-function solutions for each exposure,906
+3. extracting the one-dimensional spectra from the907
+two-dimensional frames after correction for cali-908
+bration images,909
+4. subtracting sky background light,910
+5. calibrating spectra to physical units (10 −17911
+erg/s/cm2/˚A),912
+6. determining redshifts and classifications for each913
+spectrum, and914
+
+--- PAGE 14 ---
+14 Schlafly et al.
+7. evaluating the status of each tile and spectrum.915
+These tasks are all routinely completed within a few916
+hours of the end of the night, for more than 10 5 fibers917
+on a typical night.918
+The redshifts are used to update the MTL (5.12), pro-919
+moting newly detected z > 2.1 Ly-α quasars to become920
+the highest priority targets on future, overlapping tiles921
+in the dark program. Other targets are marked with922
+their new redshifts and with flags indicating whether923
+the spectrum is valid or if for some reason the observa-924
+tion should be ignored (e.g., because the positioner did925
+not reach its target location).926
+5.9. Fiber Assignment Reproducibility927
+Galaxy clustering measurements and cosmological928
+analyses of the DESI redshifts depend on being able929
+to reproduce the algorithm by which fibers were as-930
+signed to targets. The on-the-fly assignment of fibers to931
+targets during the night raises concerns that a configu-932
+ration problem may lead to different assignments when933
+fiberassign (§5.6) is run on the mountain from when934
+it is run at NERSC.935
+We reproduce every tile designed over the course of936
+each night at NERSC the following morning to ensure937
+that this does not occur.938
+5.10. Quality Assurance939
+The DESI survey uses the information on each tile to940
+inform later observations of overlapping tiles, via incor-941
+poration into the MTL. The spectroscopic pipeline (Guy942
+et al. 2023; Bailey et al. 2023) identifies Ly- α quasars in943
+each observation, so that later tiles can be tasked with944
+reobserving those high-priority targets. It also identifies945
+which spectra are good, and which spectra are affected946
+by issues with the hardware and should be ignored.947
+Accordingly, it is important to assess the quality of948
+each observation so that problems with the data are949
+identified before they are incorporated into the MTL.950
+We make a number of quality assurance (QA) plots for951
+each tile when pipeline reductions of that tile are com-952
+pleted. These plots include the redshift distribution of953
+the objects on each tile, the redshifts as a function of954
+fiber number, the effective time as a function of location955
+in the focal plane, and the fiber positioning errors as a956
+function of location in the focal plane 3. The QA also957
+3 Following fiber positioning, the fiber view camera images the
+focal plane with the fibers back-lit to identify the final location of
+the fibers. The fiber positioning errors shown in QA are the dif-
+ference between the intended locations and the locations derived
+from this image. This is an imperfect proxy; it does not include
+any systematic errors in the map between true location and lo-
+indicates whether the pipeline identified any problems958
+with the tile, like missing standard stars, large reduced-959
+χ2 values in the sky fibers after sky subtraction, or poor960
+line-spread-function fits.961
+A member of the operations team reviews the QA962
+for each tile looking for peculiarities. Most tiles are963
+quickly marked good ( ∼ 30 s per tile). The remain-964
+ing more complicated and potentially problematic tiles965
+are marked “unsure” and flagged for follow-up investi-966
+gation. Examples of such rare cases include tiles with967
+extremely bright stars leading to contamination and sky968
+determination difficulties; cases where small amounts of969
+air leak into the spectrograph, leading to increased glow970
+from the ion pump inside the cryostat and associated971
+enhanced backgrounds; cases where large turbulence in972
+the volume of air between the primary and focal plane973
+causes most positioners to be off target by more than974
+30 microns RMS; and cases where imperfect sky sub-975
+traction in very bright conditions lead to poor redshifts.976
+Typically exposures affected by these kinds of problems977
+are marked bad and reobserved.978
+Tiles passing QA are now ready for archiving before979
+inclusion in the MTL ( §5.12).980
+5.11. Tile Archiving981
+The daily offline spectroscopic reductions ( §5.8) occa-982
+sionally identify issues in the data or pipeline that need983
+to be addressed before data can be incorporated into the984
+MTL. In these cases, initial reductions are often deleted985
+and replaced with improved reductions. For data that986
+eventually enters the MTL, we want to more strictly987
+archive the reductions that were the source of the MTL988
+updates and therefore affect future observations. Ac-989
+cordingly, once redshift catalogs have been deemed ac-990
+ceptable for incorporation into the MTL, they are copied991
+to a special “archive” directory and made read-only. Up-992
+dates to the MTL are made only from archived tiles.993
+5.12. Merged Target List994
+The Merged Target List (MTL) records the current995
+state of each potential DESI target. Before the survey996
+began, it included entries for each potential target drawn997
+from the imaging surveys, together with the class of that998
+target and its priority. Following each tile’s successful999
+observation and quality assurance check, the archived1000
+results of the tile’s spectroscopic analysis are used to1001
+update the MTL, adjusting the priorities of observed1002
+targets.1003
+cation in the fiber view image, and does include turbulent errors
+due to dome seeing in the fiber view camera image. However, it
+at least highlights any dramatic errors in fiber positioning.
+
+--- PAGE 15 ---
+Survey Operations for DESI 15
+The most important element of the MTL update is1004
+to mark successfully observed objects, so that they may1005
+be excluded from future tiles. The next most impor-1006
+tant element is to mark newly detected Ly- α quasars as1007
+high priority targets which should be observed whenever1008
+possible.1009
+These updates are performed by adding new rows1010
+to the MTL corresponding to each observed target.1011
+All entries include a timestamp indicating when they1012
+were entered into the MTL. This ledger system en-1013
+ables fiberassign to be run in a reproducible fashion1014
+by specifying the latest timestamp in the ledger when1015
+fiberassign was run. Future fiberassign runs can1016
+read the ledger through that same timestamp in order1017
+to see the same survey state that the original assignment1018
+used. See §6 for much more detail about the MTL.1019
+5.13. Focal Plane State Update1020
+The DESI focal plane state describes which position-1021
+ers are functional, which positioners are not functional,1022
+and which regions of the focal plane must be avoided to1023
+prevent collisions with non-functional fibers. The state1024
+of the focal plane changes occasionally as positioners1025
+malfunction or as positioners are brought back to life.1026
+Malfunctioning positioners are also occasionally moved;1027
+this changes the areas of the focal plane which must1028
+be avoided. The operations database at Kitt Peak is1029
+the authoritative source of information on the health of1030
+each positioner; information from this database must be1031
+synced into the state file used by fiberassign in order1032
+for fiber assignment to make use of this information.1033
+Like the MTL, the current state of the DESI focal1034
+plane is stored in a ledger with timestamps included in1035
+every entry. The state of each positioner at a given point1036
+in the history of the instrument can then be obtained by1037
+reading the ledger through to that specific time. We up-1038
+date this ledger via synchronization with the operations1039
+database once each day.1040
+Note that the ledger tracking the focal plane state1041
+that is used by fiberassign sees only a coarse, daily1042
+picture of the state of the positioners. The online sys-1043
+tem tracks every move of every positioner and its cur-1044
+rent state. When, for example, a positioner fails during1045
+a night, fiberassign and the ledger do not see it un-1046
+til the following night. This means that fiberassign will1047
+try to assign targets to non-functional fibers during the1048
+night following the failure of a positioner. The online1049
+system then rejects these assignments. Since at present1050
+only roughly one positioner fails per week, there is not1051
+much benefit to tracking the focal plane state with bet-1052
+ter granularity.1053
+Following the focal plane state update, the daily op-1054
+erations loop is ready to repeat. The MTL and focal1055
+plane state have been updated, and afternoon planning1056
+(§5.4) can prepare for the coming night’s observations1057
+using the results of the previous night’s observations.1058
+6. OVERVIEW OF THE MERGED TARGET LIST1059
+The Merged Target List (MTL) tracks the observa-1060
+tional state of all targets which the DESI survey may ob-1061
+serve. These targets are drawn from a variety of different1062
+programs and classes, which may significantly overlap1063
+one another, and are denoted by a unique TARGETID, as1064
+described in Myers et al. (2023). Distinct target classes1065
+often need to be treated differently during DESI oper-1066
+ations — for instance z > 2.1 quasars ideally need to1067
+be observed on 4 overlapping tiles to improve signal-to-1068
+noise in the Ly- α forest, whereas emission line galaxies1069
+require only a single observation. The main purpose1070
+of the DESI MTL code is to enforce a set of decisions1071
+for targets that span multiple target classes and so may1072
+have competing observational requirements (i.e. effec-1073
+tively “merging” those targets). In this section, we dis-1074
+cuss the form of the various MTL ledgers and the logic1075
+used to update them during survey operations.1076
+6.1. The Initial MTL Ledgers1077
+The MTL software operates on a set of ledgers that1078
+contain the minimal information expected to be needed1079
+to conduct operational decisions. These ledgers begin1080
+with a list of possible targets, which are updated as1081
+the survey progresses. Each ledger entry represents a1082
+target in a given state at a given time. Additional en-1083
+tries are added to the end of the ledger when a target’s1084
+state changes. Crucially, under normal operational pro-1085
+cedures, no entries are ever removed or changed. This1086
+means that the entire observational history of a target1087
+can be recovered by reading a target’s ledger entries in1088
+order, starting from the initial record.1089
+There are five initial sets of MTL ledgers for the1090
+DESI Main Survey: primary dark-time and bright-time1091
+ledgers; secondary dark-time and bright-time ledgers;1092
+and a set of ledgers for the backup program. De-1093
+tails about how targets are selected for these different1094
+programs are available in Myers et al. (2023). Struc-1095
+turally, each of these sets of ledgers populates a sepa-1096
+rate directory and is organized as a set of files split by1097
+HEALPixel (G´ orski et al. 2005) in the nested scheme1098
+at nside = 32 . This means that each individual ledger1099
+covers ∼ 3.36 deg2 of the DESI footprint described in §3.1100
+Guidelines for creating initial MTL ledgers are included1101
+as part of a tutorial on processing DESI target files that1102
+
+--- PAGE 16 ---
+16 Schlafly et al.
+is available on the desitarget GitHub site 4. Details1103
+about the data model for, and content of, the MTL1104
+ledgers is available as part of the DESI data model 5.1105
+6.2. The Initial Observational State1106
+Each distinct DESI target class has an associated pri-1107
+ority and requisite number of observations, which are1108
+inherited from the desitarget bitmask “yaml” files1109
+described in Myers et al. (2023) 6. These initial pri-1110
+orities and numbers of observations are stored in the1111
+MTL ledgers as PRIORITY INIT and NUMOBS INIT. For1112
+example, low-priority emission line galaxies ( ELG LOP1113
+targets in Table 2) have PRIORITY INIT=3100 and1114
+NUMOBS INIT=27.1115
+A source may be flagged as belonging to multiple1116
+target classes. The PRIORITY INIT and NUMOBS INIT1117
+values are set separately for dark-time and bright-time1118
+MTL ledgers, using only target classes belonging to the1119
+appropriate program. For example, a source could be1120
+targeted as a quasar and a low-priority emission line1121
+galaxy and a white dwarf. When constructing the dark-1122
+time ledgers, only the quasar and emission line galaxy1123
+priorities will be considered; the quasar will “win” be-1124
+cause PRIORITY INIT = 3400 (for unobserved quasars)1125
+exceeds PRIORITY INIT = 3100 (for unobserved low-1126
+priority ELGs). When constructing the bright-time1127
+ledgers, only the bright-time white dwarf targeting bit1128
+will be considered, because the quasar and emission line1129
+galaxy target classes belong to the dark-time program;1130
+the white dwarf values will drive thePRIORITY INIT and1131
+NUMOBS INIT settings in the bright-time ledgers. An im-1132
+portant principle, here, is that the analysis of the bright-1133
+time and dark-time programs are independent.1134
+6.2.1. Relative Initial Target Priorities1135
+The relative initial priorities for targets 8 are broadly1136
+set by a simple underlying philosophy. Lower-density1137
+targets are more likely to be swamped by higher-density1138
+targets — so the rarest targets are typically assigned the1139
+highest priorities. For example, among dark-time tar-1140
+gets, quasars have the highest initial priority, followed1141
+by luminous red galaxies and then emission line galax-1142
+4 https://github.com/desihub/desitarget/blob/master/doc/
+nb/how-to-run-target-selection-main-survey.ipynb
+5 See https://desidatamodel.readthedocs.io/en/latest/DESI
+SURVEYOPS/mtl/index.html.
+6 See, e.g., https://github.com/desihub/desitarget/blob/1.1.1/
+py/desitarget/data/targetmask.yaml for the DESI Main Survey.
+7 As a hedge against potentially needing additional signal-to-
+noise, NUMOBS INIT for DESI primary galaxy targets was set to
+2 total observations. But, in the DESI Main Survey, the second
+observation is scheduled at very low priority (see, also §6.3.2).
+8 Listed in full in the “yaml” files discussed in §6.2.
+T able 2. Initial priorities for some DESI target classes
+Target name Priority Notes
+Dark-time targets
+QSO 3400 Quasars
+LRG 3200 Luminous red galaxies
+ELG HIP 3200 ELGs at highest priority
+ELG LOP 3100 ELGs at low priority
+ELG VLO 3000 ELGs at lowest priority
+Bright-time targets
+MWS WD 2988 White dwarfs
+BGS BRIGHT 2100 Bright-time galaxies
+MWS BROAD 1400 General stars
+Rare secondary
+STRONG LENS 4000 Gravitational lenses
+“Filler” secondary
+PSF OUT DARK 90 Outlier point sources
+Backup targets
+BACKUP GIANT 35 Halo Giants
+BACKUP FAINT 20 General stars
+Only a representative subset of target classes is displayed
+to illustrate the general prioritization schema.
+ies. Table 2 lists initial priorities for some representative1143
+target classes to help illustrate the general schema.1144
+Bright-time targets are always assigned a lower initial1145
+priority than dark-time targets. Bright-time galaxies are1146
+prioritized over Milky Way targets, regardless of relative1147
+density. This ensures that the distribution of Galactic1148
+stars is not imprinted on patterns of large-scale structure1149
+traced by the bright galaxy program. The sole excep-1150
+tion to this scheme is white dwarf targets, which are1151
+relatively rare and valuable. Potential white dwarfs are1152
+assigned a higher initial priority than all other bright-1153
+time targets (but still have a lower initial priority than1154
+dark-time targets).1155
+Secondary targets have a range of initial priorities,1156
+driven by the intersecting needs of each specific cam-1157
+paign. Secondary targets are generally not allowed to1158
+have higher initial priorities than the DESI primary tar-1159
+get classes, except for exceedingly rare, high-value tar-1160
+gets. Broadly, secondary targets are prioritized by den-1161
+sity with very large “filler” samples having very low ini-1162
+tial priorities. The only targets that have an initial pri-1163
+
+--- PAGE 17 ---
+Survey Operations for DESI 17
+T able 3. MTL observational states for DESI targets
+State Description
+UNOBS Unobserved (the PRIORITY INIT state)
+MORE ZWARN Ambigous redshift — observe more
+MORE ZGOOD Good redshift, but observe more
+MORE MIDZQSO z < 2.1 QSO; observe more at low priority
+DONE Enough observations have been obtained
+ority lower than “filler” secondary classes are targets1164
+observed as part of the DESI backup program.1165
+6.3. Updating the Observational State1166
+As the DESI survey progresses and redshifts are ob-1167
+tained that reveal the nature of a source, the priority1168
+and observational state of a target are updated in the1169
+relevant MTL ledger9. Possible observational states for1170
+targets are listed in Table 3, and each observational state1171
+corresponds to a specific numerical priority for a given1172
+target class. For example, an unobserved quasar target1173
+has a priority of UNOBS=3400; a quasar target for which1174
+a good redshift is obtained — z ≥ 2.1 for a quasar, cor-1175
+responding to the Ly-α redshift boundary — has a prior-1176
+ity of MORE ZGOOD=3350; and a quasar target for which1177
+observations have been exhausted drops to a priority1178
+of DONE=2. Setting MORE ZGOOD < UNOBS for quasars1179
+ensures that pairs that are closer on the sky than the1180
+DESI fiber patrol radius are both typically observed, be-1181
+cause an unobserved quasar has higher priority than one1182
+requiring additional observations. The numbers of ob-1183
+servations conducted and required for a target are also1184
+updated with each acquired redshift, as detailed in§6.3.21185
+and §6.3.3.1186
+6.3.1. Redshift Information1187
+The standard DESI pipeline applies a template-fitting1188
+code called Redrock (Bailey et al. 2023) to derive clas-1189
+sifications and redshifts for each target. The MTL code1190
+considers redshifts and redshift warnings from Redrock1191
+when updating the state of a target. These quantities1192
+are denoted by Z and ZWARN in the MTL ledgers, and we1193
+adopt this notation below.1194
+The ZWARN information from Redrock is crucial for the1195
+MTL code to determine whether a sufficiently good ob-1196
+servation was obtained to update the state of a target.1197
+If an observation has a ZWARN bit-value of BAD SPECQA,1198
+9 These quantities are recorded in the PRIORITY and
+TARGET STATE columns described in the DESI data model.
+BAD PETALQA or NODATA10 set then the observation is1199
+considered to not be “good.” Such an observation is1200
+treated as if it had never been acquired, and the state1201
+of the corresponding target is never updated, regardless1202
+of the target type. The NODATA bit is set by Redrock1203
+(see Bailey et al. 2023, for more details), whereas the1204
+BAD SPECQA and BAD PETALQA bits — which we will de-1205
+scribe here — are set as part of the DESI spectro-1206
+scopic pipeline (Guy et al. 2023). Note that a good1207
+observation may still correspond to a poor redshift fit,1208
+where the most such common redshift failures set the1209
+SMALL DELTA CHI2 bit for low signal-to-noise spectra.1210
+BAD PETALQA, which denotes low-quality observations1211
+across an entire petal, is flagged when any bit in Table 41212
+is set. Quantitatively, the BADPETALSTDSTAR flag listed1213
+in Table 4, which denotes a petal that may have insuf-1214
+ficient standard stars to extract high-quality spectra, is1215
+set when:1216
+Ngood < 2
+OR Ngood = 2 & rms( Rflux) > 0.05
+OR rms( Rflux) > 0.2 (9)
+where Ngood is the number of good standard stars that1217
+the spectroscopic pipeline was able to fit and Rflux is the1218
+fraction of the expected flux (based on the photometric1219
+magnitude) entering the spectrograph. A standard star1220
+is defined as a good fit if1221
+χ2/dof < 2 & SNR(blue) > 4 & (10)
+|∆(g − r)| < 0.1 + 0.2E(B − V ) . (11)
+Here, the “blue” region of the spectrum and the g- and1222
+r-camera magnitudes are detailed in Guy et al. (2023),1223
+and the E(B − V ) term allows for some flexibility in the1224
+assumed reddening correction.1225
+BAD SPECQA, which denotes a low-quality spectrum for1226
+a single DESI observation, is set when any bit in Table 41227
+or Table 5 is flagged. Effective time for a fiber is con-1228
+sidered “too” low (i.e. the LOWEFFTIME bit is set) when:1229
+teff 102×2.165 ∆ E(B−V )/2.5 < 0.85 × 0.85 × GOALTIME .
+(12)
+Here, teff is the effective integration time through the1230
+fiber and1231
+∆E(B−V ) = E(B − V )fiber − median(E(B − V )tile)
+accounts for different extinction by Galactic dust1232
+through the fiber, as compared to the extinction across1233
+10 See, e.g., the zwarn mask bitmask at https://github.com/
+desihub/desitarget/blob/2.2.0/py/desitarget/data/targetmask.
+yaml#L230-L248.
+
+--- PAGE 18 ---
+18 Schlafly et al.
+T able 4. Flags used to construct the BAD PETALQA mask
+Flag Description
+BADPETALPOS Fraction of fibers with bad positioning ( > 100 µm) is > 0.6 (corresponding to > 300 fibers on a petal)
+BADPETALSTDSTAR Too few standard stars or the rms between stars is too large in the petal (see §6.3.1 for more details)
+BADREADNOISE Bad readnoise ( > 10 electrons/pixel)
+The BAD PETALQA flag is set if any bit in this table is set.
+the entire tile. The factors of 0.85, which represent1234
+the per-tile and per-fiber minimum amount of integra-1235
+tion time needed to complete an observation were set1236
+by trial-and-error during DESI Survey Validation (e.g.1237
+DESI collaboration et al. 2023). The quantity on the1238
+right-hand side of this inequality ends up being 7221239
+seconds in dark time (GOALTIME = 1000 s) and 1301240
+seconds in bright time (GOALTIME = 180 s), reflecting1241
+the effective exposure times listed in §5.2.1242
+6.3.2. General Updates1243
+The MTL uses a “good” spectroscopic observation to1244
+update the state of most targets via a relatively simple1245
+algorithm. The number of required observations (called1246
+NUMOBS MORE in the MTL ledgers) is decremented by one1247
+and the number of obtained observations (NUMOBS) is in-1248
+cremented by one11. In addition, the PRIORITY of a tar-1249
+get will be changed to the MORE ZGOOD or MORE ZWARN1250
+priority if ZWARN is zero or non-zero, respectively, for1251
+the acquired redshift. As soon as NUMOBS MORE drops1252
+to zero, a target’s priority is set to the DONE priority1253
+discussed in §6.2 (which is a very low value of 2 for all1254
+target classes). Similarly, if a target has reached a value1255
+equal to the DONE priority, then its NUMOBS MORE value is1256
+reduced to zero12. Targets for which the MORE ZGOOD pri-1257
+ority is equal to the DONE priority will have NUMOBS MORE1258
+drop to zero after their first ZWARN = 0 spectrum is ob-1259
+tained. Similarly, targets for which MORE ZWARN is equal1260
+to DONE will no longer be observed after their first ob-1261
+servation with ZWARN > 0. The MORE ZGOOD, MORE ZWARN1262
+and DONE priority values are typically identical for both1263
+bright-time and dark-time galaxy targets, meaning that1264
+such targets are usually only observed once.1265
+6.3.3. Updates for Quasars1266
+11 Note that NUMOBS MORE will equal NUMOBS INIT for an unob-
+served target (just as PRIORITY will equal PRIORITY INIT).
+12 A target can, technically, be observed again once it has
+reached the NUMOBS MORE=0 state — such an outcome is simply
+rendered unlikely because the DONE priority is very low.
+The logic for updating the MTL state is more complex1267
+for DESI primary quasar targets and any secondary tar-1268
+gets that have flavor set to QSO in the scnd mask bit-1269
+mask13 discussed in Myers et al. (2023). In particular,1270
+to improve information for Ly-α quasars (e.g. Farr et al.1271
+2020), the MTL logic incorporates quasar classifications1272
+(denoted IS QSO QN) and redshifts (denoted Z QN) from1273
+a line-fitting code called QuasarNET (Busca & Balland1274
+2018; Green et al. 2023).1275
+DESI quasar targets have an initial, unobserved pri-1276
+ority of 3400 and are scheduled for 4 total observations.1277
+Then, such targets are treated in one of three ways, re-1278
+gardless of whether ZWARN indicates the Redrock redshift1279
+is confident or not:1280
+• Quasar targets for which the Redrock redshift1281
+is Z ≥ 2.1 or which QuasarNET classifies as a1282
+definitive high-redshift quasar ( IS QSO QN==1 and1283
+Z QN ≥ 2.1) are denoted “Ly- α” quasars.1284
+• Quasar targets for which the Redrock redshift is1285
+1.6 ≤ Z < 2.1 and which QuasarNET classifies as a1286
+definitive mid-redshift quasar ( IS QSO QN==1 and1287
+1.6 ≤ Z QN < 2.1) are denoted “mid-z” quasars.1288
+• Otherwise, quasar targets are denoted “low-z.”1289
+Quasars in the “Ly- α” category have their priority1290
+set to MORE ZGOOD and their NUMOBS MORE decremented1291
+by one. Quasars in the “mid-z” category have their1292
+priority set to MORE MIDZQSO and their NUMOBS MORE1293
+decremented by one. Quasars in the “low-z” cate-1294
+gory have their priority set to MORE MIDZQSO and their1295
+NUMOBS MORE decremented by three. As with other tar-1296
+gets, quasars are observed until theirNUMOBS MORE drops1297
+to 0, or below, at which point they are assigned theDONE1298
+priority and NUMOBS MORE=0.1299
+Note that this schema implies that a quasar target can1300
+never reach the MORE ZWARN state during the DESI Main1301
+13 https://github.com/desihub/desitarget/blob/2.5.0/py/
+desitarget/data/targetmask.yaml#L131.
+
+--- PAGE 19 ---
+Survey Operations for DESI 19
+T able 5. Flags used to construct the BAD SPECQA mask
+Flag Description
+UNASSIGNED Fiber is not assigned to a known target or sky location
+BROKENFIBER Fiber is broken
+MISSINGPOSITION Location information is missing for this fiber
+BADPOSITION Fiber was placed > 100 µm from the target location
+POORPOSITION Fiber was placed > 30 µm from the target location
+LOWEFFTIME Effective time for this fiber is too low (see §6.3.1 for more details)
+BADFIBER Fiber is unusable
+BADTRACE Bad trace solution
+BADFLAT Bad fiber flat
+BADARC Bad arc solution
+MANYBADCOL > 10% of the pixels covered by this fiber have bad columns
+MANYREJECTED > 10% of the pixels covered by this fiber were rejected during extraction
+BADAMPB Issues with the amplifier readouts of camera B render this fiber unusable
+BADAMPR Issues with the amplifier readouts of camera R render this fiber unusable
+BADAMPZ Issues with the amplifier readouts of camera Z render this fiber unusable
+The BAD SPECQA flag is set if any bit in this table is set or if any bit in Table 4 is set, although, strictly, LOWEFFTIME was not
+used to inform BAD SPECQA until April 19, 2022 (see, e.g., https://github.com/desihub/desispec/pull/1722).
+Survey. Note, also, that “low-z” quasars may eventu-1302
+ally receive two observations as their NUMOBS MORE will1303
+only drop to one after their first acquisition. The sec-1304
+ond observation, however, will be scheduled at a priority1305
+(MORE MIDZQSO) that exceeds only the lowest-priority,1306
+highest-density DESI “filler” targets. This choice re-1307
+flects the low density and relatively high scientific value1308
+of even z < 1.6 and ambiguously classified quasars.1309
+6.3.4. Special Cases1310
+There are two special cases that inform how the MTL1311
+ledgers are updated. First, any target that becomes a1312
+quasar in the “Ly- α” category is locked into that state1313
+until it reaches NUMOBS MORE of 0 and the DONE prior-1314
+ity. This provides some insurance in the case of genuine1315
+z ≥ 2.1 quasars having a flawed observation or fluctuat-1316
+ing in redshift around z = 2.1 due to noise. Second, only1317
+primary programs are allowed to determine the state in1318
+the primary ledgers except in the case of primary targets1319
+that are either for calibration or are only in the Milky1320
+Way Survey (MWS) program. Such primary targets are1321
+allowed to be updated by secondary target classes that1322
+have updatemws set to True in the scnd mask bitmask1323
+discussed in Myers et al. (2023). This allows the MWS1324
+(see Cooper et al. 2022) to better prioritize highly desir-1325
+able secondary target classes for Galactic science with-1326
+out impacting primary analyses of extragalactic large-1327
+scale structure.1328
+6.3.5. Reprocessing the MTL Ledgers1329
+Beyond the routine MTL updates discussed in §6.3.2,1330
+§6.3.3 and §6.3.4 the MTL ledgers can be fully repro-1331
+cessed when redshift information from the DESI spec-1332
+troscopic pipeline needs to be altered. This can occur1333
+when a DESI hardware glitch is identified after the MTL1334
+ledgers have already been updated for certain tiles, or1335
+due to improvements in the DESI spectroscopic pipeline1336
+software. Reprocessing of the ledgers is achieved by1337
+adding new entries to the ledger with the original state1338
+of each affected target, and then reprising the MTL up-1339
+dates, in the original tile-order, using the new redshift1340
+information.1341
+The root directory for the MTL ledgers includes1342
+two “done” files (named mtl-done-tiles.ecsv and1343
+scnd-mtl-done-tiles.ecsv) that list each tile that1344
+has been processed through the MTL logic. These files1345
+communicate to afternoon planning that a tile’s analy-1346
+sis is complete and overlapping tiles may be observed.1347
+The files include a column (named ARCHIVEDATE) that1348
+records when the redshift information used to update1349
+the MTL ledgers that touch a given tile was archived1350
+(§5.11). As is the case for the other MTL ledgers,1351
+new entries are only ever appended to the “done” files1352
+
+--- PAGE 20 ---
+20 Schlafly et al.
+(i.e. no information is ever overwritten). If a tile ap-1353
+pears in a “done” file multiple times, then that tile1354
+was reprocessed, using information from redshifts on1355
+the recorded ARCHIVEDATE. The corresponding ledgers1356
+will contain entries, in order, for both the original MTL1357
+state changes and any updates based on reprocessed1358
+redshift information.1359
+6.4. Other Ledgers1360
+Two bespoke types of MTL ledgers exist in addition to1361
+the five initial sets detailed in §6.1; a single, monolithic1362
+ledger listing targets of opportunity (henceforth ToO),1363
+and sets of ledgers used to override the MTL logic.1364
+The ToO ledger is read byfiberassign to design spe-1365
+cial tiles to follow up gravitational wave detections, neu-1366
+trino bursts, or other time-critical events (e.g Palmese1367
+et al. 2021). Entries in the ToO ledger can also be used1368
+to requisition fibers on existing tiles (see §5.6), although1369
+this mode is yet to be used in the DESI Main Sur-1370
+vey. The ToO ledgers differ from other MTL ledgers1371
+as they contain just the minimal information needed by1372
+fiberassign, plus columns that are only relevant to1373
+time-critical observations.1374
+Override ledgers are used to force an observational1375
+state into an MTL ledger. This is particularly bene-1376
+ficial when rare, high-value targets have been studied1377
+using newly available data and found to have a different1378
+redshift or classification to that assigned by the DESI1379
+pipeline. For example, the override mechanism currently1380
+ensures some quasars from a z ∼ 5 secondary program1381
+(Yang et al. 2023) — which have been definitively clas-1382
+sified through visual inspection of their DESI spectra —1383
+are always available to receive a DESI fiber. Override1384
+ledgers closely resemble other MTL files, as they essen-1385
+tially contain the state that will be forced into an MTL1386
+ledger.1387
+7. SURVEY PERFORMANCE1388
+Planning the DESI survey requires predicting the1389
+amount of effective time the survey can deliver over the1390
+year. The amount of effective time delivered depends1391
+on the point spread function delivered to the focal plane1392
+(§7.1), the transparency of the night sky ( §7.2), the sky1393
+brightness ( §7.3), the overall survey speed ( §7.4), and1394
+the time off sky due to weather and technical downtime1395
+(§7.5).1396
+In this and subsequent sections, we study the perfor-1397
+mance of the DESI survey from 2021–05–14 to 2022–1398
+06–14. The start date corresponds to the start of the1399
+DESI main survey; after this point we limited engineer-1400
+ing observations and observed almost exclusively main1401
+survey tiles. The stop date corresponds to the beginning1402
+of a long shutdown due to damage to Kitt Peak infras-1403
+tructure from the Contreras wildfire. The DESI survey1404
+restarted operations on 2022–09–11; we do not include1405
+this more recent data here.1406
+We compare DESI’s performance with expectations1407
+from the Mayall Telescope’s long history. The Mayall1408
+has been observing the sky since 1973, providing a his-1409
+torical record of seeing, transparency, sky brightness,1410
+and downtime, based on the tireless, careful effort of the1411
+Mayall’s observers. We focus here particularly on the1412
+record from 2007–2017, where records were most read-1413
+ily available. We compare DESI’s observed performance1414
+with simulations based on on this historical record ( §8).1415
+An important concept in this section is the survey1416
+“margin”: the amount of time available to the survey1417
+divided by the time needed to finish the survey, minus1418
+one. DESI aims to operate with a healthy margin to en-1419
+able finishing the survey in the allotted five year survey1420
+window. Factors which speed the survey by a certain1421
+percentage increase the margin by the same percentage,1422
+in the limit that the margin is close to zero.1423
+7.1. Point spread function1424
+The DESI corrector was designed to contribute neg-1425
+ligibly to the PSF delivered to the focal plane. This1426
+means that historical records from for example, the May-1427
+all z-band Legacy Survey (Dey et al. 2019, MzLS), can1428
+be used directly to predict DESI’s seeing. Compari-1429
+son of predictions from simulations ( §8) and the actual1430
+seeing in the first year of the survey show good agree-1431
+ment, as shown in Figure 8. The observed distribution1432
+is somewhat tighter than the simulated data based on1433
+the MzLS, plausibly due to DESI’s improved control of1434
+focus using the GFAs. However the overall inferred av-1435
+erage speed (the square of the fraction of source flux1436
+entering a fiber, the critical element to survey planning)1437
+agrees closely with expectations from MzLS and the sur-1438
+vey simulations.1439
+7.2. Transparency1440
+Similarly, survey planning and simulations assume1441
+that the transparency of the night sky as seen by1442
+DESI will closely match the historical performance ob-1443
+tained by MzLS. Again, predictions from simulations1444
+and DESI’s observations in the first year show good1445
+agreement, as shown in Figure 9. The average survey1446
+speed, proportional to the square of the transparency,1447
+shows excellent agreement between the data and the1448
+simulations, though this is by construction.1449
+An unexpected challenge in matching the observations1450
+to the simulations stems from the definition of “pho-1451
+tometric.” The distribution of transparencies seen by1452
+
+--- PAGE 21 ---
+Survey Operations for DESI 21
+0.5 1.0 1.5 2.0 2.5
+seeing
+fraction of time
+< speed > = 1.028 (data)
+< speed > = 1.027 (sim)
+data
+sim
+Figure 8. DESI delivered point spread function FWHM.
+The blue curve shows the measurements from the GFAs dur-
+ing the DESI survey, while the orange curve shows data from
+simulations based on the MzLS. The inferred average survey
+speeds for both the real data and the simulated data (pro-
+portional to the square of the fraction of flux entering a fiber)
+is given for each case, and agree closely.
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+transparency
+fraction of time
+< speed > = 0.957 (data)
+< speed > = 0.957 (sim)
+data
+sim
+Figure 9. DESI observed transparency. The simulations
+show a narrower distribution of transparencies than ob-
+served, due to the simulations having deconvolved the ob-
+served distribution slightly to reduce the effect of measure-
+ment errors. The inferred average survey speeds are propor-
+tional to the square of the transparency, and are identical
+between observations and simulations by construction.
+DESI (Figure 9) is strongly peaked near unity, but the1453
+peak has a width of about 3.5%. This width partially re-1454
+flects measurement uncertainties, but also appears to re-1455
+flect true variations in the transparency of the night sky,1456
+as confirmed by comparison with the amount of light de-1457
+livered to the spectrographs and seen by the GFAs. The1458
+nights that were used to define a transparency of 1 for1459
+2 4 6 8 10
+sky brightness / nominal dark sky
+fraction of time
+< speed > = 0.771 (data)
+< speed > = 0.737 (sim)
+data
+sim
+Figure 10. DESI observed sky brightness, relative to a
+nominal dark sky brightness of 21.07 mag. The observed
+sky brightness peaks about 7% darker than this. The sky
+brightness models in the simulation are very simple, assign-
+ing a sky brightness of 1, 1.5, or 3.6 depending on the phase
+and location of the moon. The overall average survey speed,
+proportional to one over the sky flux, are reasonably well-
+matched, though the simulations are 8% slower largely due
+to the slightly darker peak of the observed sky distribution
+than the simulated sky distribution.
+DESI were ∼ 3% less transparent than the peak of the1460
+transparency distribution. The results shown in Figure 91461
+have been updated to account for this discrepancy.1462
+7.3. Sky Brightness1463
+Survey planning focused on the main dark program,1464
+with less emphasis on the bright program, which ac-1465
+counts for only roughly 10% of the survey effective time.1466
+The sky brightness when the moon is up is a relatively1467
+complex function of the moon phase, location, and the1468
+line of sight. However, when the moon is down, our1469
+model of the sky brightness is a simple function of air-1470
+mass. Survey planning then chose an extremely simple1471
+description of the sky brightness: equal to a nominal1472
+dark sky brightness when the moon is down; equal to1473
+1.5× nominal when the moon is up but less than 60%1474
+illuminated and the product of the moon phase and dis-1475
+tance from the horizon was smaller than 30 degrees; and1476
+equal to 3 .6× nominal otherwise. Figure 10 compares1477
+this simple model in the simulations with DESI’s ob-1478
+servations. The work of Hahn et al. (2022) includes an1479
+improved sky model important for accurate modeling of1480
+the bright program.1481
+This model is clearly limited, but because dark, moon-1482
+down time is the source of most of the survey’s effective1483
+time, it is largely adequate. The average survey speed,1484
+proportional to one over the sky flux, is about 8% faster1485
+
+--- PAGE 22 ---
+22 Schlafly et al.
+0.0 0.5 1.0 1.5 2.0 2.5 3.0
+speed / nominal dark speed
+fraction of time
+< speed > = 0.78 (data)
+< speed > = 0.73 (sim)
+< speeddark > = 1.13 (data)
+< speeddark > = 0.99 (sim)
+data
+sim
+Figure 11. DESI delivered survey speed, compared with
+speeds delivered in the simulations. This is the product of
+factors relating to seeing, transparency, and sky brightness.
+The average delivered speed is 7% higher in the actual ob-
+servations, but 14% higher when limiting to exposures taken
+in dark conditions. Note that the small difference between
+the average speeds here and in Figure 6 comes from the fact
+that here the speeds are computed from the measured seeing,
+transparency, and sky brightness, and in Figure 6 they are
+computed from the effective time delivered on each tile.
+in the actual data than in the simulations. This is largely1486
+because the dark sky brightness peaks 7% darker than1487
+the nominal 21.07 mag forecast in survey planning.1488
+7.4. Overall speed1489
+The total delivered survey speed is a combination of1490
+the seeing, transparency, and sky brightness. Breaking1491
+these terms out separately, one expects the simulations1492
+to run 8% slower than the actual observations due to the1493
+different sky brightness modeling. Figure 11 compares1494
+the actual total delivered speeds in the simulations and1495
+observations.1496
+The observed average survey speed has been 7% faster1497
+than expected in the simulations, consistent with the dif-1498
+ference in sky brightness. Additionally, the variance in1499
+the observed speeds is larger than predicted by our sim-1500
+ple simulations, leading the average speed in the dark1501
+program—observed when conditions are good—to be1502
+14% larger than in the simulations. This is the largest1503
+factor in leading to discrepancies between the observed1504
+and expected survey progress (see Table 10). This is1505
+largely driven by times when the skies are especially1506
+dark.1507
+7.4.1. Solar Cycles1508
+The DESI survey started survey validation near the1509
+start of solar cycle 25. The next solar maximum will1510
+occur in 2025, near the end of the DESI main survey.1511
+It is therefore likely that sky brightness distribution ob-1512
+served so far is darker than what we will have for the1513
+remainder of the survey (Walker 1988; Patat 2008; Noll1514
+et al. 2012). The impact of the solar cycle on DESI’s1515
+overall performance will depend on the amplitude of1516
+the solar cycle. Investigations using past data from the1517
+Sloan Digital Sky Survey and its extensions, as well as1518
+the DECam Legacy Survey (Dey et al. 2019), suggested1519
+potential impacts on survey speed of between 5% and1520
+20%. For comparison, Patat (2008) measure an approx-1521
+imately 30% difference in dark sky brightness between1522
+solar minimum and solar maximum.1523
+7.5. Downtime1524
+Another key element of survey planning is the amount1525
+of time the system is down, due to bad weather or tech-1526
+nical problems with the system. DESI’s downtime has1527
+been very close to expectations, with the exception of1528
+two significant shutdowns in the summer of 2021 and1529
+2022. Table 6 lists the time lost to various causes, and1530
+the total time remaining. We exclude the second shut-1531
+down from the time range considered in this work, but1532
+we describe it briefly here for completeness.1533
+The first shutdown of the DESI main survey was1534
+from 2021–07–10 to 2021–09–20, when the focal plane1535
+electronics were upgraded. The second shutdown was1536
+from 2022–06–14 to 2022–09–11, when a wildfire swept1537
+through Kitt Peak, requiring repair to the site’s infras-1538
+tructure. Such large events are not directly incorporated1539
+into planning, and instead come out of the overall sur-1540
+vey margin. However, survey planning does include a1541
+nominal three week shutdown during Arizona’s summer1542
+monsoon season, when nights are shortest and frequent1543
+clouds and rain slow observing. Both shutdowns oc-1544
+curred during monsoon season, leading them to have a1545
+much smaller impact on survey progress than suggested1546
+by their duration.1547
+Outside of these two shutdowns, DESI’s downtime1548
+has been very modest and consistent with expectations.1549
+The DESI performance database tracks the state of1550
+the system every second, recording a wealth of infor-1551
+mation, including whether the spectrograph shutter is1552
+open, whether the telescope is guiding, and whether the1553
+system is in a weather, instrument, telescope, or other1554
+hold. Defining “on sky” time as time when the spectro-1555
+graph shutter has been open while guiding within the1556
+last 2.5 minutes (to cover overheads between exposures1557
+and long slews), DESI has spent 76.6% of its time on1558
+sky during “dark time”. Here we define “dark time” as1559
+time on nights more than two days from full moon, with1560
+the sun more than 15◦ below the horizon, with the moon1561
+down, and outside of one of the two major shutdowns.1562
+
+--- PAGE 23 ---
+Survey Operations for DESI 23
+T able 6. Dark Time Spent on Sky or Down
+Category % of moon-down time % of all time
+On skya 76.6% 69.1%
+Open shutter 66.2% 58.4%
+Any recorded loss 23.7% 30.3%
+Weather lossb 22.2% 27.9%
+Instrument loss 1.4% 1.9%
+Telescope loss 0.2% 0.4%
+Other loss 0.4% 1.2%
+Fraction of time spent either on sky or down, according to
+the DESI performance database. We tabulate values for both
+“moon-down” time and “all” time. “All” time includes all
+time outside of monsoon shutdowns with the sun more than
+12◦ below the horizon. “Moon-down” time is the subset of
+“all” time where the moon is below the horizon and excluding
+four nights around full moon. Engineering activities take
+priority around full moon, and are concentrated in moon-up
+time in general, leading to better on-sky fractions in moon-
+down time. The various sources of loss need not sum to
+the “any recorded loss”, since the system can be down for
+multiple reasons simultaneously. Small differences between
+100% and the sum of the on sky time and the any recorded
+loss time can stem from the definition of “on sky” time.
+aOn sky time is defined as time within 2.5 minutes of a moment
+when the spectrograph shutters were open and the telescope
+was guiding.
+b The weather loss here tabulates both time the observers mark
+as being lost due to weather as well as time when the instru-
+ment control system was not in “observing” mode. The latter
+case usually corresponds to nights that cloud out but where
+the observers do not mark the time as a weather loss. How-
+ever, other, more rare cases will be incorrectly grouped with
+weather loss here.
+The majority of the downtime (22.2% of the dark time)1563
+is due to the weather, with another 1.4% due to instru-1564
+ment downtime and less than 1% to other sources.1565
+The instrument has has met the goal of < 2% down-1566
+time, and other sources of downtime are negligible for1567
+planning purposes. The weather loss of 22.2% is typical1568
+for the Mayall outside of the major shutdowns DESI has1569
+experienced. Specifically, replaying the years 2007–20171570
+as if they were 2021–05–14 to 2022–06–15, excluding1571
+time during major shutdowns, and weighting nights by1572
+the length of the night between 15 ◦ twilight, the Mayall1573
+would have been closed due to weather 23.7% of the time1574
+on average, with a standard deviation of 3.6%; DESI’s1575
+observed weather loss so far of 22.2% is typical.1576
+The amount of time available for observation with the1577
+Mayall per month is given in Table 7, based on the years1578
+T able 7. Weather-adjusted hours available per
+month
+Month Hours Month Hours
+January 240 ± 47 July 104 ± 21
+February 211 ± 25 August 148 ± 26
+March 240 ± 21 September 191 ± 26
+April 216 ± 16 October 258 ± 36
+May 201 ± 14 November 254 ± 24
+June 185 ± 22 December 222 ± 27
+Annual 2468 ± 80
+The number of hours available for observation
+with the Mayall per month, accounting for vary-
+ing weather and the changing length of the
+night, but excluding engineering and monsoon
+shutdowns. Uncertainties reflect year-to-year
+standard deviations due to weather.
+2007–2017. This table uses the time between 15 ◦ twi-1579
+light, adjusted for seasonal variability in the weather.1580
+We have not removed planned engineering time around1581
+full moon or during the annual monsoon season, how-1582
+ever, because the alignment of these shutdowns with1583
+month boundaries can artificially increase variability.1584
+As noted earlier, survey planning includes a three1585
+week shutdown around full moon during the Arizona1586
+monsoon season. So far, our monsoon season shutdowns1587
+have been significantly longer than forecast there, owing1588
+to electronics upgrades and the Contreras wildfire. On1589
+the other hand, we would plan to run DESI through the1590
+monsoon season if weather and engineering requirements1591
+allowed. Table 7 gives a sense for how much that ad-1592
+justment would speed the survey—recovering the bright1593
+part of July would be roughly a quarter as valuable as1594
+a January.1595
+7.6. Effective hours delivered per year1596
+When planning programs for DESI, it can be valuable1597
+to have a sense for the total number of effective hours1598
+DESI can deliver in a year. Table 8 tabulates some key1599
+numbers for making this calculation.1600
+We were able to get a good match between the ob-1601
+served dark margin and the margin expected from a rel-1602
+atively simple calculation based on the number of hours1603
+available to the survey and the survey’s average speed in1604
+different programs. The calculations count every hour1605
+with the sun more than 12◦ below the horizon, excluding1606
+an 18 night shutdown around full moon each monsoon1607
+season for engineering purposes.1608
+
+--- PAGE 24 ---
+24 Schlafly et al.
+T able 8. Amount of Effective Time per Year
+Parameter Value Notes
+Time per year a 3481 hr Planning
+Open shutter fraction 58.4% observed
+Fraction of dark time c 59.3% observed
+Fraction of bright time c 34.8% observed
+Fraction of backup time b,c 5.9% observed
+Average dark speed 1.148 observed
+Average bright speed 0.293 observed
+Average backup speed b 0.096 observed
+Average overall speed 0.789 observed
+Dark effective time per year 1383 hr computed
+Bright effective time per year 207 hr computed
+Backup effective time per year b 12 hr computed
+Number of dark tiles 9929 design
+Number of bright tiles 5676 design
+Effective time for dark tiles 1000 s design
+Effective time for bright tiles 180 s design
+Effective time for backup tiles 60 s design
+Mean airmass & dust adjustment 1.51 design
+Dark time needed per year 833 hr computed
+Bright time needed per year 86 hr computed
+Outside major unplanned shutdowns d 87% observed
+Time on tiles not counted e 2% observed
+Average dark tile overexposure f 2% observed
+Dark margin, computed 39% computed
+Bright margin, computed 105% computed
+Dark margin, observed 36% observed
+Bright margin, observed 93% observed
+Parameters controlling the amount of effective time available to
+the survey (top of table), compared with parameters controlling
+the time needed to complete the survey (middle of table).
+aThe number of hours derived from ephemerides; see § 7.6 for
+details.
+b Backup program parameters are especially uncertain because
+backup tiles were not regularly observed until December 2021.
+c We are defining the time available to the program according to
+the amount of time selected for that program based on the NTS
+program selection. See §5.3 for more details.
+dThis fraction is the expected time available to the survey given
+the long summer 2021 shutdown divided by what the survey
+would have had with the planned shutdown.
+eTiles “not counted” as main survey tiles were either observed
+for other programs (1%) or discarded (1%).
+fThe average completed dark tile has 1.02× the required effective
+time.
+Matching the computed margin to the actual margin1609
+requires accounting for the longer-than-expected DESI1610
+shutdown in the summer of 2021 ( §7.5). Other small1611
+adjustments are needed to account for time DESI has1612
+spent on tiles for programs other than the main survey1613
+(1%) and on exposures that needed to be discarded (e.g.,1614
+due to wind shake, or temporary instrument problems;1615
+1%).1616
+Note that this calculation folds in true values of criti-1617
+cal parameters DESI achieved during the 2021–05–14 to1618
+2022–06–15 time window under consideration—it uses1619
+the observed open shutter fraction and the observed av-1620
+erage speeds and fractions of time in different programs.1621
+This effectively folds in the real weather and conditions1622
+that DESI has experienced and all technical downtime.1623
+These values are useful for the planning of future DESI-1624
+like surveys, but the match between the observed DESI1625
+margin and the computed value from this computation1626
+is somewhat artificial.1627
+We can check the consistency of this table by com-1628
+paring the number of hours accumulated on dark tiles1629
+between 2021–05–14 and 2022–06–15 with the expecta-1630
+tions from this table. On the basis of the ephemerides,1631
+there are 3248 total hours excluding the long shutdown1632
+in the summer of 2021. Using the open shutter frac-1633
+tion, fraction of time in the dark program, and average1634
+dark program speed from Table 8, we obtain 1291 ef-1635
+fective hours at zenith through no extinction. Counting1636
+all time accumulated on dark exposures in that win-1637
+dow, and adjusting by Equation 1 and Equation 2 to1638
+account for extinction and airmass, we obtain 1247 ob-1639
+served effective dark hours. These are different by 3.5%.1640
+Much of the difference is “time on tiles not counted”,1641
+e.g., time we spent observing tiles for special programs1642
+or tiles that we eventually deemed bad. Another issue1643
+surrounds the accounting for engineering time; engineer-1644
+ing time spent on guided observations with the spectro-1645
+graphs open counts as open shutter time in Table 8,1646
+though this kind of open shutter time needs to be sep-1647
+arately accounted when computing the amount of time1648
+DESI can deliver on science tiles. Still, these are small1649
+effects, and Table 8 provides a useful description of the1650
+number of effective hours the DESI system can deliver.1651
+8. SURVEY SIMULATIONS1652
+We perform survey simulations to verify that the DESI1653
+survey will complete in its allotted five-year mission.1654
+The survey simulations step through the survey at ten1655
+second intervals each night of observations. The simula-1656
+tion generates a realistic realization of the observing con-1657
+ditions (seeing, transparency, sky brightness) based on1658
+modeling of past observing conditions from the Mosaic1659
+
+--- PAGE 25 ---
+Survey Operations for DESI 25
+T able 9. Selected Survey Simulation Parameters
+Parameter Value
+Nightly beginning & end of observations 15 ◦ twilight
+New field overhead 139 s
+Split exposure overhead 70 s
+Engineering nights per lunation 4
+Monsoon shutdown nights per year 18
+A selection of important parameters in the simulations,
+and their values.
+z-band Legacy Survey (Dey et al. 2019, MzLS). Down-1660
+time due to weather is also included, following patterns1661
+from observations at the Mayall from 2007–2017.1662
+At each time step, if the system is not already ob-1663
+serving, a new tile is selected, and the telescope be-1664
+gins tracking a new field overhead (Table 9). Otherwise,1665
+when the system is observing, effective time is accumu-1666
+lated according to the current seeing, sky brightness,1667
+and transparency. Observing continues until the tile1668
+is complete or the tile needs to be split or abandoned1669
+due to overly long exposures or too-high airmass. When1670
+splitting, a separate tile split overhead is incurred (Ta-1671
+ble 9). Weather-related downtime may also close the1672
+dome at any point, stopping the current observation1673
+and advancing the simulation to the next time the dome1674
+opens.1675
+The survey simulations use the same airmass opti-1676
+mization and next-tile selection algorithms as the real1677
+survey. Accordingly the simulations follow the same1678
+moon & planet avoidance algorithms as the real sur-1679
+vey. They use a simplified model of the ETC and a sim-1680
+ple model of the instrument. They model only per-tile1681
+quantities and ignore any details relating to individual1682
+fibers and target selection; the survey simulations seek1683
+only to accumulate the required effective time on each1684
+tile.1685
+The survey simulations include realistic models of the1686
+weather based on historical data from the Mayall. Com-1687
+parisons of modeled seeing, transparency, sky bright-1688
+ness, and delivered speed are shown in Figures 8, 9, 101689
+and 11. The sky modeling in the simulations is rudi-1690
+mentary, but the seeing and transparency distributions1691
+match the observations closely. Moreover, the time cor-1692
+relation of the variations in the seeing and transparency1693
+is modeled with a Gaussian process, with power spectral1694
+densities chosen to closely match observations from the1695
+MzLS. That said, the accuracy of the time correlations1696
+of variations in the weather makes only a minor impact1697
+on survey planning.1698
+Overheads due to stopping and splitting exposures are1699
+modest. For the dark program as of 2022–10–04, the1700
+mean exposure time is 1093 s, over 3725 observations1701
+of 2913 tiles. This implies an overhead of about 9%,1702
+which is well captured by the simulations. Slew time1703
+is ignored in the simulations, and would account for an1704
+additional overhead of about 3%, using the slews from a1705
+simulated survey and a realistic model for the telescope1706
+slew time as a function of the change in hour angle and1707
+declination.1708
+The survey simulations can incorporate past data and1709
+use them to make forecasts for the future given different1710
+scenarios. This is valuable to, for example, understand1711
+the impact of different planned maintenance activities1712
+requiring shutting down the telescope to the final survey1713
+margin.1714
+8.1. Comparing survey simulations with the observed1715
+survey progress1716
+Figure 12 shows an example survey simulation run.1717
+For this run, we chose to exactly duplicate DESI long1718
+summer 2021 shutdown, as described in §7.5. No ad-1719
+ditional sources of downtime were included except for1720
+normal weather losses, which were chosen to repli-1721
+cate randomly-sampled years of the Mayall’s historical1722
+weather record.1723
+The survey simulation matches the dark program rea-1724
+sonably well. In the survey simulation, 26.96% of the1725
+dark program is completed before 2022-09-21, while in1726
+the real survey, 28.97% of the survey was completed.1727
+The DESI survey is proceeding 7% faster than forecast1728
+in the simulations, our top line result. However, the1729
+comparison is complicated by the different average speed1730
+in the dark program in the simulations than in reality;1731
+see §7.4. Accounting for this makes the dark program1732
+14% faster while being the active program on the tele-1733
+scope for 3% less time than expected. Additional mi-1734
+nor differences between the simulations and real obser-1735
+vations are that the simulations neglect slew overheads1736
+and technical downtime (3% and 2% effects). More im-1737
+portantly, the simulation year one weather realization is1738
+particularly poor, with 11% more lost time than DESI1739
+observed from 2022–05–14 to 2023–06–15, outside the1740
+summer 2021 shutdown. Finally, 2% of the time in the1741
+real survey was spent either on tiles we end up discard-1742
+ing or on tiles that were not for the main survey, and1743
+another 2% of time was spent overexposing dark tiles.1744
+Table 10 summarizes the different contributions to dis-1745
+crepancies between the simulation completeness and the1746
+observed completeness. We conclude that the main sur-1747
+
+--- PAGE 26 ---
+26 Schlafly et al.
+0 50 100 150 200 250 300 350 400 450
+nights since 2021-05-14
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45Percentage complete
+2022-05-14
+2023-05-14
+2024-05-14
+2025-05-14
+2026-05-14
+2022-06-14
+adj. time elapsed: 21.36%
+overall: 26.53%
+dark: 26.96%
+bright: 22.34%
+implied margin: 24.20%
+Simulation Progress
+adjusted % of time elapsed
+% dark done
+% bright done
+% overall done
+0 50 100 150 200 250 300 350 400 450
+nights since 2021-05-14
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45Percentage complete
+2022-05-14
+2023-05-14
+2024-05-14
+2025-05-14
+2026-05-14
+2022-06-14
+adj. time elapsed: 21.36%
+overall: 30.11%
+dark: 28.97%
+bright: 41.31%
+implied margin: 40.97%
+Actual DESI Progress
+adjusted % of time elapsed
+% dark done
+% bright done
+% overall done
+Figure 12. DESI observed progress compared with a nominal simulation using the same major shutdowns. The dark time
+progress of the simulation is a good match for the observed dark time progress; in the simulation, 26.53% of the dark program
+was completed before 2022-06-15, while in the real survey, 28.97% of the survey was completed. The fraction of time elapsed
+is shown with a dashed line, weighting nights by the length of the night, historical weather loss, and removing nights near full
+moon and planned monsoon shutdowns; see §8 for details. These survey simulations match the progress of the bright program
+poorly, however, with the actual bright survey progress running ahead of the simulations by almost a factor of two. This is due
+to limitations of the sky brightness modeling in the simulations, as well as the use of more time in twilight and near full moon
+for bright observations than expected.
+vey is running 4% slower than we would expect from1748
+the simulations after accounting for all of these effects,1749
+which we consider good agreement.1750
+We have focused on the dark program, which accounts1751
+for most of DESI’s effective time, and for which the sur-1752
+vey simulations are best suited. The bright program is1753
+running much faster than expected from the simulations,1754
+due primarily to the following:1755
+• The simulations include no observations when the1756
+sun is within 15 ◦ of the horizon; in fact we aim to1757
+start observing the backup program at 10◦ twilight1758
+and the bright program at 12 ◦ twilight.1759
+• The simulations include no observations within 41760
+days of full moon; in practice, this time is often1761
+used for observing when no engineering work is1762
+planned.1763
+• The simulation sky modeling in bright conditions1764
+is rudimentary. ( §7.3).1765
+The bright program was more than 40% complete prior1766
+to the summer 2022 shutdown, after little more than1767
+a year of main survey observations! This program will1768
+need to be expanded in order to accommodate the avail-1769
+able time.1770
+9. CONCLUSION1771
+The Dark Energy Spectroscopic Instrument’s main1772
+survey began on 2021–05–14, and has observed more1773
+than 14 million galaxies and 4 million stars through1774
+2022–06–14. The success of the survey has relied on the1775
+efforts and dedication of a large science collaboration, in-1776
+strument, and operations team. The DESI instrument’s1777
+performance largely exceeds expectations; the data man-1778
+agement, processing, and analysis routinely delivers high1779
+quality redshifts within hours of observation, even while1780
+accommodating last-minute changes in instrument con-1781
+figuration & calibrations; and the operations team has1782
+put together a robust system to feed back past obser-1783
+vations into the design of future observations on a daily1784
+basis, while identifying and removing problematic obser-1785
+vations. The collaboration’s realization of the scientific1786
+potential of these observations is now underway.1787
+We have laid out the choices made in the survey1788
+strategy—the survey footprint, the amount of observ-1789
+ing time needed on each tile, the hour angles at which1790
+the tiles should be observed, and the tiles’ priorities.1791
+The decision to require that all observations be fully1792
+processed before making subsequent overlapping obser-1793
+vations allows the survey to reobserve anyz > 2.1 quasar1794
+discoveries, and places strict requirements on the daily1795
+
+--- PAGE 27 ---
+Survey Operations for DESI 27
+T able 10. Contributors to differences in dark margin
+Cause Fraction
+Observed progress through 2022-06-14 29.0%
+Simulated progress through 2022-06-14 27.0%
+Expected effective time through 2022-06-14 21.4%
+Dark speed +14%
+Fraction of time in dark program −3%
+Neglected slew time −3%
+Neglected technical downtime −2%
+Actual weather versus simulated +11%
+Time on tiles not counted −2%
+Dark tiles are overexposed −2%
+Adjusted simulated completeness 30.2%
+Ratio of observed and simulated completeness +7%
+Ratio of completeness after adjustments −4%
+Important contributions to the difference between the ob-
+served completeness in the simulations and the actual ob-
+served completeness of the survey. The signs are chosen
+so that improving the simulations would change the sim-
+ulated completeness in the indicated direction. A number
+of minor effects are present, which together would lead the
+simulations to run 12% faster, exceeding the 7% difference
+between the observed and simulated completeness. A large
+number of effects come into play.
+operations design and plan. We detailed the steps of1796
+the daily operations loop largely implied by this deci-1797
+sion, from afternoon planning to nightly observations to1798
+data reduction to updating DESI Merged Target Lists.1799
+These Merged Target Lists play a central role in track-1800
+ing DESI observations in operations, and we described1801
+the details of their construction and updates following1802
+targets’ observation.1803
+We also described the survey performance, which has1804
+somewhat exceeded projections made on the basis of his-1805
+torical data from the MzLS—the sky has been slightly1806
+darker than we expected. Instrument downtime has1807
+been kept low (excepting a major shutdown during the1808
+summer monsoon season for upgrading the focal plane1809
+electronics), leaving the survey with a healthy 36% mar-1810
+gin on 2022–06–14. We compared the observed survey1811
+performance with detailed simulations and found good1812
+agreement, increasing our confidence in the simulations’1813
+value for predicting survey performance.1814
+The first 1.1 years of DESI’s operations have been an1815
+exciting success, and we look forward to a long, produc-1816
+tive future for the instrument.1817
+ADM was supported by the U.S. Department of En-1818
+ergy, Office of Science, Office of High Energy Physics,1819
+under Award Number DE-SC0019022.1820
+This material is based upon work supported by the1821
+U.S. Department of Energy (DOE), Office of Science,1822
+Office of High-Energy Physics, under Contract No.1823
+DE–AC02–05CH11231, and by the National Energy1824
+Research Scientific Computing Center, a DOE Office1825
+of Science User Facility under the same contract. Ad-1826
+ditional support for DESI was provided by the U.S.1827
+National Science Foundation (NSF), Division of As-1828
+tronomical Sciences under Contract No. AST-09509451829
+to the NSF’s National Optical-Infrared Astronomy Re-1830
+search Laboratory; the Science and Technologies Facil-1831
+ities Council of the United Kingdom; the Gordon and1832
+Betty Moore Foundation; the Heising-Simons Foun-1833
+dation; the French Alternative Energies and Atomic1834
+Energy Commission (CEA); the National Council of1835
+Science and Technology of Mexico (CONACYT); the1836
+Ministry of Science and Innovation of Spain (MICINN),1837
+and by the DESI Member Institutions: https://www.1838
+desi.lbl.gov/collaborating-institutions. Any opinions,1839
+findings, and conclusions or recommendations expressed1840
+in this material are those of the author(s) and do not1841
+necessarily reflect the views of the U. S. National Sci-1842
+ence Foundation, the U. S. Department of Energy, or1843
+any of the listed funding agencies.1844
+The authors are honored to be permitted to conduct1845
+scientific research on Iolkam Du’ag (Kitt Peak), a moun-1846
+tain with particular significance to the Tohono O’odham1847
+Nation.1848
+Facilities: DESI1849
+Software: astropy (Astropy Collaboration et al. 2013,1850
+2018, 2022)1851
+
+--- PAGE 28 ---
+28 Schlafly et al.
+APPENDIX1852
+A. AIRMASS OPTIMIZATION1853
+The DESI airmass optimization scheme works by assigning local sidereal times to tiles and computing the total time1854
+necessary to observe the tiles given that assignment. It aims to minimize a cost C:1855
+C = T + R (A1)
+T = Tp − T0
+T0
+(A2)
+R = 1Pn
+i Pi
+(n
+X
+(sAi − Pi)2)1/2 (A3)
+s =
+X
+Pi/
+X
+Ai , (A4)
+where Tp is the total time needed to observe the survey given the planned local sidereal times and the implied airmasses,1856
+and T0 is the time that would be needed to observe the survey were all tiles observed at an hour angle of 0. Pi and1857
+Ai are the number of planned and available hours in a particular bin i of LST, and n is the total number of bins of1858
+LST used. Note that hour angles HA and LSTs are related by HA = LST − α, and that assigning an LST to a tile1859
+is equivalent to assigning an hour angle to a tile, since each tile has a defined right ascension α.1860
+More explicitly, the total times TP and T0 are given by1861
+T0 =
+X
+T0,i (A5)
+TP =
+X
+TH,i (A6)
+TH,i = Gi 102×2.165×E(B−V )/2.5X1.75
+i,H (A7)
+where TH,i is the estimated time needed to observe tile i at an hour angle of H, Xi,H is the airmass of tile i at hour1862
+angle H, and Gi is the goal time for a tile (1000 s for a dark tile or 180 s for a bright tile). Note that sky brightness1863
+variations due to the moon are not accounted for here, and that one obtains the same solution for any G as long as it1864
+is constant in a program, as for DESI.1865
+The term T (Equation A2) is proportional to the total observing time (up to an additive constant); we want1866
+to minimize it. The term R (Equation A3) is the root mean square difference between the binned, planned LST1867
+distribution and the available LST distribution. It is zero if the distribution of LST available to the survey exactly1868
+matches the planned distribution of LST. An alternative optimization algorithm would force these two quantities to1869
+match; the approach taken here allows these to diverge but includes the divergence in the cost function C. For DESI1870
+we choose bins 1.875 ◦ in size when binning the available and planned LST distributions Ai and Pi.1871
+Our approach to assigning LSTs to tiles starts with an initial guess. This initial guess is then optimized by a1872
+simulated annealing algorithm, which perturbs the assignment to try to reduce the cost C.1873
+To create the initial hour angle assignments, we first construct the cumulative distribution function of the tiles’1874
+observational costs as a function of right ascension, CDF O(α). To construct this, we need to know what the ob-1875
+servational cost of a tile is, and for that we need the tile’s airmass—but we do not know the tile’s airmass because1876
+we have not yet assigned it an hour angle. For this initial guess we presume that all tiles will be observed with an1877
+hour angle of zero. We also construct the cumulative distribution function of the available LST, CDF L(L), choosing1878
+CDF L(Lstart) = 0 and integrating around the circle. We then find for each right ascension αi the corresponding LST1879
+Li such that CDF O(αi) = CDF L(Li). Conceptually, this corresponds to matching the first 10% of the tiles in right1880
+ascension to the first 10% of the LSTs (starting from Lstart), and so on, until all tiles have been mapped to LSTs. This1881
+gives a mapping of tiles to LST that provides the initial guess for the simulated annealing. The only free parameter1882
+in this initial guess is Lstart, the LST at which to start the cumulative distribution function; this corresponds to the1883
+LST to which to map tiles with α = 0◦. We choose a number of Lstart values around the unit circle and use the Lstart1884
+with the best score to produce the initial guess.1885
+The simulated annealing process consists of a number of steps. In each step, we start by identifying LSTs where1886
+changing the assignment of LSTs to tiles by one bin in LST would most significantly improve R, the component of1887
+the cost coming from the difference between the planned and available times. These bins are identified by finding the1888
+
+--- PAGE 29 ---
+Survey Operations for DESI 29
+locations where |∆(sAi − Pi)| is largest, where ∆ represents taking the difference between bin i and bin i − 1. One of1889
+the top five such bins is selected at random. A scale factor is chosen from a Rayleigh distribution. The LST of each1890
+tile j in the selected bin is adjusted by the scale factor and the new survey cost Cj is computed. The new plan with the1891
+minimum Cj is chosen (if any is better than the original C), and the process repeats. If instead no improvement was1892
+found, instead 20% of tiles are selected at random. Then again the LST assignment of each of these tiles is perturbed,1893
+the new cost C is computed, and the assignment with the best C is kept.1894
+The simulated annealing steps are grouped into rounds. Each round consists of one simulated annealing step per1895
+tile in the program being optimized (i.e., 9929 steps for the dark program, and 5676 steps for the bright program).1896
+When a round is complete, the LST assignment to tiles is mildly smoothed. Each tile’s hour angle is replaced by1897
+H ′
+i = (1 − α)Hi + α ¯Hi, where ¯Hi is the hour angle map convolved with a Gaussian with a length of 10 ◦, and α is a1898
+parameter between 0 and 1 reflecting how aggressively to replace the hour angles with the smoothed version. This1899
+smoothing is expected to improve the cost, because the optimal solution should assign LSTs to tiles in a spatially smooth1900
+manner. Next, the perturbation scale is reduced to 95% of its previous value, from an initial values of 1 ◦. Finally, α1901
+is reduced to 95% of its previous value, from an initial value of 5%. Then another round of simulated annealing is1902
+performed with the updated parameters. Rounds continue until both R < 0.02 and the fractional improvement in C1903
+is less than 1%, Ci/Ci−1 − 1 > −0.01, where i indexes rounds.1904
+In practice, the simulated annealing scheme does not shift the solution far from the initial guess. The primary1905
+limitation of the initial guess is that it gives all of the tiles at the same right ascension the same LST. An optimal1906
+solution, however, keeps tiles at low declination close to hour angles of zero and preferentially uses tiles at high1907
+declination to fill in the LST distribution. Experiments with alternative optimization schemes only improved the cost1908
+by roughly half of one percent.1909
+REFERENCES
+Alexander, D. M., Davis, T. M., Chaussidon, E., et al.1910
+2023, AJ, 165, 1241911
+Allende Prieto, C., Cooper, A. P., Dey, A., et al. 2020,1912
+Research Notes of the American Astronomical Society, 4,1913
+1881914
+Astropy Collaboration, Robitaille, T. P., Tollerud, E. J.,1915
+et al. 2013, A&A, 558, A331916
+Astropy Collaboration, Price-Whelan, A. M., Sip˝ ocz, B. M.,1917
+et al. 2018, AJ, 156, 1231918
+Astropy Collaboration, Price-Whelan, A. M., Lim, P. L.,1919
+et al. 2022, ApJ, 935, 1671920
+Bailey et al. 2023, in preparation1921
+Busca, N., & Balland, C. 2018, arXiv e-prints,1922
+arXiv:1808.099551923
+Chaussidon, E., Y` eche, C., Palanque-Delabrouille, N., et al.1924
+2023, ApJ, 944, 1071925
+Cooper, A. P., Koposov, S. E., Allende Prieto, C., et al.1926
+2022, arXiv e-prints, arXiv:2208.085141927
+Cutri, R. M., Wright, E. L., Conrow, T., et al. 2013,1928
+Explanatory Supplement to the AllWISE Data Release1929
+Products, Tech. rep.1930
+DESI Collaboration, Aghamousa, A., Aguilar, J., et al.1931
+2016a, arXiv e-prints, arXiv:1611.000361932
+—. 2016b, arXiv e-prints, arXiv:1611.000371933
+DESI Collaboration, Abareshi, B., Aguilar, J., et al. 2022,1934
+AJ, 164, 2071935
+DESI Collaboration, Adame, A. G., Aguilar, J., et al.1936
+2023a, arXiv e-prints, arXiv:2306.063071937
+—. 2023b, arXiv e-prints, arXiv:2306.063081938
+DESI collaboration et al. 2023, in preparation1939
+Dey, A., Rabinowitz, D., Karcher, A., et al. 2016, in Society1940
+of Photo-Optical Instrumentation Engineers (SPIE)1941
+Conference Series, Vol. 9908, Ground-based and Airborne1942
+Instrumentation for Astronomy VI, ed. C. J. Evans,1943
+L. Simard, & H. Takami, 99082C1944
+Dey, A., Schlegel, D. J., Lang, D., et al. 2019, AJ, 157, 1681945
+Farr, J., Font-Ribera, A., & Pontzen, A. 2020, JCAP, 2020,1946
+0151947
+Flaugher, B., Diehl, H. T., Honscheid, K., et al. 2015, AJ,1948
+150, 1501949
+Gaia Collaboration, Prusti, T., de Bruijne, J. H. J., et al.1950
+2016, A&A, 595, A11951
+G´ orski, K. M., Hivon, E., Banday, A. J., et al. 2005, ApJ,1952
+622, 7591953
+Green et al. 2023, in preparation1954
+Guy, J., Bailey, S., Kremin, A., et al. 2023, AJ, 165, 1441955
+Hahn, C., Wilson, M. J., Ruiz-Macias, O., et al. 2022,1956
+arXiv e-prints, arXiv:2208.085121957
+Hardin, R., Sloane, N., & Smith, W. 2000, Published1958
+electronically at http://www. research. att.1959
+com/njas/icosahedral. codes1960
+Kirkby et al. 2023, in preparation1961
+
+--- PAGE 30 ---
+30 Schlafly et al.
+Lan, T.-W., Tojeiro, R., Armengaud, E., et al. 2023, ApJ,1962
+943, 681963
+Levi, M., Bebek, C., Beers, T., et al. 2013, arXiv e-prints,1964
+arXiv:1308.08471965
+Meisner, A. M., Lang, D., & Schlegel, D. J. 2018, Research1966
+Notes of the American Astronomical Society, 2, 11967
+Miller, T. N., Doel, P., Gutierrez, G., et al. 2023, arXiv1968
+e-prints, arXiv:2306.063101969
+Moustakas et al. 2023, in preparation1970
+Myers, A. D., Moustakas, J., Bailey, S., et al. 2023, AJ,1971
+165, 501972
+Noll, S., Kausch, W., Barden, M., et al. 2012, A&A, 543,1973
+A921974
+Palmese, A., BenZvi, S., Bailey, S., et al. 2021, GRB1975
+Coordinates Network, 30923, 11976
+Patat, F. 2008, A&A, 481, 5751977
+Raichoor, A., Eisenstein, D. J., Karim, T., et al. 2020,1978
+Research Notes of the American Astronomical Society, 4,1979
+1801980
+Raichoor, A., Moustakas, J., Newman, J. A., et al. 2023,1981
+AJ, 165, 1261982
+Raichoor et al. 2023, in preparation1983
+Ruiz-Macias, O., Zarrouk, P., Cole, S., et al. 2020, Research1984
+Notes of the American Astronomical Society, 4, 1871985
+Schlafly, E. F., & Finkbeiner, D. P. 2011, ApJ, 737, 1031986
+Schlafly, E. F., Meisner, A. M., & Green, G. M. 2019,1987
+ApJS, 240, 301988
+Schlegel, D. J., Finkbeiner, D. P., & Davis, M. 1998, ApJ,1989
+500, 5251990
+Silber, J. H., Fagrelius, P., Fanning, K., et al. 2023, AJ,1991
+165, 91992
+Tie, S. S., Kirkby, D., Martini, P., et al. 2020, in Society of1993
+Photo-Optical Instrumentation Engineers (SPIE)1994
+Conference Series, Vol. 11447, Ground-based and1995
+Airborne Instrumentation for Astronomy VIII, ed. C. J.1996
+Evans, J. J. Bryant, & K. Motohara, 11447851997
+Walker, M. F. 1988, PASP, 100, 4961998
+Williams, G. G., Olszewski, E., Lesser, M. P., & Burge,1999
+J. H. 2004, in Society of Photo-Optical Instrumentation2000
+Engineers (SPIE) Conference Series, Vol. 5492,2001
+Ground-based Instrumentation for Astronomy, ed.2002
+A. F. M. Moorwood & M. Iye, 787–7982003
+Yang, J., Fan, X., Gupta, A., et al. 2023, arXiv e-prints,2004
+arXiv:2302.017772005
+Y` eche, C., Palanque-Delabrouille, N., Claveau, C.-A., et al.2006
+2020, Research Notes of the American Astronomical2007
+Society, 4, 1792008
+Zhou, R., Newman, J. A., Dawson, K. S., et al. 2020,2009
+Research Notes of the American Astronomical Society, 4,2010
+1812011
+Zhou, R., Dey, B., Newman, J. A., et al. 2023, AJ, 165, 582012
+Zou, H., Zhou, X., Fan, X., et al. 2017, PASP, 129, 0641012013

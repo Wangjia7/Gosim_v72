@@ -1,0 +1,3 @@
+label,total,science,required_missing,observe_actions,valid_targets,valid_hits,repeat_hits,nonwinning_repeat_hits,zero_gain_observe_actions,first_hit_science,repeat_science,mean_duration,median_duration,process_cpu,charged_cpu,run_wall
+attached-adaptive-py312,6411.015273,6211.378363,2,770,7364,9744,2380,209,25,4961.73614599989,1249.6422129999971,1100.4545454545455,750.0,61.714,108.369,69.494
+attached-wide-py312,6545.72077,6346.031699,2,781,7395,10197,2802,458,49,5012.256057999904,1333.7756600000002,1083.9948783610755,750,193.617,339.626,205.259

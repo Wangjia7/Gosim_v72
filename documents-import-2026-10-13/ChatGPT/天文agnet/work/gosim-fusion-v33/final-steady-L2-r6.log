@@ -1,0 +1,44 @@
+planner: scarcity 0.87, time price fraction 0.45
+v5: 8600 targets, 430 required, 36 nights; init 0.32s; model none (rules only)
+season: night 0 demand/supply 1.73 prices slot price q10 0.00176 q50 0.00282 q90 0.0035, groups 101
+v5: deep search on (cpu budget 636 ms, deep cost 479 ms)
+v5: deep search off (cpu budget 276 ms, deep cost 334 ms)
+v5: pace level 1 (cpu budget 265 ms, wall budget 411 ms, cpu costs [265, 89, 30, 10] ms, 751 decisions left)
+v5: pace level 0 (cpu budget 163 ms, wall budget 255 ms, cpu costs [163, 50, 18, 6] ms, 1174 decisions left)
+v5: deep search on (cpu budget 206 ms, deep cost 205 ms)
+v5: deep search off (cpu budget 212 ms, deep cost 269 ms)
+v5: pace level 1 (cpu budget 202 ms, wall budget 319 ms, cpu costs [204, 50, 18, 6] ms, 935 decisions left)
+v5: pace level 0 (cpu budget 177 ms, wall budget 279 ms, cpu costs [173, 48, 15, 5] ms, 1062 decisions left)
+v5: pace level 1 (cpu budget 221 ms, wall budget 351 ms, cpu costs [222, 48, 15, 5] ms, 843 decisions left)
+v5: deep search on (cpu budget 230 ms, deep cost 228 ms)
+v5: pace level 0 (cpu budget 230 ms, wall budget 366 ms, cpu costs [222, 49, 15, 5] ms, 808 decisions left)
+v5: deep search off (cpu budget 219 ms, deep cost 265 ms)
+v5: pace level 1 (cpu budget 219 ms, wall budget 348 ms, cpu costs [222, 49, 15, 5] ms, 841 decisions left)
+v5: pace level 0 (cpu budget 222 ms, wall budget 353 ms, cpu costs [189, 57, 13, 4] ms, 823 decisions left)
+v5: deep search on (cpu budget 228 ms, deep cost 225 ms)
+v5: deep search off (cpu budget 288 ms, deep cost 347 ms)
+v5: pace level 1 (cpu budget 174 ms, wall budget 280 ms, cpu costs [175, 57, 13, 4] ms, 999 decisions left)
+v5: pace level 0 (cpu budget 151 ms, wall budget 241 ms, cpu costs [149, 54, 11, 4] ms, 1148 decisions left)
+v5: pace level 1 (cpu budget 174 ms, wall budget 283 ms, cpu costs [182, 54, 11, 4] ms, 973 decisions left)
+v5: pace level 0 (cpu budget 203 ms, wall budget 330 ms, cpu costs [182, 54, 11, 4] ms, 835 decisions left)
+v5: deep search on (cpu budget 300 ms, deep cost 295 ms)
+v5: deep search off (cpu budget 214 ms, deep cost 265 ms)
+v5: deep search on (cpu budget 286 ms, deep cost 265 ms)
+fault: report at h293.3: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.70) (free)
+v5: report at 2026-11-21T05:47:30Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.70)), free left 2
+fault: reference reset at h293.3 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+v5: deep search off (cpu budget 273 ms, deep cost 338 ms)
+season: night 15 demand/supply 2.32 prices slot price q10 0.00176 q50 0.00256 q90 0.00349, groups 101
+v5: deep search on (cpu budget 311 ms, deep cost 288 ms)
+v5: earthquake notice at 2026-11-25T02:05:00Z
+fault: reference reset at h385.1 (earthquake onset)
+v5: deep search off (cpu budget 257 ms, deep cost 321 ms)
+v5: pace level 1 (cpu budget 214 ms, wall budget 383 ms, cpu costs [215, 28, 6, 2] ms, 608 decisions left)
+v5: pace level 0 (cpu budget 218 ms, wall budget 390 ms, cpu costs [215, 37, 6, 2] ms, 595 decisions left)
+v5: deep search on (cpu budget 324 ms, deep cost 321 ms)
+fault: report at h703.2: step 0.16 over 3 exposures / 1.8 h (free)
+v5: report at 2026-12-08T07:40:00Z (step 0.16 over 3 exposures / 1.8 h), free left 2
+v5: report false (delta 0.0); free left 1
+season: night 30 demand/supply 6.84 prices slot price q10 0.00199 q50 0.00426 q90 0.00479, groups 101
+{"family": "final-steady", "card": "L2", "total": 6570.920106, "counts": {"decisions": 1455, "observe_actions": 812, "observations": 10522, "targets_observed": 7713, "required_missing": 3, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 127.971, "speed_factor": 1.3212, "speed_factor_min": 1.3186, "speed_factor_max": 1.3212, "speed_samples": 4, "window_seconds": 172.48, "cpu_seconds": 168.859, "wait_seconds": 3.62, "run_wall_seconds": 188.221, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

@@ -1,0 +1,107 @@
+{
+  "by_class": {
+    "BGS": 772.915936,
+    "ELG": 2646.774255,
+    "LRG": 1301.191003,
+    "QSO": 1178.663635,
+    "Star": 188.856087
+  },
+  "components": {
+    "observation_request_reward": 100.0,
+    "report_settlement": 100.0,
+    "required_penalty": -100.0,
+    "sum_best_scores": 6088.400915,
+    "uniformity_penalty": -0.676684
+  },
+  "counts": {
+    "decisions": 1201,
+    "invalidated_observations": 0,
+    "observation_requests_completed": 1,
+    "observation_requests_issued": 2,
+    "observations": 9282,
+    "observe_actions": 682,
+    "required_missing": 2,
+    "targets_observed": 7133
+  },
+  "invalidations": [],
+  "observation_requests": [
+    {
+      "completed": true,
+      "completed_count": 6,
+      "completed_target_ids": [
+        "V4T000594",
+        "V4T003544",
+        "V4T007198",
+        "V4T004700",
+        "V4T001995",
+        "V4T000983"
+      ],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2026-11-04T08:30:00Z",
+      "issued_at_utc": "2026-11-03T00:30:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0001",
+      "reward": 100.0,
+      "target_ids": [
+        "V4T000594",
+        "V4T003544",
+        "V4T007198",
+        "V4T007219",
+        "V4T004700",
+        "V4T001127",
+        "V4T001995",
+        "V4T000983"
+      ]
+    },
+    {
+      "completed": false,
+      "completed_count": 0,
+      "completed_target_ids": [],
+      "completion_factor_threshold": 0.5,
+      "completion_reward": 100.0,
+      "deadline_utc": "2026-12-02T08:15:00Z",
+      "issued_at_utc": "2026-12-01T00:45:00Z",
+      "minimum_completed": 6,
+      "request_id": "V4RQ0002",
+      "reward": 0.0,
+      "target_ids": [
+        "V4T000666",
+        "V4T007404",
+        "V4T003411",
+        "V4T003317",
+        "V4T003566",
+        "V4T004172",
+        "V4T003761",
+        "V4T005005"
+      ]
+    }
+  ],
+  "scenario": "v4-l1",
+  "schema_version": "v4-score-report-v1",
+  "sha256": {
+    "decisions": "b374a3110cb94a86797c85010e4ee2f9c58a30f7be917aded1ebcd8ec4986fb0",
+    "messages": "2aaad496df991bc074adfb607bbb94fb480ef310aa18410dca799fc7b0a044fc",
+    "observations": "c807b3cedb4872ad3231264abee977473e133c799014b5a428fc8c1c46f46b00",
+    "scenario": "c8d1a8676e4a283b55bdaa59c40f0ae53396e05a93095e6364573ad536c68c43"
+  },
+  "termination": {
+    "detail": "",
+    "reason": "agent_finished"
+  },
+  "total": 6187.724231,
+  "uniformity_bands": {
+    "ra_0_10": 0.770479,
+    "ra_100_110": 0.837044,
+    "ra_10_20": 0.795539,
+    "ra_110_120": 0.842884,
+    "ra_20_30": 0.72541,
+    "ra_30_40": 0.810976,
+    "ra_350_360": 0.72315,
+    "ra_40_50": 0.849434,
+    "ra_50_60": 0.823117,
+    "ra_60_70": 0.75,
+    "ra_70_80": 0.727273,
+    "ra_90_100": 0.816872
+  }
+}

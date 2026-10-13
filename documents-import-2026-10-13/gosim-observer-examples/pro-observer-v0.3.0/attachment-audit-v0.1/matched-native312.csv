@@ -1,0 +1,7 @@
+card,label,status,total,gain_percent_vs_original,gain_percent_vs_attachment,science,required_missing,uniformity_penalty,request_reward,report_settlement,observe_actions,process_cpu_seconds,charged_seconds,wall_seconds,card_files_unchanged,source_unchanged
+L1,original-pro-py312,success,6236.572199,0.0,-2.7209898365812224,6037.341501,2,-0.769302,200.0,100.0,919,86.299,157.256,92.723,True,True
+L1,successor-py312,success,6362.586103,2.0205635400197153,-0.7554056251271146,6162.852876,2,-0.266773,200.0,100.0,915,224.682,409.575,235.497,True,True
+L1,attached-9c656-py312,success,6411.015273,2.7970986053519997,0.0,6211.378363,2,-0.36309,200.0,100.0,770,59.999,105.973,65.575,True,True
+L2,original-pro-py312,success,6248.343772,0.0,-6.95547655371459,6202.895303,5,-4.55153,200.0,100.0,866,92.048,162.855,100.312,True,True
+L2,successor-py312,success,6536.476794,4.611350343609111,-2.6648676020648465,6390.077468,3,-3.600674,200.0,100.0,888,249.538,431.112,261.49,True,True
+L2,attached-9c656-py312,success,6715.434225,7.475428210162183,0.0,6567.18787,3,-1.753646,200.0,100.0,764,67.579,117.219,74.736,True,True

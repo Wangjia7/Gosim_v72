@@ -1,0 +1,491 @@
+{
+  "source": {
+    "planner.py": "c71b3e2dde276b21b878523cfc726fac09452a62e3e405b2788c6b80b3f2d0e0",
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "FUSION_PROVENANCE.json": "3637fc0ec810835488e3afcdcc6a0548dcae2f29cad6a4a1468377e78cc4d4ea",
+    "log_review.py": "3a9211192c2e66aab90c30335c0add714e03bb2483526a0da333b9c53c5ab337",
+    "joint.cpp": "38f9d301022c8765a94eb4da8a4ced854863917f215e11ba7373c5ef64b47e91",
+    "CHANGELOG.md": "439f5cb085711952dfdae95ce07e0290a1158232192fe513189897aacdb2177f",
+    "budget.py": "e5a10b4d939d81a81d20b05946da7c0779ed033160d4fea15aae247631c448a8",
+    "advisor.py": "0dd7e5d8677e8c1c715fd50479437b9f875df58c182d0e82e41b868bd055ec27",
+    "VALIDATION.md": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "native.py": "9d249fdcc5320664d42fc8fe7e19eda6b594a35ddc8c2d4fa5917f4898702d99",
+    "README.md": "95b50ad93189886697ef724ed20878038167b74973435ef206194cc8218497fb",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "opportunities.py": "4e8479ce4a4d2b621d3c2f204e5faa266ed68b45d9724ae0f9e3a64be519b14c",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "llm_client.py": "a1e91cbe181b79facf214fe8f2ba5c494f7de8e830eb07b171498dbc1b248c99",
+    "routing.py": "307f9fb992e50aacf6b5513764832ccd949e6939b09d32baa48a249a977c6a9a",
+    "agent.py": "22182ce4cb8b2b682845ec23804d631348bc32931c7601ffa854b95b9ad3b460",
+    "enhanced_agent.py": "ca254239efe00a76be2891bd3d138cc5bfdfd6275579564bd8d72e4c954710f0",
+    "observer.project.json": "dc15c6f6e2c0b7439905ab4d697d5af545ed556a032a614c955452b5f03d1f47",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "fusion_core/guarded.py": "cd924d237fc1362ffb7f729cc049cab94ad32c24c739963ad23b799d6f903eda",
+    "fusion_core/planner.py": "6799634b232c68d34b469242072e0b6b369028e4285edc37961d5b234a5b8c2a",
+    "fusion_core/bandfit.py": "1415f42dbc670be5a5799c01ba11bdad18f471e87c25930b4b6928decc1d774d",
+    "fusion_core/skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "fusion_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fusion_core/agent.py": "f6df3d4b9dcf59cc1827dd23a1b126cfaa9a74bd7cbe97ef5d33baed4681782b",
+    "fusion_core/season.py": "a1c6f52b9587bba3febe63417d31560412c0583ffcb14d4019202f47449eb0e5",
+    "fusion_core/fault.py": "fe7b592519df883eaa8a460c6c01e5818287144edfd969b638cf8875a1c20bf0",
+    "official_pro/planner.py": "ca72da4ad5cf2b84be6dd84474923d47f47a96c0d5d01c21ced382cd29ff66c1",
+    "official_pro/advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "official_pro/skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "official_pro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "official_pro/opportunities.py": "6514696e20d5e8ce8bc897fa55e4327436b25b86caf4a74ceff86ba664e00317",
+    "official_pro/llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "official_pro/agent.py": "b4cef53179b2505cd563813b444ce6c25df92354bfb45807b2ca3f2764684d64",
+    "official_pro/AGENTS.md": "c75d9bed09ee4ba7b42c2b80bcc87538b798e04550dd37826f03c900553279d9",
+    "skills/astronomy-observer/SKILL.md": "8eea6149bdbe5729d15e85b112ea7db7156fb075ed9268fd3fcdc4e89b51e9d1",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd"
+  },
+  "inputs": {
+    "config/catalog-generation.json": "e6981c2fa2758ffc914ab8db84ee2ac184d2695ead421d1955edd3f36f324c12",
+    "config/weather-generation.json": "cb58fb1a132affeeed85884beaa3ace66b80d96902ae55b245a77687bb51d5a4",
+    "config/v4_scenario.json": "ee490821f998a2a9bf320a7dfdf6b4b1c29ea5910a3eb75931f18034fd2841ef",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "c135ce25921894681930099798ce7064ccadc4d7b313536fe09934708df3a288",
+    "generated-weather/v4_night_calendar.csv": "317ba7e68d2d3f8104ab8a6580bfcfbd3417f5d4b3247e46ba4c86134bb9034e",
+    "generated-weather/v4_earthquake_effects.csv": "14ea2015dcc6d5c447acf09f82f1037f50531576915625d23cf79228e338d451",
+    "generated-weather/v4_weather_truth.csv": "48478a77065509739023b1b463b97b3fc99e2294daed483c7eeea845235077c4",
+    "generated-weather/v4_weather_summary.json": "8e6bcfefe91913630d0f86759ba81e7d72facd489416af089f01a887d809f954",
+    "generated-weather/v4_bulletins.jsonl": "c7e5bf06eb83373a0173f9baec8fcb4c9116b08741c1733df3cbb858f9f8f27a",
+    "generated-weather/v4_slots.csv": "918d98bea8ec86f33b48acb47056157b0dea6539f2da7dad69f538089fd7422a",
+    "generated-weather/v4_forecasts.jsonl": "a0ecc358732494c70e127ae37abf0807370cf75f5ccdb1f99abf089687f4a50a",
+    "generated-weather/v4_events.csv": "af479b63936984b5b9b08c7ee73788d465a742dd5a3a83cdacda131a5c23985a",
+    "public/v4_night_calendar.csv": "317ba7e68d2d3f8104ab8a6580bfcfbd3417f5d4b3247e46ba4c86134bb9034e",
+    "public/v4_bulletins.jsonl": "c7e5bf06eb83373a0173f9baec8fcb4c9116b08741c1733df3cbb858f9f8f27a",
+    "public/v4_forecasts.jsonl": "a0ecc358732494c70e127ae37abf0807370cf75f5ccdb1f99abf089687f4a50a",
+    "public/targets.csv": "43ebc689e99c341a718cd8579ed2d2be1e4218a05acb265c39e157a18b745cf3",
+    "public/footprint.csv": "a9f62d338fb5a2a959d577ff6fa10a800b18a0a5dd08303b3a186a5be8bf0978",
+    "truth/v4_earthquake_effects.csv": "14ea2015dcc6d5c447acf09f82f1037f50531576915625d23cf79228e338d451",
+    "truth/v4_weather_truth.csv": "48478a77065509739023b1b463b97b3fc99e2294daed483c7eeea845235077c4",
+    "truth/v4_slots.csv": "918d98bea8ec86f33b48acb47056157b0dea6539f2da7dad69f538089fd7422a",
+    "truth/v4_events.csv": "af479b63936984b5b9b08c7ee73788d465a742dd5a3a83cdacda131a5c23985a",
+    "truth/v4_observation_requests.jsonl": "8f9b530a4ec67406a8a7fbc384d47ff9b44668b77d6457ce74a06dedc73c9ade",
+    "generated-catalog/summary.json": "2a79dfb7d236352ff80ef344417e5399c667578bccf127e9e2408bb378ff1903",
+    "generated-catalog/targets.csv": "43ebc689e99c341a718cd8579ed2d2be1e4218a05acb265c39e157a18b745cf3",
+    "generated-catalog/footprint.csv": "a9f62d338fb5a2a959d577ff6fa10a800b18a0a5dd08303b3a186a5be8bf0978"
+  },
+  "family": "baseline",
+  "budget": 900.0,
+  "wall_cap": 7200.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {
+    "PRO_FULL_FIELD": "0",
+    "PRO_BREAKPOINTS": "0",
+    "PRO_CONSERVATIVE_REQUIRED": "0",
+    "PRO_REQUEST_BATCH": "0",
+    "FUSION_QUAKE_CURVE": "0",
+    "FUSION_JOINT_PROGRAM": "1",
+    "FUSION_LOG_REVIEW": "1",
+    "FUSION_MAX_BREADTH": "1"
+  },
+  "start": "2026-10-07T08:02:51.015920+00:00",
+  "route": "enhanced_agent",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "native_loaded": true,
+  "native_cells": true,
+  "own_clock_cpu": 29.988984999999992,
+  "exposure_review": {
+    "recent_nights": [
+      {
+        "epoch": 0,
+        "night": 0,
+        "exposures": 49,
+        "assigned": 2035,
+        "hits": 2035,
+        "clean_exposures": 46,
+        "quality_bounds": [
+          0.8364063915674094,
+          0.9848802669658808
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 1,
+        "exposures": 70,
+        "assigned": 1289,
+        "hits": 1289,
+        "clean_exposures": 70,
+        "quality_bounds": [
+          0.7708619574285851,
+          0.925034348914302
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 2,
+        "exposures": 38,
+        "assigned": 598,
+        "hits": 598,
+        "clean_exposures": 38,
+        "quality_bounds": [
+          0.7031205661260393,
+          0.8357248377948467
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 3,
+        "exposures": 31,
+        "assigned": 504,
+        "hits": 504,
+        "clean_exposures": 28,
+        "quality_bounds": [
+          0.8274363570273023,
+          0.9693588951907792
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 4,
+        "exposures": 21,
+        "assigned": 243,
+        "hits": 243,
+        "clean_exposures": 20,
+        "quality_bounds": [
+          0.6834525596059022,
+          0.7981043083110454
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 5,
+        "exposures": 44,
+        "assigned": 185,
+        "hits": 185,
+        "clean_exposures": 40,
+        "quality_bounds": [
+          0.6445555348497307,
+          0.7600586104593094
+        ]
+      },
+      {
+        "epoch": 0,
+        "night": 6,
+        "exposures": 16,
+        "assigned": 98,
+        "hits": 98,
+        "clean_exposures": 13,
+        "quality_bounds": [
+          0.7270273250479184,
+          0.8431253120543811
+        ]
+      }
+    ],
+    "schema": "own-exposure-review-v1",
+    "checkpoint": 41,
+    "epoch": 0,
+    "valid_exposures": 269,
+    "invalidated_exposures": 0,
+    "cue": "retain",
+    "recent_miss_fraction": 0.0,
+    "recent_independent_clean_exposures": 6,
+    "previous_independent_clean_exposures": 14,
+    "required_unconfirmed": 0,
+    "required_examples": [],
+    "by_class_program_duration": [
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 53,
+        "hit": 53,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 316,
+        "hit": 316,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 730,
+        "hit": 730,
+        "missed": 0,
+        "zero_score": 15
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 154,
+        "hit": 154,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 750,
+        "hit": 750,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 716,
+        "hit": 716,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 168,
+        "hit": 168,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 475,
+        "hit": 475,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 411,
+        "hit": 411,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 202,
+        "hit": 202,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 341,
+        "hit": 341,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 291,
+        "hit": 291,
+        "missed": 0,
+        "zero_score": 1
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 13,
+        "hit": 13,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 80,
+        "hit": 80,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 252,
+        "hit": 252,
+        "missed": 0,
+        "zero_score": 6
+      }
+    ],
+    "recent_exposures": [
+      {
+        "id": 261,
+        "utc": "2026-11-08T02:57:30+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 450,
+        "program": "DARK",
+        "assigned": 4,
+        "hits": 4,
+        "missed": 0,
+        "zero": 4,
+        "closed": true,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 262,
+        "utc": "2026-11-08T03:05:00+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 450,
+        "program": "DARK",
+        "assigned": 4,
+        "hits": 4,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 4,
+        "ratio_bounds": [
+          0.5033866502568194,
+          0.6040639803081832
+        ]
+      },
+      {
+        "id": 263,
+        "utc": "2026-11-08T03:30:00+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 8,
+        "hits": 8,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.7334304464245713,
+          0.7334526033178489
+        ]
+      },
+      {
+        "id": 264,
+        "utc": "2026-11-08T03:45:00+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 900,
+        "program": "DARK",
+        "assigned": 7,
+        "hits": 7,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.6914169654374126,
+          0.8297003585248951
+        ]
+      },
+      {
+        "id": 265,
+        "utc": "2026-11-08T03:50:00+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 300,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 1,
+        "ratio_bounds": [
+          0.782676948490858,
+          0.782676948490858
+        ]
+      },
+      {
+        "id": 266,
+        "utc": "2026-11-08T03:57:30+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 450,
+        "program": "DARK",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 267,
+        "utc": "2026-11-08T04:57:30+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 13,
+        "hits": 13,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.7270273250479184,
+          0.8723586645299968
+        ]
+      },
+      {
+        "id": 268,
+        "utc": "2026-11-08T05:57:30+00:00",
+        "night": 6,
+        "epoch": 0,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 13,
+        "hits": 13,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.765964619247535,
+          0.919136963784856
+        ]
+      }
+    ],
+    "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+    "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+  },
+  "end": "2026-10-07T08:03:23.313419+00:00",
+  "elapsed_wall_seconds": 32.29678937513381
+}

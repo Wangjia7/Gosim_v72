@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "run_id": "gosim-runtime-v36-corrected-20261007",
+  "status": "completed",
+  "registered_at": "2026-10-06T20:24:40.940327+00:00",
+  "started_at": "2026-10-06T19:30:02.382683+00:00",
+  "ended_at": "2026-10-06T19:59:35.660800+00:00",
+  "runtime_seconds": 1773.278117,
+  "failure_reason": null,
+  "project_root": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-runtime-v36",
+  "source_config": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-runtime-v36/experiments/configs/final.yaml",
+  "config_sha256": "ec80ed3a377a71f5e114a4d8eb3a33f0f212f22a51af4c418e1bbd27feaa1a8b",
+  "config": {
+    "schema_version": 1,
+    "experiment_id": "gosim-runtime-v36",
+    "project_id": "gosim-observer",
+    "parent_run_id": null,
+    "hypothesis": "Correct inconsistency, source/end-time and cross-request bugs found in initial review; paired final regression after those fixes.",
+    "baseline": "immutable v3.4 source",
+    "command": "run_matrix.py --final (5 final episodes) + verify_py312.py (97+ tests) + extracted ZIP protocol smoke",
+    "output_dir": "evidence/corrected",
+    "data_contract_revision": "v3.6-public-own-results-only",
+    "datasets": [
+      {
+        "name": "normal-b / long-held / L1",
+        "version": "existing frozen local inputs",
+        "uri": "local paired cards",
+        "identity": "per-episode source-input-manifest.json SHA256 for all input CSV/JSON/JSONL; same IDs per pair"
+      }
+    ],
+    "random": {
+      "stochastic": false,
+      "seed": null,
+      "rng": "not-applicable: deterministic agent and fixed evaluator inputs; adaptive CPU timing can affect search",
+      "stream_policy": "not-applicable; no random draws introduced"
+    },
+    "parallel": {
+      "backend": "serial per episode; paired independent subprocesses",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "reduction": "stable Python/C++ candidate ordering"
+    },
+    "environment": {
+      "dependency_lock": "dependency-lock.txt",
+      "hardware": "local macOS ARM host",
+      "software": "bundled Python3.12.14, standard library, C++ native search, offline PyYAML registry"
+    },
+    "parameters": {
+      "cpu_budget": 900,
+      "wall_cap": 7200,
+      "normal_breadth": 1,
+      "model": "disabled in scorer; mocked in pipeline tests"
+    },
+    "controls": {
+      "sample_ids": "identical frozen catalogue per pair",
+      "skeleton": "not-applicable",
+      "selection": "runtime consumes only public snapshots and own feedback",
+      "units_and_coordinates": "UTC seconds, degrees; runtime score contract",
+      "bin_edges_and_denominator": "actual engine scored best single exposure, required missing counts, request completion counts"
+    },
+    "metrics": {
+      "paired_results": {
+        "definition": "Per episode official total and components, required_missing, paid requests, charged_cpu and termination. No data-derived optimum.",
+        "unit": "score/count/seconds",
+        "uncertainty": "single deterministic episode per configuration; no statistical standard error"
+      }
+    },
+    "reproducibility": {
+      "level": "numerical",
+      "tolerance": "CSV best-score sums <=0.1 rounding; direct JSON totals exact; geometry/native small test actions equal",
+      "success_criterion": "functional severe-fault and event invariants, no budget exhaustion, meaningful regressions preserved. Numeric superiority only if observed."
+    },
+    "success_criterion": "Repair false-normal estimate, preserve protocol and single-exposure semantics, validate source-time events, evaluate regressions without selecting seeds.",
+    "budget": {
+      "max_runs": 5,
+      "max_walltime_hours": 1,
+      "stop_condition": "fixed planned matrix completed; additional run only for a new correctness fix"
+    }
+  },
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "limitation": "无 git commit；需外部源码快照，不能仅靠登记复现"
+  },
+  "metrics": {
+    "paired_results": {
+      "value": [
+        {
+          "label": "normal-final",
+          "total": 272.738385,
+          "components": {
+            "observation_request_reward": 100.0,
+            "report_settlement": 0.0,
+            "required_penalty": -200.0,
+            "sum_best_scores": 393.796462,
+            "uniformity_penalty": -21.058077
+          },
+          "counts": {
+            "decisions": 380,
+            "invalidated_observations": 0,
+            "observation_requests_completed": 1,
+            "observation_requests_issued": 2,
+            "observations": 996,
+            "observe_actions": 272,
+            "required_missing": 4,
+            "targets_observed": 703
+          },
+          "clock": {
+            "budget_seconds": 900.0,
+            "charged_seconds": 17.017,
+            "cpu_meter": "cpu",
+            "cpu_seconds": 8.727,
+            "hard_cap_reached": false,
+            "hard_cap_seconds": 7200.0,
+            "mode": "cpu",
+            "run_wall_seconds": 9.04,
+            "schema_version": "fair-clock-v1",
+            "speed_factor": 0.5128,
+            "speed_factor_max": 0.5128,
+            "speed_factor_min": 0.5128,
+            "speed_samples": 1,
+            "wait_seconds": 0.055,
+            "window_seconds": 8.782
+          },
+          "termination": "survey_complete",
+          "start": "2026-10-06T19:30:02.382683+00:00",
+          "end": "2026-10-06T19:30:12.611051+00:00"
+        },
+        {
+          "label": "normal-final-anomaly",
+          "total": 379.492713,
+          "components": {
+            "observation_request_reward": 200.0,
+            "report_settlement": 0.0,
+            "required_penalty": -200.0,
+            "sum_best_scores": 399.369625,
+            "uniformity_penalty": -19.876912
+          },
+          "counts": {
+            "decisions": 354,
+            "invalidated_observations": 0,
+            "observation_requests_completed": 2,
+            "observation_requests_issued": 2,
+            "observations": 966,
+            "observe_actions": 244,
+            "required_missing": 4,
+            "targets_observed": 707
+          },
+          "clock": {
+            "budget_seconds": 900.0,
+            "charged_seconds": 10.14,
+            "cpu_meter": "cpu",
+            "cpu_seconds": 5.004,
+            "hard_cap_reached": false,
+            "hard_cap_seconds": 7200.0,
+            "mode": "cpu",
+            "run_wall_seconds": 5.255,
+            "schema_version": "fair-clock-v1",
+            "speed_factor": 0.4934,
+            "speed_factor_max": 0.4934,
+            "speed_factor_min": 0.4934,
+            "speed_samples": 1,
+            "wait_seconds": 0.012,
+            "window_seconds": 5.016
+          },
+          "termination": "survey_complete",
+          "start": "2026-10-06T19:30:12.611757+00:00",
+          "end": "2026-10-06T19:30:18.902040+00:00"
+        },
+        {
+          "label": "long-final",
+          "total": 6495.645252,
+          "components": {
+            "observation_request_reward": 200.0,
+            "report_settlement": 0.0,
+            "required_penalty": -50.0,
+            "sum_best_scores": 6345.677842,
+            "uniformity_penalty": -0.03259
+          },
+          "counts": {
+            "decisions": 7774,
+            "invalidated_observations": 408,
+            "observation_requests_completed": 2,
+            "observation_requests_issued": 2,
+            "observations": 10832,
+            "observe_actions": 823,
+            "required_missing": 1,
+            "targets_observed": 5989
+          },
+          "clock": {
+            "budget_seconds": 900.0,
+            "charged_seconds": 96.217,
+            "cpu_meter": "cpu",
+            "cpu_seconds": 53.157,
+            "hard_cap_reached": false,
+            "hard_cap_seconds": 7200.0,
+            "mode": "cpu",
+            "run_wall_seconds": 75.72,
+            "schema_version": "fair-clock-v1",
+            "speed_factor": 0.5599,
+            "speed_factor_max": 0.5599,
+            "speed_factor_min": 0.5516,
+            "speed_samples": 2,
+            "wait_seconds": 0.692,
+            "window_seconds": 53.849
+          },
+          "termination": "survey_complete",
+          "start": "2026-10-06T19:30:18.902674+00:00",
+          "end": "2026-10-06T19:31:35.938474+00:00"
+        },
+        {
+          "label": "long-final-anomaly",
+          "total": 6350.151358,
+          "components": {
+            "observation_request_reward": 200.0,
+            "report_settlement": 0.0,
+            "required_penalty": -150.0,
+            "sum_best_scores": 6300.17792,
+            "uniformity_penalty": -0.026561
+          },
+          "counts": {
+            "decisions": 7798,
+            "invalidated_observations": 394,
+            "observation_requests_completed": 2,
+            "observation_requests_issued": 2,
+            "observations": 10508,
+            "observe_actions": 808,
+            "required_missing": 3,
+            "targets_observed": 5977
+          },
+          "clock": {
+            "budget_seconds": 900.0,
+            "charged_seconds": 92.49,
+            "cpu_meter": "cpu",
+            "cpu_seconds": 51.572,
+            "hard_cap_reached": false,
+            "hard_cap_seconds": 7200.0,
+            "mode": "cpu",
+            "run_wall_seconds": 75.617,
+            "schema_version": "fair-clock-v1",
+            "speed_factor": 0.5667,
+            "speed_factor_max": 0.5667,
+            "speed_factor_min": 0.5567,
+            "speed_samples": 2,
+            "wait_seconds": 1.22,
+            "window_seconds": 52.792
+          },
+          "termination": "survey_complete",
+          "start": "2026-10-06T19:31:35.939512+00:00",
+          "end": "2026-10-06T19:49:21.104563+00:00"
+        },
+        {
+          "label": "L1-final",
+          "total": 6345.924373,
+          "components": {
+            "observation_request_reward": 200.0,
+            "report_settlement": 100.0,
+            "required_penalty": -100.0,
+            "sum_best_scores": 6146.233767,
+            "uniformity_penalty": -0.309393
+          },
+          "counts": {
+            "decisions": 1387,
+            "invalidated_observations": 0,
+            "observation_requests_completed": 2,
+            "observation_requests_issued": 2,
+            "observations": 9596,
+            "observe_actions": 820,
+            "required_missing": 2,
+            "targets_observed": 7282
+          },
+          "clock": {
+            "budget_seconds": 900.0,
+            "charged_seconds": 176.763,
+            "cpu_meter": "cpu",
+            "cpu_seconds": 105.836,
+            "hard_cap_reached": false,
+            "hard_cap_seconds": 7200.0,
+            "mode": "cpu",
+            "run_wall_seconds": 117.693,
+            "schema_version": "fair-clock-v1",
+            "speed_factor": 0.5977,
+            "speed_factor_max": 0.5997,
+            "speed_factor_min": 0.5977,
+            "speed_samples": 2,
+            "wait_seconds": 5.582,
+            "window_seconds": 111.418
+          },
+          "termination": "survey_complete",
+          "start": "2026-10-06T19:49:21.190601+00:00",
+          "end": "2026-10-06T19:59:35.660800+00:00"
+        }
+      ],
+      "unit": "score/count/seconds"
+    }
+  },
+  "environment_lock": {
+    "source": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-runtime-v36/dependency-lock.txt",
+    "sha256": "80a5190b9439dc2eccaa465cd18b139003eddec79b4d28062c82f81564ca8b9e",
+    "snapshot": "dependency-lock.snapshot"
+  },
+  "registrar": {
+    "python": "3.10.9 (main, Mar  1 2023, 12:33:47) [Clang 14.0.6 ]",
+    "pyyaml": "6.0",
+    "script_sha256": "ff5b1941c783012454c051c6b6878ee97bd990fa0e9c2406bebd89ca6d251a39"
+  },
+  "output_dir": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-runtime-v36/evidence/corrected",
+  "output_inventory": [
+    {
+      "path": "metrics.json",
+      "size": 6818,
+      "mtime_ns": 1791318266431830270,
+      "sha256": "050438042ff15544ad18eab0cffab45b721b5d378d26de5b454b1461fe98ce48"
+    }
+  ],
+  "outputs_hashed": true,
+  "limitations": [
+    "登记不验证命令曾被执行、数据 identity 或用户声明的实际运行环境",
+    "源码/输入/输出必须在登记期间保持不变；登记锁不锁实验进程",
+    "默认输出 size/mtime 不能验证内容；--hash-outputs 对普通文件保存 SHA256",
+    "输出符号链接只记录目标，不捕获目标内容"
+  ]
+}

@@ -1,0 +1,12 @@
+planner: scarcity 0.87, time price fraction 0.60
+pro: 7800 targets, 390 required, 32 nights; init 0.20s; model none (rules only)
+pro: E 2026-11-02T01:42:30Z 1.00 scale 0.661 band 0.696
+pro: E 2026-11-02T02:32:30Z 1.00 scale 0.661 band 0.685
+pro: pace level 1 (cpu budget 318 ms, wall budget 563 ms, cpu costs [331, 53, 18, 6] ms, 464 decisions left)
+pro: E 2026-11-02T03:36:29Z 1.00 scale 0.751 band 0.791
+pro: E 2026-11-02T04:31:29Z 1.00 scale 0.719 band 0.712
+pro: E 2026-11-02T05:34:00Z 1.00 scale 0.733 band 0.745
+pro: E 2026-11-02T06:31:42Z 1.00 scale 0.735 band 0.793
+pro: E 2026-11-02T07:34:37Z 1.00 scale 0.702 band 0.745
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.683 band 0.719
+{"family": "pruned", "card": "L1", "total": -12139.803468, "counts": {"decisions": 82, "observe_actions": 65, "observations": 889, "targets_observed": 864, "required_missing": 252, "invalidated_observations": 0, "observation_requests_issued": 1, "observation_requests_completed": 0}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 8.541, "speed_factor": 1.1259, "speed_factor_min": 1.1259, "speed_factor_max": 1.1259, "speed_samples": 1, "window_seconds": 9.919, "cpu_seconds": 9.616, "wait_seconds": 0.303, "run_wall_seconds": 10.29, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "agent_error"}

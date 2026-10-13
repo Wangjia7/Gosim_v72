@@ -1,0 +1,71 @@
+{
+  "footprint": {
+    "area_error_fraction": 1.1752550914126105e-05,
+    "boundary_semantics": "great-circle arcs between consecutive vertices",
+    "component_areas_deg2": [
+      719.988,
+      576.025,
+      504.007
+    ],
+    "component_centers": [
+      [
+        125.0,
+        -28.0
+      ],
+      [
+        25.0,
+        -18.0
+      ],
+      [
+        75.0,
+        -48.0
+      ]
+    ],
+    "component_count": 3,
+    "configured_area_deg2": 1800.0,
+    "min_component_gap_deg": 16.043,
+    "total_area_deg2": 1800.021
+  },
+  "generator": "challenge/v4_catalog_generator.py",
+  "observability": {
+    "date_range": [
+      "2026-11-01",
+      "2026-11-08"
+    ],
+    "longest_window_seconds_mean": 17948.8,
+    "longest_window_seconds_min": 7373.9,
+    "minimum_altitude_deg": 30.0,
+    "minimum_window_seconds": 90,
+    "nights_scanned": 7,
+    "sun_altitude_limit_deg": -18.0,
+    "targets_with_window": 800,
+    "window_nights_mean": 7.0,
+    "window_nights_min": 7
+  },
+  "schema_version": "v4-catalog-summary-v1",
+  "sha256": {
+    "footprint": "39035db793296913d125f302f3ccd3133ab50597312c57cdfd92c132573c8457",
+    "targets": "26c891cfbdfc8057519f078a5d95a5bd7e0eca3c856cbb07ad2395dbd4be92f1"
+  },
+  "site": {
+    "latitude_deg": -24.6157,
+    "longitude_deg": -70.3976,
+    "name": "VISTA/Paranal (4MOST)",
+    "utc_offset_hours": -4.0
+  },
+  "targets": {
+    "by_class": {
+      "BGS": 192,
+      "ELG": 272,
+      "LRG": 160,
+      "QSO": 112,
+      "Star": 64
+    },
+    "clustered_count": 235,
+    "position_attempts": 980,
+    "required_count": 120,
+    "required_fraction": 0.15,
+    "resampled_positions": 0,
+    "total_count": 800
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Offline structural reproductions; not replayed platform payloads. No API calls.",
+  "clean_e": [
+    {
+      "raw_ratio": 0.002,
+      "minimum_sky_from_band": 0.65,
+      "search_sky_max": 0.012091560364027913,
+      "returned_E": 1.0,
+      "inconsistent_all_candidates": true
+    },
+    {
+      "raw_ratio": 0.01,
+      "minimum_sky_from_band": 0.65,
+      "search_sky_max": 0.06045780182013957,
+      "returned_E": 1.0,
+      "inconsistent_all_candidates": true
+    },
+    {
+      "raw_ratio": 0.05,
+      "minimum_sky_from_band": 0.65,
+      "search_sky_max": 0.30228900910069784,
+      "returned_E": 1.0,
+      "inconsistent_all_candidates": true
+    },
+    {
+      "raw_ratio": 0.2,
+      "minimum_sky_from_band": 0.65,
+      "search_sky_max": 1.2091560364027913,
+      "returned_E": 0.31180472688608424,
+      "inconsistent_all_candidates": false
+    },
+    {
+      "raw_ratio": 0.7,
+      "minimum_sky_from_band": 0.65,
+      "search_sky_max": 4.232046127409769,
+      "returned_E": 1.0,
+      "inconsistent_all_candidates": false
+    }
+  ],
+  "operator_hardware_schema_accepts": false
+}

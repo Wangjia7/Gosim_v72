@@ -1,0 +1,26 @@
+{
+  "version": "0.3.2-package-fix",
+  "checked_utc": "2026-10-07T15:58:31.026480+00:00",
+  "parent": "python-pro-v0.3.1",
+  "platform_error": "Platform settings must not be placed in the project manifest",
+  "removed_setting": {
+    "OBSERVER_MODEL_DISABLED": "1"
+  },
+  "environment_count": 28,
+  "model_mode": "Selected in platform evaluation settings; platform injects OBSERVER_MODEL_DISABLED for no-model evaluations. Missing credentials also produce rules-only fallback.",
+  "numerical_policy_modified": false,
+  "platform_preparation_verified": false,
+  "sources": [
+    "https://create.gosim.org/survey26/platform/start",
+    "https://create.gosim.org/survey26/platform/assets/StartPage-D4DqpPhT.js",
+    "supplied official python-pro/observer.project.json and README.md",
+    "user-reported hosted preparation error"
+  ],
+  "official_assets_sha256": {
+    "official-projectText-HxmcqGP-.js": "ad1e20584ef1a2406366f722122d0b20caec2acafe6c07bbb8ab426939ab4f65",
+    "official-platform-start-v032.html": "73f04829cea6bf96b9ec2efc1cc37c60405c91a7713d754f139c7c3abc4f7919",
+    "official-DocsPage-2ozJU4T2.js": "780298bb55b0156cb9f628a88d5ac4374104a9a5c1ef5fd6bc05fb1e9c69fcdb",
+    "official-StartPage-D4DqpPhT.js": "102b87ba14045393155526eb9558eea3c3e66bea27a3455474ba53b84fae1ee9",
+    "official-platform-index-v032.js": "aa409d674059251fe500c227e3da596ac69c7dda79a8e71f0fc29879d3f38f9b"
+  }
+}

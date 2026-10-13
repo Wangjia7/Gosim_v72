@@ -1,0 +1,2261 @@
+{
+  "schema_version": 1,
+  "run_id": "gosim-logcpu-v34-20261006",
+  "status": "completed",
+  "registered_at": "2026-10-06T14:36:47.738738+00:00",
+  "started_at": "2026-10-06T13:49:38.855367+00:00",
+  "ended_at": "2026-10-06T14:36:47.523844+00:00",
+  "runtime_seconds": 2828.668477,
+  "failure_reason": null,
+  "project_root": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34",
+  "source_config": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/evidence/final/config.yaml",
+  "config_sha256": "6c074a186b4ad14123c2e61ef5dc1f5628aa9c2951c019eb27e3981dd334d435",
+  "config": {
+    "schema_version": 1,
+    "experiment_id": "gosim-logcpu-v34",
+    "project_id": "astronomy-observer",
+    "parent_run_id": null,
+    "hypothesis": "Incremental cumulative exposure review and CPU-only pacing preserve legality and use 900 CPU seconds effectively on long multi-night tasks.",
+    "baseline": "immutable v3.3 final-steady snapshot with the same 900 CPU allowance",
+    "command": "run_cpu.py --family <baseline|candidate> --card <normal-b|L1|long-held> --out <unique> --budget 900 --wall-cap 7200",
+    "output_dir": "evidence/final",
+    "data_contract_revision": "DATA_CONTRACT-v34",
+    "datasets": [
+      {
+        "name": "L1, prior normal-b and 180-night/6000-target long-held",
+        "version": "frozen official v4 and prior generated cards",
+        "uri": "../gosim-desi-v300/cases-v2/long-held and official local-cards/L1",
+        "identity": "per-run full input SHA256 manifests; no runtime engine truth reads"
+      }
+    ],
+    "random": {
+      "stochastic": false,
+      "seed": null,
+      "rng": "agent deterministic, inputs pre-generated and frozen",
+      "stream_policy": "same fixed truth/weather/catalogue per paired run; CPU adaptation can alter paths"
+    },
+    "parallel": {
+      "backend": "independent host processes across cards; serial agent/scorer per run",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "reduction": "serial C++ fibre selection"
+    },
+    "environment": {
+      "dependency_lock": "dependency-lock.txt",
+      "hardware": "macOS arm64 host",
+      "software": "bundled Python3.12.14 stdlib, C++17, frozen official workflow and process CPU hook"
+    },
+    "parameters": {
+      "cpu_budget_seconds": 900,
+      "local_wall_protection_seconds": 7200,
+      "log_checkpoint_exposures": 8,
+      "recent_exposure_window": 64,
+      "max_search_breadth": 1,
+      "api": false,
+      "switch_names": {
+        "FUSION_LOG_REVIEW": "1",
+        "FUSION_MAX_BREADTH": "1"
+      }
+    },
+    "controls": {
+      "sample_ids": "fixed public target IDs per card; own observe indices in audit",
+      "skeleton": "not-applicable: telescope scheduling",
+      "selection": "Initial expanded smoke regressed relative to prior normal-b; amend to paired smoke control + stable smoke, and two paired full-season cases. Preserve expanded prototype. D1 unavailable.; add one final long rerun because a derived-evidence resync patch changed the enhanced source after the first long run loaded it.; one exact-final normal-b smoke after fixing reserved manifest switch names (settings values unchanged); API freshness addition is model-enabled only.",
+      "units_and_coordinates": "UTC/degrees; normalized standard CPU and raw host CPU kept separate",
+      "bin_edges_and_denominator": "one official total per card and algorithm"
+    },
+    "metrics": {
+      "paired_scores": {
+        "definition": "full official score/count/CPU report from both algorithms for L1 and long-held",
+        "unit": "score",
+        "uncertainty": "one run each, CPU-adaptive variance not estimated"
+      },
+      "smoke_score": {
+        "definition": "candidate normal-b official smoke total",
+        "unit": "score",
+        "uncertainty": "single integration smoke"
+      },
+      "tests": {
+        "definition": "passed tests covering CPU semantics and incremental/replayed log analysis",
+        "unit": "count",
+        "uncertainty": "conformance checks"
+      },
+      "zip_valid": {
+        "definition": "fresh extract/build/JSONL validation",
+        "unit": "boolean",
+        "uncertainty": "single host validation"
+      }
+    },
+    "reproducibility": {
+      "level": "numerical",
+      "tolerance": "recorded action traces/score files exact; timed adaptive reruns can differ"
+    },
+    "success_criterion": "complete legal episodes without mistaking engine/model waits for own CPU; test/build/protocol pass; report score tradeoffs",
+    "budget": {
+      "max_runs": 9,
+      "max_walltime_hours": 2,
+      "stop_condition": "nine recorded runs and successful exact-final package validation; stop further score tuning"
+    }
+  },
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "limitation": "无 git commit；需外部源码快照，不能仅靠登记复现"
+  },
+  "metrics": {
+    "paired_scores": {
+      "value": [
+        {
+          "card": "正常样例 B",
+          "baseline": {
+            "run": "baseline-normal-b-900",
+            "total": 379.93474,
+            "counts": {
+              "decisions": 350,
+              "invalidated_observations": 0,
+              "observation_requests_completed": 2,
+              "observation_requests_issued": 2,
+              "observations": 970,
+              "observe_actions": 242,
+              "required_missing": 4,
+              "targets_observed": 708
+            },
+            "components": {
+              "observation_request_reward": 200.0,
+              "report_settlement": 0.0,
+              "required_penalty": -200.0,
+              "sum_best_scores": 399.803597,
+              "uniformity_penalty": -19.868857
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 10.033,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 5.922,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 7.759,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.5902,
+              "speed_factor_max": 0.5902,
+              "speed_factor_min": 0.5902,
+              "speed_samples": 1,
+              "wait_seconds": 1.367,
+              "window_seconds": 7.288
+            },
+            "termination": "survey_complete",
+            "own_audit": null,
+            "own_raw_cpu": null
+          },
+          "candidate": {
+            "run": "accepted-normal-b-900",
+            "total": 379.93474,
+            "counts": {
+              "decisions": 350,
+              "invalidated_observations": 0,
+              "observation_requests_completed": 2,
+              "observation_requests_issued": 2,
+              "observations": 970,
+              "observe_actions": 242,
+              "required_missing": 4,
+              "targets_observed": 708
+            },
+            "components": {
+              "observation_request_reward": 200.0,
+              "report_settlement": 0.0,
+              "required_penalty": -200.0,
+              "sum_best_scores": 399.803597,
+              "uniformity_penalty": -19.868857
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 9.837,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 5.335,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 5.847,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.5424,
+              "speed_factor_max": 0.5424,
+              "speed_factor_min": 0.5424,
+              "speed_samples": 1,
+              "wait_seconds": 0.153,
+              "window_seconds": 5.488
+            },
+            "termination": "survey_complete",
+            "own_audit": {
+              "recent_nights": [
+                {
+                  "epoch": 0,
+                  "night": 0,
+                  "exposures": 31,
+                  "assigned": 186,
+                  "hits": 186,
+                  "clean_exposures": 28,
+                  "quality_bounds": [
+                    0.7264302638649773,
+                    0.8717163166379728
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 1,
+                  "exposures": 61,
+                  "assigned": 290,
+                  "hits": 290,
+                  "clean_exposures": 54,
+                  "quality_bounds": [
+                    0.6656017970949057,
+                    0.7987221565138869
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 2,
+                  "exposures": 17,
+                  "assigned": 97,
+                  "hits": 97,
+                  "clean_exposures": 17,
+                  "quality_bounds": [
+                    0.689685790562232,
+                    0.8276143726943778
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 3,
+                  "exposures": 11,
+                  "assigned": 55,
+                  "hits": 55,
+                  "clean_exposures": 11,
+                  "quality_bounds": [
+                    0.6437150753415194,
+                    0.768740568268741
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 4,
+                  "exposures": 53,
+                  "assigned": 147,
+                  "hits": 147,
+                  "clean_exposures": 50,
+                  "quality_bounds": [
+                    0.5859408287333672,
+                    0.7031289944800405
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 5,
+                  "exposures": 42,
+                  "assigned": 99,
+                  "hits": 99,
+                  "clean_exposures": 41,
+                  "quality_bounds": [
+                    0.5618677902050391,
+                    0.6600595811516575
+                  ]
+                },
+                {
+                  "epoch": 0,
+                  "night": 6,
+                  "exposures": 24,
+                  "assigned": 84,
+                  "hits": 84,
+                  "clean_exposures": 24,
+                  "quality_bounds": [
+                    0.5680944096453336,
+                    0.6643957649122927
+                  ]
+                }
+              ],
+              "schema": "own-exposure-review-v1",
+              "checkpoint": 40,
+              "epoch": 0,
+              "valid_exposures": 239,
+              "invalidated_exposures": 0,
+              "cue": "retain",
+              "recent_miss_fraction": 0.0,
+              "recent_independent_clean_exposures": 8,
+              "previous_independent_clean_exposures": 16,
+              "required_unconfirmed": 4,
+              "required_examples": [
+                "V4T000117",
+                "V4T000261",
+                "V4T000434",
+                "V4T000595"
+              ],
+              "by_class_program_duration": [
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 4,
+                  "hit": 4,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 6,
+                  "hit": 6,
+                  "missed": 0,
+                  "zero_score": 3
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 3,
+                  "hit": 3,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 14,
+                  "hit": 14,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 52,
+                  "hit": 52,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 139,
+                  "hit": 139,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 5,
+                  "hit": 5,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 10,
+                  "hit": 10,
+                  "missed": 0,
+                  "zero_score": 5
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 11,
+                  "hit": 11,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 37,
+                  "hit": 37,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 122,
+                  "hit": 122,
+                  "missed": 0,
+                  "zero_score": 4
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 168,
+                  "hit": 168,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 3,
+                  "hit": 3,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 3,
+                  "hit": 3,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 6,
+                  "hit": 6,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 25,
+                  "hit": 25,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 44,
+                  "hit": 44,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 108,
+                  "hit": 108,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 3,
+                  "hit": 3,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 2,
+                  "hit": 2,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 9,
+                  "hit": 9,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 28,
+                  "hit": 28,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 26,
+                  "hit": 26,
+                  "missed": 0,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 68,
+                  "hit": 68,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 1,
+                  "hit": 1,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 5,
+                  "hit": 5,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 1,
+                  "hit": 1,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 5,
+                  "hit": 5,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 50,
+                  "hit": 50,
+                  "missed": 0,
+                  "zero_score": 0
+                }
+              ],
+              "recent_exposures": [
+                {
+                  "id": 231,
+                  "utc": "2026-11-08T06:30:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 4,
+                  "hits": 4,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 4,
+                  "ratio_bounds": [
+                    0.537171157806293,
+                    0.6446053893675515
+                  ]
+                },
+                {
+                  "id": 232,
+                  "utc": "2026-11-08T06:35:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 4,
+                  "hits": 4,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 4,
+                  "ratio_bounds": [
+                    0.5720852969541479,
+                    0.6865023563449774
+                  ]
+                },
+                {
+                  "id": 233,
+                  "utc": "2026-11-08T07:35:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 3600,
+                  "program": "DARK",
+                  "assigned": 2,
+                  "hits": 2,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 1,
+                  "ratio_bounds": [
+                    0.5883025882272696,
+                    0.7059631058727235
+                  ]
+                },
+                {
+                  "id": 234,
+                  "utc": "2026-11-08T07:40:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 3,
+                  "hits": 3,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 3,
+                  "ratio_bounds": [
+                    0.6033539068593432,
+                    0.7240246882312118
+                  ]
+                },
+                {
+                  "id": 235,
+                  "utc": "2026-11-08T07:45:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 5,
+                  "hits": 5,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 5,
+                  "ratio_bounds": [
+                    0.6033072223760803,
+                    0.7239679847467972
+                  ]
+                },
+                {
+                  "id": 236,
+                  "utc": "2026-11-08T07:50:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 3,
+                  "hits": 3,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 3,
+                  "ratio_bounds": [
+                    0.5686285914615897,
+                    0.6823543097539078
+                  ]
+                },
+                {
+                  "id": 237,
+                  "utc": "2026-11-08T07:55:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 7,
+                  "hits": 7,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 7,
+                  "ratio_bounds": [
+                    0.5686340352966012,
+                    0.6823608423559215
+                  ]
+                },
+                {
+                  "id": 238,
+                  "utc": "2026-11-08T08:00:00+00:00",
+                  "night": 6,
+                  "epoch": 0,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 3,
+                  "hits": 3,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 3,
+                  "ratio_bounds": [
+                    0.5686539638601221,
+                    0.6823834718639633
+                  ]
+                }
+              ],
+              "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+              "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+            },
+            "own_raw_cpu": 5.297721999999998
+          }
+        },
+        {
+          "card": "L1",
+          "baseline": {
+            "run": "baseline-L1-900",
+            "total": 6446.782371,
+            "counts": {
+              "decisions": 1335,
+              "invalidated_observations": 0,
+              "observation_requests_completed": 2,
+              "observation_requests_issued": 2,
+              "observations": 9835,
+              "observe_actions": 772,
+              "required_missing": 2,
+              "targets_observed": 7363
+            },
+            "components": {
+              "observation_request_reward": 200.0,
+              "report_settlement": 100.0,
+              "required_penalty": -100.0,
+              "sum_best_scores": 6247.144461,
+              "uniformity_penalty": -0.36209
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 166.506,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 101.811,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 108.794,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.6127,
+              "speed_factor_max": 0.6127,
+              "speed_factor_min": 0.6105,
+              "speed_samples": 2,
+              "wait_seconds": 1.245,
+              "window_seconds": 103.057
+            },
+            "termination": "survey_complete",
+            "own_audit": null,
+            "own_raw_cpu": null
+          },
+          "candidate": {
+            "run": "candidate-L1-900",
+            "total": 6446.782371,
+            "counts": {
+              "decisions": 1335,
+              "invalidated_observations": 0,
+              "observation_requests_completed": 2,
+              "observation_requests_issued": 2,
+              "observations": 9835,
+              "observe_actions": 772,
+              "required_missing": 2,
+              "targets_observed": 7363
+            },
+            "components": {
+              "observation_request_reward": 200.0,
+              "report_settlement": 100.0,
+              "required_penalty": -100.0,
+              "sum_best_scores": 6247.144461,
+              "uniformity_penalty": -0.36209
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 180.877,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 103.628,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 111.686,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.588,
+              "speed_factor_max": 0.588,
+              "speed_factor_min": 0.5615,
+              "speed_samples": 2,
+              "wait_seconds": 2.048,
+              "window_seconds": 105.676
+            },
+            "termination": "survey_complete",
+            "own_audit": {
+              "recent_nights": [
+                {
+                  "epoch": 1,
+                  "night": 24,
+                  "exposures": 12,
+                  "assigned": 159,
+                  "hits": 159,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 25,
+                  "exposures": 14,
+                  "assigned": 162,
+                  "hits": 162,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 26,
+                  "exposures": 20,
+                  "assigned": 212,
+                  "hits": 212,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 27,
+                  "exposures": 16,
+                  "assigned": 178,
+                  "hits": 178,
+                  "clean_exposures": 16,
+                  "quality_bounds": [
+                    0.42665728349756976,
+                    0.47785615751727817
+                  ]
+                },
+                {
+                  "epoch": 1,
+                  "night": 28,
+                  "exposures": 11,
+                  "assigned": 140,
+                  "hits": 140,
+                  "clean_exposures": 11,
+                  "quality_bounds": [
+                    0.4988335679119269,
+                    0.5936445051074193
+                  ]
+                },
+                {
+                  "epoch": 1,
+                  "night": 29,
+                  "exposures": 13,
+                  "assigned": 127,
+                  "hits": 127,
+                  "clean_exposures": 13,
+                  "quality_bounds": [
+                    0.5319938888695874,
+                    0.6251258647311122
+                  ]
+                },
+                {
+                  "epoch": 1,
+                  "night": 30,
+                  "exposures": 13,
+                  "assigned": 127,
+                  "hits": 127,
+                  "clean_exposures": 12,
+                  "quality_bounds": [
+                    0.45316978938771074,
+                    0.5203872748250717
+                  ]
+                },
+                {
+                  "epoch": 1,
+                  "night": 31,
+                  "exposures": 48,
+                  "assigned": 294,
+                  "hits": 294,
+                  "clean_exposures": 47,
+                  "quality_bounds": [
+                    0.4638461140403532,
+                    0.55235444384406
+                  ]
+                }
+              ],
+              "schema": "own-exposure-review-v1",
+              "checkpoint": 142,
+              "epoch": 1,
+              "valid_exposures": 767,
+              "invalidated_exposures": 0,
+              "cue": "retain",
+              "recent_miss_fraction": 0.0,
+              "recent_independent_clean_exposures": 8,
+              "previous_independent_clean_exposures": 15,
+              "required_unconfirmed": 2,
+              "required_examples": [
+                "V4T001557",
+                "V4T005102"
+              ],
+              "by_class_program_duration": [
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 8,
+                  "hit": 8,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 14,
+                  "hit": 14,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 17,
+                  "hit": 17,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 15,
+                  "hit": 15,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 262,
+                  "hit": 262,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 82,
+                  "hit": 82,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 86,
+                  "hit": 86,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 455,
+                  "hit": 455,
+                  "missed": 0,
+                  "zero_score": 4
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 1169,
+                  "hit": 1169,
+                  "missed": 0,
+                  "zero_score": 65
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 20,
+                  "hit": 20,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 11,
+                  "hit": 11,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 6,
+                  "hit": 6,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 90,
+                  "hit": 90,
+                  "missed": 0,
+                  "zero_score": 8
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 240,
+                  "hit": 240,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 34,
+                  "hit": 34,
+                  "missed": 0,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 334,
+                  "hit": 334,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 1612,
+                  "hit": 1612,
+                  "missed": 0,
+                  "zero_score": 23
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 1205,
+                  "hit": 1205,
+                  "missed": 0,
+                  "zero_score": 52
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 13,
+                  "hit": 13,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 4,
+                  "hit": 4,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 8,
+                  "hit": 8,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 76,
+                  "hit": 76,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 119,
+                  "hit": 119,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 44,
+                  "hit": 44,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 405,
+                  "hit": 405,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 866,
+                  "hit": 866,
+                  "missed": 0,
+                  "zero_score": 16
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 446,
+                  "hit": 446,
+                  "missed": 0,
+                  "zero_score": 29
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 13,
+                  "hit": 13,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 2,
+                  "hit": 2,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 11,
+                  "hit": 11,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 70,
+                  "hit": 70,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 65,
+                  "hit": 65,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 33,
+                  "hit": 33,
+                  "missed": 0,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 476,
+                  "hit": 476,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 513,
+                  "hit": 513,
+                  "missed": 0,
+                  "zero_score": 7
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 273,
+                  "hit": 273,
+                  "missed": 0,
+                  "zero_score": 4
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 3,
+                  "hit": 3,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 1,
+                  "hit": 1,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 20,
+                  "hit": 20,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 4,
+                  "hit": 4,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 44,
+                  "hit": 44,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 89,
+                  "hit": 89,
+                  "missed": 0,
+                  "zero_score": 8
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 13,
+                  "hit": 13,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 77,
+                  "hit": 77,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 442,
+                  "hit": 442,
+                  "missed": 0,
+                  "zero_score": 54
+                }
+              ],
+              "recent_exposures": [
+                {
+                  "id": 759,
+                  "utc": "2026-12-03T04:30:00+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 300,
+                  "program": "BRIGHT",
+                  "assigned": 5,
+                  "hits": 5,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 4,
+                  "ratio_bounds": [
+                    0.4638716841707915,
+                    0.5195362862712866
+                  ]
+                },
+                {
+                  "id": 760,
+                  "utc": "2026-12-03T04:42:30+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 750,
+                  "program": "BRIGHT",
+                  "assigned": 11,
+                  "hits": 11,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 5,
+                  "ratio_bounds": [
+                    0.45180414751957465,
+                    0.5060206452219236
+                  ]
+                },
+                {
+                  "id": 761,
+                  "utc": "2026-12-03T04:57:30+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 900,
+                  "program": "DARK",
+                  "assigned": 8,
+                  "hits": 8,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 6,
+                  "ratio_bounds": [
+                    0.5052052487652988,
+                    0.6062458732859264
+                  ]
+                },
+                {
+                  "id": 762,
+                  "utc": "2026-12-03T05:07:30+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 600,
+                  "program": "BRIGHT",
+                  "assigned": 8,
+                  "hits": 8,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 7,
+                  "ratio_bounds": [
+                    0.45903626907084366,
+                    0.5141206213593449
+                  ]
+                },
+                {
+                  "id": 763,
+                  "utc": "2026-12-03T05:12:30+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 300,
+                  "program": "BRIGHT",
+                  "assigned": 6,
+                  "hits": 6,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 5,
+                  "ratio_bounds": [
+                    0.45860069219324623,
+                    0.5136327752564358
+                  ]
+                },
+                {
+                  "id": 764,
+                  "utc": "2026-12-03T05:25:00+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 750,
+                  "program": "DARK",
+                  "assigned": 13,
+                  "hits": 13,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 4,
+                  "ratio_bounds": [
+                    0.5504822405155523,
+                    0.6055307217114141
+                  ]
+                },
+                {
+                  "id": 765,
+                  "utc": "2026-12-03T05:55:00+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 1800,
+                  "program": "DARK",
+                  "assigned": 9,
+                  "hits": 9,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 2,
+                  "ratio_bounds": [
+                    0.519491316584157,
+                    0.6233895799009885
+                  ]
+                },
+                {
+                  "id": 766,
+                  "utc": "2026-12-03T06:25:00+00:00",
+                  "night": 31,
+                  "epoch": 1,
+                  "duration": 1800,
+                  "program": "DARK",
+                  "assigned": 11,
+                  "hits": 11,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 5,
+                  "ratio_bounds": [
+                    0.46349879721974674,
+                    0.5561970017639701
+                  ]
+                }
+              ],
+              "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+              "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+            },
+            "own_raw_cpu": 103.45945100000007
+          }
+        },
+        {
+          "card": "180 夜晚 / 6000 目标代理样例",
+          "baseline": {
+            "run": "baseline-long-900",
+            "total": 6452.89319,
+            "counts": {
+              "decisions": 7672,
+              "invalidated_observations": 377,
+              "observation_requests_completed": 1,
+              "observation_requests_issued": 2,
+              "observations": 10855,
+              "observe_actions": 828,
+              "required_missing": 1,
+              "targets_observed": 5989
+            },
+            "components": {
+              "observation_request_reward": 100.0,
+              "report_settlement": 100.0,
+              "required_penalty": -50.0,
+              "sum_best_scores": 6302.923134,
+              "uniformity_penalty": -0.029944
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 97.637,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 61.896,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 87.184,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.6398,
+              "speed_factor_max": 0.6398,
+              "speed_factor_min": 0.633,
+              "speed_samples": 2,
+              "wait_seconds": 1.243,
+              "window_seconds": 63.14
+            },
+            "termination": "survey_complete",
+            "own_audit": null,
+            "own_raw_cpu": null
+          },
+          "candidate": {
+            "run": "release-long-900",
+            "total": 6662.99838,
+            "counts": {
+              "decisions": 7817,
+              "invalidated_observations": 392,
+              "observation_requests_completed": 2,
+              "observation_requests_issued": 2,
+              "observations": 10828,
+              "observe_actions": 847,
+              "required_missing": 0,
+              "targets_observed": 5987
+            },
+            "components": {
+              "observation_request_reward": 200.0,
+              "report_settlement": 100.0,
+              "required_penalty": -0.0,
+              "sum_best_scores": 6363.017507,
+              "uniformity_penalty": -0.019127
+            },
+            "clock": {
+              "budget_seconds": 900.0,
+              "charged_seconds": 97.708,
+              "cpu_meter": "cpu",
+              "cpu_seconds": 60.177,
+              "hard_cap_reached": false,
+              "hard_cap_seconds": 7200.0,
+              "mode": "cpu",
+              "run_wall_seconds": 88.695,
+              "schema_version": "fair-clock-v1",
+              "speed_factor": 0.6398,
+              "speed_factor_max": 0.6398,
+              "speed_factor_min": 0.6121,
+              "speed_samples": 2,
+              "wait_seconds": 3.144,
+              "window_seconds": 63.321
+            },
+            "termination": "survey_complete",
+            "own_audit": {
+              "recent_nights": [
+                {
+                  "epoch": 1,
+                  "night": 114,
+                  "exposures": 4,
+                  "assigned": 19,
+                  "hits": 19,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 115,
+                  "exposures": 4,
+                  "assigned": 6,
+                  "hits": 6,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 116,
+                  "exposures": 5,
+                  "assigned": 10,
+                  "hits": 9,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 117,
+                  "exposures": 4,
+                  "assigned": 6,
+                  "hits": 6,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 118,
+                  "exposures": 8,
+                  "assigned": 22,
+                  "hits": 22,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 119,
+                  "exposures": 3,
+                  "assigned": 3,
+                  "hits": 3,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 120,
+                  "exposures": 1,
+                  "assigned": 3,
+                  "hits": 3,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                },
+                {
+                  "epoch": 1,
+                  "night": 178,
+                  "exposures": 5,
+                  "assigned": 6,
+                  "hits": 6,
+                  "clean_exposures": 0,
+                  "quality_bounds": null
+                }
+              ],
+              "schema": "own-exposure-review-v1",
+              "checkpoint": 427,
+              "epoch": 1,
+              "valid_exposures": 813,
+              "invalidated_exposures": 34,
+              "cue": "weather_or_earthquake_confounded",
+              "recent_miss_fraction": 0.0,
+              "recent_independent_clean_exposures": 0,
+              "previous_independent_clean_exposures": 0,
+              "required_unconfirmed": 0,
+              "required_examples": [],
+              "by_class_program_duration": [
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 16,
+                  "hit": 16,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 18,
+                  "hit": 18,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 5,
+                  "hit": 5,
+                  "missed": 0,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 149,
+                  "hit": 148,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 120,
+                  "hit": 120,
+                  "missed": 0,
+                  "zero_score": 7
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 127,
+                  "hit": 127,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 522,
+                  "hit": 520,
+                  "missed": 2,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 612,
+                  "hit": 589,
+                  "missed": 23,
+                  "zero_score": 10
+                },
+                {
+                  "target_class": "BGS",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 519,
+                  "hit": 514,
+                  "missed": 5,
+                  "zero_score": 4
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 29,
+                  "hit": 29,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 8,
+                  "hit": 8,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 300,
+                  "hit": 299,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 131,
+                  "hit": 129,
+                  "missed": 2,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 116,
+                  "hit": 115,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 1122,
+                  "hit": 1116,
+                  "missed": 6,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 1141,
+                  "hit": 1098,
+                  "missed": 43,
+                  "zero_score": 8
+                },
+                {
+                  "target_class": "ELG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 519,
+                  "hit": 506,
+                  "missed": 13,
+                  "zero_score": 6
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 22,
+                  "hit": 22,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 4,
+                  "hit": 4,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 241,
+                  "hit": 240,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 70,
+                  "hit": 70,
+                  "missed": 0,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 82,
+                  "hit": 81,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 898,
+                  "hit": 895,
+                  "missed": 3,
+                  "zero_score": 3
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 667,
+                  "hit": 647,
+                  "missed": 20,
+                  "zero_score": 6
+                },
+                {
+                  "target_class": "LRG",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 301,
+                  "hit": 297,
+                  "missed": 4,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 10,
+                  "hit": 10,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 1,
+                  "hit": 1,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 180,
+                  "hit": 180,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 53,
+                  "hit": 53,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 70,
+                  "hit": 70,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 1255,
+                  "hit": 1249,
+                  "missed": 6,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 409,
+                  "hit": 392,
+                  "missed": 17,
+                  "zero_score": 3
+                },
+                {
+                  "target_class": "QSO",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 188,
+                  "hit": 188,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "long",
+                  "assigned": 6,
+                  "hit": 6,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "medium",
+                  "assigned": 10,
+                  "hit": 10,
+                  "missed": 0,
+                  "zero_score": 4
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BACKUP",
+                  "duration_group": "short",
+                  "assigned": 7,
+                  "hit": 7,
+                  "missed": 0,
+                  "zero_score": 3
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "long",
+                  "assigned": 31,
+                  "hit": 31,
+                  "missed": 0,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "medium",
+                  "assigned": 32,
+                  "hit": 32,
+                  "missed": 0,
+                  "zero_score": 3
+                },
+                {
+                  "target_class": "Star",
+                  "program": "BRIGHT",
+                  "duration_group": "short",
+                  "assigned": 84,
+                  "hit": 84,
+                  "missed": 0,
+                  "zero_score": 1
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "long",
+                  "assigned": 139,
+                  "hit": 138,
+                  "missed": 1,
+                  "zero_score": 0
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "medium",
+                  "assigned": 174,
+                  "hit": 167,
+                  "missed": 7,
+                  "zero_score": 2
+                },
+                {
+                  "target_class": "Star",
+                  "program": "DARK",
+                  "duration_group": "short",
+                  "assigned": 206,
+                  "hit": 205,
+                  "missed": 1,
+                  "zero_score": 9
+                }
+              ],
+              "recent_exposures": [
+                {
+                  "id": 839,
+                  "utc": "2027-03-01T00:50:00+00:00",
+                  "night": 119,
+                  "epoch": 1,
+                  "duration": 750,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [
+                    "earthquake"
+                  ],
+                  "confounded": true,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 840,
+                  "utc": "2027-03-01T01:50:00+00:00",
+                  "night": 119,
+                  "epoch": 1,
+                  "duration": 3600,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [
+                    "earthquake"
+                  ],
+                  "confounded": true,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 841,
+                  "utc": "2027-03-02T01:30:00+00:00",
+                  "night": 120,
+                  "epoch": 1,
+                  "duration": 3600,
+                  "program": "DARK",
+                  "assigned": 3,
+                  "hits": 3,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [
+                    "earthquake"
+                  ],
+                  "confounded": true,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 842,
+                  "utc": "2027-04-29T00:15:00+00:00",
+                  "night": 178,
+                  "epoch": 1,
+                  "duration": 1800,
+                  "program": "DARK",
+                  "assigned": 2,
+                  "hits": 2,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 843,
+                  "utc": "2027-04-29T00:20:00+00:00",
+                  "night": 178,
+                  "epoch": 1,
+                  "duration": 300,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 844,
+                  "utc": "2027-04-29T00:30:00+00:00",
+                  "night": 178,
+                  "epoch": 1,
+                  "duration": 600,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 845,
+                  "utc": "2027-04-29T00:40:00+00:00",
+                  "night": 178,
+                  "epoch": 1,
+                  "duration": 600,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                },
+                {
+                  "id": 846,
+                  "utc": "2027-04-29T01:05:00+00:00",
+                  "night": 178,
+                  "epoch": 1,
+                  "duration": 1500,
+                  "program": "DARK",
+                  "assigned": 1,
+                  "hits": 1,
+                  "missed": 0,
+                  "zero": 0,
+                  "closed": false,
+                  "weather": [],
+                  "confounded": false,
+                  "clean_samples": 0,
+                  "ratio_bounds": null
+                }
+              ],
+              "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+              "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"
+            },
+            "own_raw_cpu": 59.478175999999664
+          }
+        }
+      ],
+      "unit": "score",
+      "sample_count": 3,
+      "denominator": "one complete task card per algorithm",
+      "artifact": "comparison.json"
+    },
+    "smoke_score": {
+      "value": 379.93474,
+      "unit": "score",
+      "sample_count": 1,
+      "denominator": "one exact-final full smoke episode"
+    },
+    "tests": {
+      "value": 59,
+      "unit": "count",
+      "sample_count": 59,
+      "denominator": "59 distinct checks on native Python3.12"
+    },
+    "zip_valid": {
+      "value": 1,
+      "unit": "boolean",
+      "sample_count": 1,
+      "denominator": "one fresh extracted final archive"
+    }
+  },
+  "environment_lock": {
+    "source": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/dependency-lock.txt",
+    "sha256": "840be80392c7bd7435017e1db189990dc64c7b8aab918943cbdaea193d04749d",
+    "snapshot": "dependency-lock.snapshot"
+  },
+  "registrar": {
+    "python": "3.10.9 (main, Mar  1 2023, 12:33:47) [Clang 14.0.6 ]",
+    "pyyaml": "6.0",
+    "script_sha256": "ff5b1941c783012454c051c6b6878ee97bd990fa0e9c2406bebd89ca6d251a39"
+  },
+  "output_dir": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/evidence/final",
+  "output_inventory": [
+    {
+      "path": "comparison.json",
+      "size": 162920,
+      "mtime_ns": 1791297407506048036,
+      "sha256": "5ab08368be546bbacd0cc2b9475e5e4482da8ca08c7fc3aa7f922ad99306cbdd"
+    },
+    {
+      "path": "config.yaml",
+      "size": 3453,
+      "mtime_ns": 1791297407522540013,
+      "sha256": "6c074a186b4ad14123c2e61ef5dc1f5628aa9c2951c019eb27e3981dd334d435"
+    },
+    {
+      "path": "metrics.json",
+      "size": 64745,
+      "mtime_ns": 1791297407511078204,
+      "sha256": "9899db3e0489e39aa20632cb699efd0ef33d492d19ddeebe1c499b8cd223ece9"
+    },
+    {
+      "path": "release-check.json",
+      "size": 1728,
+      "mtime_ns": 1791297407524938700,
+      "sha256": "cc4b2a9f5d8ab83217b951c018f8c27058361f11aa0314e7b5cab2720f13f9e2"
+    },
+    {
+      "path": "times.json",
+      "size": 105,
+      "mtime_ns": 1791297407524689865,
+      "sha256": "fd7dd9a4dadae27a43b5d64d20a91d27b48637564f64254520897262ee9c6d65"
+    },
+    {
+      "path": "validation.md",
+      "size": 6434,
+      "mtime_ns": 1791297407508250805,
+      "sha256": "08eac0832615824f1b6ae3902b906f6a395d2ebdf5af19486cf3285db4f5477e"
+    }
+  ],
+  "outputs_hashed": true,
+  "limitations": [
+    "登记不验证命令曾被执行、数据 identity 或用户声明的实际运行环境",
+    "源码/输入/输出必须在登记期间保持不变；登记锁不锁实验进程",
+    "默认输出 size/mtime 不能验证内容；--hash-outputs 对普通文件保存 SHA256",
+    "输出符号链接只记录目标，不捕获目标内容"
+  ]
+}

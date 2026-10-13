@@ -1,0 +1,31 @@
+test_constant_quality_saturation_not_fixed_grid (test_regressions.DurationBudgetTests) ... ok
+test_emergency_model_budget_and_cost_bucket (test_regressions.DurationBudgetTests) ... planner: scarcity 0.07, time price fraction 0.12
+pro: 1 targets, 1 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_nonmonotone_crossings (test_regressions.DurationBudgetTests) ... ok
+test_saturation_threshold_endpoint_neighbours (test_regressions.DurationBudgetTests) ... ok
+test_all_layouts_and_levels (test_regressions.GeometryTests) ... ok
+test_coarse_offset_does_not_replace_better_current (test_regressions.GeometryTests) ... ok
+test_expired_budget_has_useful_fallback (test_regressions.GeometryTests) ... ok
+test_instrument_limits_and_short_night (test_regressions.GeometryTests) ... ok
+test_offset_scan_resumes (test_regressions.GeometryTests) ... ok
+test_opposite_fibres_reachable (test_regressions.GeometryTests) ... ok
+test_pointing_offset_evidence (test_regressions.GeometryTests) ... ok
+test_pole_and_ra_wrap (test_regressions.GeometryTests) ... ok
+test_async_busy_and_schema (test_regressions.ReviewTests) ... ok
+test_no_model_and_bounded_queue (test_regressions.ReviewTests) ... ok
+test_reject_invalid_and_nonfinite (test_regressions.ReviewTests) ... ok
+test_transport_failure_releases_slot (test_regressions.ReviewTests) ... ok
+test_factor_independent_of_best_score_after_loss (test_regressions.StateTests) ... ok
+test_request_exact_deadline_and_overlap (test_regressions.StateTests) ... ok
+test_request_only_target_survives_ranking (test_regressions.StateTests) ... ok
+test_result_processed_before_resync (test_regressions.StateTests) ... planner: scarcity 0.07, time price fraction 0.12
+pro: 1 targets, 1 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_resync_unknown_history_conservative (test_regressions.StateTests) ... ok
+test_short_request_below_coarse_floor (test_regressions.StateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.547s
+
+OK

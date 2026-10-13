@@ -1,0 +1,3 @@
+# v3.4 data contract
+
+Frozen input catalogue, calendar, forecasts, bulletins and engine truth shared per pair. Agents only receive public snapshots and own last_result, never engine log files or truth. Long-held has 180 nights and 6000 targets, a local workload proxy, not D1. All files hashed per run. 900 normalized CPU seconds; local independent wall protection set to 7200 seconds through the official supported runner argument. Platform clock values override the fallback. Models are off; API roles checked with local mocks. No independent blind score claim. Original cards needed to rerun; upload excludes inputs/truth/keys/binaries.

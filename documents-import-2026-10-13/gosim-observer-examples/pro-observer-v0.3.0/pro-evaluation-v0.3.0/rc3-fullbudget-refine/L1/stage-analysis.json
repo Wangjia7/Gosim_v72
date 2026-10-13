@@ -1,0 +1,33 @@
+{
+  "components_process_seconds": {
+    "candidate_generation": 75.46599500000039,
+    "exposure_search": 239.64888099996497,
+    "fiber_assignment": 75.9322530000349,
+    "lookahead": 0.0,
+    "season": 1.5103539999998827,
+    "state_update": 0.38186699999981166,
+    "visibility": 8.730517999999615
+  },
+  "level_counts": {
+    "0": 729,
+    "1": 12
+  },
+  "actual_width_summary": {
+    "min": 1.0,
+    "median": 1.0,
+    "max": 20.0,
+    "greater_than_old_cap5": 285,
+    "at_cap20": 48
+  },
+  "requested_width_summary": {
+    "min": 1.0,
+    "median": 3.8829103303931722,
+    "max": 20.0
+  },
+  "error_steps": [
+    741
+  ],
+  "termination": "agent_finished",
+  "full_season_comparison_valid": false,
+  "note": "Early internal KeyError; stage sums include decision records before failing step. Actual widths now correctly recorded and can exceed5; failed final totals do not establish full-season performance."
+}

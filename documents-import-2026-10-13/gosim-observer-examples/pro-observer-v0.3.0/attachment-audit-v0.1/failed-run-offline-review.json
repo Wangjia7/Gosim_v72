@@ -1,0 +1,1 @@
+{"deterministic": {"alarms": ["Step 741: recorded internal error."], "confidence": 1.0, "evidence": ["event 1481: decision", "event 1482: outcome"], "hypotheses": [], "recommended_ablations": [], "warnings": ["Step 741: outcome pending; no realized result inferred."]}, "mode": "step", "record_count": 2, "schema_version": "pro-qa-review-v1", "step": 741}

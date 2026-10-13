@@ -1,0 +1,7 @@
+event_id,event_type,actual_start_utc,actual_end_utc,scope_type,azimuth_start_deg,azimuth_end_deg,min_altitude_deg,max_altitude_deg,magnitude,severity,force_close,zero_score,seeing_multiplier,transparency_multiplier,sky_quality_multiplier,instrument_efficiency_multiplier
+V4EV0005,tornado,2026-11-05T01:15:00Z,2026-11-05T02:15:00Z,ALL,,,,,,0.841485,true,false,1.841485,0.284738,0.368886,1.000000
+V4EV0001,rainy,2026-11-05T06:30:00Z,2026-11-05T08:00:00Z,ALL,,,,,,0.638616,true,false,1.510893,0.521038,0.584899,1.000000
+V4EV0003,smoggy,2026-11-06T02:30:00Z,2026-11-06T03:30:00Z,HORIZON_SECTOR,152.738884,268.559786,0.000000,46.836496,,0.865055,false,false,1.129758,0.723182,0.757784,1.000000
+V4EV0006,rocket_launch,2026-11-07T03:00:00Z,2026-11-07T04:15:00Z,HORIZON_SECTOR,273.889814,325.564118,0.000000,46.873441,,1.000000,true,false,1.000000,1.000000,1.000000,1.000000
+V4EV0004,cold_wave,2026-11-07T06:30:00Z,2026-11-07T07:45:00Z,ALL,,,,,,0.963753,false,false,1.048188,0.961450,0.980725,1.000000
+V4EV0002,cloudy,2026-11-08T05:15:00Z,2026-11-08T06:30:00Z,ALL,,,,,,0.981619,false,false,1.245405,0.558271,0.656433,1.000000

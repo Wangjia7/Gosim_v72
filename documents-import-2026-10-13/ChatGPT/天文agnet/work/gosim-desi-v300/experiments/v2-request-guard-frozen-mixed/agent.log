@@ -1,0 +1,59 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.59, time price fraction 0.41
+pro: 1200 targets, 144 required, 7 nights; init 0.01s; model none (rules only)
+pro: E 2026-11-02T01:47:30Z 1.00 scale 0.708 band 0.745
+pro: E 2026-11-02T02:44:02Z 1.00 scale 0.710 band 0.747
+pro: E 2026-11-02T03:40:50Z 1.00 scale 0.738 band 0.777
+pro: E 2026-11-02T04:36:51Z 1.00 scale 0.784 band 0.847
+pro: E 2026-11-02T05:35:12Z 1.00 scale 0.748 band 0.796
+pro: E 2026-11-02T06:30:21Z 1.00 scale 0.782 band 0.824
+pro: E 2026-11-02T07:44:25Z 1.00 scale 0.747 band 0.791
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.747 band 0.786
+pro: E 2026-11-03T01:30:00Z 1.00 scale 0.824 band 0.867
+pro: E 2026-11-03T02:42:55Z 1.00 scale 0.837 band 0.881
+pro: E 2026-11-03T03:39:10Z 1.00 scale 0.874 band 0.882
+pro: E 2026-11-03T04:34:28Z 1.00 scale 0.918 band 0.966
+pro: E 2026-11-03T06:16:47Z 1.00 scale 0.935 band 0.985
+pro: E 2026-11-03T06:44:49Z 1.00 scale 0.944 band 0.985
+pro: E 2026-11-03T07:34:49Z 1.00 scale 0.828 band 0.907
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.794 band 0.865
+pro: E 2026-11-04T01:46:00Z 1.00 scale 0.829 band 0.872
+pro: E 2026-11-04T02:34:00Z 1.00 scale 0.742 band 0.781
+pro: E 2026-11-04T03:49:34Z 1.00 scale 0.728 band 0.767
+pro: E 2026-11-04T04:34:47Z 1.00 scale 0.728 band 0.767
+pro: E 2026-11-04T05:39:47Z 1.00 scale 0.823 band 0.797
+pro: E 2026-11-04T06:34:19Z 1.00 scale 0.823 band 0.872
+pro: E 2026-11-04T07:31:14Z 1.00 scale 0.767 band 0.807
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.728 band 0.766
+pro: E 2026-11-05T01:37:00Z 1.00 scale 0.755 band 0.795
+pro: E 2026-11-05T03:29:00Z 1.00 scale 0.702 band 0.739
+pro: E 2026-11-05T04:19:00Z 1.00 scale 0.346 band 0.438
+pro: E 2026-11-05T05:19:00Z 1.00 scale 0.203 band 0.288
+pro: E 2026-11-05T06:19:00Z 0.67 scale 0.203 band 0.322
+pro: E 2026-11-05T07:19:00Z 0.42 scale 0.203 band 0.513
+pro: report at 2026-11-05T07:20:00Z (quality below what the program bands allow), free left 2
+pro: report false (delta 0.0); free left 1
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.748 band 0.787
+pro: E 2026-11-06T03:00:00Z 1.00 scale 0.767 band 0.808
+pro: E 2026-11-06T04:30:00Z 1.00 scale 0.190 band 0.791
+pro: E 2026-11-06T05:32:00Z 1.00 scale 0.733 band 0.791
+pro: E 2026-11-06T06:32:00Z 1.00 scale 0.733 band 0.544
+pro: quality recovered at 2026-11-06T06:32:00Z; probing re-armed
+pro: E 2026-11-06T07:30:47Z 1.00 scale 0.741 band 0.795
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.749 band 0.789
+pro: E 2026-11-07T01:50:00Z 1.00 scale 0.723 band 0.761
+pro: E 2026-11-07T02:32:30Z 1.00 scale 0.763 band 0.803
+pro: E 2026-11-07T03:51:30Z 1.00 scale 0.767 band 0.807
+pro: E 2026-11-07T04:31:30Z 1.00 scale 0.726 band 0.761
+pro: E 2026-11-07T06:26:08Z 1.00 scale 0.764 band 0.804
+pro: E 2026-11-07T07:26:08Z 1.00 scale 0.387 band 0.804
+pro: E 2026-11-07T08:06:08Z 0.63 scale 0.387 band 0.649
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.684 band 0.721
+pro: E 2026-11-08T01:30:00Z 1.00 scale 0.748 band 0.721
+pro: E 2026-11-08T02:30:00Z 1.00 scale 0.546 band 0.787
+pro: E 2026-11-08T03:30:00Z 1.00 scale 0.546 band 0.574
+pro: E 2026-11-08T04:30:00Z 1.00 scale 0.748 band 0.574
+pro: E 2026-11-08T05:30:00Z 1.00 scale 0.748 band 0.787
+pro: E 2026-11-08T06:30:00Z 1.00 scale 0.639 band 0.673
+pro: E 2026-11-08T07:32:00Z 1.00 scale 0.637 band 0.671
+pro finished: termination_reason=agent_finished observes=350 reports=1

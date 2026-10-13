@@ -1,0 +1,24 @@
+{
+  "paired_scores": {
+    "value": {
+      "baseline-normal-b-900": 379.93474,
+      "candidate-normal-b-900": 379.93474,
+      "baseline-long-900": 6600.969311,
+      "candidate-long-900": 6498.21715,
+      "final-normal-b-900": 379.93474,
+      "final-long-900": 6585.261024
+    },
+    "unit": "score",
+    "artifact": "evidence/final/comparison.json"
+  },
+  "tests": {
+    "value": 66,
+    "unit": "count",
+    "artifact": "tests-python312-final.log"
+  },
+  "zip_valid": {
+    "value": true,
+    "unit": "boolean",
+    "artifact": "evidence/final/release-check.json"
+  }
+}

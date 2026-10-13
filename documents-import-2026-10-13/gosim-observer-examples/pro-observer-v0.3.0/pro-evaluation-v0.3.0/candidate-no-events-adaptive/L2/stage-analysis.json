@@ -1,0 +1,23 @@
+{
+  "components_process_seconds": {
+    "candidate_generation": 70.06024800000272,
+    "exposure_search": 232.25484200004368,
+    "fiber_assignment": 48.99402499995383,
+    "lookahead": 0.0,
+    "season": 1.9865290000001732,
+    "state_update": 0.3979560000003377,
+    "visibility": 12.056279999999273
+  },
+  "level_counts": {
+    "0": 817,
+    "1": 76
+  },
+  "width_summary": {
+    "min": 1.0,
+    "median": 5.0,
+    "max": 5.0,
+    "at_cap5": 799
+  },
+  "error_steps": [],
+  "note": "Sum recorded observer stages; official total process/charged CPU is authoritative."
+}

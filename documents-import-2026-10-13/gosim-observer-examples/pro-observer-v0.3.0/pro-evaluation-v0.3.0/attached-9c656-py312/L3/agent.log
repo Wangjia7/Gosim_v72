@@ -1,0 +1,31 @@
+v5: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+v7 switches: {"V6_DESI_HA":"0","V6_DL_FAULT":"0","V6_DL_FLAT":"0","V6_DL_HORIZON":"1","V6_DL_REQ":"1","V6_DL_WEATHER":"0","V6_FAULT_DEEP":"1","V6_FAULT_FIX":"1","V6_GROUP_REQUESTS":"0","V6_LP_EVENTS":"0","V6_LP_MOON":"0","V6_LP_WEATHER":"0","V6_POINT_MODEL":"0","V6_REWARD_SPLIT":"0","V7_API_ASYNC":"1","V7_API_POLICY":"tiered","V7_FAULT_MH":"0","V7_FAULT_U":"off","V7_FREE_POLICY":"v5","V7_MODEL_EFFORT":"auto","V7_NIGHTPLAN":"on","V7_PAID":"v5","V7_QA0":"0","V7_SHADOW":"1","V7_SHORT_API":"0","V7_SKILL":"0","V7_SPLIT_EV":"0","V7_WAIT_SKIP":"0","V7_WALL":"1"}
+planner: scarcity 0.86, time price fraction 0.45
+v5: 8700 targets, 435 required, 37 nights; init 0.14s; model none (rules only)
+season: night 0 demand/supply 1.83 prices slot price q10 0.00193 q50 0.00262 q90 0.00384, groups 113
+offset box: outcomes contradict it, widened to +-0.040 deg
+offset box: outcomes contradict it, widened to +-0.080 deg
+fault: report at h126.8: step 0.73 over 3 exposures / 1.5 h (free)
+v7 shadow: {"hours":126.75,"candidate":true,"evidence":"step 0.73 over 3 exposures / 1.5 h","free_left":2,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-11-21T07:15:00Z (step 0.73 over 3 exposures / 1.5 h), free left 2
+v5: report false (delta 0.0); free left 1
+season: night 15 demand/supply 2.34 prices slot price q10 0.00167 q50 0.00213 q90 0.00325, groups 112
+v5: earthquake notice at 2026-12-03T03:45:00Z
+fault: reference reset at h411.2 (earthquake onset)
+state_resync: 5956 targets keep a score; plan rebuilt
+fault: report at h603.0: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.56) (free)
+v7 shadow: {"hours":603.0,"candidate":true,"evidence":"1 exposures bound the efficiency below 0.87 (lowest upper bound 0.56)","free_left":1,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-12-11T03:30:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.56)), free left 1
+fault: reference reset at h603.0 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+season: night 30 demand/supply 6.21 prices slot price q10 0.00224 q50 0.00272 q90 0.00454, groups 111
+fault: report at h726.3: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.81) (free)
+v7 shadow: {"hours":726.3333333333334,"candidate":true,"evidence":"1 exposures bound the efficiency below 0.87 (lowest upper bound 0.81)","free_left":2,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-12-16T06:50:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.81)), free left 2
+v5: report false (delta 0.0); free left 1
+fault: report at h727.3: 1 exposures bound the efficiency below 0.82 (lowest upper bound 0.67) (free)
+v7 shadow: {"hours":727.3333333333334,"candidate":true,"evidence":"1 exposures bound the efficiency below 0.82 (lowest upper bound 0.67)","free_left":1,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-12-16T07:50:00Z (1 exposures bound the efficiency below 0.82 (lowest upper bound 0.67)), free left 1
+v5: report false (delta 0.0); free left 0
+v7model {"model_blocking_seconds": 0.0508929593488574, "wall_limit_seconds": 1800.0, "advice_applications": 0, "valid_model_responses": 0, "model_state_changes": 0, "model_report_vetoes": 0, "night_plan_cache_hits": 0, "application_note": "state changes and vetoes; not counterfactual action gain", "level_counts": {"0": 950}, "no_plan_waits": 0, "action_counts": {"observe": 859, "wait": 87, "report": 4}, "monitors": 0, "observes": 859}
+v5 finished: termination_reason=survey_complete observes=859 monitors=0 reports=4

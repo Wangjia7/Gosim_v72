@@ -1,0 +1,23 @@
+planner: scarcity 0.87, time price fraction 0.45
+v5: 7800 targets, 390 required, 32 nights; init 0.27s; model none (rules only)
+season: night 0 demand/supply 1.79 prices slot price q10 0.00179 q50 0.0027 q90 0.00359, groups 102
+v5: deep search on (cpu budget 756 ms, deep cost 372 ms)
+v5: deep search off (cpu budget 201 ms, deep cost 242 ms)
+v5: pace level 1 (cpu budget 201 ms, wall budget 353 ms, cpu costs [206, 69, 23, 8] ms, 880 decisions left)
+v5: pace level 0 (cpu budget 150 ms, wall budget 263 ms, cpu costs [149, 40, 17, 6] ms, 1164 decisions left)
+v5: pace level 1 (cpu budget 132 ms, wall budget 234 ms, cpu costs [135, 40, 17, 6] ms, 1293 decisions left)
+v5: pace level 0 (cpu budget 135 ms, wall budget 239 ms, cpu costs [135, 40, 17, 6] ms, 1265 decisions left)
+v5: deep search on (cpu budget 149 ms, deep cost 148 ms)
+v5: deep search off (cpu budget 163 ms, deep cost 197 ms)
+v5: pace level 1 (cpu budget 141 ms, wall budget 255 ms, cpu costs [143, 29, 12, 4] ms, 1137 decisions left)
+v5: pace level 0 (cpu budget 150 ms, wall budget 272 ms, cpu costs [143, 32, 12, 4] ms, 1069 decisions left)
+v5: deep search on (cpu budget 181 ms, deep cost 168 ms)
+v5: earthquake notice at 2026-11-12T04:45:00Z
+fault: reference reset at h244.2 (earthquake onset)
+season: night 15 demand/supply 2.45 prices slot price q10 0.00154 q50 0.00187 q90 0.00318, groups 102
+fault: report at h507.2: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.67) (free)
+v5: report at 2026-11-23T03:45:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.67)), free left 2
+fault: reference reset at h507.2 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+season: night 30 demand/supply 16.75 prices slot price q10 0.00216 q50 0.00315 q90 0.00568, groups 101
+{"family": "fused", "card": "L1", "total": 6351.901912, "counts": {"decisions": 1324, "observe_actions": 763, "observations": 9810, "targets_observed": 7274, "required_missing": 2, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 89.434, "speed_factor": 1.2164, "speed_factor_min": 1.1836, "speed_factor_max": 1.2164, "speed_samples": 2, "window_seconds": 108.834, "cpu_seconds": 107.231, "wait_seconds": 1.602, "run_wall_seconds": 119.537, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

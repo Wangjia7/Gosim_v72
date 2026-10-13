@@ -1,0 +1,13 @@
+{
+  "fixed_label": "science-broad",
+  "adaptive_label": "science-broad-adaptive",
+  "card": "L1",
+  "exact_action_json_equal": false,
+  "fixed_count": 984,
+  "adaptive_count": 988,
+  "first_different_decision_one_based": 44,
+  "fast_level_counts": {
+    "0": 864,
+    "1": 124
+  }
+}

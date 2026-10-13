@@ -1,0 +1,161 @@
+test_applied_anomaly_review_expires_at_next_ledger_version (test_core.CoreTests.test_applied_anomaly_review_expires_at_next_ledger_version) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":0,"invalidated_exposures":0,"cue":"retain","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[],"recent_exposures":[],"limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+ERROR
+test_bandfit_configuration_and_known_physics (test_core.CoreTests.test_bandfit_configuration_and_known_physics) ... ok
+test_common_program_uses_marginal_science (test_core.CoreTests.test_common_program_uses_marginal_science) ... ERROR
+test_duplicate_result_does_not_add_fault_evidence (test_core.CoreTests.test_duplicate_result_does_not_add_fault_evidence) ... ok
+test_each_request_uses_its_own_full_exposure_window (test_core.CoreTests.test_each_request_uses_its_own_full_exposure_window) ... ok
+test_fused_native_matches_python_including_cell_ties (test_core.CoreTests.test_fused_native_matches_python_including_cell_ties) ... ERROR
+test_loss_removes_geometry_evidence (test_core.CoreTests.test_loss_removes_geometry_evidence) ... ok
+test_monitor_is_available_without_science_value (test_core.CoreTests.test_monitor_is_available_without_science_value) ... ok
+test_new_weather_notice_filters_pending_but_quake_preserves_band (test_core.CoreTests.test_new_weather_notice_filters_pending_but_quake_preserves_band) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":1,"invalidated_exposures":0,"cue":"weather_or_earthquake_confounded","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[{"target_class":"Star","program":"DARK","duration_group":"medium","assigned":1,"hit":1,"missed":0,"zero_score":0}],"recent_exposures":[{"id":0,"utc":"2026-11-02T01:00:00+00:00","night":0,"epoch":0,"duration":900,"program":"DARK","assigned":1,"hits":1,"missed":0,"zero":0,"closed":false,"weather":["overcast"],"clean_samples":0,"ratio_bounds":null}],"limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+ERROR
+test_no_oracle_or_truth_hooks_in_fused_runtime (test_core.CoreTests.test_no_oracle_or_truth_hooks_in_fused_runtime) ... ok
+test_pacing_records_actual_search_level (test_core.CoreTests.test_pacing_records_actual_search_level) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_quake_curve_disabled_and_no_absolute_probe (test_core.CoreTests.test_quake_curve_disabled_and_no_absolute_probe) ... ok
+test_raw_and_science_maxima_are_independent_after_loss (test_core.CoreTests.test_raw_and_science_maxima_are_independent_after_loss) ... ok
+test_repair_epoch_survives_replay (test_core.CoreTests.test_repair_epoch_survives_replay) ... ok
+test_runtime_required_threshold_and_duration_bounds (test_core.CoreTests.test_runtime_required_threshold_and_duration_bounds) ... ERROR
+test_two_mock_llm_roles_in_fused_agent (test_core.CoreTests.test_two_mock_llm_roles_in_fused_agent) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":0,"invalidated_exposures":0,"cue":"retain","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[],"recent_exposures":[],"limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+ERROR
+test_strict_json_accepts_one_object_or_fence (test_llm.ModelTests.test_strict_json_accepts_one_object_or_fence) ... ok
+test_strict_json_rejects_multiple_objects_and_nonfinite (test_llm.ModelTests.test_strict_json_rejects_multiple_objects_and_nonfinite) ... ok
+test_two_local_model_roles_with_normal_planner (test_llm.ModelTests.test_two_local_model_roles_with_normal_planner) ... ok
+test_unknown_target_and_stale_ledger_are_rejected (test_llm.ModelTests.test_unknown_target_and_stale_ledger_are_rejected) ... ok
+test_best_exposure_does_not_sum (test_normal.Tests.test_best_exposure_does_not_sum) ... ok
+test_cpu_attribution_uses_actual_level (test_normal.Tests.test_cpu_attribution_uses_actual_level) ... ok
+test_data_loss_removes_learning_and_factor_contributions (test_normal.Tests.test_data_loss_removes_learning_and_factor_contributions) ... ok
+test_duplicate_result_not_recorded_twice (test_normal.Tests.test_duplicate_result_not_recorded_twice) ... ok
+test_duration_never_exceeds_instrument_limit (test_normal.Tests.test_duration_never_exceeds_instrument_limit) ... ok
+test_earthquake_does_not_erase_independent_band_evidence (test_normal.Tests.test_earthquake_does_not_erase_independent_band_evidence) ... planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+pro: earthquake notice at 2026-11-02T01:07:26Z
+ok
+test_expired_or_impossible_request_has_no_bonus (test_normal.Tests.test_expired_or_impossible_request_has_no_bonus) ... ok
+test_future_rising_request_target_cannot_break_current_search (test_normal.Tests.test_future_rising_request_target_cannot_break_current_search) ... ok
+test_geometry_full_neighbourhood_contains_opposite_cell (test_normal.Tests.test_geometry_full_neighbourhood_contains_opposite_cell) ... ok
+test_geometry_windows_require_entire_exposure (test_normal.Tests.test_geometry_windows_require_entire_exposure) ... ok
+test_jsonl_missing_key_and_duplicate_sequence (test_normal.Tests.test_jsonl_missing_key_and_duplicate_sequence) ... FAIL
+test_native_and_python_choose_same_action (test_normal.Tests.test_native_and_python_choose_same_action) ... ok
+test_program_uses_marginal_scores (test_normal.Tests.test_program_uses_marginal_scores) ... ok
+test_raw_factor_and_science_best_replay_separately (test_normal.Tests.test_raw_factor_and_science_best_replay_separately) ... ok
+test_repair_epoch_does_not_resurrect_old_calibration (test_normal.Tests.test_repair_epoch_does_not_resurrect_old_calibration) ... ok
+test_request_deadline_and_reward_cap (test_normal.Tests.test_request_deadline_and_reward_cap) ... ok
+test_request_progress_zero_is_not_reactivated (test_normal.Tests.test_request_progress_zero_is_not_reactivated) ... ok
+test_required_bound_and_runtime_threshold (test_normal.Tests.test_required_bound_and_runtime_threshold) ... ok
+test_unknown_program_factor_lower_is_independent_of_estimate (test_normal.Tests.test_unknown_program_factor_lower_is_independent_of_estimate) ... ok
+
+======================================================================
+ERROR: test_applied_anomaly_review_expires_at_next_ledger_version (test_core.CoreTests.test_applied_anomaly_review_expires_at_next_ledger_version)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 135, in test_applied_anomaly_review_expires_at_next_ledger_version
+    a.respond(payload);self.assertEqual(a.fault_likely,.1)
+    ^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 152, in respond
+    action = self._respond(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 282, in _respond
+    action = planner.plan(now, night_end, night_index, hours)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+ERROR: test_common_program_uses_marginal_science (test_core.CoreTests.test_common_program_uses_marginal_science)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 88, in test_common_program_uses_marginal_science
+    a=p.plan(p.nights[0][0],p.nights[0][1],0,0)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+ERROR: test_fused_native_matches_python_including_cell_ties (test_core.CoreTests.test_fused_native_matches_python_including_cell_ties)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 99, in test_fused_native_matches_python_including_cell_ties
+    actions.append(p.plan(p.nights[0][0],p.nights[0][1],0,0))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+ERROR: test_new_weather_notice_filters_pending_but_quake_preserves_band (test_core.CoreTests.test_new_weather_notice_filters_pending_but_quake_preserves_band)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 125, in test_new_weather_notice_filters_pending_but_quake_preserves_band
+    a.respond({'now_utc':fixture()['survey']['start_utc'],
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 152, in respond
+    action = self._respond(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 282, in _respond
+    action = planner.plan(now, night_end, night_index, hours)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+ERROR: test_runtime_required_threshold_and_duration_bounds (test_core.CoreTests.test_runtime_required_threshold_and_duration_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 54, in test_runtime_required_threshold_and_duration_bounds
+    p=Planner(d);now=p.nights[0][0];a=p.plan(now,p.nights[0][1],0,0)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+ERROR: test_two_mock_llm_roles_in_fused_agent (test_core.CoreTests.test_two_mock_llm_roles_in_fused_agent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_core.py", line 72, in test_two_mock_llm_roles_in_fused_agent
+    action=a.respond(payload)
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 152, in respond
+    action = self._respond(payload)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/agent.py", line 282, in _respond
+    action = planner.plan(now, night_end, night_index, hours)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/agent/fusion_core/planner.py", line 1030, in plan
+    cpu_started=time.process_time()
+                ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+
+======================================================================
+FAIL: test_jsonl_missing_key_and_duplicate_sequence (test_normal.Tests.test_jsonl_missing_key_and_duplicate_sequence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-logcpu-v34/tests/test_normal.py", line 184, in test_jsonl_missing_key_and_duplicate_sequence
+    self.assertEqual(len(lines),2);self.assertEqual(lines[0],lines[1]);self.assertEqual(json.loads(lines[0])['action'],'observe')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'wait' != 'observe'
+- wait
++ observe
+
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.097s
+
+FAILED (failures=1, errors=6)

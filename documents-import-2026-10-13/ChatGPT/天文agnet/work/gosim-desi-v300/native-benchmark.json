@@ -1,0 +1,6 @@
+{
+  "python": 0.003646013333333333,
+  "cpp": 4.314000000000003e-05,
+  "speedup": 84.51583990109714,
+  "scope": "same prepared 600-target,100-fibre,15-choice field; includes ctypes call, excludes gain table construction"
+}

@@ -1,0 +1,114 @@
+test_applied_anomaly_review_expires_at_next_ledger_version (test_core.CoreTests.test_applied_anomaly_review_expires_at_next_ledger_version) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"recent_nights":[],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":0,"invalidated_exposures":0,"cue":"retain","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[],"recent_exposures":[],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+season: night 0 demand/supply 1.18 prices slot price q10 6.43e-05 q50 9.56e-05 q90 0.000108, groups 2
+offset box: outcomes contradict it, widened to +-0.150 deg
+v5: deep search on (cpu budget 3600 ms, deep cost 3 ms)
+ok
+test_bandfit_configuration_and_known_physics (test_core.CoreTests.test_bandfit_configuration_and_known_physics) ... ok
+test_common_program_uses_marginal_science (test_core.CoreTests.test_common_program_uses_marginal_science) ... ok
+test_duplicate_result_does_not_add_fault_evidence (test_core.CoreTests.test_duplicate_result_does_not_add_fault_evidence) ... ok
+test_each_request_uses_its_own_full_exposure_window (test_core.CoreTests.test_each_request_uses_its_own_full_exposure_window) ... ok
+test_fused_native_matches_python_including_cell_ties (test_core.CoreTests.test_fused_native_matches_python_including_cell_ties) ... ok
+test_loss_removes_geometry_evidence (test_core.CoreTests.test_loss_removes_geometry_evidence) ... ok
+test_monitor_is_available_without_science_value (test_core.CoreTests.test_monitor_is_available_without_science_value) ... ok
+test_new_weather_notice_filters_pending_but_quake_preserves_band (test_core.CoreTests.test_new_weather_notice_filters_pending_but_quake_preserves_band) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"recent_nights":[{"epoch":0,"night":0,"exposures":1,"assigned":1,"hits":1,"clean_exposures":0,"quality_bounds":null}],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":1,"invalidated_exposures":0,"cue":"weather_or_earthquake_confounded","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[{"target_class":"Star","program":"DARK","duration_group":"medium","assigned":1,"hit":1,"missed":0,"zero_score":0}],"recent_exposures":[{"id":0,"utc":"2026-11-02T01:00:00+00:00","night":0,"epoch":0,"duration":900,"program":"DARK","assigned":1,"hits":1,"missed":0,"zero":0,"closed":false,"weather":["overcast"],"confounded":true,"clean_samples":0,"ratio_bounds":null}],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+v5: earthquake notice at 2026-11-02T01:00:00Z
+fault: reference reset at h-0.1 (earthquake onset)
+exposure review: {"recent_nights":[{"epoch":0,"night":0,"exposures":1,"assigned":1,"hits":1,"clean_exposures":0,"quality_bounds":null}],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":1,"invalidated_exposures":0,"cue":"weather_or_earthquake_confounded","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[{"target_class":"Star","program":"DARK","duration_group":"medium","assigned":1,"hit":1,"missed":0,"zero_score":0}],"recent_exposures":[{"id":0,"utc":"2026-11-02T01:00:00+00:00","night":0,"epoch":0,"duration":900,"program":"DARK","assigned":1,"hits":1,"missed":0,"zero":0,"closed":false,"weather":["earthquake"],"confounded":true,"clean_samples":1,"ratio_bounds":[0.2864583333333333,0.34375]}],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"recent_nights":[{"epoch":0,"night":0,"exposures":1,"assigned":1,"hits":1,"clean_exposures":0,"quality_bounds":null}],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":1,"invalidated_exposures":0,"cue":"weather_or_earthquake_confounded","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[{"target_class":"Star","program":"DARK","duration_group":"medium","assigned":1,"hit":1,"missed":0,"zero_score":0}],"recent_exposures":[{"id":0,"utc":"2026-11-02T01:00:00+00:00","night":0,"epoch":0,"duration":900,"program":"DARK","assigned":1,"hits":1,"missed":0,"zero":0,"closed":false,"weather":["cold_snap"],"confounded":true,"clean_samples":1,"ratio_bounds":[0.2864583333333333,0.34375]}],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+season: night 0 demand/supply 0.85 prices slot price q10 1.87e-05 q50 1.88e-05 q90 1.88e-05, groups 2
+ok
+test_no_oracle_or_truth_hooks_in_fused_runtime (test_core.CoreTests.test_no_oracle_or_truth_hooks_in_fused_runtime) ... ok
+test_pacing_records_actual_search_level (test_core.CoreTests.test_pacing_records_actual_search_level) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_quake_curve_disabled_and_no_absolute_probe (test_core.CoreTests.test_quake_curve_disabled_and_no_absolute_probe) ... ok
+test_raw_and_science_maxima_are_independent_after_loss (test_core.CoreTests.test_raw_and_science_maxima_are_independent_after_loss) ... ok
+test_repair_epoch_survives_replay (test_core.CoreTests.test_repair_epoch_survives_replay) ... ok
+test_runtime_required_threshold_and_duration_bounds (test_core.CoreTests.test_runtime_required_threshold_and_duration_bounds) ... ok
+test_two_mock_llm_roles_in_fused_agent (test_core.CoreTests.test_two_mock_llm_roles_in_fused_agent) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+exposure review: {"recent_nights":[],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":0,"invalidated_exposures":0,"cue":"retain","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[],"recent_exposures":[],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+llm fault review 2026-11-01: fault_likely=0.10 (no residual)
+season: night 0 demand/supply 1.18 prices slot price q10 6.43e-05 q50 9.56e-05 q90 0.000108, groups 2
+ok
+test_strict_json_accepts_one_object_or_fence (test_llm.ModelTests.test_strict_json_accepts_one_object_or_fence) ... ok
+test_strict_json_rejects_multiple_objects_and_nonfinite (test_llm.ModelTests.test_strict_json_rejects_multiple_objects_and_nonfinite) ... ok
+test_two_local_model_roles_with_normal_planner (test_llm.ModelTests.test_two_local_model_roles_with_normal_planner) ... ok
+test_unknown_target_and_stale_ledger_are_rejected (test_llm.ModelTests.test_unknown_target_and_stale_ledger_are_rejected) ... ok
+test_900_default_and_authoritative_speed_units (test_logcpu.LogCPUTests.test_900_default_and_authoritative_speed_units) ... ok
+test_enhanced_resync_drops_derived_anomaly_evidence_not_report_allowance (test_logcpu.LogCPUTests.test_enhanced_resync_drops_derived_anomaly_evidence_not_report_allowance) ... planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+state_resync: replayed 0 observes; invalid 1
+exposure review: {"recent_nights":[],"schema":"own-exposure-review-v1","checkpoint":1,"epoch":0,"valid_exposures":0,"invalidated_exposures":0,"cue":"retain","recent_miss_fraction":0.0,"recent_independent_clean_exposures":0,"previous_independent_clean_exposures":0,"required_unconfirmed":0,"required_examples":[],"by_class_program_duration":[],"recent_exposures":[],"ratio_definition":"unsaturated raw-factor bounds / public model factor, before learned throughput scaling","limitations":"raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion"}
+ok
+test_every_exposure_is_aggregated_and_duplicates_are_ignored (test_logcpu.LogCPUTests.test_every_exposure_is_aggregated_and_duplicates_are_ignored) ... ok
+test_expensive_review_cue_does_not_report_by_itself (test_logcpu.LogCPUTests.test_expensive_review_cue_does_not_report_by_itself) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_known_weather_in_other_sector_keeps_clean_field_evidence (test_logcpu.LogCPUTests.test_known_weather_in_other_sector_keeps_clean_field_evidence) ... ok
+test_legacy_charged_wait_is_explicit (test_logcpu.LogCPUTests.test_legacy_charged_wait_is_explicit) ... ok
+test_long_engine_gaps_do_not_reduce_cpu_search (test_logcpu.LogCPUTests.test_long_engine_gaps_do_not_reduce_cpu_search) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+v5: deep search on (cpu budget 7776 ms, deep cost 400 ms)
+planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+v5: deep search on (cpu budget 7776 ms, deep cost 400 ms)
+planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_long_season_model_quota_is_not_spent_in_first_night (test_logcpu.LogCPUTests.test_long_season_model_quota_is_not_spent_in_first_night) ... ok
+test_loss_undoes_group_counts_and_repeated_resync_is_idempotent (test_logcpu.LogCPUTests.test_loss_undoes_group_counts_and_repeated_resync_is_idempotent) ... ok
+test_model_wait_uses_wall_protection_not_cpu_or_engine_forecast (test_logcpu.LogCPUTests.test_model_wait_uses_wall_protection_not_cpu_or_engine_forecast) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+ok
+test_night_summaries_keep_repair_epochs_and_undo_invalidated_rows (test_logcpu.LogCPUTests.test_night_summaries_keep_repair_epochs_and_undo_invalidated_rows) ... ok
+test_no_hit_and_zero_score_are_distinct (test_logcpu.LogCPUTests.test_no_hit_and_zero_score_are_distinct) ... ok
+test_periodic_audit_does_not_rescan_all_old_records (test_logcpu.LogCPUTests.test_periodic_audit_does_not_rescan_all_old_records) ... ok
+test_recent_drop_requires_multiple_independent_clean_exposures (test_logcpu.LogCPUTests.test_recent_drop_requires_multiple_independent_clean_exposures) ... ok
+test_repair_uses_new_epoch_for_quality_comparisons (test_logcpu.LogCPUTests.test_repair_uses_new_epoch_for_quality_comparisons) ... ok
+test_wait_and_engine_elapsed_are_not_cpu (test_logcpu.LogCPUTests.test_wait_and_engine_elapsed_are_not_cpu) ... ok
+test_wall_protection_still_stops_expensive_search (test_logcpu.LogCPUTests.test_wall_protection_still_stops_expensive_search) ... planner: scarcity 0.01, time price fraction 0.09
+v5: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+v5: pace level 4 (cpu budget 32400 ms, wall budget 188 ms, cpu costs [0, 0, 0, 0] ms, 24 decisions left)
+ok
+test_weather_contamination_is_not_clean_throughput_evidence (test_logcpu.LogCPUTests.test_weather_contamination_is_not_clean_throughput_evidence) ... ok
+test_best_exposure_does_not_sum (test_normal.Tests.test_best_exposure_does_not_sum) ... ok
+test_cpu_attribution_uses_actual_level (test_normal.Tests.test_cpu_attribution_uses_actual_level) ... ok
+test_data_loss_removes_learning_and_factor_contributions (test_normal.Tests.test_data_loss_removes_learning_and_factor_contributions) ... ok
+test_duplicate_result_not_recorded_twice (test_normal.Tests.test_duplicate_result_not_recorded_twice) ... ok
+test_duration_never_exceeds_instrument_limit (test_normal.Tests.test_duration_never_exceeds_instrument_limit) ... ok
+test_earthquake_does_not_erase_independent_band_evidence (test_normal.Tests.test_earthquake_does_not_erase_independent_band_evidence) ... planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+pro: earthquake notice at 2026-11-02T01:07:26Z
+ok
+test_expired_or_impossible_request_has_no_bonus (test_normal.Tests.test_expired_or_impossible_request_has_no_bonus) ... ok
+test_future_rising_request_target_cannot_break_current_search (test_normal.Tests.test_future_rising_request_target_cannot_break_current_search) ... ok
+test_geometry_full_neighbourhood_contains_opposite_cell (test_normal.Tests.test_geometry_full_neighbourhood_contains_opposite_cell) ... ok
+test_geometry_windows_require_entire_exposure (test_normal.Tests.test_geometry_windows_require_entire_exposure) ... ok
+test_jsonl_missing_key_and_duplicate_sequence (test_normal.Tests.test_jsonl_missing_key_and_duplicate_sequence) ... ok
+test_native_and_python_choose_same_action (test_normal.Tests.test_native_and_python_choose_same_action) ... ok
+test_program_uses_marginal_scores (test_normal.Tests.test_program_uses_marginal_scores) ... ok
+test_raw_factor_and_science_best_replay_separately (test_normal.Tests.test_raw_factor_and_science_best_replay_separately) ... ok
+test_repair_epoch_does_not_resurrect_old_calibration (test_normal.Tests.test_repair_epoch_does_not_resurrect_old_calibration) ... ok
+test_request_deadline_and_reward_cap (test_normal.Tests.test_request_deadline_and_reward_cap) ... ok
+test_request_progress_zero_is_not_reactivated (test_normal.Tests.test_request_progress_zero_is_not_reactivated) ... ok
+test_required_bound_and_runtime_threshold (test_normal.Tests.test_required_bound_and_runtime_threshold) ... ok
+test_unknown_program_factor_lower_is_independent_of_estimate (test_normal.Tests.test_unknown_program_factor_lower_is_independent_of_estimate) ... ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 0.136s
+
+OK

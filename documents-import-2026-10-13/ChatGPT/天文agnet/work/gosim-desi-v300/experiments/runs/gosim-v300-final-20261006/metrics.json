@@ -1,0 +1,52 @@
+{
+  "totals": {
+    "value": [
+      341.748499,
+      2563.381294,
+      718.629241,
+      820.590491,
+      2645.900584,
+      671.862207
+    ],
+    "unit": "points",
+    "sample_count": 6,
+    "denominator": "one final scorer total per corrected card",
+    "artifact": "experiments/request-guard-results.json"
+  },
+  "required_missing": {
+    "value": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "unit": "count",
+    "sample_count": 6
+  },
+  "requests_completed": {
+    "value": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "unit": "count",
+    "sample_count": 6
+  },
+  "cpu_charged": {
+    "value": [
+      6.676,
+      45.559,
+      10.144,
+      16.917,
+      43.805,
+      9.031
+    ],
+    "unit": "standard_cpu_seconds",
+    "sample_count": 6
+  }
+}

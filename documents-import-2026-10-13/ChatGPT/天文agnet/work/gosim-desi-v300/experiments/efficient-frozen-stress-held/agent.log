@@ -1,0 +1,64 @@
+pro: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+planner: scarcity 0.30, time price fraction 0.21
+pro: 700 targets, 84 required, 8 nights; init 0.01s; model none (rules only)
+pro: earthquake notice at 2026-11-02T00:30:00Z
+state_resync: replayed 1 observes; invalid 0
+geometry: {'assigned': 9, 'hit_ids': 7, 'unmatched_assignments': 2, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': 0.0, 'offset_az_deg': -0.1, 'training_rows': 99, 'baseline_loss': 7, 'candidate_loss': 1, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 0, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.0, 'offset_az_deg_estimate': 0.0, 'offset_bound_deg': 0.2, 'evidence_rows': 99, 'exposures': 19, 'total_assigned': 99, 'total_hits': 92, 'pending_validation': True, 'fit_attempts': 1, 'next_fit_exposure': 27, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 10, 'hit_ids': 10, 'unmatched_assignments': 0, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_update': {'offset_alt_deg': 0.0, 'offset_az_deg': -0.1, 'validation_rows': 33, 'validation_exposures': 4, 'old_loss': 3, 'new_loss': 0}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.0, 'offset_az_deg_estimate': -0.1, 'offset_bound_deg': 0.2, 'evidence_rows': 132, 'exposures': 23, 'total_assigned': 132, 'total_hits': 122, 'pending_validation': False, 'fit_attempts': 1, 'next_fit_exposure': 31, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+pro: E 2026-11-03T00:30:00Z 0.53 scale 0.269 band 0.535
+pro: E 2026-11-03T02:07:30Z 0.53 scale 0.232 band 0.535
+pro: E 2026-11-03T02:57:30Z 0.53 scale 0.225 band 0.535
+pro: E 2026-11-03T03:57:30Z 0.53 scale 0.217 band 0.535
+pro: E 2026-11-03T04:57:30Z 0.59 scale 0.217 band 0.486
+pro: E 2026-11-03T05:47:30Z 0.44 scale 0.234 band 0.517
+pro: E 2026-11-03T06:47:30Z 0.47 scale 0.288 band 0.525
+pro: E 2026-11-03T07:37:30Z 0.59 scale 0.288 band 0.512
+pro: E 2026-11-04T00:30:00Z 0.59 scale 0.297 band 0.503
+pro: E 2026-11-04T01:50:00Z 0.59 scale 0.269 band 0.503
+pro: E 2026-11-04T02:30:00Z 0.59 scale 0.253 band 0.503
+pro: E 2026-11-04T03:40:00Z 1.00 scale 0.178 band 0.266
+pro: E 2026-11-04T04:55:00Z 0.53 scale 0.244 band 0.487
+pro: E 2026-11-04T05:35:00Z 0.50 scale 0.269 band 0.516
+pro: E 2026-11-04T06:43:11Z 1.00 scale 0.264 band 0.285
+pro: E 2026-11-04T07:38:11Z 0.53 scale 0.264 band 0.527
+pro: E 2026-11-05T00:30:00Z 0.53 scale 0.328 band 0.553
+pro: E 2026-11-05T02:15:00Z 0.53 scale 0.269 band 0.553
+pro: E 2026-11-05T02:55:00Z 0.53 scale 0.270 band 0.553
+pro: E 2026-11-05T03:35:00Z 0.53 scale 0.270 band 0.553
+pro: E 2026-11-05T04:40:00Z 0.63 scale 0.309 band 0.453
+pro: E 2026-11-05T06:00:00Z 0.63 scale 0.309 band 0.519
+pro: E 2026-11-05T06:30:00Z 0.63 scale 0.319 band 0.519
+pro: E 2026-11-05T08:00:00Z 1.00 scale 0.316 band 0.530
+pro: E 2026-11-06T00:30:00Z 0.75 scale 0.373 band 0.526
+pro: E 2026-11-06T02:10:00Z 0.75 scale 0.287 band 0.526
+pro: E 2026-11-06T02:50:00Z 0.75 scale 0.266 band 0.526
+pro: E 2026-11-06T03:30:00Z 1.00 scale 0.264 band 0.264
+pro: E 2026-11-06T04:55:00Z 0.59 scale 0.337 band 0.473
+pro: E 2026-11-06T05:55:00Z 0.75 scale 0.337 band 0.474
+pro: E 2026-11-06T06:55:00Z 0.70 scale 0.315 band 0.503
+pro: E 2026-11-06T07:55:00Z 0.56 scale 0.315 band 0.594
+pro: E 2026-11-07T00:30:00Z 0.79 scale 0.447 band 0.594
+pro: E 2026-11-07T01:49:00Z 0.79 scale 0.268 band 0.594
+pro: E 2026-11-07T02:44:00Z 0.63 scale 0.281 band 0.472
+pro: E 2026-11-07T03:39:00Z 0.53 scale 0.333 band 0.570
+pro: E 2026-11-07T04:39:00Z 0.63 scale 0.333 band 0.559
+pro: E 2026-11-07T05:39:00Z 0.63 scale 0.333 band 0.559
+pro: E 2026-11-07T06:39:00Z 0.67 scale 0.110 band 0.527
+pro: E 2026-11-07T07:55:00Z 0.20 scale 0.096 band 0.516
+pro: report at 2026-11-07T07:56:00Z (quality below what the program bands allow), free left 2
+pro: report correct, fault repaired (delta 100.0)
+pro: E 2026-11-08T01:42:11Z 1.00 scale 0.481 band 0.509
+pro: E 2026-11-08T03:07:11Z 1.00 scale 0.476 band 0.591
+pro: E 2026-11-08T03:30:11Z 1.00 scale 0.568 band 0.598
+pro: E 2026-11-08T05:30:00Z 1.00 scale 0.500 band 0.598
+pro: E 2026-11-08T06:30:00Z 1.00 scale 0.142 band 0.526
+pro: E 2026-11-08T07:34:30Z 0.94 scale 0.529 band 0.556
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.529 band 0.556
+pro: E 2026-11-09T01:35:00Z 1.00 scale 0.501 band 0.566
+pro: E 2026-11-09T03:00:00Z 1.00 scale 0.501 band 0.527
+pro: E 2026-11-09T03:30:00Z 1.00 scale 0.501 band 0.527
+pro: E 2026-11-09T04:30:00Z 1.00 scale 0.506 band 0.532
+pro: E 2026-11-09T05:50:00Z 1.00 scale 0.543 band 0.546
+pro: E 2026-11-09T06:45:00Z 1.00 scale 0.526 band 0.553
+pro: E 2026-11-09T07:55:00Z 0.94 scale 0.526 band 0.587
+pro finished: termination_reason=survey_complete observes=267 reports=1

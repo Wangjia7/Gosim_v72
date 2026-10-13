@@ -1,0 +1,63 @@
+[
+  {
+    "card": "L1",
+    "family": "baseline",
+    "start": "2026-10-06T09:11:44.989932+00:00",
+    "end": "2026-10-06T09:14:20.283987+00:00",
+    "exit_code": 0,
+    "elapsed_wall_seconds": 155.29003116604872,
+    "total": 6135.320432,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 100.0,
+      "required_penalty": -100.0,
+      "sum_best_scores": 5936.059104,
+      "uniformity_penalty": -0.738672
+    },
+    "counts": {
+      "decisions": 1497,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 10712,
+      "observe_actions": 934,
+      "required_missing": 2,
+      "targets_observed": 7437
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 2.943,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 3.266,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 153.395,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1135,
+      "speed_factor_max": 1.1135,
+      "speed_factor_min": 1.1042,
+      "speed_samples": 3,
+      "wait_seconds": 137.507,
+      "window_seconds": 140.773
+    },
+    "actions_sha256": "aa2b472e80659550a03c205977ba16a8b9f6f256c5c18bcea0ecbde8457df060",
+    "command": [
+      "/Users/jqwang/anaconda3/bin/python3",
+      "/Users/jqwang/Documents/ChatGPT/\u5929\u6587agnet/work/gosim-desi-v300/runner/run_local.py",
+      "--inherit-env",
+      "--card",
+      "/Users/jqwang/Documents/gosim-observer-examples/local-cards/L1",
+      "--agent",
+      "/Users/jqwang/anaconda3/bin/python3 -u agent.py",
+      "--agent-cwd",
+      "/Users/jqwang/Documents/ChatGPT/\u5929\u6587agnet/work/gosim-pro-normal-v32/baseline",
+      "--out",
+      "/Users/jqwang/Documents/ChatGPT/\u5929\u6587agnet/work/gosim-pro-normal-v32/experiments/initial-L1-baseline",
+      "--wallclock",
+      "180",
+      "--quiet"
+    ]
+  }
+]

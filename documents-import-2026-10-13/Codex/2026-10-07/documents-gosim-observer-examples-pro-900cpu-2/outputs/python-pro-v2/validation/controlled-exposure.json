@@ -1,0 +1,8 @@
+{
+  "experiment": "constant public quality; 16 fibres; rate_ema=0.01; no lunar attenuation; airmass_exponent=0",
+  "baseline_duration_seconds": 750,
+  "v2_duration_seconds": 631,
+  "assigned_fibres_both": 16,
+  "predicted_saturation_seconds": 630.927835,
+  "interpretation": "The breakpoint search captures saturation between fixed duration-grid points. This synthetic control does not imply a full-season score guarantee."
+}

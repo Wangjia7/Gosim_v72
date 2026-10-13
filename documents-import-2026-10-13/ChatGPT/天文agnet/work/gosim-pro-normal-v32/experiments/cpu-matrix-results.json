@@ -1,0 +1,289 @@
+[
+  {
+    "card": "L1",
+    "family": "baseline",
+    "total": 6164.814903,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 100.0,
+      "required_penalty": -100.0,
+      "sum_best_scores": 5965.435164,
+      "uniformity_penalty": -0.620261
+    },
+    "counts": {
+      "decisions": 1502,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 10693,
+      "observe_actions": 939,
+      "required_missing": 2,
+      "targets_observed": 7464
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 109.347,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 131.321,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 145.517,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1118,
+      "speed_factor_max": 1.2565,
+      "speed_factor_min": 1.1118,
+      "speed_samples": 3,
+      "wait_seconds": 1.761,
+      "window_seconds": 133.083
+    },
+    "out": "cpu-L1-baseline"
+  },
+  {
+    "card": "L1",
+    "family": "pruned",
+    "total": -12139.803468,
+    "components": {
+      "observation_request_reward": 0.0,
+      "report_settlement": 0.0,
+      "required_penalty": -12600.0,
+      "sum_best_scores": 509.323421,
+      "uniformity_penalty": -49.12689
+    },
+    "counts": {
+      "decisions": 82,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 0,
+      "observation_requests_issued": 1,
+      "observations": 889,
+      "observe_actions": 65,
+      "required_missing": 252,
+      "targets_observed": 864
+    },
+    "termination": "agent_error",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 8.541,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 9.616,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 10.29,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1259,
+      "speed_factor_max": 1.1259,
+      "speed_factor_min": 1.1259,
+      "speed_samples": 1,
+      "wait_seconds": 0.303,
+      "window_seconds": 9.919
+    },
+    "out": "cpu-L1-pruned"
+  },
+  {
+    "card": "L1",
+    "family": "cache",
+    "total": 5954.641189,
+    "components": {
+      "observation_request_reward": 100.0,
+      "report_settlement": 100.0,
+      "required_penalty": -100.0,
+      "sum_best_scores": 5855.634294,
+      "uniformity_penalty": -0.993105
+    },
+    "counts": {
+      "decisions": 1494,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 1,
+      "observation_requests_issued": 2,
+      "observations": 10494,
+      "observe_actions": 931,
+      "required_missing": 2,
+      "targets_observed": 7461
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 78.125,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 91.888,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 105.606,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1957,
+      "speed_factor_max": 1.1957,
+      "speed_factor_min": 1.1629,
+      "speed_samples": 2,
+      "wait_seconds": 1.879,
+      "window_seconds": 93.766
+    },
+    "out": "cpu-L1-cache"
+  },
+  {
+    "card": "L2",
+    "family": "baseline",
+    "total": 6098.333249,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 100.0,
+      "required_penalty": -300.0,
+      "sum_best_scores": 6101.979298,
+      "uniformity_penalty": -3.646049
+    },
+    "counts": {
+      "decisions": 1521,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 10647,
+      "observe_actions": 880,
+      "required_missing": 6,
+      "targets_observed": 7688
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 114.886,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 142.014,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 155.994,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.223,
+      "speed_factor_max": 1.2456,
+      "speed_factor_min": 1.223,
+      "speed_samples": 3,
+      "wait_seconds": 1.904,
+      "window_seconds": 143.919
+    },
+    "out": "cpu-L2-baseline"
+  },
+  {
+    "card": "L2",
+    "family": "pruned",
+    "total": 4875.078757,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 100.0,
+      "required_penalty": -250.0,
+      "sum_best_scores": 4829.545619,
+      "uniformity_penalty": -4.466862
+    },
+    "counts": {
+      "decisions": 1359,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 9157,
+      "observe_actions": 719,
+      "required_missing": 5,
+      "targets_observed": 6801
+    },
+    "termination": "agent_finished",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 95.087,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 115.038,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 128.956,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1938,
+      "speed_factor_max": 1.246,
+      "speed_factor_min": 1.178,
+      "speed_samples": 3,
+      "wait_seconds": 2.152,
+      "window_seconds": 117.19
+    },
+    "out": "cpu-L2-pruned"
+  },
+  {
+    "card": "sparse",
+    "family": "baseline",
+    "total": 481.63343,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -0.0,
+      "sum_best_scores": 302.60949,
+      "uniformity_penalty": -20.97606
+    },
+    "counts": {
+      "decisions": 265,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 658,
+      "observe_actions": 192,
+      "required_missing": 0,
+      "targets_observed": 460
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 3.753,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 4.183,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 4.478,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.1145,
+      "speed_factor_max": 1.1145,
+      "speed_factor_min": 1.1145,
+      "speed_samples": 1,
+      "wait_seconds": 0.005,
+      "window_seconds": 4.188
+    },
+    "out": "cpu-sparse-baseline"
+  },
+  {
+    "card": "sparse",
+    "family": "pruned",
+    "total": 497.560894,
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 0.0,
+      "required_penalty": -0.0,
+      "sum_best_scores": 300.566169,
+      "uniformity_penalty": -3.005275
+    },
+    "counts": {
+      "decisions": 261,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 643,
+      "observe_actions": 190,
+      "required_missing": 0,
+      "targets_observed": 459
+    },
+    "termination": "survey_complete",
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 6.72,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 7.265,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 7.565,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 1.0811,
+      "speed_factor_max": 1.0811,
+      "speed_factor_min": 1.0811,
+      "speed_samples": 1,
+      "wait_seconds": 0.01,
+      "window_seconds": 7.275
+    },
+    "out": "cpu-sparse-pruned"
+  }
+]

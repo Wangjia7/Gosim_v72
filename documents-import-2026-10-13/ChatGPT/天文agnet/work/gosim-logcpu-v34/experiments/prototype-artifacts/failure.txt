@@ -1,0 +1,1 @@
+First package validation failed: project_platform.manifest.ProjectError: Credentials and platform settings must not be placed in the project manifest. Cause: reserved OBSERVER_LOG_REVIEW and OBSERVER_MAX_BREADTH keys. Final changes use private FUSION_LOG_REVIEW and FUSION_MAX_BREADTH. No credentials were stored. Rejected archives retained here as evidence.

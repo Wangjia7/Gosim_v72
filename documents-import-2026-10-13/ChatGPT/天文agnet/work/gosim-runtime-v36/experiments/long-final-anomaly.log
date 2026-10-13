@@ -1,0 +1,2057 @@
+planner: scarcity 0.02, time price fraction 0.12
+pro: 6000 targets, 720 required, 180 nights; init 0.40s; model none (rules only)
+runtime review: {"state":"unknown","epoch":0,"valid_exposures":0,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T01:38:06Z 1.00 scale 0.733 band 1.000
+pro: E 2026-11-02T02:36:25Z 1.00 scale 0.752 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":8,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: pace level 1 (cpu budget 138 ms, wall budget 1978 ms, cpu costs [138, 24, 8, 3] ms, 2721 decisions left)
+pro: E 2026-11-02T03:38:29Z 1.00 scale 0.699 band 1.000
+geometry: {'assigned': 33, 'hit_ids': 25, 'unmatched_assignments': 8, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'proposal': {'offset_alt_deg': -0.10499999999999998, 'offset_az_deg': 0.0, 'training_rows': 192, 'baseline_loss': 49, 'candidate_loss': 1, 'status': 'awaiting subsequent exposure validation'}, 'geometry_version': 0, 'calibration_enabled': True, 'offset_alt_deg_estimate': 0.0, 'offset_az_deg_estimate': 0.0, 'offset_bound_deg': 0.13999999999999999, 'evidence_rows': 192, 'exposures': 12, 'total_assigned': 470, 'total_hits': 354, 'pending_validation': True, 'fit_attempts': 2, 'next_fit_exposure': 20, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+geometry: {'assigned': 45, 'hit_ids': 36, 'unmatched_assignments': 9, 'source': 'assigned fiber and published hit IDs; no actual fiber or offset supplied', 'calibration_update': {'offset_alt_deg': -0.10499999999999998, 'offset_az_deg': 0.0, 'validation_rows': 81, 'validation_exposures': 2, 'old_loss': 20, 'new_loss': 0}, 'geometry_version': 1, 'calibration_enabled': True, 'offset_alt_deg_estimate': -0.10499999999999998, 'offset_az_deg_estimate': 0.0, 'offset_bound_deg': 0.13999999999999999, 'evidence_rows': 192, 'exposures': 14, 'total_assigned': 551, 'total_hits': 415, 'pending_validation': False, 'fit_attempts': 2, 'next_fit_exposure': 22, 'last_pause': None, 'patient_validation': True, 'estimate_kind': 'bounded validated hypothesis, not truth'}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":16,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T04:37:20Z 1.00 scale 0.695 band 1.000
+pro: pace level 2 (cpu budget 96 ms, wall budget 1385 ms, cpu costs [138, 100, 8, 3] ms, 3885 decisions left)
+pro: E 2026-11-02T05:37:01Z 1.00 scale 0.748 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":24,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-02T06:31:44Z 1.00 scale 0.728 band 1.000
+pro: E 2026-11-02T07:33:44Z 1.00 scale 0.671 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":32,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":36,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":36,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.740 band 1.000
+pro: E 2026-11-03T01:55:32Z 1.00 scale 0.662 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":44,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T02:31:50Z 1.00 scale 0.667 band 1.000
+pro: E 2026-11-03T03:35:28Z 1.00 scale 0.655 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":52,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T04:31:16Z 1.00 scale 0.689 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":60,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-03T05:47:21Z 1.00 scale 0.793 band 1.000
+pro: E 2026-11-03T06:32:21Z 1.00 scale 0.779 band 1.000
+pro: E 2026-11-03T07:33:19Z 1.00 scale 0.702 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":68,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":71,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":71,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.773 band 1.000
+pro: E 2026-11-04T01:30:01Z 1.00 scale 0.558 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":79,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T02:41:35Z 1.00 scale 0.558 band 1.000
+pro: E 2026-11-04T03:33:08Z 1.00 scale 0.582 band 0.592
+pro: E 2026-11-04T04:39:49Z 1.00 scale 0.595 band 0.592
+runtime review: {"state":"normal","epoch":0,"valid_exposures":87,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-04T05:36:02Z 1.00 scale 0.654 band 0.592
+pro: E 2026-11-04T06:44:05Z 1.00 scale 0.587 band 0.592
+pro: E 2026-11-04T07:41:40Z 1.00 scale 0.529 band 0.592
+pro: pace level 1 (cpu budget 85 ms, wall budget 1225 ms, cpu costs [118, 85, 27, 2] ms, 4387 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":95,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: pace level 2 (cpu budget 84 ms, wall budget 1210 ms, cpu costs [118, 84, 27, 2] ms, 4440 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":96,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":96,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: pace level 1 (cpu budget 84 ms, wall budget 1210 ms, cpu costs [100, 71, 25, 2] ms, 4440 decisions left)
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.532 band 0.592
+pro: E 2026-11-05T01:35:00Z 1.00 scale 0.651 band 0.592
+pro: E 2026-11-05T02:42:52Z 1.00 scale 0.637 band 0.592
+runtime review: {"state":"normal","epoch":0,"valid_exposures":104,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T03:45:51Z 1.00 scale 0.535 band 0.597
+pro: pace level 2 (cpu budget 84 ms, wall budget 1214 ms, cpu costs [100, 85, 25, 2] ms, 4427 decisions left)
+pro: E 2026-11-05T04:41:51Z 1.00 scale 0.394 band 0.597
+runtime review: {"state":"normal","epoch":0,"valid_exposures":112,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T05:46:00Z 0.98 scale 0.566 band 0.597
+runtime review: {"state":"normal","epoch":0,"valid_exposures":120,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-05T06:59:40Z 1.00 scale 0.540 band 0.564
+pro: E 2026-11-05T08:09:42Z 1.00 scale 0.626 band 0.564
+runtime review: {"state":"normal","epoch":0,"valid_exposures":124,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":124,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.626 band 0.564
+pro: E 2026-11-06T01:42:58Z 1.00 scale 0.573 band 0.564
+runtime review: {"state":"normal","epoch":0,"valid_exposures":132,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T03:13:25Z 1.00 scale 0.532 band 0.566
+pro: E 2026-11-06T03:33:12Z 1.00 scale 0.578 band 0.566
+pro: E 2026-11-06T04:43:01Z 1.00 scale 0.604 band 0.566
+runtime review: {"state":"normal","epoch":0,"valid_exposures":140,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-06T05:57:50Z 1.00 scale 0.604 band 0.572
+pro: pace level 0 (cpu budget 89 ms, wall budget 1297 ms, cpu costs [85, 72, 23, 2] ms, 4144 decisions left)
+pro: E 2026-11-06T06:57:50Z 1.00 scale 0.604 band 0.572
+pro: E 2026-11-06T07:47:50Z 1.00 scale 0.604 band 0.572
+runtime review: {"state":"normal","epoch":0,"valid_exposures":146,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":146,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-07T00:30:00Z 1.00 scale 0.648 band 0.572
+pro: pace level 1 (cpu budget 89 ms, wall budget 1292 ms, cpu costs [91, 72, 23, 2] ms, 4157 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":154,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-07T01:56:00Z 1.00 scale 0.616 band 0.643
+pro: E 2026-11-07T02:57:58Z 1.00 scale 0.617 band 0.644
+pro: pace level 0 (cpu budget 93 ms, wall budget 1347 ms, cpu costs [91, 66, 23, 2] ms, 3988 decisions left)
+pro: E 2026-11-07T03:48:41Z 0.99 scale 0.617 band 0.644
+pro: pace level 1 (cpu budget 93 ms, wall budget 1347 ms, cpu costs [93, 66, 23, 2] ms, 3989 decisions left)
+pro: E 2026-11-07T04:31:28Z 1.00 scale 0.610 band 0.644
+pro: pace level 0 (cpu budget 94 ms, wall budget 1364 ms, cpu costs [93, 67, 23, 2] ms, 3937 decisions left)
+pro: pace level 1 (cpu budget 92 ms, wall budget 1336 ms, cpu costs [94, 67, 23, 2] ms, 4022 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":162,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: pace level 0 (cpu budget 94 ms, wall budget 1363 ms, cpu costs [94, 69, 23, 2] ms, 3940 decisions left)
+pro: E 2026-11-07T05:40:58Z 1.00 scale 0.607 band 0.644
+pro: E 2026-11-07T07:19:12Z 1.00 scale 0.643 band 0.644
+pro: E 2026-11-07T08:09:12Z 1.00 scale 0.619 band 0.644
+runtime review: {"state":"normal","epoch":0,"valid_exposures":166,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-08T00:30:00Z 1.00 scale 0.595 band 0.644
+pro: E 2026-11-08T01:43:22Z 1.00 scale 0.622 band 0.644
+pro: E 2026-11-08T02:34:19Z 1.00 scale 0.639 band 0.644
+pro: E 2026-11-08T04:15:55Z 1.00 scale 0.650 band 0.644
+runtime review: {"state":"normal","epoch":0,"valid_exposures":174,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-08T05:15:55Z 1.00 scale 0.654 band 0.644
+pro: E 2026-11-08T05:55:06Z 1.00 scale 0.656 band 0.644
+pro: E 2026-11-08T07:11:38Z 1.00 scale 0.634 band 0.644
+pro: E 2026-11-08T07:45:40Z 1.00 scale 0.634 band 0.644
+runtime review: {"state":"normal","epoch":0,"valid_exposures":182,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":182,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-09T00:30:00Z 1.00 scale 0.767 band 0.644
+pro: pace level 1 (cpu budget 112 ms, wall budget 1640 ms, cpu costs [114, 69, 23, 2] ms, 3274 decisions left)
+pro: pace level 0 (cpu budget 120 ms, wall budget 1749 ms, cpu costs [114, 68, 23, 2] ms, 3070 decisions left)
+pro: E 2026-11-09T02:19:38Z 1.00 scale 0.746 band 0.644
+pro: E 2026-11-09T02:45:13Z 1.00 scale 0.260 band 0.644
+pro: E 2026-11-09T03:35:13Z 0.60 scale 0.324 band 0.573
+runtime review: {"state":"normal","epoch":0,"valid_exposures":190,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-09T04:39:04Z 0.60 scale 0.747 band 0.510
+pro: report at 2026-11-09T05:23:20Z (quality below what the program bands allow), free left 2
+pro: report false (delta 0.0); free left 1
+pro: E 2026-11-09T07:57:12Z 1.00 scale 0.712 band 0.543
+pro: quality recovered at 2026-11-09T07:57:12Z; probing re-armed
+runtime review: {"state":"normal","epoch":0,"valid_exposures":198,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":198,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T00:30:00Z 1.00 scale 0.737 band 0.543
+pro: E 2026-11-10T01:42:30Z 1.00 scale 0.518 band 0.543
+pro: pace level 1 (cpu budget 119 ms, wall budget 1748 ms, cpu costs [124, 58, 20, 1] ms, 3072 decisions left)
+pro: E 2026-11-10T02:53:30Z 1.00 scale 0.622 band 0.575
+runtime review: {"state":"normal","epoch":0,"valid_exposures":206,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-10T03:54:21Z 1.00 scale 0.634 band 0.575
+pro: pace level 0 (cpu budget 125 ms, wall budget 1842 ms, cpu costs [124, 67, 20, 1] ms, 2914 decisions left)
+pro: E 2026-11-10T04:32:38Z 1.00 scale 0.619 band 0.575
+pro: pace level 1 (cpu budget 120 ms, wall budget 1765 ms, cpu costs [126, 67, 20, 1] ms, 3040 decisions left)
+pro: E 2026-11-10T05:59:31Z 1.00 scale 0.588 band 0.610
+pro: pace level 0 (cpu budget 126 ms, wall budget 1850 ms, cpu costs [126, 65, 20, 1] ms, 2901 decisions left)
+pro: E 2026-11-10T06:51:46Z 1.00 scale 0.582 band 0.610
+pro: E 2026-11-10T07:41:46Z 1.00 scale 0.543 band 0.610
+runtime review: {"state":"normal","epoch":0,"valid_exposures":214,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":215,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":215,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-11T00:30:00Z 1.00 scale 0.564 band 0.610
+pro: E 2026-11-11T02:03:53Z 1.00 scale 0.592 band 0.610
+pro: E 2026-11-11T02:43:53Z 1.00 scale 0.570 band 0.610
+pro: E 2026-11-11T03:43:53Z 1.00 scale 0.545 band 0.610
+pro: pace level 1 (cpu budget 132 ms, wall budget 1944 ms, cpu costs [134, 65, 20, 1] ms, 2761 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":223,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-11T04:56:53Z 1.00 scale 0.548 band 0.610
+runtime review: {"state":"normal","epoch":0,"valid_exposures":231,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-11T05:46:53Z 1.00 scale 0.595 band 0.604
+pro: E 2026-11-11T07:26:53Z 1.00 scale 0.595 band 0.604
+pro: E 2026-11-11T08:00:52Z 1.00 scale 0.591 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":236,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":236,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-12T00:30:00Z 1.00 scale 0.468 band 0.613
+pro: pace level 0 (cpu budget 120 ms, wall budget 1770 ms, cpu costs [114, 45, 17, 1] ms, 3029 decisions left)
+pro: E 2026-11-12T01:30:00Z 1.00 scale 0.405 band 0.613
+pro: pace level 1 (cpu budget 110 ms, wall budget 1616 ms, cpu costs [116, 45, 17, 1] ms, 3318 decisions left)
+runtime review: {"state":"normal","epoch":0,"valid_exposures":244,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":252,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":260,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-12T02:30:00Z 1.00 scale 0.366 band 0.432
+pro: E 2026-11-12T03:35:24Z 1.00 scale 0.352 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":268,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-12T04:35:24Z 1.00 scale 0.427 band 0.432
+pro: E 2026-11-12T06:05:24Z 1.00 scale 0.427 band 0.432
+pro: E 2026-11-12T06:55:24Z 1.00 scale 0.394 band 0.432
+pro: E 2026-11-12T07:45:24Z 1.00 scale 0.363 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":276,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":277,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":277,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-13T00:30:00Z 1.00 scale 0.351 band 0.432
+pro: E 2026-11-13T01:43:16Z 1.00 scale 0.360 band 0.432
+pro: E 2026-11-13T02:38:16Z 1.00 scale 0.359 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":285,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-13T03:38:16Z 1.00 scale 0.391 band 0.432
+pro: E 2026-11-13T04:38:16Z 1.00 scale 0.406 band 0.432
+pro: E 2026-11-13T05:38:16Z 1.00 scale 0.409 band 0.432
+pro: E 2026-11-13T06:38:16Z 1.00 scale 0.422 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":293,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: pace level 0 (cpu budget 101 ms, wall budget 1495 ms, cpu costs [98, 37, 14, 1] ms, 3586 decisions left)
+pro: E 2026-11-13T07:38:16Z 1.00 scale 0.422 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":296,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":296,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-14T00:30:00Z 1.00 scale 0.361 band 0.432
+pro: E 2026-11-14T02:00:00Z 1.00 scale 0.401 band 0.432
+pro: E 2026-11-14T02:50:00Z 1.00 scale 0.372 band 0.432
+pro: E 2026-11-14T03:40:00Z 1.00 scale 0.372 band 0.432
+pro: E 2026-11-14T04:50:36Z 1.00 scale 0.399 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":304,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-14T05:30:36Z 1.00 scale 0.399 band 0.432
+pro: E 2026-11-14T06:30:36Z 1.00 scale 0.397 band 0.432
+pro: E 2026-11-14T08:05:36Z 1.00 scale 0.389 band 0.432
+runtime review: {"state":"normal","epoch":0,"valid_exposures":310,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":310,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-15T00:30:00Z 1.00 scale 0.409 band 0.432
+pro: E 2026-11-15T02:00:00Z 1.00 scale 0.392 band 0.485
+pro: E 2026-11-15T03:00:00Z 0.90 scale 0.448 band 0.485
+pro: E 2026-11-15T04:00:00Z 1.00 scale 0.448 band 0.485
+pro: E 2026-11-15T04:40:00Z 1.00 scale 0.218 band 0.485
+pro: E 2026-11-15T05:40:28Z 1.00 scale 0.462 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":318,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-15T06:40:28Z 1.00 scale 0.467 band 0.485
+pro: E 2026-11-15T07:40:28Z 1.00 scale 0.497 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":321,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":321,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-16T00:30:00Z 1.00 scale 0.489 band 0.485
+pro: E 2026-11-16T02:10:00Z 1.00 scale 0.389 band 0.485
+pro: E 2026-11-16T03:00:00Z 1.00 scale 0.506 band 0.485
+pro: E 2026-11-16T04:00:00Z 1.00 scale 0.573 band 0.485
+pro: E 2026-11-16T05:00:00Z 1.00 scale 0.534 band 0.485
+pro: E 2026-11-16T06:00:00Z 1.00 scale 0.534 band 0.485
+pro: E 2026-11-16T06:50:00Z 1.00 scale 0.534 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":329,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-16T07:50:00Z 1.00 scale 0.534 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":331,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":331,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-17T00:45:00Z 1.00 scale 0.574 band 0.545
+pro: E 2026-11-17T02:25:00Z 1.00 scale 0.394 band 0.545
+pro: E 2026-11-17T03:25:00Z 1.00 scale 0.650 band 0.545
+pro: E 2026-11-17T04:25:00Z 1.00 scale 0.650 band 0.545
+pro: E 2026-11-17T05:25:00Z 1.00 scale 0.556 band 0.545
+pro: E 2026-11-17T06:15:00Z 1.00 scale 0.556 band 0.545
+pro: E 2026-11-17T07:15:00Z 1.00 scale 0.543 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":339,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":339,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-18T00:45:00Z 1.00 scale 0.543 band 0.545
+pro: E 2026-11-18T01:35:00Z 1.00 scale 0.401 band 0.545
+pro: E 2026-11-18T03:18:21Z 1.00 scale 0.743 band 0.545
+pro: E 2026-11-18T04:18:21Z 1.00 scale 0.736 band 0.545
+pro: E 2026-11-18T05:18:21Z 1.00 scale 0.700 band 0.578
+pro: E 2026-11-18T06:18:21Z 1.00 scale 0.700 band 0.578
+pro: E 2026-11-18T07:18:21Z 1.00 scale 0.700 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":347,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-18T08:12:30Z 1.00 scale 0.699 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":348,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":348,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-19T00:45:00Z 1.00 scale 0.756 band 0.578
+pro: E 2026-11-19T01:35:00Z 1.00 scale 0.405 band 0.578
+pro: E 2026-11-19T02:35:00Z 1.00 scale 0.409 band 0.578
+pro: E 2026-11-19T03:35:00Z 1.00 scale 0.657 band 0.578
+pro: E 2026-11-19T04:34:51Z 1.00 scale 0.695 band 0.578
+pro: E 2026-11-19T06:01:28Z 1.00 scale 0.695 band 0.578
+pro: E 2026-11-19T06:51:28Z 1.00 scale 0.649 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":356,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-19T07:41:28Z 1.00 scale 0.709 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":358,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":358,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-20T00:45:00Z 1.00 scale 0.707 band 0.578
+pro: E 2026-11-20T01:45:00Z 1.00 scale 0.448 band 0.578
+pro: E 2026-11-20T03:15:00Z 1.00 scale 0.448 band 0.578
+pro: E 2026-11-20T04:15:00Z 1.00 scale 0.448 band 0.578
+pro: E 2026-11-20T05:15:00Z 1.00 scale 0.448 band 0.578
+pro: E 2026-11-20T05:55:00Z 1.00 scale 0.448 band 0.578
+pro: E 2026-11-20T06:53:49Z 1.00 scale 0.448 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":366,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-20T07:43:49Z 1.00 scale 0.448 band 0.578
+runtime review: {"state":"normal","epoch":0,"valid_exposures":368,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":368,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-21T00:45:00Z 1.00 scale 0.779 band 0.578
+pro: E 2026-11-21T02:15:00Z 1.00 scale 0.645 band 0.578
+pro: E 2026-11-21T03:15:00Z 1.00 scale 0.645 band 0.649
+pro: E 2026-11-21T04:13:44Z 1.00 scale 0.645 band 0.649
+pro: E 2026-11-21T05:05:17Z 1.00 scale 0.761 band 0.649
+pro: E 2026-11-21T05:48:53Z 1.00 scale 0.761 band 0.649
+pro: E 2026-11-21T06:48:53Z 1.00 scale 0.735 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":376,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-21T07:48:53Z 1.00 scale 0.704 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":378,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":378,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-22T00:45:00Z 1.00 scale 0.695 band 0.649
+pro: E 2026-11-22T01:45:00Z 1.00 scale 0.694 band 0.649
+pro: E 2026-11-22T02:45:00Z 1.00 scale 0.704 band 0.649
+pro: E 2026-11-22T04:18:58Z 1.00 scale 0.704 band 0.649
+pro: E 2026-11-22T05:18:58Z 1.00 scale 0.725 band 0.649
+pro: E 2026-11-22T06:08:58Z 1.00 scale 0.725 band 0.649
+pro: E 2026-11-22T06:49:54Z 1.00 scale 0.725 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":386,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-22T08:09:16Z 1.00 scale 0.754 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":388,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-23T00:45:00Z 1.00 scale 0.742 band 0.649
+pro: E 2026-11-23T01:35:00Z 1.00 scale 0.543 band 0.649
+pro: E 2026-11-23T02:35:00Z 1.00 scale 0.665 band 0.649
+pro: E 2026-11-23T04:14:06Z 1.00 scale 0.665 band 0.649
+pro: E 2026-11-23T05:04:06Z 1.00 scale 0.646 band 0.649
+pro: E 2026-11-23T05:56:22Z 1.00 scale 0.646 band 0.649
+pro: E 2026-11-23T06:56:22Z 1.00 scale 0.694 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":396,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-23T08:02:08Z 1.00 scale 0.694 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":398,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-24T00:45:00Z 1.00 scale 0.694 band 0.649
+pro: E 2026-11-24T01:45:00Z 1.00 scale 0.573 band 0.649
+pro: E 2026-11-24T02:44:06Z 1.00 scale 0.574 band 0.649
+pro: E 2026-11-24T03:44:06Z 1.00 scale 0.574 band 0.649
+pro: E 2026-11-24T04:44:06Z 1.00 scale 0.908 band 0.649
+pro: E 2026-11-24T05:34:06Z 1.00 scale 0.813 band 0.649
+pro: E 2026-11-24T07:27:42Z 1.00 scale 0.813 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":406,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-24T08:07:42Z 1.00 scale 0.729 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":408,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":408,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-25T00:45:00Z 1.00 scale 0.722 band 0.649
+pro: E 2026-11-25T01:45:00Z 1.00 scale 0.649 band 0.649
+pro: E 2026-11-25T02:45:00Z 1.00 scale 0.849 band 0.649
+pro: E 2026-11-25T03:45:00Z 1.00 scale 0.915 band 0.649
+pro: E 2026-11-25T05:19:21Z 1.00 scale 1.083 band 0.649
+pro: E 2026-11-25T06:19:21Z 1.00 scale 0.656 band 0.649
+pro: E 2026-11-25T07:19:21Z 1.00 scale 0.656 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":416,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-25T08:09:21Z 1.00 scale 0.662 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":417,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-26T00:45:00Z 1.00 scale 1.017 band 0.649
+pro: E 2026-11-26T01:44:01Z 1.00 scale 0.663 band 0.649
+pro: E 2026-11-26T02:32:55Z 1.00 scale 0.664 band 0.649
+pro: E 2026-11-26T03:48:02Z 1.00 scale 0.664 band 0.649
+pro: E 2026-11-26T04:48:02Z 1.00 scale 0.665 band 0.649
+pro: E 2026-11-26T05:33:02Z 1.00 scale 0.665 band 0.649
+pro: E 2026-11-26T06:33:02Z 1.00 scale 0.665 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":425,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-26T08:03:02Z 1.00 scale 0.665 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":428,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":428,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-27T00:45:00Z 1.00 scale 0.875 band 0.649
+pro: E 2026-11-27T01:41:47Z 1.00 scale 0.683 band 0.649
+pro: E 2026-11-27T02:46:47Z 1.00 scale 0.687 band 0.649
+pro: E 2026-11-27T03:46:47Z 1.00 scale 0.913 band 0.649
+pro: E 2026-11-27T04:36:47Z 1.00 scale 0.914 band 0.649
+pro: E 2026-11-27T05:36:47Z 1.00 scale 0.913 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":436,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-27T06:36:47Z 1.00 scale 0.927 band 0.649
+pro: E 2026-11-27T07:36:47Z 1.00 scale 0.922 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":440,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":440,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-28T00:45:00Z 1.00 scale 0.944 band 0.649
+pro: E 2026-11-28T01:40:00Z 1.00 scale 0.695 band 0.649
+pro: E 2026-11-28T02:40:00Z 1.00 scale 0.825 band 0.649
+pro: E 2026-11-28T03:40:00Z 1.00 scale 0.812 band 0.649
+pro: E 2026-11-28T04:50:25Z 1.00 scale 0.798 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":448,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-28T06:26:38Z 1.00 scale 0.781 band 0.649
+pro: E 2026-11-28T07:26:38Z 1.00 scale 0.812 band 0.649
+pro: E 2026-11-28T07:51:38Z 1.00 scale 0.812 band 0.649
+runtime review: {"state":"normal","epoch":0,"valid_exposures":452,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":452,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-29T00:45:00Z 1.00 scale 0.812 band 0.649
+pro: E 2026-11-29T01:35:00Z 1.00 scale 0.249 band 0.649
+pro: E 2026-11-29T02:40:00Z 1.00 scale 0.249 band 0.287
+pro: E 2026-11-29T03:35:00Z 1.00 scale 0.249 band 0.271
+runtime review: {"state":"normal","epoch":0,"valid_exposures":460,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-29T04:32:30Z 1.00 scale 0.264 band 0.545
+pro: E 2026-11-29T05:32:30Z 0.54 scale 0.700 band 0.545
+pro: E 2026-11-29T06:57:30Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-29T07:57:30Z 0.54 scale 0.704 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":468,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":468,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-30T00:45:00Z 0.54 scale 0.905 band 0.545
+pro: E 2026-11-30T02:25:00Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-30T03:15:00Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-30T03:35:52Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-30T05:20:35Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-30T06:10:35Z 0.54 scale 0.704 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":476,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-11-30T06:40:35Z 0.54 scale 0.704 band 0.545
+pro: E 2026-11-30T07:40:35Z 0.54 scale 0.704 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":479,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":479,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-01T00:45:00Z 0.54 scale 0.931 band 0.545
+pro: E 2026-12-01T01:45:00Z 0.54 scale 0.704 band 0.545
+pro: E 2026-12-01T02:45:00Z 0.54 scale 0.600 band 0.545
+pro: E 2026-12-01T03:45:00Z 1.00 scale 0.600 band 0.545
+pro: E 2026-12-01T05:10:00Z 1.00 scale 0.630 band 0.545
+pro: E 2026-12-01T06:00:00Z 1.00 scale 0.630 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":487,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-01T07:19:17Z 1.00 scale 0.636 band 0.545
+pro: E 2026-12-01T08:09:17Z 1.00 scale 0.636 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":489,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-02T00:45:00Z 1.00 scale 0.636 band 0.545
+pro: E 2026-12-02T01:45:00Z 1.00 scale 0.704 band 0.545
+pro: E 2026-12-02T02:35:00Z 1.00 scale 0.629 band 0.545
+pro: E 2026-12-02T03:35:00Z 1.00 scale 0.604 band 0.545
+pro: E 2026-12-02T04:37:30Z 1.00 scale 0.274 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":497,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-02T05:42:30Z 0.53 scale 0.274 band 0.545
+pro: E 2026-12-02T07:12:00Z 0.53 scale 0.671 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":505,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-02T08:12:00Z 1.00 scale 0.671 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":506,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-03T01:00:00Z 1.00 scale 0.594 band 0.545
+pro: E 2026-12-03T02:00:00Z 1.00 scale 0.156 band 0.545
+pro: E 2026-12-03T02:50:00Z 1.00 scale 0.156 band 0.545
+pro: E 2026-12-03T03:30:00Z 0.32 scale 0.156 band 0.545
+runtime review: {"state":"normal","epoch":0,"valid_exposures":514,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-03T05:00:00Z 0.32 scale 0.704 band 0.613
+pro: E 2026-12-03T06:00:00Z 0.32 scale 0.704 band 0.613
+pro: E 2026-12-03T07:00:00Z 0.32 scale 0.704 band 0.613
+pro: E 2026-12-03T08:00:00Z 0.32 scale 0.707 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":522,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":522,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-04T01:00:00Z 0.32 scale 0.707 band 0.613
+pro: E 2026-12-04T02:00:00Z 0.32 scale 0.707 band 0.613
+pro: E 2026-12-04T03:00:00Z 0.32 scale 0.634 band 0.613
+pro: E 2026-12-04T03:40:00Z 1.00 scale 0.634 band 0.613
+pro: E 2026-12-04T04:40:00Z 1.00 scale 0.590 band 0.613
+pro: E 2026-12-04T06:20:00Z 1.00 scale 0.555 band 0.613
+pro: E 2026-12-04T07:20:00Z 1.00 scale 0.555 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":530,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-04T08:00:00Z 1.00 scale 0.555 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":531,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":531,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-05T01:00:00Z 1.00 scale 0.555 band 0.613
+pro: E 2026-12-05T02:00:00Z 1.00 scale 0.653 band 0.613
+pro: E 2026-12-05T02:30:00Z 1.00 scale 0.653 band 0.613
+pro: E 2026-12-05T03:30:00Z 1.00 scale 0.653 band 0.613
+pro: E 2026-12-05T05:10:00Z 1.00 scale 0.707 band 0.613
+pro: E 2026-12-05T06:10:00Z 1.00 scale 0.403 band 0.613
+pro: E 2026-12-05T07:00:00Z 0.81 scale 0.403 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":539,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-05T08:00:00Z 0.79 scale 0.707 band 0.613
+runtime review: {"state":"normal","epoch":0,"valid_exposures":542,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":542,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-06T01:00:00Z 0.79 scale 0.707 band 0.613
+pro: E 2026-12-06T02:00:00Z 0.79 scale 0.498 band 0.613
+pro: E 2026-12-06T02:40:00Z 0.79 scale 0.498 band 0.613
+pro: E 2026-12-06T03:40:00Z 1.00 scale 0.498 band 0.613
+pro: E 2026-12-06T04:30:00Z 1.00 scale 0.707 band 0.613
+pro: E 2026-12-06T05:30:00Z 1.00 scale 0.461 band 0.514
+pro: E 2026-12-06T06:30:00Z 1.00 scale 0.461 band 0.514
+pro: E 2026-12-06T07:30:00Z 1.00 scale 0.469 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":550,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":552,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":552,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-07T01:00:00Z 1.00 scale 0.469 band 0.485
+pro: E 2026-12-07T02:00:00Z 1.00 scale 0.462 band 0.485
+pro: E 2026-12-07T02:40:00Z 1.00 scale 0.462 band 0.485
+pro: E 2026-12-07T03:37:30Z 1.00 scale 0.462 band 0.458
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":560,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-07T05:32:30Z 1.00 scale 0.700 band 0.458
+pro: E 2026-12-07T06:32:30Z 1.00 scale 0.446 band 0.458
+runtime review: {"state":"normal","epoch":0,"valid_exposures":568,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-07T08:00:43Z 1.00 scale 0.446 band 0.458
+runtime review: {"state":"normal","epoch":0,"valid_exposures":571,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":571,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-08T01:00:00Z 1.00 scale 0.446 band 0.458
+pro: E 2026-12-08T02:00:00Z 1.00 scale 0.447 band 0.458
+pro: E 2026-12-08T02:50:00Z 1.00 scale 0.447 band 0.458
+pro: E 2026-12-08T03:40:00Z 1.00 scale 0.447 band 0.458
+pro: E 2026-12-08T04:31:01Z 1.00 scale 0.699 band 0.458
+pro: E 2026-12-08T05:36:01Z 1.00 scale 0.008 band 0.485
+pro: E 2026-12-08T06:30:00Z 0.03 scale 0.008 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":579,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-08T07:45:00Z 0.03 scale 0.695 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":580,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":580,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-09T01:00:00Z 0.03 scale 0.513 band 0.485
+pro: E 2026-12-09T02:00:00Z 0.03 scale 0.695 band 0.485
+pro: E 2026-12-09T03:00:00Z 0.03 scale 0.532 band 0.485
+pro: E 2026-12-09T03:50:00Z 0.03 scale 0.532 band 0.485
+pro: E 2026-12-09T04:50:00Z 1.00 scale 0.532 band 0.485
+pro: E 2026-12-09T05:50:00Z 1.00 scale 0.206 band 0.485
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":588,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-09T07:40:00Z 0.46 scale 0.695 band 0.485
+runtime review: {"state":"normal","epoch":0,"valid_exposures":594,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":594,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-10T01:00:00Z 0.46 scale 0.695 band 0.485
+pro: E 2026-12-10T02:00:00Z 0.46 scale 0.695 band 0.485
+pro: E 2026-12-10T03:00:00Z 0.46 scale 0.592 band 0.485
+pro: E 2026-12-10T04:00:00Z 1.00 scale 0.592 band 0.490
+pro: E 2026-12-10T05:00:00Z 1.00 scale 0.694 band 0.490
+pro: E 2026-12-10T06:00:00Z 1.00 scale 0.599 band 0.490
+pro: E 2026-12-10T07:00:00Z 1.00 scale 0.599 band 0.490
+pro: E 2026-12-10T08:00:00Z 1.00 scale 0.516 band 0.490
+runtime review: {"state":"normal","epoch":0,"valid_exposures":602,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":602,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-11T01:00:00Z 1.00 scale 0.516 band 0.490
+pro: E 2026-12-11T02:00:00Z 1.00 scale 0.617 band 0.490
+pro: E 2026-12-11T03:00:00Z 1.00 scale 0.617 band 0.490
+pro: E 2026-12-11T04:00:00Z 1.00 scale 0.617 band 0.490
+pro: E 2026-12-11T05:00:00Z 1.00 scale 0.671 band 0.490
+pro: E 2026-12-11T06:00:00Z 1.00 scale 0.643 band 0.490
+pro: E 2026-12-11T07:00:00Z 1.00 scale 0.622 band 0.490
+pro: E 2026-12-11T08:00:00Z 1.00 scale 0.622 band 0.490
+runtime review: {"state":"normal","epoch":0,"valid_exposures":610,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":610,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":610,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-12T01:00:00Z 1.00 scale 0.545 band 0.618
+pro: E 2026-12-12T02:00:00Z 1.00 scale 0.537 band 0.618
+pro: E 2026-12-12T02:59:26Z 1.00 scale 0.537 band 0.618
+pro: E 2026-12-12T03:49:26Z 1.00 scale 0.537 band 0.618
+pro: E 2026-12-12T04:49:26Z 1.00 scale 0.665 band 0.583
+pro: E 2026-12-12T05:49:26Z 1.00 scale 0.664 band 0.519
+pro: E 2026-12-12T06:49:26Z 1.00 scale 0.498 band 0.519
+pro: E 2026-12-12T07:47:17Z 1.00 scale 0.498 band 0.519
+runtime review: {"state":"normal","epoch":0,"valid_exposures":618,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":619,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-13T01:00:00Z 1.00 scale 0.498 band 0.519
+pro: E 2026-12-13T01:49:50Z 1.00 scale 0.662 band 0.519
+pro: E 2026-12-13T02:49:50Z 1.00 scale 0.520 band 0.519
+pro: E 2026-12-13T03:49:50Z 1.00 scale 0.520 band 0.519
+pro: E 2026-12-13T04:39:50Z 1.00 scale 0.655 band 0.519
+pro: E 2026-12-13T05:39:50Z 1.00 scale 0.655 band 0.519
+pro: E 2026-12-13T06:39:50Z 1.00 scale 0.455 band 0.519
+pro: E 2026-12-13T07:31:40Z 0.98 scale 0.455 band 0.519
+runtime review: {"state":"normal","epoch":0,"valid_exposures":627,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":630,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":630,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-14T01:00:00Z 1.00 scale 0.455 band 0.490
+pro: E 2026-12-14T02:00:00Z 1.00 scale 0.662 band 0.490
+pro: E 2026-12-14T03:00:00Z 1.00 scale 0.662 band 0.490
+pro: E 2026-12-14T04:00:00Z 1.00 scale 0.689 band 0.490
+pro: E 2026-12-14T05:00:00Z 1.00 scale 0.689 band 0.490
+pro: E 2026-12-14T06:00:00Z 1.00 scale 0.663 band 0.490
+pro: E 2026-12-14T07:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-14T08:00:00Z 1.00 scale 0.653 band 0.490
+runtime review: {"state":"normal","epoch":0,"valid_exposures":638,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":638,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":638,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-15T01:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T02:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T03:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T04:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T05:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T06:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T07:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-15T08:00:00Z 1.00 scale 0.653 band 0.490
+runtime review: {"state":"normal","epoch":0,"valid_exposures":646,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":646,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":646,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-16T01:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-16T02:00:00Z 1.00 scale 0.653 band 0.490
+pro: E 2026-12-16T03:00:00Z 1.00 scale 0.522 band 0.490
+pro: E 2026-12-16T04:00:00Z 1.00 scale 0.522 band 0.583
+pro: E 2026-12-16T05:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-16T06:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-16T07:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-16T08:00:00Z 0.99 scale 0.646 band 0.583
+runtime review: {"state":"normal","epoch":0,"valid_exposures":653,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":653,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-17T01:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T02:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T03:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T03:40:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T04:40:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T05:40:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-17T06:40:00Z 0.99 scale 0.646 band 0.583
+runtime review: {"state":"normal","epoch":0,"valid_exposures":661,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-17T07:50:53Z 0.99 scale 0.646 band 0.583
+plan none: info=114 ranked=1 scale=0.646 lam=0.0000 best=None
+runtime review: {"state":"normal","epoch":0,"valid_exposures":661,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":661,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-18T01:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T01:30:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T03:10:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T04:10:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T05:10:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T06:10:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-18T07:10:00Z 0.99 scale 0.646 band 0.583
+runtime review: {"state":"normal","epoch":0,"valid_exposures":669,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-18T08:10:00Z 0.99 scale 0.646 band 0.583
+runtime review: {"state":"normal","epoch":0,"valid_exposures":669,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":669,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-19T01:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-19T02:00:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-19T02:30:00Z 0.99 scale 0.646 band 0.583
+pro: E 2026-12-19T03:30:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-19T05:10:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-19T05:40:00Z 0.99 scale 0.646 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":677,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-19T06:30:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-19T07:30:00Z 0.99 scale 0.646 band 0.695
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":681,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"unavailable_candidate","epoch":0,"valid_exposures":681,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":689,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-20T02:50:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-20T03:50:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-20T05:15:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-20T06:15:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-20T06:55:00Z 0.99 scale 0.646 band 0.695
+plan none: info=103 ranked=4 scale=0.646 lam=0.0000 best=None
+pro: E 2026-12-20T07:30:00Z 0.99 scale 0.646 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":695,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":695,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-21T01:00:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-21T02:00:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-21T02:30:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-21T03:45:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-21T05:05:00Z 0.99 scale 0.646 band 0.695
+plan none: info=120 ranked=1 scale=0.646 lam=0.0000 best=None
+pro: E 2026-12-21T05:30:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-21T06:45:00Z 0.99 scale 0.646 band 0.695
+plan none: info=102 ranked=1 scale=0.646 lam=0.0000 best=None
+pro: E 2026-12-21T07:30:00Z 0.99 scale 0.646 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":702,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":702,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-22T01:00:00Z 0.99 scale 0.646 band 0.695
+pro: E 2026-12-22T02:00:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-22T03:00:00Z 0.99 scale 0.643 band 0.695
+plan none: info=149 ranked=1 scale=0.643 lam=0.0000 best=None
+pro: E 2026-12-22T03:30:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-22T04:30:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-22T05:30:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-22T06:30:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-22T07:30:00Z 0.99 scale 0.643 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":704,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":704,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-23T01:00:00Z 0.99 scale 0.643 band 0.695
+pro: E 2026-12-23T02:00:00Z 0.99 scale 0.642 band 0.695
+pro: E 2026-12-23T03:00:00Z 0.99 scale 0.536 band 0.695
+pro: E 2026-12-23T03:30:00Z 0.99 scale 0.536 band 0.695
+pro: E 2026-12-23T04:30:00Z 0.99 scale 0.641 band 0.695
+pro: E 2026-12-23T05:30:00Z 0.99 scale 0.641 band 0.695
+pro: E 2026-12-23T06:30:00Z 0.99 scale 0.641 band 0.695
+pro: E 2026-12-23T07:30:00Z 0.99 scale 0.641 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":706,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":706,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-24T01:00:00Z 0.99 scale 0.641 band 0.695
+pro: E 2026-12-24T02:00:00Z 0.99 scale 0.636 band 0.695
+pro: E 2026-12-24T03:00:00Z 0.99 scale 0.511 band 0.695
+pro: E 2026-12-24T03:30:00Z 0.99 scale 0.511 band 0.695
+pro: E 2026-12-24T04:30:00Z 0.99 scale 0.636 band 0.695
+pro: E 2026-12-24T05:30:00Z 0.99 scale 0.636 band 0.695
+pro: E 2026-12-24T06:30:00Z 0.99 scale 0.636 band 0.695
+pro: E 2026-12-24T07:30:00Z 0.99 scale 0.636 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":708,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":708,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-25T01:15:00Z 0.99 scale 0.636 band 0.695
+pro: E 2026-12-25T02:15:00Z 0.99 scale 0.634 band 0.695
+pro: E 2026-12-25T03:15:00Z 0.99 scale 0.469 band 0.695
+pro: E 2026-12-25T03:30:00Z 0.99 scale 0.469 band 0.695
+pro: E 2026-12-25T04:30:00Z 0.99 scale 0.469 band 0.695
+pro: E 2026-12-25T05:30:00Z 0.99 scale 0.634 band 0.695
+pro: E 2026-12-25T06:30:00Z 0.99 scale 0.634 band 0.695
+pro: E 2026-12-25T07:30:00Z 0.99 scale 0.634 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":710,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":710,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-26T01:15:00Z 0.99 scale 0.634 band 0.695
+pro: E 2026-12-26T02:15:00Z 0.99 scale 0.630 band 0.695
+pro: E 2026-12-26T03:15:00Z 0.99 scale 0.551 band 0.695
+pro: E 2026-12-26T03:30:00Z 0.99 scale 0.551 band 0.695
+pro: E 2026-12-26T04:30:00Z 0.99 scale 0.551 band 0.695
+pro: E 2026-12-26T05:30:00Z 0.99 scale 0.629 band 0.695
+pro: E 2026-12-26T06:30:00Z 0.99 scale 0.629 band 0.695
+pro: E 2026-12-26T07:30:00Z 0.99 scale 0.629 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":712,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":712,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-27T01:15:00Z 0.99 scale 0.629 band 0.695
+pro: E 2026-12-27T02:15:00Z 0.99 scale 0.629 band 0.695
+pro: E 2026-12-27T03:15:00Z 0.99 scale 0.605 band 0.695
+pro: E 2026-12-27T03:30:00Z 0.99 scale 0.605 band 0.695
+pro: E 2026-12-27T04:30:00Z 0.99 scale 0.605 band 0.695
+pro: E 2026-12-27T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-27T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-27T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":714,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":714,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-28T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T02:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T03:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-28T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":716,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":716,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-29T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T02:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T02:55:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-29T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":718,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":718,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-30T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-30T02:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=143 ranked=1 scale=0.626 lam=0.0000 best=None
+pro: E 2026-12-30T02:30:00Z 0.99 scale 0.626 band 0.695
+plan none: info=144 ranked=1 scale=0.626 lam=0.0000 best=None
+pro: E 2026-12-30T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-30T04:45:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-30T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-30T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-30T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":720,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":720,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2026-12-31T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T02:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2026-12-31T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-01T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=129 ranked=8 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-01T01:30:00Z 0.99 scale 0.626 band 0.695
+plan none: info=137 ranked=4 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-01T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-01T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-01T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-01T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-01T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-01T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-02T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=129 ranked=8 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-02T01:30:00Z 0.99 scale 0.626 band 0.695
+plan none: info=138 ranked=3 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-02T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-02T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-02T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-02T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-02T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-02T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-03T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=135 ranked=7 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-03T01:30:00Z 0.99 scale 0.626 band 0.695
+plan none: info=139 ranked=3 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-03T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-03T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-03T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-03T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-03T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-03T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-04T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=140 ranked=6 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-04T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-04T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-05T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=137 ranked=4 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-05T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-05T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-06T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=138 ranked=3 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-06T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-06T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-07T01:15:00Z 0.99 scale 0.626 band 0.695
+plan none: info=139 ranked=3 scale=0.626 lam=0.0000 best=None
+pro: E 2027-01-07T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-07T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-08T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-08T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-09T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-09T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-10T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-10T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-11T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-11T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-12T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-12T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-13T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-13T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-14T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-14T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-15T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-15T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-16T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-16T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-17T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-17T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-18T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-18T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-19T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-19T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-20T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-20T07:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-21T01:15:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-21T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-22T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-22T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-23T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-23T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-24T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-24T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-25T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-25T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-26T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-26T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-27T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-27T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-28T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-28T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-29T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-29T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-30T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-30T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-01-31T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-01-31T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-01T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-01T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-02T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-02T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-03T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-03T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-04T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-04T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-05T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-05T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-06T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-06T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-07T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T04:45:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-07T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-08T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-08T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-09T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T05:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-09T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-10T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-10T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-11T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-11T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-12T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-12T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-13T01:00:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T06:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T07:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-13T08:30:00Z 0.99 scale 0.626 band 0.695
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":721,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-14T00:45:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-14T01:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-14T02:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-14T03:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-14T04:30:00Z 0.99 scale 0.626 band 0.695
+pro: E 2027-02-14T05:30:00Z 0.99 scale 0.626 band 0.695
+pro: earthquake notice at 2027-02-14T06:15:00Z
+state_resync: replayed 721 observes; invalid 33
+runtime review: {"state":"inconclusive","epoch":0,"valid_exposures":688,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":690,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":690,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-15T03:45:00Z 0.73 scale 0.327 band 1.000
+pro: E 2027-02-15T04:45:00Z 0.64 scale 0.327 band 1.000
+pro: E 2027-02-15T05:45:00Z 0.64 scale 0.323 band 1.000
+pro: E 2027-02-15T06:45:00Z 0.64 scale 0.316 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":698,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-15T07:30:00Z 0.55 scale 0.305 band 1.000
+pro: E 2027-02-15T08:30:00Z 0.55 scale 0.305 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":698,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":698,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-16T00:45:00Z 0.55 scale 0.305 band 1.000
+pro: E 2027-02-16T01:45:00Z 0.55 scale 0.305 band 1.000
+pro: E 2027-02-16T02:45:00Z 0.55 scale 0.305 band 1.000
+pro: E 2027-02-16T03:45:00Z 0.55 scale 0.407 band 1.000
+pro: E 2027-02-16T04:45:00Z 0.77 scale 0.409 band 1.000
+pro: E 2027-02-16T05:45:00Z 0.71 scale 0.412 band 1.000
+pro: E 2027-02-16T06:45:00Z 0.71 scale 0.445 band 1.000
+pro: E 2027-02-16T07:35:00Z 0.77 scale 0.457 band 1.000
+pro: E 2027-02-16T08:30:00Z 0.84 scale 0.483 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":705,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":705,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-17T00:45:00Z 0.84 scale 0.483 band 1.000
+pro: E 2027-02-17T01:45:00Z 0.84 scale 0.327 band 1.000
+pro: E 2027-02-17T02:45:00Z 0.84 scale 0.455 band 1.000
+pro: E 2027-02-17T03:45:00Z 0.83 scale 0.455 band 1.000
+pro: E 2027-02-17T04:57:30Z 0.83 scale 0.422 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":713,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-17T06:10:00Z 0.68 scale 0.422 band 1.000
+pro: E 2027-02-17T06:32:30Z 0.75 scale 0.422 band 1.000
+pro: E 2027-02-17T07:30:00Z 0.72 scale 0.333 band 1.000
+pro: E 2027-02-17T08:30:00Z 0.72 scale 0.333 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":716,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":716,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-18T00:45:00Z 0.72 scale 0.333 band 1.000
+pro: E 2027-02-18T01:45:00Z 0.72 scale 0.333 band 1.000
+pro: E 2027-02-18T02:35:00Z 0.72 scale 0.333 band 1.000
+pro: E 2027-02-18T03:54:13Z 0.72 scale 0.333 band 1.000
+pro: E 2027-02-18T04:34:13Z 0.72 scale 0.333 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":724,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-18T05:34:13Z 0.72 scale 0.378 band 1.000
+pro: E 2027-02-18T06:34:13Z 0.72 scale 0.342 band 1.000
+pro: E 2027-02-18T07:30:00Z 0.72 scale 0.342 band 1.000
+pro: E 2027-02-18T08:30:00Z 0.72 scale 0.342 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":725,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":725,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-19T00:45:00Z 0.72 scale 0.342 band 1.000
+pro: E 2027-02-19T02:00:00Z 0.72 scale 0.317 band 1.000
+pro: E 2027-02-19T02:55:00Z 0.72 scale 0.317 band 1.000
+pro: E 2027-02-19T03:55:00Z 0.72 scale 0.342 band 1.000
+pro: E 2027-02-19T04:55:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-19T05:55:00Z 0.72 scale 0.398 band 1.000
+plan none: info=81 ranked=4 scale=0.398 lam=0.0001 best=None
+pro: E 2027-02-19T06:30:00Z 0.72 scale 0.398 band 1.000
+pro: E 2027-02-19T07:30:00Z 0.72 scale 0.378 band 1.000
+pro: E 2027-02-19T08:30:00Z 0.72 scale 0.378 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":732,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":732,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-20T00:45:00Z 0.72 scale 0.378 band 1.000
+pro: E 2027-02-20T01:45:00Z 0.72 scale 0.388 band 1.000
+pro: E 2027-02-20T02:45:00Z 0.72 scale 0.421 band 1.000
+pro: E 2027-02-20T03:45:00Z 0.72 scale 0.421 band 1.000
+pro: E 2027-02-20T04:45:00Z 0.72 scale 0.420 band 1.000
+pro: E 2027-02-20T05:45:00Z 0.72 scale 0.394 band 1.000
+plan none: info=86 ranked=3 scale=0.394 lam=0.0000 best=None
+pro: E 2027-02-20T06:30:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-20T07:30:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-20T08:30:00Z 0.72 scale 0.394 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":737,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":737,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-21T00:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T01:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T02:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T03:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T04:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T05:30:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T06:30:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T07:30:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-21T08:30:00Z 0.72 scale 0.394 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":741,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":741,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-22T00:45:00Z 0.72 scale 0.394 band 1.000
+pro: E 2027-02-22T01:45:00Z 0.72 scale 0.397 band 1.000
+pro: E 2027-02-22T02:45:00Z 0.72 scale 0.507 band 1.000
+pro: E 2027-02-22T03:45:00Z 0.92 scale 0.507 band 1.000
+pro: E 2027-02-22T04:45:00Z 0.92 scale 0.520 band 1.000
+pro: E 2027-02-22T05:45:00Z 1.00 scale 0.520 band 1.000
+plan none: info=67 ranked=3 scale=0.520 lam=0.0000 best=None
+pro: E 2027-02-22T06:30:00Z 1.00 scale 0.508 band 1.000
+pro: E 2027-02-22T07:30:00Z 1.00 scale 0.407 band 1.000
+pro: E 2027-02-22T08:30:00Z 1.00 scale 0.407 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":746,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":746,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-23T00:45:00Z 1.00 scale 0.407 band 1.000
+pro: E 2027-02-23T01:45:00Z 1.00 scale 0.552 band 1.000
+pro: E 2027-02-23T02:45:00Z 1.00 scale 0.557 band 1.000
+pro: E 2027-02-23T03:45:00Z 1.00 scale 0.557 band 1.000
+pro: E 2027-02-23T04:45:00Z 1.00 scale 0.569 band 1.000
+pro: E 2027-02-23T05:45:00Z 1.00 scale 0.569 band 1.000
+pro: E 2027-02-23T06:30:00Z 1.00 scale 0.569 band 1.000
+pro: E 2027-02-23T07:30:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-23T08:30:00Z 1.00 scale 0.420 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":751,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":751,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-24T00:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T01:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T02:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T03:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T04:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T05:30:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T06:30:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T07:30:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-24T08:30:00Z 1.00 scale 0.420 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":755,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":755,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-25T00:45:00Z 1.00 scale 0.420 band 1.000
+pro: E 2027-02-25T01:45:00Z 1.00 scale 0.471 band 1.000
+pro: E 2027-02-25T02:45:00Z 1.00 scale 0.471 band 1.000
+pro: E 2027-02-25T03:45:00Z 1.00 scale 0.471 band 1.000
+plan none: info=104 ranked=6 scale=0.471 lam=0.0000 best=None
+pro: E 2027-02-25T04:30:00Z 1.00 scale 0.439 band 1.000
+pro: E 2027-02-25T05:30:00Z 1.00 scale 0.422 band 1.000
+pro: E 2027-02-25T06:30:00Z 1.00 scale 0.422 band 1.000
+pro: E 2027-02-25T07:30:00Z 1.00 scale 0.422 band 1.000
+pro: E 2027-02-25T08:30:00Z 1.00 scale 0.422 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":758,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":758,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-26T00:45:00Z 1.00 scale 0.422 band 1.000
+pro: E 2027-02-26T01:45:00Z 1.00 scale 0.422 band 1.000
+pro: E 2027-02-26T02:45:00Z 1.00 scale 0.573 band 1.000
+pro: E 2027-02-26T03:45:00Z 1.00 scale 0.483 band 1.000
+pro: E 2027-02-26T04:45:00Z 1.00 scale 0.483 band 1.000
+pro: E 2027-02-26T05:30:00Z 1.00 scale 0.483 band 1.000
+pro: E 2027-02-26T06:30:00Z 1.00 scale 0.439 band 1.000
+pro: E 2027-02-26T07:30:00Z 1.00 scale 0.439 band 1.000
+pro: E 2027-02-26T08:30:00Z 1.00 scale 0.439 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":762,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":762,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-27T00:45:00Z 1.00 scale 0.439 band 1.000
+pro: E 2027-02-27T01:45:00Z 1.00 scale 0.592 band 1.000
+pro: E 2027-02-27T02:45:00Z 1.00 scale 0.592 band 1.000
+pro: E 2027-02-27T03:45:00Z 1.00 scale 0.510 band 1.000
+pro: E 2027-02-27T04:45:00Z 1.00 scale 0.494 band 1.000
+pro: E 2027-02-27T05:30:00Z 1.00 scale 0.494 band 1.000
+pro: E 2027-02-27T06:30:00Z 1.00 scale 0.464 band 1.000
+pro: E 2027-02-27T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-27T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":766,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":766,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-02-28T00:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T01:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T02:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-02-28T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":768,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":768,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-01T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T01:30:00Z 1.00 scale 0.457 band 1.000
+plan none: info=144 ranked=2 scale=0.457 lam=0.0000 best=None
+pro: E 2027-03-01T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-01T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":769,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":769,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-02T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-02T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-03T00:30:00Z 1.00 scale 0.457 band 1.000
+plan none: info=146 ranked=4 scale=0.457 lam=0.0000 best=None
+pro: E 2027-03-03T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-03T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-04T00:30:00Z 1.00 scale 0.457 band 1.000
+plan none: info=146 ranked=3 scale=0.457 lam=0.0000 best=None
+pro: E 2027-03-04T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-04T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-05T00:30:00Z 1.00 scale 0.457 band 1.000
+plan none: info=146 ranked=3 scale=0.457 lam=0.0000 best=None
+pro: E 2027-03-05T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-05T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-06T00:30:00Z 1.00 scale 0.457 band 1.000
+plan none: info=146 ranked=2 scale=0.457 lam=0.0000 best=None
+pro: E 2027-03-06T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-06T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-07T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-07T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-08T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-08T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-09T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-09T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-10T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-10T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-11T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-11T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-12T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-12T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-13T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-13T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-14T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-14T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-15T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-15T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-16T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-16T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-17T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-17T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-18T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-18T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-19T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-19T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-20T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-20T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-21T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-21T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-22T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-22T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-23T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-23T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-24T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-24T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-25T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-25T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-26T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-26T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-27T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-27T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-28T00:15:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-28T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-29T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-29T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-30T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-30T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-03-31T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-03-31T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-01T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-01T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-02T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-02T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-03T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-03T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-04T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-04T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-05T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-05T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-06T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-06T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-07T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-07T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-08T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-08T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-09T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-09T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-10T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-10T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-11T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-11T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-12T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-12T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-13T00:00:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-13T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-13T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-14T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-14T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-15T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-15T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-16T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-16T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-17T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-17T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-18T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-18T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-19T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-19T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-20T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-20T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-21T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-21T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-22T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-22T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-23T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-23T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-24T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-24T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-25T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-25T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-26T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-26T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-27T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-27T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-28T08:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"weather_confounded","epoch":0,"valid_exposures":770,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-28T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T01:37:30Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T08:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-29T09:30:00Z 1.00 scale 0.457 band 1.000
+runtime review: {"state":"normal","epoch":0,"valid_exposures":775,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+runtime review: {"state":"normal","epoch":0,"valid_exposures":775,"events":{"revision":0,"accepted":0,"rejected":0,"pending_hardware":0,"events":0,"cancelled":0}}
+pro: E 2027-04-29T23:45:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T00:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T01:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T02:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T03:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T04:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T05:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T06:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T07:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T08:30:00Z 1.00 scale 0.457 band 1.000
+pro: E 2027-04-30T09:30:00Z 1.00 scale 0.457 band 1.000
+{"family": "final-anomaly", "card": "long-held", "total": 6350.151358, "counts": {"decisions": 7798, "observe_actions": 808, "observations": 10508, "targets_observed": 5977, "required_missing": 3, "invalidated_observations": 394, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 900.0, "charged_seconds": 92.49, "speed_factor": 0.5667, "speed_factor_min": 0.5567, "speed_factor_max": 0.5667, "speed_samples": 2, "window_seconds": 52.792, "cpu_seconds": 51.572, "wait_seconds": 1.22, "run_wall_seconds": 75.617, "hard_cap_seconds": 7200.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

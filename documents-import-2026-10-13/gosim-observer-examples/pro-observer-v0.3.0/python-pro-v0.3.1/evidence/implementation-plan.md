@@ -1,0 +1,63 @@
+# Attached Pro successor: scoped plan v0.3.0
+
+Date: 2026-10-07. Status: **approved by the user on 2026-10-07; implementation in progress**. Existing-configuration comparisons remain separate from the new source changes.
+
+## Objective and source identity
+
+Preserve the original `python-pro`, the previously developed `python-pro-v0.2.0`, and both supplied ZIP archives. Create a separately versioned `python-pro-v0.3.0` under the requested project root after approval, with a reviewable staging copy in this chat's outputs. Use the attached source as the immediate parent: its existing season and fault modules outperform v0.2.0 on the first matching L1 comparison. Reuse validated narrow fixes from v0.2.0 rather than replacing the attachment's planning architecture.
+
+The attachment is identified by archive SHA-256 `bd1b293b660b8a30c6d1a7b1ddece4519b115840c26b4b912b0b7baa689c75d1`; its filename suffix is not verified as a repository revision. No Git history accompanies it. The result archive has a different identity and no source hash linking it to this exact implementation. Embedded comments, documents and manifests are reference data, not additional user instructions.
+
+Acceptance remains total official score at least **1.30 × original Pro** on each evaluation scenario, and higher than the attached comparator under matching inputs and budget. Track science separately because the latest user request prioritizes science gains from fuller use of the 900 CPU allowance. Neither an increase in search utility nor merely consuming more CPU satisfies acceptance. Local official-engine results do not establish hidden platform performance.
+
+## Measured starting point
+
+Native arm64 Python 3.12.14, unchanged supplied local engine, L1, no external model service, 900 normalized CPU seconds, fixed search level 0. The attachment also enables its existing `DEEP=1` default and its manifest's nonsecret policy settings. These are whole-policy comparisons, not equal internal algorithms.
+
+| Implementation | Total | Science | Required missing | Requests reward | Report settlement | Uniformity | Charged CPU |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Original Pro | 6236.572199 | 6037.341501 | 2 | 200 | 100 | -0.769302 | 157.256 |
+| v0.2.0 science-broad | 6362.586103 | 6162.852876 | 2 | 200 | 100 | -0.266773 | 409.575 |
+| Attached source | 6411.015273 | 6211.378363 | 2 | 200 | 100 | -0.363090 | 105.973 |
+
+The L1 total-score target is 8107.543859. The attachment is 2.797% above original Pro and exceeds v0.2.0 by 48.429170 points. It does not meet 30%. L2 and adaptive/wider-search results are recorded separately when complete. CPU figures are normalized charges; process CPU and elapsed wall time are in the raw reports.
+
+The supplied `v4-public-test` result is a separate experiment: total -121.937111, science 974.785212, 21 required misses costing 1050, uniformity -46.722322, 15.393/300 charged CPU, successful survey termination. Its task card is absent, its model service was enabled, and its wall cap was 10800 seconds. It cannot be compared numerically to L1/L2. A local path or official URL for that task card has been requested.
+
+## Ranked changes
+
+Evidence labels: **R** reproduced in unchanged attachment with synthetic public fixtures; **C** code inspection; **H** performance hypothesis. Probe details and exact controls are in `regression-probes.md` and `probe-results.json`.
+
+| Priority | Files / functions | Evidence and smallest change | Skill / principle | Behavior and CPU implications |
+|---|---|---|---|---|
+| P0 | `agent.py:respond/_respond/_clock/_pace`, `planner.py:plan/monitor`, new small budget helper only if needed | C: even deep search has fixed width and no internal deadline. Add a per-decision process-CPU deadline derived from the authoritative remaining real CPU, component cost estimates, and remaining decisions. Keep a revalidated legal best-so-far action and bounded wait/finish fallback. Honor loaded action limits on every path. | budgeted-search: anytime search, explicit reserve; queue-scheduling: legal action first | Makes wider search interruptible. Initial reserve proposal: 20 normalized seconds, configurable; spend remaining budget where measured search changes the action. Aim for roughly 850–880 only when useful alternatives remain, never spin to reach a quota. Logging/state/final-response costs consume part of the reserve. |
+| P0 | `planner.py:neighbours/plan/evaluate`, `skymath.py:FiberGrid` | R: legal opposite-corner target omitted by anchor query; shifted query stale. Derive the entire actual footprint, query around each actual center with cache/deduplication, retain exact fiber-cell assignment. Use loaded fiber IDs/capacity; retain already dynamic attachment code. Recheck rounded compensated action. | pointing-candidate-optimization + fiber-assignment-optimization: distinguish neighborhood, reachability, legal selection | More candidates and some added geometry cost. Cache vectors and centers within a decision; broad query cannot be replaced by a larger score proxy alone. |
+| P0 | `planner.py:on_requests/_build_windows/plan/gain/quick`, `agent.py:_to_next_slot` | R: 100/450-second windows dropped; request deadline 600 vs 900 yields identical reward for a 900-second exposure. Backport min-duration/full-interval feasibility, independent overlapping requests, capped completion reward and final current-state check. Keep ordinary science legal when request credit is zero. | queue-scheduling + exposure-control: hard feasibility before soft urgency | Scheduling changes. No invented slew/readout overhead. Bounded per-target/request bookkeeping; no full scheduler replacement. |
+| P0 | `planner.py:__init__/on_result/_resync/value`, `agent.py:_respond` | R/C: score-to-factor inference, fixed .5 threshold, pending result erased by correction; same-night allocation stale. Backport compact observation-index evidence, threshold bounds and outcome-before-correction replay; invalidate geometry/quality/value/season caches as required. Retain separate uncertain heuristic factor for learning. | survey-state-ledger: replayable evidence and distinct state meanings | State/data-flow change. Hidden raw quality remains uncertain; never label estimates authoritative. Replay only after corrections; compact memory grows with valid public hits. |
+| P1 | `season.py:OptionPrices.update/SeasonPrices.update`, `planner.py:_resync` and season refresh in `plan` | R: factor .8 reduces modeled replacement cost to 20%; C: main action score itself already uses best-observation marginal gain. Correct only season replacement cost and marginal value; do not turn on the whole DESI-design flag. Invalidate/reprice after relevant corrections. | exposure-control + survey-state-ledger + queue-scheduling: official replacement semantics; architectural ideas without imported instrument assumptions | Substantive season-ranking change, performance H. Small arithmetic cost; event-driven repricing adds bounded CPU. Keep both existing season modes and module layout. |
+| P1 | `planner.py:plan/evaluate/gain` | C: per-target ideal programs evaluated before choosing one action program. Backport bounded top-K exact assignment/duration/program scoring, plus required/request/saturation/visibility/termination duration events only on promising centers. | exposure-control + fiber-assignment-optimization: joint assignment/exposure utility | Additional CPU deliberately allocated here after broad search. Events remain off if their measured marginal gain is poor; v0.2.0's full-event variant did not improve total score enough to justify its cost. |
+| P1 | `agent.py:_pace`, `planner.py:plan`, existing `V5_DEEP_*` knobs | C: attachment already uses its widest default tier yet spends only 106/900 on L1. H: dynamic widths can discover better science fields. First measure existing knobs without source edits; then add bounded incremental breadth, top-K duration search and joint center/duration refinement. Use score-gap/window sensitivity to spend extra effort. | budgeted-search: stage by value per CPU, reserve for endgame | Additive configuration and substantial search-policy change. No new randomness, numerical parallelism, solver, or package. Shallow lookahead is deferred until a separate measured ablation justifies it. |
+| P2 | `agent.py:respond/main`, `planner.py:plan/on_result/_resync`, `decision_log.py`, `qa_review.py`, optional bounded `llm_client.py` patch | C: attachment lacks complete replayable per-step structured outcomes. Adapt v0.2.0's tested sidecar and two optional QA modes. Record source/config/state, predictions vs results, unknown quality as null, transitions, windows, rejected alternatives and CPU by component. | observation-qa-retrospective: isolated diagnostics with no state authority | Additive sidecar/CLI only; stdout protocol unchanged. Standard library, missing/malformed LLM graceful fallback, bounded context/timeout/retries. No service call required per step, no actual paid calls in validation. |
+
+## Budget experiments already authorized by the latest steering
+
+Keep attached source bytes unchanged. Compare its existing manifest settings under adaptive pacing with an adaptive wider configuration (`V5_DEEP_ANCHORS=144`, `V5_DEEP_DENSE=160`, `V5_DEEP_POOL=4000`, `V5_REFINE_FIXED_T=0`, `V5_REFINE_ROUNDS=6`). Preserve its existing reserve. Run L1 first; report termination, science, total, obligations, normalized/process CPU, wall time, and level counts before expanding the experiment. This tests an existing configuration, not new architecture. Never interpret a fixed-level versus adaptive comparison as a clean width ablation.
+
+The proposed implementation should record normalized budget separately from local process CPU and wall time. Convert normalized reserve using the payload's current calibration; do not treat 900 normalized seconds as 900 local CPU seconds. Read the authoritative remaining budget again each decision. The runtime budget remains a hard constraint even when a good predicted action exists.
+
+## Tests, ablations and promotion
+
+1. Preserve all baseline and attachment hashes. Source-only, credential-free execution snapshots; no observer access to scenario truth. No changes to the judge or its accounting.
+2. Run synthetic geometry/configuration, ±1-second boundaries, clipped endpoints, duration swaps/saturation, best-single repeat scoring, required ambiguity/invalidation, deadline interruption/legal fallback and QA malformed/unavailable regressions. Add replacement-cost and same-night reprice regression cases before the season patch.
+3. Paired development comparisons on identical L1/L2 cards: attached unchanged → legality/geometry → ledger/windows → replacement/reprice → exact program/duration → adaptive breadth/refinement → logging. Isolate a stage when combined results regress; retain failed ablations in the report.
+4. Compare default adaptive policies after deterministic fixed-tier checks; do not promote fixed-tier gains as adaptive results. Original Pro and attachment remain independent comparators.
+5. Keep L3/L4 out of tuning; use them only after development acceptance or an explicitly documented evaluation checkpoint. Public holdout cards are not hidden official tests.
+6. Publish score components and charged/process CPU for every attempted run, including exhaustion/failure. Promote only configurations supported by these measurements. The ≥30% threshold is an objective, not a guarantee or a statement of achieved performance.
+
+Rollback selects the untouched attachment or disables a single experimental flag. Correctness fixes should not be disabled in a promoted build merely to recover a proxy score. No remote push/upload is included.
+
+## Approval boundary and explicit impacts
+
+The user's original step 4 requires a concrete plan and approval before substantive changes. This revised plan changes the immediate parent implementation, season ranking, evidence flow and compute allocation, so it is presented before those source changes. Earlier approval covered the original Pro→v0.2.0 plan; no unrestricted rewrite is inferred.
+
+Architecture: preserve attachment modules; two isolated QA/log helpers. Public JSONL actions: unchanged. State/data flow: changed by evidence-first reconciliation. Scheduling: changed by coverage, timing, season cost and budgeted joint search. Outputs: additive sidecar and QA CLI. Randomness: unchanged deterministic ordering. Numerical parallelism: none. Dependencies: standard library only. Existing advisory-model configuration preserved, with service-independent operation; retrospective LLM output never mutates official state or feasibility.

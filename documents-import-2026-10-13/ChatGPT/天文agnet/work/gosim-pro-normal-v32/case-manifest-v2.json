@@ -1,0 +1,58 @@
+[
+  {
+    "name": "normal-a",
+    "split": "new-normal-validation",
+    "seed": 2026100617,
+    "targets": 1400,
+    "days": 7,
+    "fibers": 16,
+    "area": 0.4,
+    "threshold": 0.5,
+    "stress": false,
+    "sha256": {
+      "public/footprint.csv": "37251bb1793455f7f92fb34d9ae417afd0f5efacaa3608b1cdf7c3c40c8afd44",
+      "public/targets.csv": "74596179596ac1f714fc55fa9c160437ef4ee5e90082a450c79ceedd52a45579",
+      "public/v4_bulletins.jsonl": "9ed424f5c6fb56fa29c8d36ee880945cd73076cce796123fc4c4892828bcc14f",
+      "public/v4_forecasts.jsonl": "a2ab8ecb3440ec1601016abc7fd80a8a5e154c5f4fe07ec921ccd8db8bc56052",
+      "public/v4_night_calendar.csv": "317ba7e68d2d3f8104ab8a6580bfcfbd3417f5d4b3247e46ba4c86134bb9034e",
+      "truth/v4_earthquake_effects.csv": "14ea2015dcc6d5c447acf09f82f1037f50531576915625d23cf79228e338d451",
+      "truth/v4_events.csv": "d40ad04c948a1fc86dfc3701683b31d43d20c79102e5913c03231aca153e4616",
+      "truth/v4_observation_requests.jsonl": "5ede174b831a4fca871a70a72ea383719e897a5bea54bafd9b1ed8b5f1d49a85",
+      "truth/v4_slots.csv": "918d98bea8ec86f33b48acb47056157b0dea6539f2da7dad69f538089fd7422a",
+      "truth/v4_weather_truth.csv": "4540112bf2e7ec4682b5bc3de91067dcae4fe3da6926810173c1b1849ba4bf77",
+      "config/catalog-generation.json": "6994e0715c6bc2df106bd0e28c8b688602b9349ed5c84a03431047b490da4ad0",
+      "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+      "config/v4_scenario.json": "d3b5986846f5e1b4a59488d4bebcbb5e786daad2408c6ddd1ef90623a3efcc12",
+      "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+      "config/weather-generation.json": "adfbcbba3b34634f7a146769ecd8558e6028b9566112f903643914526b82e132"
+    }
+  },
+  {
+    "name": "normal-b",
+    "split": "new-normal-validation",
+    "seed": 2026100618,
+    "targets": 800,
+    "days": 7,
+    "fibers": 16,
+    "area": 0.4,
+    "threshold": 0.5,
+    "stress": false,
+    "sha256": {
+      "public/footprint.csv": "39035db793296913d125f302f3ccd3133ab50597312c57cdfd92c132573c8457",
+      "public/targets.csv": "26c891cfbdfc8057519f078a5d95a5bd7e0eca3c856cbb07ad2395dbd4be92f1",
+      "public/v4_bulletins.jsonl": "32c8443cebec6a49888c462a421a2d1d668cadf61ae10afd010540d87a27c22b",
+      "public/v4_forecasts.jsonl": "78621e20606ed66434b6532ff54a497a552982d2c06adef3b80f333cd9b605b8",
+      "public/v4_night_calendar.csv": "317ba7e68d2d3f8104ab8a6580bfcfbd3417f5d4b3247e46ba4c86134bb9034e",
+      "truth/v4_earthquake_effects.csv": "14ea2015dcc6d5c447acf09f82f1037f50531576915625d23cf79228e338d451",
+      "truth/v4_events.csv": "648ed87e1be822666c658fa31e425a922f3172e0b130365f0afe9e949ead128d",
+      "truth/v4_observation_requests.jsonl": "7e47de8d33c6a7a931d58684b51efd38ff7f9b32f2c2bf1589f6c541123ae868",
+      "truth/v4_slots.csv": "918d98bea8ec86f33b48acb47056157b0dea6539f2da7dad69f538089fd7422a",
+      "truth/v4_weather_truth.csv": "13013f35386ff2fdb67acce93e2b1958ebe825803c5c85a6f2be73cdfea4d998",
+      "config/catalog-generation.json": "84ebd95b00f4001a8d95b9510d1047ad2ad7d4c6c72866dafb490be361a7e3c4",
+      "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+      "config/v4_scenario.json": "b88e5a1c05ea73acdac0ce4f15a4aa9e81b993e2e0db49736d1cc63fcae9fcda",
+      "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+      "config/weather-generation.json": "8069eb3e33828b62ef694c48b58940b6c6637bee504149a989743fc9d87ceedb"
+    }
+  }
+]

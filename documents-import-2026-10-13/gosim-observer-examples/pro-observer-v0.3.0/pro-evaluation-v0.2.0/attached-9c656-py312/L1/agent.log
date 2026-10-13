@@ -1,0 +1,16 @@
+v5: OBSERVER_MODEL_DISABLED=1, running rules only (no model calls)
+v7 switches: {"V6_DESI_HA":"0","V6_DL_FAULT":"0","V6_DL_FLAT":"0","V6_DL_HORIZON":"1","V6_DL_REQ":"1","V6_DL_WEATHER":"0","V6_FAULT_DEEP":"1","V6_FAULT_FIX":"1","V6_GROUP_REQUESTS":"0","V6_LP_EVENTS":"0","V6_LP_MOON":"0","V6_LP_WEATHER":"0","V6_POINT_MODEL":"0","V6_REWARD_SPLIT":"0","V7_API_ASYNC":"1","V7_API_POLICY":"tiered","V7_FAULT_MH":"0","V7_FAULT_U":"off","V7_FREE_POLICY":"v5","V7_MODEL_EFFORT":"auto","V7_NIGHTPLAN":"on","V7_PAID":"v5","V7_QA0":"0","V7_SHADOW":"1","V7_SHORT_API":"0","V7_SKILL":"0","V7_SPLIT_EV":"0","V7_WAIT_SKIP":"0","V7_WALL":"1"}
+planner: scarcity 0.87, time price fraction 0.45
+v5: 7800 targets, 390 required, 32 nights; init 0.11s; model none (rules only)
+season: night 0 demand/supply 1.79 prices slot price q10 0.00184 q50 0.00214 q90 0.0036, groups 102
+v5: earthquake notice at 2026-11-12T04:47:30Z
+fault: reference reset at h244.2 (earthquake onset)
+season: night 15 demand/supply 2.46 prices slot price q10 0.00134 q50 0.00183 q90 0.00294, groups 101
+fault: report at h507.4: 1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68) (free)
+v7 shadow: {"hours":507.4166666666667,"candidate":true,"evidence":"1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68)","free_left":2,"paid_policy":"v5","actual_action":"report","p":null,"V":null,"threshold":null,"calibration":"uncalibrated"}
+v5: report at 2026-11-23T03:55:00Z (1 exposures bound the efficiency below 0.87 (lowest upper bound 0.68)), free left 2
+fault: reference reset at h507.4 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+season: night 30 demand/supply 16.48 prices slot price q10 0.00209 q50 0.00513 q90 0.00677, groups 101
+v7model {"model_blocking_seconds": 0.04525820701383054, "wall_limit_seconds": 1800.0, "advice_applications": 0, "valid_model_responses": 0, "model_state_changes": 0, "model_report_vetoes": 0, "night_plan_cache_hits": 0, "application_note": "state changes and vetoes; not counterfactual action gain", "level_counts": {"0": 831}, "no_plan_waits": 0, "action_counts": {"observe": 770, "wait": 60, "report": 1}, "monitors": 0, "observes": 770}
+v5 finished: termination_reason=survey_complete observes=770 monitors=0 reports=1

@@ -1,0 +1,1265 @@
+{
+  "source": {
+    "planner.py": "c71b3e2dde276b21b878523cfc726fac09452a62e3e405b2788c6b80b3f2d0e0",
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "FUSION_PROVENANCE.json": "3637fc0ec810835488e3afcdcc6a0548dcae2f29cad6a4a1468377e78cc4d4ea",
+    "log_review.py": "fc374c651b1b0753ea66a9d6541c60a90e3f7cf266961b237daa4d24d539c9ae",
+    "joint.cpp": "38f9d301022c8765a94eb4da8a4ced854863917f215e11ba7373c5ef64b47e91",
+    "CHANGELOG.md": "439f5cb085711952dfdae95ce07e0290a1158232192fe513189897aacdb2177f",
+    "budget.py": "e5a10b4d939d81a81d20b05946da7c0779ed033160d4fea15aae247631c448a8",
+    "advisor.py": "f0764e1c3985a883d4b105c272a05c82aa3aa7c6112d14db23c77e588e0b43e9",
+    "VALIDATION.md": "50e9384cc3c9b8c8792f863a428153e2a9f1116c72490a719ba467e13120dd0a",
+    "skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "native.py": "9d249fdcc5320664d42fc8fe7e19eda6b594a35ddc8c2d4fa5917f4898702d99",
+    "inspection.py": "f524a5d28c8d20a61acfcd07a77e461f5ed25e7bcb55ab531741224d729a4e80",
+    "README.md": "95b50ad93189886697ef724ed20878038167b74973435ef206194cc8218497fb",
+    "geometry_feedback.py": "e2b55e0efc115cd85ee41292dda5926d237cded0aace41001df9ed9c38aedd59",
+    "opportunities.py": "4e8479ce4a4d2b621d3c2f204e5faa266ed68b45d9724ae0f9e3a64be519b14c",
+    "operator_cli.py": "3bce687977aace039bc3f675468da4143843f3ef58a1fad2b538f9e1a03ae15b",
+    "llm_client.py": "a1e91cbe181b79facf214fe8f2ba5c494f7de8e830eb07b171498dbc1b248c99",
+    "routing.py": "307f9fb992e50aacf6b5513764832ccd949e6939b09d32baa48a249a977c6a9a",
+    "agent.py": "22182ce4cb8b2b682845ec23804d631348bc32931c7601ffa854b95b9ad3b460",
+    "enhanced_agent.py": "756a6ef6ed0bdb49f87ae4add06bc219c354331807c10b71e88fce00850995c1",
+    "observer.project.json": "dc15c6f6e2c0b7439905ab4d697d5af545ed556a032a614c955452b5f03d1f47",
+    "pack_agent.py": "cbf336a58a5b0e4741a238a666bbe7051c72acf5e0cb50d2321223e38481914c",
+    "build_native.py": "e51da822363900b2a1816812258edd0ecdc93c1c6762cc523b116d12ae48d98b",
+    "fusion_core/guarded.py": "cd924d237fc1362ffb7f729cc049cab94ad32c24c739963ad23b799d6f903eda",
+    "fusion_core/planner.py": "6799634b232c68d34b469242072e0b6b369028e4285edc37961d5b234a5b8c2a",
+    "fusion_core/bandfit.py": "1415f42dbc670be5a5799c01ba11bdad18f471e87c25930b4b6928decc1d774d",
+    "fusion_core/skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26",
+    "fusion_core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fusion_core/agent.py": "05bba79f3d51563a5b9cbd44a8248249168fb4600edfb9583e509613e9ea8493",
+    "fusion_core/season.py": "a1c6f52b9587bba3febe63417d31560412c0583ffcb14d4019202f47449eb0e5",
+    "fusion_core/fault.py": "fe7b592519df883eaa8a460c6c01e5818287144edfd969b638cf8875a1c20bf0",
+    "official_pro/planner.py": "ca72da4ad5cf2b84be6dd84474923d47f47a96c0d5d01c21ced382cd29ff66c1",
+    "official_pro/advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "official_pro/skymath.py": "3301b44c9711a7d57edb49d05cbaf0c95bc47ada8a02d59372484eff24e1ef79",
+    "official_pro/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "official_pro/opportunities.py": "6514696e20d5e8ce8bc897fa55e4327436b25b86caf4a74ceff86ba664e00317",
+    "official_pro/llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "official_pro/agent.py": "b4cef53179b2505cd563813b444ce6c25df92354bfb45807b2ca3f2764684d64",
+    "official_pro/AGENTS.md": "c75d9bed09ee4ba7b42c2b80bcc87538b798e04550dd37826f03c900553279d9",
+    "skills/astronomy-observer/SKILL.md": "8eea6149bdbe5729d15e85b112ea7db7156fb075ed9268fd3fcdc4e89b51e9d1",
+    "skills/astronomy-observer/references/contract.md": "f917b48a504ab79bc39df41abc547a5b27f54cb300c1157d4925f4648bed69cd"
+  },
+  "inputs": {
+    "config/catalog-generation.json": "c0e99af849e830c45c0fff3d38251d3ffea0d5db4e481182b19992214b165b22",
+    "config/weather-generation.json": "8b05b5345364b833cbfe683795f89147f57e36770c7d7c6695be55da6cfedaf4",
+    "config/v4_scenario.json": "542d1a59da638bd96c7210d86ec49d54d263bda6a7f466b010089dbf62bd5442",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd",
+    "config/v4_fiber_config.json": "c135ce25921894681930099798ce7064ccadc4d7b313536fe09934708df3a288",
+    "generated-weather/v4_night_calendar.csv": "298ca75255e285baf0f96ec5ecbe8596defd228d19e3ec94e24826af8707eed0",
+    "generated-weather/v4_earthquake_effects.csv": "c161b948af9e5ef544faa6bce17f6bdf53be9ccf55694096e79ae1589fa85dbb",
+    "generated-weather/v4_weather_truth.csv": "374ee458136d94ac185e9e031a7e85a6544e2e040ea134cf54c16b050b75d16e",
+    "generated-weather/v4_state_resync_schema.json": "8af77a1e355093fac41f15da8c097863ca076095e7676efded8b0676ac452eea",
+    "generated-weather/v4_weather_summary.json": "c208fea176adfb7bc82a3fe4eb6062a1e13ca119dfd9a3872394aa3327ea870e",
+    "generated-weather/v4_bulletins.jsonl": "545a405a36cbcf7bb46f50bb065cb0f4905cd31a4e782bc2d3476ceca7f90d32",
+    "generated-weather/v4_stress_events.csv": "8a058f8632c4479c7e0923d6a072bb0bf34f856e739ab4aaa7f9f9a99f796471",
+    "generated-weather/v4_slots.csv": "e4415a38b932684926c7bfc11fa39ff9706065ee16fd998513e90ba05098bf5f",
+    "generated-weather/v4_forecasts.jsonl": "325feaf548818533f88b1281d9ba91249352dc599fa293509c5436f40fc067e9",
+    "generated-weather/v4_events.csv": "a3afff7a7e252d2be31e9487b2b9dae30405d47204b9bc21c9b44c19fd39369b",
+    "public/v4_night_calendar.csv": "298ca75255e285baf0f96ec5ecbe8596defd228d19e3ec94e24826af8707eed0",
+    "public/v4_bulletins.jsonl": "545a405a36cbcf7bb46f50bb065cb0f4905cd31a4e782bc2d3476ceca7f90d32",
+    "public/v4_forecasts.jsonl": "325feaf548818533f88b1281d9ba91249352dc599fa293509c5436f40fc067e9",
+    "public/targets.csv": "272e796c7b2c3143368160ddc3eae24bca92fe1681cc76fa6b34bd3b356ce825",
+    "public/footprint.csv": "548d6218c478e3e466e083f2c7635a418b77df1a2e25fdb6e4143b94f5f9c4f0",
+    "truth/v4_earthquake_effects.csv": "c161b948af9e5ef544faa6bce17f6bdf53be9ccf55694096e79ae1589fa85dbb",
+    "truth/v4_weather_truth.csv": "374ee458136d94ac185e9e031a7e85a6544e2e040ea134cf54c16b050b75d16e",
+    "truth/v4_stress_events.csv": "8a058f8632c4479c7e0923d6a072bb0bf34f856e739ab4aaa7f9f9a99f796471",
+    "truth/v4_slots.csv": "e4415a38b932684926c7bfc11fa39ff9706065ee16fd998513e90ba05098bf5f",
+    "truth/v4_events.csv": "a3afff7a7e252d2be31e9487b2b9dae30405d47204b9bc21c9b44c19fd39369b",
+    "truth/v4_observation_requests.jsonl": "3c05b567bad050200d0b3bcaf954f6dafd15260f4547ff12aad0ebac3966c5e8",
+    "generated-catalog/summary.json": "5513b23b0110eb98d615a112c396f4daf95fdf1ea141ba97749b92371f3f8793",
+    "generated-catalog/targets.csv": "272e796c7b2c3143368160ddc3eae24bca92fe1681cc76fa6b34bd3b356ce825",
+    "generated-catalog/footprint.csv": "548d6218c478e3e466e083f2c7635a418b77df1a2e25fdb6e4143b94f5f9c4f0"
+  },
+  "family": "candidate",
+  "budget": 900.0,
+  "wall_cap": 7200.0,
+  "api": false,
+  "meter": "local time.process_time around official workflow turns",
+  "switches": {
+    "PRO_FULL_FIELD": "0",
+    "PRO_BREAKPOINTS": "0",
+    "PRO_CONSERVATIVE_REQUIRED": "0",
+    "PRO_REQUEST_BATCH": "0",
+    "FUSION_QUAKE_CURVE": "0",
+    "FUSION_JOINT_PROGRAM": "1",
+    "FUSION_LOG_REVIEW": "1",
+    "FUSION_MAX_BREADTH": "1"
+  },
+  "start": "2026-10-06T15:41:07.135296+00:00",
+  "route": "enhanced_agent",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_executable": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "platform": "macOS-14.5-arm64-arm-64bit",
+  "native_loaded": true,
+  "native_cells": true,
+  "own_clock_cpu": 59.360344000000225,
+  "exposure_review": {
+    "recent_nights": [
+      {
+        "epoch": 1,
+        "night": 112,
+        "exposures": 5,
+        "assigned": 31,
+        "hits": 31,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 113,
+        "exposures": 5,
+        "assigned": 19,
+        "hits": 19,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 114,
+        "exposures": 6,
+        "assigned": 24,
+        "hits": 24,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 115,
+        "exposures": 3,
+        "assigned": 9,
+        "hits": 9,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 116,
+        "exposures": 2,
+        "assigned": 3,
+        "hits": 3,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 117,
+        "exposures": 1,
+        "assigned": 3,
+        "hits": 3,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 118,
+        "exposures": 1,
+        "assigned": 1,
+        "hits": 1,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      },
+      {
+        "epoch": 1,
+        "night": 178,
+        "exposures": 5,
+        "assigned": 6,
+        "hits": 6,
+        "clean_exposures": 0,
+        "quality_bounds": null
+      }
+    ],
+    "schema": "own-exposure-review-v1",
+    "checkpoint": 422,
+    "epoch": 1,
+    "valid_exposures": 765,
+    "invalidated_exposures": 33,
+    "cue": "weather_or_earthquake_confounded",
+    "recent_miss_fraction": 0.0,
+    "recent_independent_clean_exposures": 0,
+    "previous_independent_clean_exposures": 0,
+    "required_unconfirmed": 2,
+    "required_examples": [
+      "V4T000954",
+      "V4T002288"
+    ],
+    "by_class_program_duration": [
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 25,
+        "hit": 25,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 15,
+        "hit": 15,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "BGS",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 7,
+        "hit": 7,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 113,
+        "hit": 113,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 87,
+        "hit": 87,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 166,
+        "hit": 166,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 456,
+        "hit": 455,
+        "missed": 1,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 647,
+        "hit": 631,
+        "missed": 16,
+        "zero_score": 0
+      },
+      {
+        "target_class": "BGS",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 508,
+        "hit": 503,
+        "missed": 5,
+        "zero_score": 52
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 55,
+        "hit": 55,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 6,
+        "hit": 6,
+        "missed": 0,
+        "zero_score": 2
+      },
+      {
+        "target_class": "ELG",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 7,
+        "hit": 7,
+        "missed": 0,
+        "zero_score": 4
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 263,
+        "hit": 263,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 111,
+        "hit": 111,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 106,
+        "hit": 106,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 1035,
+        "hit": 1029,
+        "missed": 6,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 1208,
+        "hit": 1170,
+        "missed": 38,
+        "zero_score": 0
+      },
+      {
+        "target_class": "ELG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 590,
+        "hit": 575,
+        "missed": 15,
+        "zero_score": 8
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 27,
+        "hit": 27,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 3,
+        "hit": 3,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 238,
+        "hit": 238,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 60,
+        "hit": 60,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 72,
+        "hit": 72,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 894,
+        "hit": 893,
+        "missed": 1,
+        "zero_score": 2
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 731,
+        "hit": 707,
+        "missed": 24,
+        "zero_score": 0
+      },
+      {
+        "target_class": "LRG",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 284,
+        "hit": 277,
+        "missed": 7,
+        "zero_score": 19
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 9,
+        "hit": 9,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 1,
+        "hit": 1,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 171,
+        "hit": 171,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 37,
+        "hit": 37,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 62,
+        "hit": 62,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 1134,
+        "hit": 1131,
+        "missed": 3,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 432,
+        "hit": 422,
+        "missed": 10,
+        "zero_score": 0
+      },
+      {
+        "target_class": "QSO",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 195,
+        "hit": 191,
+        "missed": 4,
+        "zero_score": 44
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "long",
+        "assigned": 4,
+        "hit": 4,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "medium",
+        "assigned": 10,
+        "hit": 10,
+        "missed": 0,
+        "zero_score": 5
+      },
+      {
+        "target_class": "Star",
+        "program": "BACKUP",
+        "duration_group": "short",
+        "assigned": 25,
+        "hit": 25,
+        "missed": 0,
+        "zero_score": 8
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "long",
+        "assigned": 24,
+        "hit": 24,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "medium",
+        "assigned": 32,
+        "hit": 32,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "BRIGHT",
+        "duration_group": "short",
+        "assigned": 76,
+        "hit": 76,
+        "missed": 0,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "long",
+        "assigned": 103,
+        "hit": 102,
+        "missed": 1,
+        "zero_score": 1
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "medium",
+        "assigned": 203,
+        "hit": 197,
+        "missed": 6,
+        "zero_score": 0
+      },
+      {
+        "target_class": "Star",
+        "program": "DARK",
+        "duration_group": "short",
+        "assigned": 177,
+        "hit": 174,
+        "missed": 3,
+        "zero_score": 3
+      }
+    ],
+    "recent_exposures": [
+      {
+        "id": 790,
+        "utc": "2027-02-26T02:45:00+00:00",
+        "night": 116,
+        "epoch": 1,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 2,
+        "ratio_bounds": [
+          0.7314098824935706,
+          0.804551672354857
+        ]
+      },
+      {
+        "id": 791,
+        "utc": "2027-02-27T01:45:00+00:00",
+        "night": 117,
+        "epoch": 1,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 3,
+        "hits": 3,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 3,
+        "ratio_bounds": [
+          0.7483863470859144,
+          0.7483863470859144
+        ]
+      },
+      {
+        "id": 792,
+        "utc": "2027-02-28T01:45:00+00:00",
+        "night": 118,
+        "epoch": 1,
+        "duration": 3600,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [
+          "earthquake"
+        ],
+        "confounded": true,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 793,
+        "utc": "2027-04-29T00:15:00+00:00",
+        "night": 178,
+        "epoch": 1,
+        "duration": 1800,
+        "program": "DARK",
+        "assigned": 2,
+        "hits": 2,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 794,
+        "utc": "2027-04-29T00:20:00+00:00",
+        "night": 178,
+        "epoch": 1,
+        "duration": 300,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 795,
+        "utc": "2027-04-29T00:30:00+00:00",
+        "night": 178,
+        "epoch": 1,
+        "duration": 600,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 796,
+        "utc": "2027-04-29T00:40:00+00:00",
+        "night": 178,
+        "epoch": 1,
+        "duration": 600,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      },
+      {
+        "id": 797,
+        "utc": "2027-04-29T01:05:00+00:00",
+        "night": 178,
+        "epoch": 1,
+        "duration": 1500,
+        "program": "DARK",
+        "assigned": 1,
+        "hits": 1,
+        "missed": 0,
+        "zero": 0,
+        "closed": false,
+        "weather": [],
+        "confounded": false,
+        "clean_samples": 0,
+        "ratio_bounds": null
+      }
+    ],
+    "ratio_definition": "unsaturated raw-factor bounds / public model factor, before learned throughput scaling",
+    "limitations": "raw/program ratios are intervals; cue alone cannot authorize a fault report or certify completion",
+    "inspection": {
+      "recent_populations": [
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 1,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.4575690000000001,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 56,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.4015989999999998,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 4,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.48767000000000005,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": true,
+          "fiber": 23,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.505044,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 90,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.49710699999999997,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "QSO",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "long",
+          "weather_notices": [
+            "earthquake"
+          ],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.793927,
+          "reasons": {
+            "WEATHER_OR_QUAKE_CONFOUNDED": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 5,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.0,
+          "reasons": {
+            "ZERO_MARGINAL_GAIN": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 80,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.0,
+          "reasons": {
+            "ZERO_MARGINAL_GAIN": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "BGS",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "short",
+          "weather_notices": [],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.0,
+          "reasons": {
+            "ZERO_MARGINAL_GAIN": 1
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "ELG",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "short",
+          "weather_notices": [],
+          "night_phase": "early",
+          "assigned": 2,
+          "hits": 2,
+          "science_gain": 0.0,
+          "reasons": {
+            "ZERO_MARGINAL_GAIN": 2
+          }
+        },
+        {
+          "program": "DARK",
+          "target_class": "LRG",
+          "required": false,
+          "fiber": 0,
+          "duration_group": "medium",
+          "weather_notices": [],
+          "night_phase": "early",
+          "assigned": 1,
+          "hits": 1,
+          "science_gain": 0.0,
+          "reasons": {
+            "ZERO_MARGINAL_GAIN": 1
+          }
+        }
+      ],
+      "population_count": 11,
+      "population_scope": "last 8 valid exposures",
+      "schema": "realized-inspection-v1",
+      "valid_exposures": 765,
+      "invalidated_exposures": 33,
+      "gate": "PASS",
+      "rejected_results": 0,
+      "credit_rule": "max single-exposure score; independent conservative raw maximum; no stacking",
+      "recent_visits": [
+        {
+          "night_phase": "early",
+          "id": 790,
+          "utc": "2027-02-26T02:45:00+00:00",
+          "predicted_science_gain": 0.1404249606935215,
+          "realized_science_gain": 0.8591679999999999,
+          "science_gain_efficiency": 6.118342463881049,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.00023865777777777776,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T003398",
+              "fiber": 1,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.858125,
+              "score_before": 1.400556,
+              "science_gain": 0.4575690000000001,
+              "raw_factor_bounds": [
+                0.9108453431372548,
+                0.9108458333333334
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            },
+            {
+              "target_id": "V4T005421",
+              "fiber": 56,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.669628,
+              "score_before": 1.268029,
+              "science_gain": 0.4015989999999998,
+              "raw_factor_bounds": [
+                0.8184448529411764,
+                0.9821344117647058
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            }
+          ],
+          "measurement_count": 2
+        },
+        {
+          "night_phase": "early",
+          "id": 791,
+          "utc": "2027-02-27T01:45:00+00:00",
+          "predicted_science_gain": 0.19922282857002727,
+          "realized_science_gain": 1.489821,
+          "science_gain_efficiency": 7.478164077347816,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0004138391666666667,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T001342",
+              "fiber": 4,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.9354,
+              "score_before": 1.44773,
+              "science_gain": 0.48767000000000005,
+              "raw_factor_bounds": [
+                0.9487252450980391,
+                0.9487257352941176
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            },
+            {
+              "target_id": "V4T003295",
+              "fiber": 23,
+              "target_class": "QSO",
+              "required": true,
+              "score": 1.949411,
+              "score_before": 1.444367,
+              "science_gain": 0.505044,
+              "raw_factor_bounds": [
+                0.9555933823529411,
+                0.9555938725490196
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            },
+            {
+              "target_id": "V4T001089",
+              "fiber": 90,
+              "target_class": "QSO",
+              "required": false,
+              "score": 1.955609,
+              "score_before": 1.458502,
+              "science_gain": 0.49710699999999997,
+              "raw_factor_bounds": [
+                0.9586316176470587,
+                0.9586321078431372
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            }
+          ],
+          "measurement_count": 3
+        },
+        {
+          "night_phase": "early",
+          "id": 792,
+          "utc": "2027-02-28T01:45:00+00:00",
+          "predicted_science_gain": 0.05289041660380067,
+          "realized_science_gain": 0.793927,
+          "science_gain_efficiency": 15.010791197718586,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.00022053527777777778,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T001483",
+              "fiber": 0,
+              "target_class": "QSO",
+              "required": false,
+              "score": 2.04,
+              "score_before": 1.246073,
+              "science_gain": 0.793927,
+              "raw_factor_bounds": [
+                0.9999997549019608,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "WEATHER_OR_QUAKE_CONFOUNDED"
+              ]
+            }
+          ],
+          "measurement_count": 1
+        },
+        {
+          "night_phase": "early",
+          "id": 793,
+          "utc": "2027-04-29T00:15:00+00:00",
+          "predicted_science_gain": 0.0,
+          "realized_science_gain": 0.0,
+          "science_gain_efficiency": null,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T002118",
+              "fiber": 5,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.2,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            },
+            {
+              "target_id": "V4T004426",
+              "fiber": 80,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.2,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            }
+          ],
+          "measurement_count": 2
+        },
+        {
+          "night_phase": "early",
+          "id": 794,
+          "utc": "2027-04-29T00:20:00+00:00",
+          "predicted_science_gain": 0.0,
+          "realized_science_gain": 0.0,
+          "science_gain_efficiency": null,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T003368",
+              "fiber": 0,
+              "target_class": "BGS",
+              "required": false,
+              "score": 0.54,
+              "score_before": 0.54,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999990740740742,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            }
+          ],
+          "measurement_count": 1
+        },
+        {
+          "night_phase": "early",
+          "id": 795,
+          "utc": "2027-04-29T00:30:00+00:00",
+          "predicted_science_gain": 0.0,
+          "realized_science_gain": 0.0,
+          "science_gain_efficiency": null,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T005833",
+              "fiber": 0,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.2,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            }
+          ],
+          "measurement_count": 1
+        },
+        {
+          "night_phase": "early",
+          "id": 796,
+          "utc": "2027-04-29T00:40:00+00:00",
+          "predicted_science_gain": 0.0,
+          "realized_science_gain": 0.0,
+          "science_gain_efficiency": null,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T002550",
+              "fiber": 0,
+              "target_class": "ELG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.2,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            }
+          ],
+          "measurement_count": 1
+        },
+        {
+          "night_phase": "early",
+          "id": 797,
+          "utc": "2027-04-29T01:05:00+00:00",
+          "predicted_science_gain": 0.0,
+          "realized_science_gain": 0.0,
+          "science_gain_efficiency": null,
+          "hit_efficiency": 1.0,
+          "science_gain_per_second": 0.0,
+          "source": "JSONL last_result + own pending prediction; no actual fibre positions/raw factors returned",
+          "measurements": [
+            {
+              "target_id": "V4T000585",
+              "fiber": 0,
+              "target_class": "LRG",
+              "required": false,
+              "score": 1.2,
+              "score_before": 1.2,
+              "science_gain": 0.0,
+              "raw_factor_bounds": [
+                0.9999995833333333,
+                1.0
+              ],
+              "required_certified": true,
+              "realized_program_match": "UNKNOWN",
+              "judgement": "WARN",
+              "reason_codes": [
+                "ZERO_MARGINAL_GAIN"
+              ]
+            }
+          ],
+          "measurement_count": 1
+        }
+      ],
+      "best_score_sum": 6298.27962,
+      "missing_data": "UNKNOWN; misses/program candidates do not identify causes; efficiency denominator is model prediction"
+    }
+  },
+  "end": "2026-10-06T15:42:35.566007+00:00",
+  "elapsed_wall_seconds": 88.42926654196344
+}

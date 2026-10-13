@@ -1,0 +1,19 @@
+planner: scarcity 0.87, time price fraction 0.45
+v5: 7800 targets, 390 required, 32 nights; init 0.14s; model none (rules only)
+season: night 0 demand/supply 1.79 prices slot price q10 0.00179 q50 0.0027 q90 0.00359, groups 102
+v5: deep search on (cpu budget 1951 ms, deep cost 261 ms)
+fault: report at h98.5: step 0.74 from late last night over 15 exposures (free)
+v5: report at 2026-11-06T03:00:00Z (step 0.74 from late last night over 15 exposures), free left 2
+v5: report false (delta 0.0); free left 1
+fault: report at h147.7: step 0.59 over 4 exposures / 2.5 h (free)
+v5: report at 2026-11-08T04:10:00Z (step 0.59 over 4 exposures / 2.5 h), free left 1
+v5: report false (delta 0.0); free left 0
+v5: earthquake notice at 2026-11-12T05:02:30Z
+fault: reference reset at h244.3 (earthquake onset)
+season: night 15 demand/supply 2.42 prices slot price q10 0.0015 q50 0.00182 q90 0.00308, groups 102
+fault: report at h508.2: 2 exposures bound the efficiency below 0.87 (lowest upper bound 0.64) (paid)
+v5: report at 2026-11-23T04:40:00Z (2 exposures bound the efficiency below 0.87 (lowest upper bound 0.64)), free left 0
+fault: reference reset at h508.2 (correct report: instrument repaired)
+v5: report correct, fault repaired (delta 100.0)
+season: night 30 demand/supply 16.64 prices slot price q10 0.00208 q50 0.00309 q90 0.00551, groups 100
+{"family": "baseline", "card": "L1", "total": 6446.782371, "counts": {"decisions": 1335, "observe_actions": 772, "observations": 9835, "targets_observed": 7363, "required_missing": 2, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 900.0, "charged_seconds": 166.506, "speed_factor": 0.6127, "speed_factor_min": 0.6105, "speed_factor_max": 0.6127, "speed_samples": 2, "window_seconds": 103.057, "cpu_seconds": 101.811, "wait_seconds": 1.245, "run_wall_seconds": 108.794, "hard_cap_seconds": 7200.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}

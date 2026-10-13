@@ -1,0 +1,817 @@
+{
+  "kind": "diagnostic-only, first 20 exposures; cProfile overhead included; no performance score claim",
+  "init_cpu_seconds": 0.21235300000000001,
+  "records": [
+    {
+      "sequence": 1,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.80314,
+      "wall_seconds_instrumented": 2.8340098331682384
+    },
+    {
+      "sequence": 2,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.4169219999999996,
+      "wall_seconds_instrumented": 2.4482057080604136
+    },
+    {
+      "sequence": 3,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.681439000000001,
+      "wall_seconds_instrumented": 2.7414843330625445
+    },
+    {
+      "sequence": 4,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.630370000000001,
+      "wall_seconds_instrumented": 2.663881708867848
+    },
+    {
+      "sequence": 5,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.617649,
+      "wall_seconds_instrumented": 2.6341759169008583
+    },
+    {
+      "sequence": 6,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.6176059999999985,
+      "wall_seconds_instrumented": 2.638998666079715
+    },
+    {
+      "sequence": 7,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.9010350000000003,
+      "wall_seconds_instrumented": 3.003635583911091
+    },
+    {
+      "sequence": 8,
+      "action": "observe",
+      "cpu_seconds_instrumented": 2.9164379999999994,
+      "wall_seconds_instrumented": 2.9440084998495877
+    },
+    {
+      "sequence": 9,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.239082,
+      "wall_seconds_instrumented": 3.2645565001294017
+    },
+    {
+      "sequence": 10,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.391486999999998,
+      "wall_seconds_instrumented": 3.427491833921522
+    },
+    {
+      "sequence": 11,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.0811449999999994,
+      "wall_seconds_instrumented": 3.1481852498836815
+    },
+    {
+      "sequence": 12,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.177517999999999,
+      "wall_seconds_instrumented": 3.1970730419270694
+    },
+    {
+      "sequence": 13,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.300998,
+      "wall_seconds_instrumented": 3.4683932079933584
+    },
+    {
+      "sequence": 14,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.3825920000000025,
+      "wall_seconds_instrumented": 3.5609895000234246
+    },
+    {
+      "sequence": 15,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.369239999999998,
+      "wall_seconds_instrumented": 3.436370415845886
+    },
+    {
+      "sequence": 16,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.2910249999999976,
+      "wall_seconds_instrumented": 3.3924119581934065
+    },
+    {
+      "sequence": 17,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.2803249999999977,
+      "wall_seconds_instrumented": 3.6126674998085946
+    },
+    {
+      "sequence": 18,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.238644999999998,
+      "wall_seconds_instrumented": 3.3119006659835577
+    },
+    {
+      "sequence": 19,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.143673999999997,
+      "wall_seconds_instrumented": 3.1646491668652743
+    },
+    {
+      "sequence": 20,
+      "action": "observe",
+      "cpu_seconds_instrumented": 3.292773000000004,
+      "wall_seconds_instrumented": 3.3539590830914676
+    }
+  ],
+  "components": [
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 140,
+      "function": "respond",
+      "calls": 20,
+      "own_cpu_seconds": 0.00047299600000000005,
+      "cumulative_cpu_seconds": 60.772671999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 164,
+      "function": "_respond",
+      "calls": 20,
+      "own_cpu_seconds": 0.010096006000000001,
+      "cumulative_cpu_seconds": 60.77209100100001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 634,
+      "function": "plan",
+      "calls": 20,
+      "own_cpu_seconds": 0.665381868,
+      "cumulative_cpu_seconds": 60.749782999000004
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 826,
+      "function": "evaluate",
+      "calls": 5490,
+      "own_cpu_seconds": 2.409710356,
+      "cumulative_cpu_seconds": 56.376200012000005
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 844,
+      "function": "<genexpr>",
+      "calls": 2767818,
+      "own_cpu_seconds": 2.97101898,
+      "cumulative_cpu_seconds": 27.594088064
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 748,
+      "function": "gain",
+      "calls": 2078735,
+      "own_cpu_seconds": 11.784666478,
+      "cumulative_cpu_seconds": 24.623069084
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 75,
+      "function": "tangent_offsets",
+      "calls": 687942,
+      "own_cpu_seconds": 10.391069541,
+      "cumulative_cpu_seconds": 19.121669916000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 731,
+      "function": "full",
+      "calls": 2078735,
+      "own_cpu_seconds": 2.610309983,
+      "cumulative_cpu_seconds": 5.097064878
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 118,
+      "function": "classify",
+      "calls": 687942,
+      "own_cpu_seconds": 2.646719826,
+      "cumulative_cpu_seconds": 4.978035704000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 34,
+      "function": "radec_to_altaz",
+      "calls": 92209,
+      "own_cpu_seconds": 1.431839883,
+      "cumulative_cpu_seconds": 2.69531397
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 743,
+      "function": "shaped",
+      "calls": 4199070,
+      "own_cpu_seconds": 2.364409021,
+      "cumulative_cpu_seconds": 2.364409021
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 706,
+      "function": "exact",
+      "calls": 92982,
+      "own_cpu_seconds": 0.38107198400000003,
+      "cumulative_cpu_seconds": 2.221217976
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 861,
+      "function": "<listcomp>",
+      "calls": 567,
+      "own_cpu_seconds": 0.078581039,
+      "cumulative_cpu_seconds": 1.8326960010000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 554,
+      "function": "_band",
+      "calls": 2190889,
+      "own_cpu_seconds": 1.4928697940000002,
+      "cumulative_cpu_seconds": 1.4928697940000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 113,
+      "function": "fiber_center",
+      "calls": 242439,
+      "own_cpu_seconds": 0.350725035,
+      "cumulative_cpu_seconds": 0.49316705200000005
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 773,
+      "function": "quick",
+      "calls": 20800,
+      "own_cpu_seconds": 0.14538799400000002,
+      "cumulative_cpu_seconds": 0.304655008
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 132,
+      "function": "normalized_airmass",
+      "calls": 92746,
+      "own_cpu_seconds": 0.18820703500000002,
+      "cumulative_cpu_seconds": 0.289953998
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 90,
+      "function": "shift_altaz",
+      "calls": 5508,
+      "own_cpu_seconds": 0.127011962,
+      "cumulative_cpu_seconds": 0.228261017
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 266,
+      "function": "neighbours",
+      "calls": 567,
+      "own_cpu_seconds": 0.098133017,
+      "cumulative_cpu_seconds": 0.160425002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 502,
+      "function": "calibrated_band_scale",
+      "calls": 20,
+      "own_cpu_seconds": 0.003323,
+      "cumulative_cpu_seconds": 0.109505999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 530,
+      "function": "clean_e",
+      "calls": 20,
+      "own_cpu_seconds": 0.002169996,
+      "cumulative_cpu_seconds": 0.100506999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 585,
+      "function": "_direction_factor",
+      "calls": 56518,
+      "own_cpu_seconds": 0.068506023,
+      "cumulative_cpu_seconds": 0.087283024
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 523,
+      "function": "<genexpr>",
+      "calls": 33201,
+      "own_cpu_seconds": 0.052781005000000006,
+      "cumulative_cpu_seconds": 0.08581100600000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 540,
+      "function": "<genexpr>",
+      "calls": 32067,
+      "own_cpu_seconds": 0.047067987000000006,
+      "cumulative_cpu_seconds": 0.076782975
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 30,
+      "function": "wrap180",
+      "calls": 98701,
+      "own_cpu_seconds": 0.06569706900000001,
+      "cumulative_cpu_seconds": 0.06569706900000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 180,
+      "function": "lunar_factor",
+      "calls": 52970,
+      "own_cpu_seconds": 0.032439996,
+      "cumulative_cpu_seconds": 0.032439996
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 669,
+      "function": "<listcomp>",
+      "calls": 1,
+      "own_cpu_seconds": 0.004927,
+      "cumulative_cpu_seconds": 0.020148000000000003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 116,
+      "function": "_az_distance",
+      "calls": 6492,
+      "own_cpu_seconds": 0.011196994,
+      "cumulative_cpu_seconds": 0.018777001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 97,
+      "function": "<genexpr>",
+      "calls": 22032,
+      "own_cpu_seconds": 0.018271013000000003,
+      "cumulative_cpu_seconds": 0.018271013000000003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 606,
+      "function": "value",
+      "calls": 8086,
+      "own_cpu_seconds": 0.011929997000000001,
+      "cumulative_cpu_seconds": 0.016188998
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 370,
+      "function": "on_result",
+      "calls": 20,
+      "own_cpu_seconds": 0.00368301,
+      "cumulative_cpu_seconds": 0.00698
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 245,
+      "function": "_pace",
+      "calls": 20,
+      "own_cpu_seconds": 0.000106,
+      "cumulative_cpu_seconds": 0.0035179990000000004
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 241,
+      "function": "_decisions_left",
+      "calls": 21,
+      "own_cpu_seconds": 6.500000000000001e-05,
+      "cumulative_cpu_seconds": 0.003485999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 817,
+      "function": "<genexpr>",
+      "calls": 4636,
+      "own_cpu_seconds": 0.0032330030000000004,
+      "cumulative_cpu_seconds": 0.0032330030000000004
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 242,
+      "function": "<genexpr>",
+      "calls": 693,
+      "own_cpu_seconds": 0.0017740020000000002,
+      "cumulative_cpu_seconds": 0.0029870030000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 173,
+      "function": "__init__",
+      "calls": 20,
+      "own_cpu_seconds": 0.000175999,
+      "cumulative_cpu_seconds": 0.002294
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 546,
+      "function": "update_scale",
+      "calls": 39,
+      "own_cpu_seconds": 0.00029300100000000004,
+      "cumulative_cpu_seconds": 0.0018679990000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 532,
+      "function": "<genexpr>",
+      "calls": 1993,
+      "own_cpu_seconds": 0.001517003,
+      "cumulative_cpu_seconds": 0.001517003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 726,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 0.0012419990000000001,
+      "cumulative_cpu_seconds": 0.0012419990000000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 723,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 0.000781,
+      "cumulative_cpu_seconds": 0.000781
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 150,
+      "function": "moon_radec",
+      "calls": 20,
+      "own_cpu_seconds": 0.00038200100000000003,
+      "cumulative_cpu_seconds": 0.0007520010000000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 551,
+      "function": "<genexpr>",
+      "calls": 889,
+      "own_cpu_seconds": 0.000635996,
+      "cumulative_cpu_seconds": 0.000635996
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 334,
+      "function": "_maybe_report",
+      "calls": 20,
+      "own_cpu_seconds": 6.0001000000000004e-05,
+      "cumulative_cpu_seconds": 0.000519
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 350,
+      "function": "_fault_verdict",
+      "calls": 20,
+      "own_cpu_seconds": 0.000119999,
+      "cumulative_cpu_seconds": 0.00045899900000000003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 140,
+      "function": "sun_radec",
+      "calls": 20,
+      "own_cpu_seconds": 0.00022699900000000003,
+      "cumulative_cpu_seconds": 0.000438
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 421,
+      "function": "_offset_evidence",
+      "calls": 19,
+      "own_cpu_seconds": 0.00013600100000000001,
+      "cumulative_cpu_seconds": 0.00032900000000000003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 274,
+      "function": "_night_advice",
+      "calls": 1,
+      "own_cpu_seconds": 2.7000000000000002e-05,
+      "cumulative_cpu_seconds": 0.00029
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 164,
+      "function": "separation_deg",
+      "calls": 20,
+      "own_cpu_seconds": 0.000164,
+      "cumulative_cpu_seconds": 0.00028000000000000003
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 13,
+      "function": "parse_utc",
+      "calls": 20,
+      "own_cpu_seconds": 0.000126,
+      "cumulative_cpu_seconds": 0.00021700000000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 290,
+      "function": "_model_wait_budget",
+      "calls": 1,
+      "own_cpu_seconds": 1.5e-05,
+      "cumulative_cpu_seconds": 0.00021400000000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 74,
+      "function": "log",
+      "calls": 2,
+      "own_cpu_seconds": 1e-05,
+      "cumulative_cpu_seconds": 0.00020500000000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 927,
+      "function": "<dictcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 0.000171,
+      "cumulative_cpu_seconds": 0.000171
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 307,
+      "function": "on_messages",
+      "calls": 20,
+      "own_cpu_seconds": 8.4999e-05,
+      "cumulative_cpu_seconds": 0.000145999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 367,
+      "function": "all_sky_notice",
+      "calls": 20,
+      "own_cpu_seconds": 7.400000000000001e-05,
+      "cumulative_cpu_seconds": 0.000145999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 21,
+      "function": "julian_date",
+      "calls": 60,
+      "own_cpu_seconds": 8.8001e-05,
+      "cumulative_cpu_seconds": 0.000145999
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 533,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 0.00012900000000000002,
+      "cumulative_cpu_seconds": 0.00012900000000000002
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 506,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 0.000128001,
+      "cumulative_cpu_seconds": 0.000128001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/skymath.py",
+      "line": 25,
+      "function": "local_sidereal_deg",
+      "calls": 20,
+      "own_cpu_seconds": 4.8e-05,
+      "cumulative_cpu_seconds": 0.000114
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 573,
+      "function": "current_night",
+      "calls": 39,
+      "own_cpu_seconds": 0.00010800100000000001,
+      "cumulative_cpu_seconds": 0.00010800100000000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 427,
+      "function": "<listcomp>",
+      "calls": 19,
+      "own_cpu_seconds": 0.00010400000000000001,
+      "cumulative_cpu_seconds": 0.00010400000000000001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 352,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 6.500100000000001e-05,
+      "cumulative_cpu_seconds": 0.000101001
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 375,
+      "function": "<dictcomp>",
+      "calls": 19,
+      "own_cpu_seconds": 9.6e-05,
+      "cumulative_cpu_seconds": 9.6e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 229,
+      "function": "_clock",
+      "calls": 22,
+      "own_cpu_seconds": 6.2e-05,
+      "cumulative_cpu_seconds": 9.1e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 361,
+      "function": "site_closed",
+      "calls": 20,
+      "own_cpu_seconds": 3.3999000000000004e-05,
+      "cumulative_cpu_seconds": 8.1e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 814,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 6.200200000000001e-05,
+      "cumulative_cpu_seconds": 6.200200000000001e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 792,
+      "function": "<listcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 6.1000000000000005e-05,
+      "cumulative_cpu_seconds": 6.1000000000000005e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 905,
+      "function": "<lambda>",
+      "calls": 60,
+      "own_cpu_seconds": 6.0001000000000004e-05,
+      "cumulative_cpu_seconds": 6.0001000000000004e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 320,
+      "function": "on_requests",
+      "calls": 20,
+      "own_cpu_seconds": 3.9001e-05,
+      "cumulative_cpu_seconds": 3.9001e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 314,
+      "function": "_fault_table",
+      "calls": 1,
+      "own_cpu_seconds": 1.7e-05,
+      "cumulative_cpu_seconds": 3.4e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 376,
+      "function": "<genexpr>",
+      "calls": 38,
+      "own_cpu_seconds": 2.9e-05,
+      "cumulative_cpu_seconds": 2.9e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 430,
+      "function": "<genexpr>",
+      "calls": 19,
+      "own_cpu_seconds": 2.5999000000000003e-05,
+      "cumulative_cpu_seconds": 2.5999000000000003e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 368,
+      "function": "<genexpr>",
+      "calls": 20,
+      "own_cpu_seconds": 2.3e-05,
+      "cumulative_cpu_seconds": 2.3e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 295,
+      "function": "<genexpr>",
+      "calls": 33,
+      "own_cpu_seconds": 2.2000000000000003e-05,
+      "cumulative_cpu_seconds": 2.2000000000000003e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 300,
+      "function": "_apply_advice",
+      "calls": 20,
+      "own_cpu_seconds": 2.1001e-05,
+      "cumulative_cpu_seconds": 2.1001e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 317,
+      "function": "<setcomp>",
+      "calls": 20,
+      "own_cpu_seconds": 1.8e-05,
+      "cumulative_cpu_seconds": 2.1000000000000002e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 180,
+      "function": "<genexpr>",
+      "calls": 20,
+      "own_cpu_seconds": 1.7999e-05,
+      "cumulative_cpu_seconds": 1.7999e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/planner.py",
+      "line": 362,
+      "function": "<genexpr>",
+      "calls": 20,
+      "own_cpu_seconds": 1.5001000000000001e-05,
+      "cumulative_cpu_seconds": 1.5001000000000001e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 309,
+      "function": "_scale_ref",
+      "calls": 1,
+      "own_cpu_seconds": 7.000000000000001e-06,
+      "cumulative_cpu_seconds": 1e-05
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 86,
+      "function": "poll",
+      "calls": 19,
+      "own_cpu_seconds": 9.999e-06,
+      "cumulative_cpu_seconds": 9.999e-06
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 280,
+      "function": "<genexpr>",
+      "calls": 1,
+      "own_cpu_seconds": 2.0000000000000003e-06,
+      "cumulative_cpu_seconds": 2.0000000000000003e-06
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 324,
+      "function": "<setcomp>",
+      "calls": 1,
+      "own_cpu_seconds": 2.0000000000000003e-06,
+      "cumulative_cpu_seconds": 2.0000000000000003e-06
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 311,
+      "function": "<genexpr>",
+      "calls": 1,
+      "own_cpu_seconds": 1.0000000000000002e-06,
+      "cumulative_cpu_seconds": 1.0000000000000002e-06
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 316,
+      "function": "<dictcomp>",
+      "calls": 1,
+      "own_cpu_seconds": 1.0000000000000002e-06,
+      "cumulative_cpu_seconds": 1.0000000000000002e-06
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 82,
+      "function": "start_night",
+      "calls": 1,
+      "own_cpu_seconds": 0.0,
+      "cumulative_cpu_seconds": 0.0
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 277,
+      "function": "<listcomp>",
+      "calls": 1,
+      "own_cpu_seconds": 0.0,
+      "cumulative_cpu_seconds": 0.0
+    },
+    {
+      "file": "/Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+      "line": 430,
+      "function": "free_left",
+      "calls": 1,
+      "own_cpu_seconds": 0.0,
+      "cumulative_cpu_seconds": 0.0
+    }
+  ],
+  "termination_reason": "agent_finished"
+}

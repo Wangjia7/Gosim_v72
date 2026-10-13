@@ -1,0 +1,4 @@
+label,status,total,science,delta_vs_control,gain_percent_vs_control,required_missing,request_reward,uniformity_penalty,targets_observed,observe_actions,duration_mean,duration_median,duration_seconds_sum,cpu_seconds,charged_seconds,actual_width_median,actual_width_max,deep_width_gt1_fraction,source_unchanged,execution_source_unchanged,card_files_unchanged
+rc4-width-gate,success,6592.094057,6392.534293,0.0,0.0,2,200.0,-0.440236,7464,765,1102.9803921568628,750,843780,488.964,873.807,3.8999844108169395,20.0,0.9285714285714286,True,True,True
+rc5-lambda060,success,6551.687157,6351.944205,-40.40689999999995,-0.6129600040687078,2,200.0,-0.257048,7571,839,1006.984505363528,750,844860,474.709,874.393,3.433622169014081,20.0,0.8726467331118494,True,True,True
+rc5-kappa130,success,6585.836507,6386.247801,-6.257550000000265,-0.09492507154620355,2,200.0,-0.411294,7132,692,1221.893063583815,900.0,845550,469.824,872.716,5.601525736895603,20.0,0.8950863213811421,True,True,True

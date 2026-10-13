@@ -1,0 +1,604 @@
+{
+  "final_numeric_family": "request-guard-v300-final",
+  "tests_passed": 23,
+  "remote_api_tested": false,
+  "paired_rows": [
+    {
+      "case": "sparse",
+      "split": "development",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:06:40.218036+00:00",
+      "ended_at": "2026-10-06T08:06:47.563855+00:00",
+      "runner_elapsed_seconds": 7.345692417,
+      "exit_code": 0,
+      "termination": "survey_complete",
+      "total": 341.748499,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 175.377826,
+        "uniformity_penalty": -33.629327
+      },
+      "counts": {
+        "decisions": 440,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 629,
+        "observe_actions": 366,
+        "required_missing": 0,
+        "targets_observed": 340
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 6.676,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 5.465,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 6.167,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8186,
+        "speed_factor_max": 0.8186,
+        "speed_factor_min": 0.8186,
+        "speed_samples": 1,
+        "wait_seconds": 0.279,
+        "window_seconds": 5.744
+      },
+      "actions_sha256": "bc96f7e2e3d2bff19c051d7cc48286c114997f1de22490650a4d307d7b2296ee",
+      "baseline_total": 371.686076,
+      "delta": -29.937577000000033
+    },
+    {
+      "case": "dense",
+      "split": "development",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:06:47.564217+00:00",
+      "ended_at": "2026-10-06T08:07:30.574387+00:00",
+      "runner_elapsed_seconds": 43.009697709,
+      "exit_code": 0,
+      "termination": "survey_complete",
+      "total": 2563.381294,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 2363.438972,
+        "uniformity_penalty": -0.057678
+      },
+      "counts": {
+        "decisions": 368,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 4966,
+        "observe_actions": 255,
+        "required_missing": 0,
+        "targets_observed": 2400
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 45.559,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 38.346,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 41.751,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8417,
+        "speed_factor_max": 0.8417,
+        "speed_factor_min": 0.8417,
+        "speed_samples": 1,
+        "wait_seconds": 1.545,
+        "window_seconds": 39.891
+      },
+      "actions_sha256": "437ffcb4191336346941b2721fc0f8bbdb8a2fe1a9b08ba368513052a6ef1287",
+      "baseline_total": 2459.275822,
+      "delta": 104.10547199999974
+    },
+    {
+      "case": "stress",
+      "split": "development",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:07:30.574956+00:00",
+      "ended_at": "2026-10-06T08:07:42.086849+00:00",
+      "runner_elapsed_seconds": 11.511775833000002,
+      "exit_code": 0,
+      "termination": "agent_finished",
+      "total": 718.629241,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 536.668673,
+        "uniformity_penalty": -18.039432
+      },
+      "counts": {
+        "decisions": 423,
+        "invalidated_observations": 7,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 1136,
+        "observe_actions": 296,
+        "required_missing": 0,
+        "targets_observed": 659
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 10.144,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 8.75,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 10.283,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8626,
+        "speed_factor_max": 0.8626,
+        "speed_factor_min": 0.8626,
+        "speed_samples": 1,
+        "wait_seconds": 0.807,
+        "window_seconds": 9.557
+      },
+      "actions_sha256": "416633f6e7b4a84448b34aa1d68b0bbdc5d431eaaa8709ff93a99171fed06f0a",
+      "baseline_total": 717.662461,
+      "delta": 0.9667799999999716
+    },
+    {
+      "case": "mixed",
+      "split": "development",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:07:42.087383+00:00",
+      "ended_at": "2026-10-06T08:08:01.167680+00:00",
+      "runner_elapsed_seconds": 19.080094083999995,
+      "exit_code": 0,
+      "termination": "agent_finished",
+      "total": 820.590491,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -100.0,
+        "sum_best_scores": 745.04092,
+        "uniformity_penalty": -24.450429
+      },
+      "counts": {
+        "decisions": 459,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 1689,
+        "observe_actions": 350,
+        "required_missing": 2,
+        "targets_observed": 1137
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 16.917,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 15.719,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 17.642,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.9292,
+        "speed_factor_max": 0.9292,
+        "speed_factor_min": 0.9292,
+        "speed_samples": 1,
+        "wait_seconds": 1.079,
+        "window_seconds": 16.798
+      },
+      "actions_sha256": "81627616c40ca49f29d302186f75e102fa291d303ed73f0abb272c36f56761d7",
+      "baseline_total": -595.620127,
+      "delta": 1416.210618
+    },
+    {
+      "case": "dense-held",
+      "split": "heldout",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:08:01.168268+00:00",
+      "ended_at": "2026-10-06T08:08:40.787985+00:00",
+      "runner_elapsed_seconds": 39.61928775,
+      "exit_code": 0,
+      "termination": "survey_complete",
+      "total": 2645.900584,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 0.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 2445.932981,
+        "uniformity_penalty": -0.032397
+      },
+      "counts": {
+        "decisions": 385,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 4936,
+        "observe_actions": 276,
+        "required_missing": 0,
+        "targets_observed": 2400
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 43.805,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 36.096,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 38.374,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.824,
+        "speed_factor_max": 0.824,
+        "speed_factor_min": 0.824,
+        "speed_samples": 1,
+        "wait_seconds": 0.553,
+        "window_seconds": 36.648
+      },
+      "actions_sha256": "d76fd10a66d46db32d13d8aa2b99ea9ca1714e5d38891aaf3e9a7b586e91577d",
+      "baseline_total": 2546.122867,
+      "delta": 99.77771699999994
+    },
+    {
+      "case": "stress-held",
+      "split": "heldout",
+      "family": "request-guard-frozen",
+      "started_at": "2026-10-06T08:08:40.788619+00:00",
+      "ended_at": "2026-10-06T08:08:50.034158+00:00",
+      "runner_elapsed_seconds": 9.245442291999993,
+      "exit_code": 0,
+      "termination": "survey_complete",
+      "total": 671.862207,
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 404.75655,
+        "uniformity_penalty": -32.894344
+      },
+      "counts": {
+        "decisions": 356,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 999,
+        "observe_actions": 227,
+        "required_missing": 0,
+        "targets_observed": 597
+      },
+      "fair_clock": {
+        "budget_seconds": 120.0,
+        "charged_seconds": 9.031,
+        "cpu_meter": "cpu",
+        "cpu_seconds": 7.526,
+        "hard_cap_reached": false,
+        "hard_cap_seconds": 240.0,
+        "mode": "cpu",
+        "run_wall_seconds": 8.104,
+        "schema_version": "fair-clock-v1",
+        "speed_factor": 0.8334,
+        "speed_factor_max": 0.8334,
+        "speed_factor_min": 0.8334,
+        "speed_samples": 1,
+        "wait_seconds": 0.146,
+        "window_seconds": 7.673
+      },
+      "actions_sha256": "4dd0956c489d381c634c83c0b0c8af6be03e10dae79879b0ca0c7c78adc443b0",
+      "baseline_total": 498.602984,
+      "delta": 173.25922300000002
+    }
+  ],
+  "long": {
+    "accounted_wallclock_seconds": 41.718,
+    "agent_wallclock_seconds": 39.173,
+    "committed_action_count": 7678,
+    "decision_requests": 4948,
+    "fair_clock": {
+      "budget_seconds": 120.0,
+      "charged_seconds": 41.718,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 36.065,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 240.0,
+      "mode": "cpu",
+      "run_wall_seconds": 73.615,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 0.8716,
+      "speed_factor_max": 0.8716,
+      "speed_factor_min": 0.8641,
+      "speed_samples": 2,
+      "wait_seconds": 3.108,
+      "window_seconds": 39.173
+    },
+    "global_wallclock_seconds": 120.0,
+    "ignored_in_flight_response": false,
+    "last_decision_sequence": 4948,
+    "protocol_version": "participant-agent-protocol-v4",
+    "scenario": "synthetic-long-held",
+    "schema_version": "v4-workflow-result-v1",
+    "score_report": {
+      "by_class": {
+        "BGS": 771.320419,
+        "ELG": 2422.859065,
+        "LRG": 1424.729934,
+        "QSO": 1589.654726,
+        "Star": 169.921288
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -0.0,
+        "sum_best_scores": 6378.485433,
+        "uniformity_penalty": -0.004813
+      },
+      "counts": {
+        "decisions": 7678,
+        "invalidated_observations": 286,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 9893,
+        "observe_actions": 930,
+        "required_missing": 0,
+        "targets_observed": 5992
+      },
+      "invalidations": [
+        {
+          "event_id": "V4ST0001",
+          "invalidated_observations": 286,
+          "window": [
+            449,
+            486
+          ]
+        }
+      ],
+      "observation_requests": [
+        {
+          "completed": true,
+          "completed_count": 6,
+          "completed_target_ids": [
+            "V4T000172",
+            "V4T000704",
+            "V4T000296",
+            "V4T004506",
+            "V4T005292",
+            "V4T000706"
+          ],
+          "completion_factor_threshold": 0.5,
+          "completion_reward": 100.0,
+          "deadline_utc": "2026-11-03T08:30:00Z",
+          "issued_at_utc": "2026-11-03T00:30:00Z",
+          "minimum_completed": 6,
+          "request_id": "V4RQ0001",
+          "reward": 100.0,
+          "target_ids": [
+            "V4T005797",
+            "V4T000172",
+            "V4T000704",
+            "V4T000296",
+            "V4T004506",
+            "V4T005292",
+            "V4T000706",
+            "V4T002723"
+          ]
+        },
+        {
+          "completed": true,
+          "completed_count": 6,
+          "completed_target_ids": [
+            "V4T002550",
+            "V4T000585",
+            "V4T002118",
+            "V4T003368",
+            "V4T004426",
+            "V4T005833"
+          ],
+          "completion_factor_threshold": 0.5,
+          "completion_reward": 100.0,
+          "deadline_utc": "2027-04-29T09:45:00Z",
+          "issued_at_utc": "2027-04-28T23:45:00Z",
+          "minimum_completed": 6,
+          "request_id": "V4RQ0002",
+          "reward": 100.0,
+          "target_ids": [
+            "V4T002550",
+            "V4T000585",
+            "V4T002118",
+            "V4T001048",
+            "V4T003368",
+            "V4T004426",
+            "V4T005833",
+            "V4T003366"
+          ]
+        }
+      ],
+      "scenario": "synthetic-long-held",
+      "schema_version": "v4-score-report-v1",
+      "sha256": {
+        "decisions": "f123ce6fe951f6a7f060508516a8476cd3af3437cb15f7f3c008fb3d039c5420",
+        "messages": "e32d02d469bc916c95ffa48212157556fc8803fa4063de355baed77b9f4ed675",
+        "observations": "82a2b6b532a3a8af580909795ef441be0040f585af2211082fe4ee7cd970b0b4",
+        "scenario": "542d1a59da638bd96c7210d86ec49d54d263bda6a7f466b010089dbf62bd5442"
+      },
+      "termination": {
+        "detail": "",
+        "reason": "survey_complete"
+      },
+      "total": 6678.48062,
+      "uniformity_bands": {
+        "ra_0_10": 0.993802,
+        "ra_100_110": 1.0,
+        "ra_10_20": 0.982162,
+        "ra_110_120": 0.997131,
+        "ra_120_130": 0.997613,
+        "ra_130_140": 1.0,
+        "ra_20_30": 0.989796,
+        "ra_30_40": 1.0,
+        "ra_40_50": 0.997753,
+        "ra_50_60": 1.0,
+        "ra_60_70": 0.99646,
+        "ra_70_80": 0.996234,
+        "ra_80_90": 1.0,
+        "ra_90_100": 1.0
+      }
+    },
+    "speed_factor": 0.8716,
+    "termination_detail": "",
+    "termination_reason": "survey_complete"
+  },
+  "L1": {
+    "accounted_wallclock_seconds": 135.357,
+    "agent_wallclock_seconds": 122.245,
+    "committed_action_count": 1755,
+    "decision_requests": 1261,
+    "fair_clock": {
+      "budget_seconds": 180.0,
+      "charged_seconds": 135.357,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 117.71,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 360.0,
+      "mode": "cpu",
+      "run_wall_seconds": 134.728,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 0.8415,
+      "speed_factor_max": 0.9137,
+      "speed_factor_min": 0.8341,
+      "speed_samples": 3,
+      "wait_seconds": 4.534,
+      "window_seconds": 122.245
+    },
+    "global_wallclock_seconds": 180.0,
+    "ignored_in_flight_response": false,
+    "last_decision_sequence": 1261,
+    "protocol_version": "participant-agent-protocol-v4",
+    "scenario": "v4-l1",
+    "schema_version": "v4-workflow-result-v1",
+    "score_report": {
+      "by_class": {
+        "BGS": 768.361383,
+        "ELG": 2510.451936,
+        "LRG": 1187.962976,
+        "QSO": 1134.822643,
+        "Star": 175.851555
+      },
+      "components": {
+        "observation_request_reward": 200.0,
+        "report_settlement": 100.0,
+        "required_penalty": -100.0,
+        "sum_best_scores": 5777.450493,
+        "uniformity_penalty": -0.823935
+      },
+      "counts": {
+        "decisions": 1755,
+        "invalidated_observations": 0,
+        "observation_requests_completed": 2,
+        "observation_requests_issued": 2,
+        "observations": 11976,
+        "observe_actions": 1190,
+        "required_missing": 2,
+        "targets_observed": 7320
+      },
+      "invalidations": [],
+      "observation_requests": [
+        {
+          "completed": true,
+          "completed_count": 6,
+          "completed_target_ids": [
+            "V4T000594",
+            "V4T003544",
+            "V4T007198",
+            "V4T004700",
+            "V4T001995",
+            "V4T000983"
+          ],
+          "completion_factor_threshold": 0.5,
+          "completion_reward": 100.0,
+          "deadline_utc": "2026-11-04T08:30:00Z",
+          "issued_at_utc": "2026-11-03T00:30:00Z",
+          "minimum_completed": 6,
+          "request_id": "V4RQ0001",
+          "reward": 100.0,
+          "target_ids": [
+            "V4T000594",
+            "V4T003544",
+            "V4T007198",
+            "V4T007219",
+            "V4T004700",
+            "V4T001127",
+            "V4T001995",
+            "V4T000983"
+          ]
+        },
+        {
+          "completed": true,
+          "completed_count": 6,
+          "completed_target_ids": [
+            "V4T000666",
+            "V4T007404",
+            "V4T003411",
+            "V4T003566",
+            "V4T003761",
+            "V4T005005"
+          ],
+          "completion_factor_threshold": 0.5,
+          "completion_reward": 100.0,
+          "deadline_utc": "2026-12-02T08:15:00Z",
+          "issued_at_utc": "2026-12-01T00:45:00Z",
+          "minimum_completed": 6,
+          "request_id": "V4RQ0002",
+          "reward": 100.0,
+          "target_ids": [
+            "V4T000666",
+            "V4T007404",
+            "V4T003411",
+            "V4T003317",
+            "V4T003566",
+            "V4T004172",
+            "V4T003761",
+            "V4T005005"
+          ]
+        }
+      ],
+      "scenario": "v4-l1",
+      "schema_version": "v4-score-report-v1",
+      "sha256": {
+        "decisions": "f06d257207709abac7def447acf79898339601602b2ca8ed57c6d075dfa6757f",
+        "messages": "0c1f46f94fb70b2f295b0f24a60c5c26442e49d2d74b3d1f325eb79a10741dc2",
+        "observations": "cb04722e5e8d8d58441abec1c56d5049ee3ac8c88acd6b1fe69df694bb357c4e",
+        "scenario": "c8d1a8676e4a283b55bdaa59c40f0ae53396e05a93095e6364573ad536c68c43"
+      },
+      "termination": {
+        "detail": "",
+        "reason": "survey_complete"
+      },
+      "total": 5976.626558,
+      "uniformity_bands": {
+        "ra_0_10": 0.711747,
+        "ra_100_110": 0.818344,
+        "ra_10_20": 0.719331,
+        "ra_110_120": 0.76525,
+        "ra_20_30": 0.72541,
+        "ra_30_40": 0.795732,
+        "ra_350_360": 0.71599,
+        "ra_40_50": 0.845083,
+        "ra_50_60": 0.700525,
+        "ra_60_70": 0.680804,
+        "ra_70_80": 0.735537,
+        "ra_90_100": 0.763374
+      }
+    },
+    "speed_factor": 0.8415,
+    "termination_detail": "",
+    "termination_reason": "survey_complete"
+  },
+  "limitations": [
+    "regressions retained",
+    "not blind final holdout",
+    "no Linux container test",
+    "no remote API"
+  ]
+}

@@ -1,0 +1,3 @@
+Final independent read-only review (v36_reviewer): 28 focused tests passed under bundled Python 3.12. Prior end-time, diagnostics duration, bounded sequence CPU, terrain, request reward and health evidence findings resolved. Reviewer identified repeated rate_ema update and stale successful model source; root corrected both, then 108 tests passed including targeted regressions. No new shared edits by reviewer. Forecast guard protects a lower bound only, not actual score/global nonregression.
+
+Final follow-up: reviewer independently read both final patches and checked against release-native-frozen; both correct, no remaining delivery blocker.

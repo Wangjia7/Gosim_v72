@@ -1,0 +1,31 @@
+test_strict_json_accepts_one_object_or_fence (test_llm.ModelTests) ... ok
+test_strict_json_rejects_multiple_objects_and_nonfinite (test_llm.ModelTests) ... ok
+test_two_local_model_roles_with_normal_planner (test_llm.ModelTests) ... ok
+test_unknown_target_and_stale_ledger_are_rejected (test_llm.ModelTests) ... ok
+test_best_exposure_does_not_sum (test_normal.Tests) ... ok
+test_cpu_attribution_uses_actual_level (test_normal.Tests) ... ok
+test_data_loss_removes_learning_and_factor_contributions (test_normal.Tests) ... ok
+test_duplicate_result_not_recorded_twice (test_normal.Tests) ... ok
+test_duration_never_exceeds_instrument_limit (test_normal.Tests) ... ok
+test_earthquake_does_not_erase_independent_band_evidence (test_normal.Tests) ... planner: scarcity 0.01, time price fraction 0.12
+pro: 2 targets, 0 required, 1 nights; init 0.00s; model none (rules only)
+pro: earthquake notice at 2026-11-02T01:07:26Z
+ok
+test_expired_or_impossible_request_has_no_bonus (test_normal.Tests) ... ok
+test_future_rising_request_target_cannot_break_current_search (test_normal.Tests) ... ok
+test_geometry_full_neighbourhood_contains_opposite_cell (test_normal.Tests) ... ok
+test_geometry_windows_require_entire_exposure (test_normal.Tests) ... ok
+test_jsonl_missing_key_and_duplicate_sequence (test_normal.Tests) ... ok
+test_native_and_python_choose_same_action (test_normal.Tests) ... ok
+test_program_uses_marginal_scores (test_normal.Tests) ... ok
+test_raw_factor_and_science_best_replay_separately (test_normal.Tests) ... ok
+test_repair_epoch_does_not_resurrect_old_calibration (test_normal.Tests) ... ok
+test_request_deadline_and_reward_cap (test_normal.Tests) ... ok
+test_request_progress_zero_is_not_reactivated (test_normal.Tests) ... ok
+test_required_bound_and_runtime_threshold (test_normal.Tests) ... ok
+test_unknown_program_factor_lower_is_independent_of_estimate (test_normal.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.166s
+
+OK

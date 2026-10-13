@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "bd1b293b660b8a30c6d1a7b1ddece4519b115840c26b4b912b0b7baa689c75d1",
+  "all_python_sources_match": true,
+  "source_python_hash_matches_archive": {
+    "advisor.py": true,
+    "agent.py": true,
+    "bandfit.py": true,
+    "dutylog.py": true,
+    "fault.py": true,
+    "fault_mh.py": true,
+    "llm_client.py": true,
+    "longplan.py": true,
+    "planner.py": true,
+    "pointing.py": true,
+    "rolling.py": true,
+    "season.py": true,
+    "skymath.py": true,
+    "switches.py": true,
+    "walltime.py": true
+  },
+  "implicit_defaults": {
+    "V5_DEEP": 1,
+    "V5_PACE_RESERVE": 0.04
+  },
+  "phase_override": {
+    "V5_FIXED_LEVEL": 0
+  },
+  "python": "native arm64 Python3.12.14"
+}

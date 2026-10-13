@@ -1,0 +1,53 @@
+{
+  "termination": "agent_finished",
+  "reason": "internal error KeyError",
+  "failed_decision": 741,
+  "time": "2026-12-01T00:45:00Z",
+  "fresh_request": "V4RQ0002",
+  "saturated_request_targets": [
+    {
+      "target": "V4T007404",
+      "best_score_before_request": 0.54,
+      "weight": 0.45,
+      "cur": 1.2,
+      "dense_remaining": 0,
+      "ra": 12.591496,
+      "dec": -26.605793,
+      "density_bin": [
+        4,
+        25
+      ],
+      "altitude_at_failed_turn": 87.40834128517572
+    },
+    {
+      "target": "V4T003566",
+      "best_score_before_request": 0.54,
+      "weight": 0.45,
+      "cur": 1.2,
+      "dense_remaining": 0,
+      "ra": 13.473109,
+      "dec": -37.921093,
+      "density_bin": [
+        4,
+        20
+      ],
+      "altitude_at_failed_turn": 76.49450712357995
+    },
+    {
+      "target": "V4T005005",
+      "best_score_before_request": 1.2,
+      "weight": 1.0,
+      "cur": 1.2,
+      "dense_remaining": 0,
+      "ra": 15.969457,
+      "dec": -33.989898,
+      "density_bin": [
+        5,
+        22
+      ],
+      "altitude_at_failed_turn": 79.58379995096006
+    }
+  ],
+  "fixture_confirmed_by_parent": "KeyError at frozen planner.py1836, missing bin_best for density bin with zero value; single saturated target plus fresh request fixture",
+  "real_trace_limitation": "Original exception handler reports class only, not missing key or stack. Exact real missing bin unavailable; real request/history independently corroborate saturated fresh-request trigger. No full replay or source fix performed."
+}

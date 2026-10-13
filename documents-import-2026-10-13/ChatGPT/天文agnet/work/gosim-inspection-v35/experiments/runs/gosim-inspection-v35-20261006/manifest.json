@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "run_id": "gosim-inspection-v35-20261006",
+  "status": "completed",
+  "registered_at": "2026-10-06T15:50:41.940885+00:00",
+  "started_at": "2026-10-06T15:40:34.114297+00:00",
+  "ended_at": "2026-10-06T15:50:41.765249+00:00",
+  "runtime_seconds": 607.650952,
+  "failure_reason": null,
+  "project_root": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35",
+  "source_config": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/experiments/configs/plan.yaml",
+  "config_sha256": "98dc543dea2fe9971853e5355ffb45fbf3966ef5a55f8e078d7edca4def72d6e",
+  "config": {
+    "schema_version": 1,
+    "experiment_id": "gosim-inspection-v35",
+    "project_id": "astronomy-observer",
+    "parent_run_id": null,
+    "hypothesis": "Realized inspection prevents invalid/duplicate credit and provides bounded noncausal QA without score regression on fixed public workloads.",
+    "baseline": "immutable v3.4 exact final source",
+    "command": "run_cpu.py --family <baseline|candidate> --card <normal-b|long-held> --out <unique> --budget 900 --wall-cap 7200",
+    "output_dir": "evidence/final",
+    "data_contract_revision": "DATA_CONTRACT-v35",
+    "datasets": [
+      {
+        "name": "normal-b and 180-night/6000-target long-held",
+        "version": "frozen official v4 and prior generated cards",
+        "uri": "../gosim-desi-v300/cases-v2/long-held and official local-cards/L1",
+        "identity": "per-run full input SHA256 manifests; no runtime engine truth reads"
+      }
+    ],
+    "random": {
+      "stochastic": false,
+      "seed": null,
+      "rng": "agent deterministic, inputs pre-generated and frozen",
+      "stream_policy": "same fixed truth/weather/catalogue per paired run; CPU adaptation can alter paths"
+    },
+    "parallel": {
+      "backend": "independent host processes across cards; serial agent/scorer per run",
+      "workers": 1,
+      "threads_per_worker": 1,
+      "reduction": "serial C++ fibre selection"
+    },
+    "environment": {
+      "dependency_lock": "dependency-lock.txt",
+      "hardware": "macOS arm64 host",
+      "software": "bundled Python3.12.14 stdlib, C++17, frozen official workflow and process CPU hook"
+    },
+    "parameters": {
+      "cpu_budget_seconds": 900,
+      "local_wall_protection_seconds": 7200,
+      "log_checkpoint_exposures": 8,
+      "recent_exposure_window": 64,
+      "max_search_breadth": 1,
+      "api": false,
+      "switch_names": {
+        "FUSION_LOG_REVIEW": "1",
+        "FUSION_MAX_BREADTH": "1"
+      }
+    },
+    "controls": {
+      "sample_ids": "fixed public target IDs per card; own observe indices in audit",
+      "skeleton": "not-applicable: telescope scheduling",
+      "selection": "Two fixed paired workloads; no score tuning; D1 unavailable. Timed adaptive paths may differ. Initial candidate long scored lower; preserve and report it. Added QA-only replay-credit correction after finding that a surviving exposure can recover marginal credit when an earlier high score is invalidated. Recheck final source, not select the best run.",
+      "units_and_coordinates": "UTC/degrees; normalized standard CPU and raw host CPU kept separate",
+      "bin_edges_and_denominator": "one official total per card and algorithm"
+    },
+    "metrics": {
+      "paired_scores": {
+        "definition": "official totals and counts for baseline and candidate normal-b/long-held",
+        "unit": "score",
+        "uncertainty": "single fixed pair each; no variance estimate"
+      },
+      "tests": {
+        "definition": "passed regression and fixed visit checks",
+        "unit": "count",
+        "uncertainty": "conformance"
+      },
+      "zip_valid": {
+        "definition": "fresh extraction build JSONL and fallback",
+        "unit": "boolean",
+        "uncertainty": "single macOS host"
+      }
+    },
+    "reproducibility": {
+      "level": "numerical",
+      "tolerance": "recorded action traces/score files exact; timed adaptive reruns can differ"
+    },
+    "success_criterion": "complete legal episodes without mistaking engine/model waits for own CPU; test/build/protocol pass; report score tradeoffs",
+    "budget": {
+      "max_runs": 6,
+      "max_walltime_hours": 1,
+      "stop_condition": "four initial runs plus exact-final normal-b/long-held after QA replay credit correction; no score tuning"
+    }
+  },
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "limitation": "无 git commit；需外部源码快照，不能仅靠登记复现"
+  },
+  "metrics": {
+    "paired_scores": {
+      "value": {
+        "baseline-normal-b-900": 379.93474,
+        "candidate-normal-b-900": 379.93474,
+        "baseline-long-900": 6600.969311,
+        "candidate-long-900": 6498.21715,
+        "final-normal-b-900": 379.93474,
+        "final-long-900": 6585.261024
+      },
+      "unit": "score",
+      "artifact": "evidence/final/comparison.json"
+    },
+    "tests": {
+      "value": 66,
+      "unit": "count",
+      "artifact": "tests-python312-final.log"
+    },
+    "zip_valid": {
+      "value": true,
+      "unit": "boolean",
+      "artifact": "evidence/final/release-check.json"
+    }
+  },
+  "environment_lock": {
+    "source": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/dependency-lock.txt",
+    "sha256": "840be80392c7bd7435017e1db189990dc64c7b8aab918943cbdaea193d04749d",
+    "snapshot": "dependency-lock.snapshot"
+  },
+  "registrar": {
+    "python": "3.10.9 (main, Mar  1 2023, 12:33:47) [Clang 14.0.6 ]",
+    "pyyaml": "6.0",
+    "script_sha256": "ff5b1941c783012454c051c6b6878ee97bd990fa0e9c2406bebd89ca6d251a39"
+  },
+  "output_dir": "/Users/jqwang/Documents/ChatGPT/天文agnet/work/gosim-inspection-v35/evidence/final",
+  "output_inventory": [
+    {
+      "path": "DATA_CONTRACT.md",
+      "size": 1140,
+      "mtime_ns": 1791301841622337000,
+      "sha256": "796d972e35878a94c609cfbc08f3037e32ecab83c551571912eac0124c5a5b36"
+    },
+    {
+      "path": "comparison.json",
+      "size": 134395,
+      "mtime_ns": 1791301841761759445,
+      "sha256": "375f0483abd68b76990b3216edaa75f7a77815b832c07c3d3952775b5d1d1da6"
+    },
+    {
+      "path": "dependency-lock.txt",
+      "size": 155,
+      "mtime_ns": 1791294578742276000,
+      "sha256": "840be80392c7bd7435017e1db189990dc64c7b8aab918943cbdaea193d04749d"
+    },
+    {
+      "path": "release-check.json",
+      "size": 1726,
+      "mtime_ns": 1791301558048835000,
+      "sha256": "e3906116d5538e4970edbcc7ab35993611d931d587eeac2dc0212f4358deaf3c"
+    },
+    {
+      "path": "tests-python312-final.log",
+      "size": 26243,
+      "mtime_ns": 1791301525493752000,
+      "sha256": "9344aa3c7711eac7854247053c91aada70b3e167146549ab70bc2e10525f23ae"
+    }
+  ],
+  "outputs_hashed": true,
+  "limitations": [
+    "登记不验证命令曾被执行、数据 identity 或用户声明的实际运行环境",
+    "源码/输入/输出必须在登记期间保持不变；登记锁不锁实验进程",
+    "默认输出 size/mtime 不能验证内容；--hash-outputs 对普通文件保存 SHA256",
+    "输出符号链接只记录目标，不捕获目标内容"
+  ]
+}

@@ -1,0 +1,5 @@
+card,version,total,required_missing,requests_completed,observe_actions,normalized_cpu_seconds,real_cpu_seconds,wall_seconds,speed_factor,termination,assigned_count,hit_count,state_resync_count,internal_error_count
+L1,baseline,6236.572199,2,2,919,180.217,155.388,166.467,0.8669,survey_complete,10635,10635,0,0
+L1,v2.0.0,6088.979887,2,2,1130,268.445,219.512,237.937,0.8162,survey_complete,12815,12815,0,0
+L3,baseline,6766.874957,1,2,941,322.247,278.554,293.761,0.8626,survey_complete,11233,11220,1,0
+L3,v2.0.0,6677.167388,3,2,1381,542.583,448.624,481.554,0.8414,survey_complete,14144,14132,1,0

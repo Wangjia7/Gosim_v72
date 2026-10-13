@@ -1,0 +1,31 @@
+{
+  "version": "0.3.1-package-fix",
+  "created_utc": "2026-10-07T15:38:26.896510+00:00",
+  "parent": "python-pro-v0.3.0",
+  "platform_error": "environment must be an object with at most 32 settings",
+  "old_setting_count": 43,
+  "new_setting_count": 29,
+  "removed_redundant_defaults": {
+    "V7_NIGHTPLAN": "on",
+    "V7_MODEL_EFFORT": "auto",
+    "V7_FAULT_MH": "0",
+    "V7_FAULT_U": "off",
+    "V7_FREE_POLICY": "v5",
+    "V7_PAID": "v5",
+    "V7_QA0": "0",
+    "V7_SHADOW": "1",
+    "V7_SPLIT_EV": "0",
+    "V7_WAIT_SKIP": "0",
+    "V7_NIGHT_WAIT": "8",
+    "PRO_EVENT_DURATIONS": "0",
+    "PRO_EXACT_TIME_PRICE": "0",
+    "PRO_WIDTH_AWARE_GATE": "0"
+  },
+  "observer_runtime_source_unchanged": true,
+  "changes": [
+    "manifest: omit redundant source defaults",
+    "pack_agent.py: validate environment object/count/string values; derive default ZIP name from directory",
+    "VERSION and documentation: identify packaging-only successor"
+  ],
+  "performance": "No new score claim; numerical observer code unchanged. Effective configuration parity will be checked in an isolated environment."
+}

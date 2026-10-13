@@ -1,0 +1,29 @@
+{
+  "python": "/Users/jqwang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "checked_utc": "2026-10-07T15:20:30.086231+00:00",
+  "test_only_change": "Replace obsolete hardcoded width<=5 assertion with configured SEARCH_WIDTH_MAX; no runtime source change.",
+  "runs": [
+    {
+      "configuration": "source-defaults",
+      "returncode": 0,
+      "output": "final-tests-source-defaults.txt",
+      "summary": [
+        "----------------------------------------------------------------------",
+        "Ran 103 tests in 0.372s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "configuration": "delivery-manifest",
+      "returncode": 1,
+      "output": "final-tests-delivery-manifest.txt",
+      "summary": [
+        "----------------------------------------------------------------------",
+        "Ran 103 tests in 0.935s",
+        "",
+        "FAILED (failures=1)"
+      ]
+    }
+  ]
+}

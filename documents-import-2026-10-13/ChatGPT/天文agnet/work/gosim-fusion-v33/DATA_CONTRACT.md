@@ -1,0 +1,3 @@
+# v3.3 comparison data contract
+
+Fixed official L1/L2 cards, prior generated normal-a/normal-b, and prior 100-fibre dense card. Catalogue, calendar, bulletin, forecast, request and private engine inputs are frozen and hashed per run. Runtime agents receive only public messages and own feedback; the trusted offline engine consumes truth. The upload excludes truth and card files. Re-running full scoring requires the original card directories; the validation archive stores hashes and scored traces, not a complete data redistribution. CPU-adaptive reruns may differ. Snapshots preserve all agent variants and runner code. Experiments are retrospectively registered; no pre-registration or blind generalization claim.

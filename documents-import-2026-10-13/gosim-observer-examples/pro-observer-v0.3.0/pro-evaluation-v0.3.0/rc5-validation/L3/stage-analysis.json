@@ -1,0 +1,45 @@
+{
+  "components_process_seconds": {
+    "candidate_generation": 94.51732100000922,
+    "exposure_search": 279.0965269999841,
+    "fiber_assignment": 86.62158500000731,
+    "lookahead": 0.0,
+    "season": 2.0565570000001356,
+    "state_update": 0.45427900000034027,
+    "visibility": 12.20208999999953
+  },
+  "level_counts": {
+    "0": 943,
+    "1": 33,
+    "4": 7
+  },
+  "actual_width_summary": {
+    "min": 1.0,
+    "median": 2.5745702318699983,
+    "max": 20.0,
+    "greater_than_old_cap5": 280,
+    "at_cap20": 50
+  },
+  "requested_width_summary": {
+    "min": 1.0,
+    "median": 2.8123928225970594,
+    "max": 20.0
+  },
+  "deep_duty": {
+    "decision_count": 983,
+    "decisions_width_gt1": 654,
+    "width_gt1_fraction": 0.6653102746693794,
+    "on_transitions": 8,
+    "off_transitions": 8,
+    "exact_deep_enabled_count": null,
+    "limitation": "Width >1 proves deep enabled; width1 is ambiguous because deep width1 is permitted. Exact deep duty not logged."
+  },
+  "error_steps": [],
+  "termination": "survey_complete",
+  "full_season_comparison_valid": true,
+  "hash_checks": {
+    "card_files_unchanged": true,
+    "execution_source_unchanged": true,
+    "source_unchanged": true
+  }
+}

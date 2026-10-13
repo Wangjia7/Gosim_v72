@@ -1,0 +1,63 @@
+{
+  "manifest_parse_build_run": true,
+  "both_routes": true,
+  "native_binaries_excluded": true,
+  "linux_container_tested": false,
+  "sha256": "5b3c33d14293a2920951f2404905bd33a5329435235ad64393c51e4c2977ebea",
+  "replies": [
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 1,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 84.9221,
+        "az_deg": 183.575
+      },
+      "assignments": {
+        "0": "t1",
+        "5": "t0"
+      },
+      "duration_seconds": 1200,
+      "program": "DARK",
+      "reason": "2 fibres, program DARK",
+      "decision_source": "rules"
+    },
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 1,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 84.9221,
+        "az_deg": 183.575
+      },
+      "assignments": {
+        "0": "t1",
+        "5": "t0"
+      },
+      "duration_seconds": 1200,
+      "program": "DARK",
+      "reason": "2 fibres, program DARK",
+      "decision_source": "rules"
+    },
+    {
+      "protocol_version": "participant-agent-protocol-v4",
+      "message_type": "decision_response",
+      "decision_sequence": 1,
+      "action": "observe",
+      "pointing": {
+        "alt_deg": 87.0091,
+        "az_deg": 148.1271
+      },
+      "assignments": {
+        "19": "t1",
+        "29": "t0"
+      },
+      "duration_seconds": 1200,
+      "program": "DARK",
+      "reason": "2 fibres, program DARK",
+      "decision_source": "rules"
+    }
+  ]
+}

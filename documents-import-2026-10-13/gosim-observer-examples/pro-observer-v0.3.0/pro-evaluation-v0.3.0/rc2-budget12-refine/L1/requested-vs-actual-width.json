@@ -1,0 +1,6 @@
+{
+  "requested_width_max": 12,
+  "effective_planner_width_cap": 5,
+  "confirmed_source": "frozen rc2 planner.py:1519",
+  "note": "Agent allows/logs requested widths above5 and normalizes EMA by requested width, but planner caps actual width at5. Whole-policy results are valid; requested-width labels are not evidence of actual breadth12/20. Raw logs unchanged."
+}

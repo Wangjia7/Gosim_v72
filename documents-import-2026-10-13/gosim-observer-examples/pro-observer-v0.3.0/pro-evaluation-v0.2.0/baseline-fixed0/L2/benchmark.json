@@ -1,0 +1,240 @@
+{
+  "adaptive": false,
+  "agent_cwd": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/agent-cwd",
+  "agent_dir": "/Users/jqwang/Documents/gosim-observer-examples/python-pro",
+  "budget_seconds": 900,
+  "card": "L2",
+  "card_config_hashes": {
+    "config/v4_fiber_config.json": "85fc175cb198b1c65d33a123cfbc8b6c1deb10778eef0dbfa659156918e23c8f",
+    "config/v4_scenario.json": "b9027d4acd26252ace34d129b9dff10d6c68a1e0ba2912c3b2a7e4510e70bedd",
+    "config/v4_score_config.json": "8b2dd879a684e8dc51e2a3f33dfe6301c277b7f0ee95415c6649498d3a8784cd"
+  },
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "/Users/jqwang/Documents/gosim-observer-examples/runner/run_local.py",
+    "--card",
+    "/Users/jqwang/Documents/gosim-observer-examples/local-cards/L2",
+    "--agent",
+    "/usr/bin/env OBSERVER_MODEL_DISABLED=1 PRO_FIXED_LEVEL=0 PRO_LOG_PATH=/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/decision-log.jsonl PYTHONDONTWRITEBYTECODE=1 /Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py",
+    "--agent-cwd",
+    "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/agent-cwd",
+    "--wallclock",
+    "900",
+    "--out",
+    "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2",
+    "--quiet"
+  ],
+  "command_shell": "/Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/jqwang/Documents/gosim-observer-examples/runner/run_local.py --card /Users/jqwang/Documents/gosim-observer-examples/local-cards/L2 --agent '/usr/bin/env OBSERVER_MODEL_DISABLED=1 PRO_FIXED_LEVEL=0 PRO_LOG_PATH=/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/decision-log.jsonl PYTHONDONTWRITEBYTECODE=1 /Library/Developer/CommandLineTools/usr/bin/python3 -B /Users/jqwang/Documents/gosim-observer-examples/python-pro/agent.py' --agent-cwd /Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/agent-cwd --wallclock 900 --out /Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2 --quiet",
+  "engine_hashes": {
+    "runner/challenge/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runner/challenge/challenge_workflow.py": "a790769bab713fe3e15f83087724264c74afa09f7f7bc1167e0da979835fa45e",
+    "runner/challenge/contracts.py": "a6ea14cec151450c1e0edb2023f2fd3e5980e87ee9c8fc1717188983979f1335",
+    "runner/challenge/fair_clock.py": "ccc690f6f4599757eb5e98980d24d73be427242accafae8d31f43078be8eee1e",
+    "runner/challenge/observation_request_simulator.py": "3997f2e3f281b74f496f13c995c28851f3683d7a6118f80bdcc865ce62e747c8",
+    "runner/challenge/observing_calendar.py": "897f81e4c0fd3b8eca5a6d490d96aff2e9ff2b6ca4a1d0b6837ee9a479125117",
+    "runner/challenge/project_paths.py": "0bde3926c12a89d48694bcf8ec78c1a915936d5a02b647004184ac8887df6857",
+    "runner/challenge/scoring_core.py": "abb3e2758b11380f1b894d8eb743a220e4384f0b55f964cac51a6d19eca93b65",
+    "runner/challenge/tile_geometry_simulator.py": "d651caa58d05db0619e408e7613db27e5665d2d15e3e13f038182e137deede73",
+    "runner/challenge/v4_config_check.py": "afb7ed2e2d81230414047dad392d39a3ad5d94d2ee089d4e78e561beee5e72a8",
+    "runner/challenge/v4_fiber_map.py": "9ac7ffd1d865d7c5bc999e554ae9516d208980d948d39223d9f0a047f2d72892",
+    "runner/challenge/v4_runner.py": "390cc6e7fa0a4ff31fa76fe4485511c026ee3355b3c4c203afea471e6a55af4d",
+    "runner/challenge/v4_scorer.py": "46154188eb409fb8408845d0a40ea07c143e1bb1f297f7ee79ab1559ac24cd66",
+    "runner/challenge/v4_workflow.py": "a50cd2d8f8ed8232aa7b764627db1cfc3acc532507a0e317684ed5adb436b73a",
+    "runner/challenge/weather_simulator.py": "41c82b106c88ea6eee0348b48801cdad2043379cadf34d8547c7bf45705af098",
+    "runner/project_platform/__init__.py": "9383ca5b909c3344d7e16cebbf5446456fb6c636f93ca284f6f170f97e0c8be8",
+    "runner/project_platform/transport.py": "e704392660c8651d58da0413ab7fd548fda86c9062cb8f7e4030c33176bfedc3",
+    "runner/run_local.py": "cebaa48c3690d6c88a15c708807d35c4f82d51d5cc0d8ec115f30d6006bd08aa",
+    "runner/verify_engine.py": "ae4a5ea80bffd9bb6c9e0ca348e90d7e6ecfa24f8f52f7337da9d692d186dbde"
+  },
+  "finished_utc": "2026-10-07T10:05:35Z",
+  "harness_wall_seconds": 165.345,
+  "label": "baseline-fixed0",
+  "note": "Observer reads protocol stdin only; card files are read by unmodified judge. Agent source is executed by absolute path from isolated output cwd.",
+  "official_score_report": {
+    "by_class": {
+      "BGS": 834.744238,
+      "ELG": 2713.166613,
+      "LRG": 1276.75207,
+      "QSO": 1170.468676,
+      "Star": 207.763706
+    },
+    "components": {
+      "observation_request_reward": 200.0,
+      "report_settlement": 100.0,
+      "required_penalty": -250.0,
+      "sum_best_scores": 6202.895303,
+      "uniformity_penalty": -4.55153
+    },
+    "counts": {
+      "decisions": 1506,
+      "invalidated_observations": 0,
+      "observation_requests_completed": 2,
+      "observation_requests_issued": 2,
+      "observations": 10794,
+      "observe_actions": 866,
+      "required_missing": 5,
+      "targets_observed": 7734
+    },
+    "invalidations": [],
+    "observation_requests": [
+      {
+        "completed": true,
+        "completed_count": 7,
+        "completed_target_ids": [
+          "V4T008449",
+          "V4T004900",
+          "V4T007983",
+          "V4T008375",
+          "V4T005579",
+          "V4T008591",
+          "V4T007097"
+        ],
+        "completion_factor_threshold": 0.5,
+        "completion_reward": 100.0,
+        "deadline_utc": "2026-11-11T08:15:00Z",
+        "issued_at_utc": "2026-11-10T00:30:00Z",
+        "minimum_completed": 6,
+        "request_id": "V4RQ0001",
+        "reward": 100.0,
+        "target_ids": [
+          "V4T008449",
+          "V4T007102",
+          "V4T004900",
+          "V4T007983",
+          "V4T008375",
+          "V4T005579",
+          "V4T008591",
+          "V4T007097"
+        ]
+      },
+      {
+        "completed": true,
+        "completed_count": 7,
+        "completed_target_ids": [
+          "V4T000962",
+          "V4T005594",
+          "V4T008392",
+          "V4T005689",
+          "V4T008386",
+          "V4T000651",
+          "V4T006418"
+        ],
+        "completion_factor_threshold": 0.5,
+        "completion_reward": 100.0,
+        "deadline_utc": "2026-12-13T08:15:00Z",
+        "issued_at_utc": "2026-12-12T01:00:00Z",
+        "minimum_completed": 6,
+        "request_id": "V4RQ0002",
+        "reward": 100.0,
+        "target_ids": [
+          "V4T000962",
+          "V4T005594",
+          "V4T007298",
+          "V4T008392",
+          "V4T005689",
+          "V4T008386",
+          "V4T000651",
+          "V4T006418"
+        ]
+      }
+    ],
+    "scenario": "v4-l2",
+    "schema_version": "v4-score-report-v1",
+    "sha256": {
+      "decisions": "00b0e41dabe1733f6ae9596cb4d7132f537b54ba0acca2b09c873b50a481059b",
+      "messages": "4fdf93640ac28d4a9534dc400dff206a9bf9948d69178d5302694c3b1c87e04b",
+      "observations": "39a4cd0c609bebe42cc93471e3874df00010809cdc2d3dd865670c1ccf2daba4",
+      "scenario": "b9027d4acd26252ace34d129b9dff10d6c68a1e0ba2912c3b2a7e4510e70bedd"
+    },
+    "termination": {
+      "detail": "",
+      "reason": "survey_complete"
+    },
+    "total": 6248.343772,
+    "uniformity_bands": {
+      "ra_0_10": 0.586558,
+      "ra_100_110": 0.826087,
+      "ra_10_20": 0.643585,
+      "ra_110_120": 0.813008,
+      "ra_20_30": 0.740883,
+      "ra_30_40": 0.759494,
+      "ra_40_50": 0.454545,
+      "ra_50_60": 0.677966,
+      "ra_60_70": 0.815506,
+      "ra_70_80": 0.800942,
+      "ra_80_90": 0.693396,
+      "ra_90_100": 0.822604
+    }
+  },
+  "returncode": 0,
+  "runner_environment": {
+    "LANG": "C.UTF-8",
+    "LC_ALL": "C.UTF-8",
+    "PATH": "/Library/Developer/CommandLineTools/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "schema_version": "pro-benchmark-v1",
+  "settings": {
+    "OBSERVER_MODEL_DISABLED": "1",
+    "PRO_FIXED_LEVEL": "0",
+    "PRO_LOG_PATH": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/decision-log.jsonl",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "source_hashes": {
+    "advisor.py": "072046afd7554d023714b293a11e217224040834129608bd0c919c16d65152cb",
+    "agent.py": "2684dacd0a37e30b481bc6b4b3798726c736194007c69c27f1ed6b2dec226d58",
+    "llm_client.py": "65c246da853a3a9684c711044e0e8e0b91f78f505245e6f8020621a9591920e2",
+    "pack_agent.py": "832672b9eac28a1180f60b4d15b145ec962b55aab14a90336251e17c0d139309",
+    "planner.py": "88a039ee5319fbb60bd87619a575cf3273e49c753fb88524cdc3bad49ddd41da",
+    "skymath.py": "584d792155ef3ac02b0fa53c2241f3b72366de034b6ee82e44d8c10389841e26"
+  },
+  "source_unchanged": true,
+  "started_utc": "2026-10-07T10:02:49Z",
+  "status": "success",
+  "summary": {
+    "card": "L2",
+    "decision_requests": 946,
+    "fair_clock": {
+      "budget_seconds": 900.0,
+      "charged_seconds": 188.017,
+      "cpu_meter": "cpu",
+      "cpu_seconds": 150.948,
+      "hard_cap_reached": false,
+      "hard_cap_seconds": 1800.0,
+      "mode": "cpu",
+      "run_wall_seconds": 163.784,
+      "schema_version": "fair-clock-v1",
+      "speed_factor": 0.8231,
+      "speed_factor_max": 0.8231,
+      "speed_factor_min": 0.7872,
+      "speed_samples": 3,
+      "wait_seconds": 3.67,
+      "window_seconds": 154.618
+    },
+    "note": "Local scores are for debugging; official results come from the platform. \u672c\u5730\u5206\u6570\u7528\u6765\u8c03\u8bd5\uff0c\u6b63\u5f0f\u6210\u7ee9\u4ee5\u5e73\u53f0\u4e3a\u51c6\u3002",
+    "observation_request_reward": 200.0,
+    "observation_requests_completed": 2,
+    "observation_requests_issued": 2,
+    "observe_actions": 866,
+    "outputs": {
+      "agent.log": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/agent.log",
+      "decisions.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/decisions.csv",
+      "observations.csv": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/observations.csv",
+      "score_report.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/score_report.json",
+      "workflow_result.json": "/Users/jqwang/Documents/Codex/2026-10-07/improve-the-existing-pro-observer-using/outputs/pro-evaluation-v0.2.0/baseline-fixed0/L2/workflow_result.json"
+    },
+    "report_settlement": 100.0,
+    "required_missing": 5,
+    "required_penalty": -250.0,
+    "runner_seconds": 165.025,
+    "speed_factor": 0.8231,
+    "sum_best_scores": 6202.895303,
+    "targets_observed": 7734,
+    "termination_detail": "",
+    "termination_reason": "survey_complete",
+    "total": 6248.343772,
+    "uniformity_penalty": -4.55153,
+    "wall_seconds": 188.017
+  }
+}

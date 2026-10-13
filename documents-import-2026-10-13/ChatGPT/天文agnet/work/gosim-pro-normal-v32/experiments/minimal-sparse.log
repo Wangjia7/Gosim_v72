@@ -1,0 +1,40 @@
+planner: scarcity 0.34, time price fraction 0.24
+pro: 500 targets, 60 required, 5 nights; init 0.00s; model none (rules only)
+pro: E 2026-11-02T01:47:30Z 1.00 scale 0.610 band 0.649
+pro: E 2026-11-02T02:35:00Z 1.00 scale 0.610 band 0.648
+pro: E 2026-11-02T03:32:30Z 1.00 scale 0.617 band 0.650
+pro: E 2026-11-02T04:30:00Z 1.00 scale 0.532 band 0.616
+pro: E 2026-11-02T05:30:00Z 1.00 scale 0.554 band 0.557
+pro: E 2026-11-02T06:30:00Z 1.00 scale 0.623 band 0.624
+pro: E 2026-11-02T07:30:00Z 1.00 scale 0.592 band 0.624
+pro: E 2026-11-03T00:30:00Z 1.00 scale 0.586 band 0.642
+pro: E 2026-11-03T01:47:30Z 1.00 scale 0.622 band 0.647
+pro: E 2026-11-03T02:37:30Z 1.00 scale 0.641 band 0.672
+pro: E 2026-11-03T03:47:30Z 1.00 scale 0.641 band 0.675
+pro: E 2026-11-03T04:47:30Z 1.00 scale 0.574 band 0.675
+pro: E 2026-11-03T05:32:30Z 0.94 scale 0.574 band 0.640
+pro: E 2026-11-03T06:35:00Z 0.94 scale 0.569 band 0.627
+pro: E 2026-11-03T07:30:00Z 0.94 scale 0.569 band 0.635
+pro: E 2026-11-04T00:30:00Z 1.00 scale 0.599 band 0.630
+pro: E 2026-11-04T01:30:00Z 1.00 scale 0.598 band 0.630
+pro: E 2026-11-04T02:30:00Z 1.00 scale 0.602 band 0.634
+pro: E 2026-11-04T04:30:00Z 1.00 scale 0.562 band 0.630
+pro: E 2026-11-04T05:30:00Z 1.00 scale 0.567 band 0.597
+pro: E 2026-11-04T06:30:00Z 1.00 scale 0.582 band 0.597
+pro: E 2026-11-04T07:30:00Z 1.00 scale 0.584 band 0.612
+pro: E 2026-11-05T00:30:00Z 1.00 scale 0.557 band 0.614
+pro: E 2026-11-05T01:35:00Z 1.00 scale 0.581 band 0.614
+pro: E 2026-11-05T03:30:00Z 1.00 scale 0.598 band 0.624
+pro: E 2026-11-05T05:15:00Z 1.00 scale 0.584 band 0.630
+pro: E 2026-11-05T05:30:00Z 1.00 scale 0.583 band 0.630
+pro: E 2026-11-05T06:30:00Z 1.00 scale 0.618 band 0.619
+pro: E 2026-11-05T07:32:30Z 1.00 scale 0.601 band 0.620
+pro: E 2026-11-06T00:30:00Z 1.00 scale 0.601 band 0.620
+pro: E 2026-11-06T01:32:30Z 1.00 scale 0.538 band 0.620
+pro: E 2026-11-06T02:30:00Z 1.00 scale 0.508 band 0.535
+pro: E 2026-11-06T03:30:00Z 1.00 scale 0.499 band 0.527
+pro: E 2026-11-06T04:50:00Z 1.00 scale 0.498 band 0.521
+pro: E 2026-11-06T05:57:30Z 1.00 scale 0.498 band 0.530
+pro: E 2026-11-06T07:02:30Z 1.00 scale 0.472 band 0.527
+pro: E 2026-11-06T07:32:30Z 0.94 scale 0.472 band 0.527
+{"family": "minimal", "card": "sparse", "total": 500.334393, "counts": {"decisions": 266, "observe_actions": 193, "observations": 671, "targets_observed": 460, "required_missing": 0, "invalidated_observations": 0, "observation_requests_issued": 2, "observation_requests_completed": 2}, "clock": {"schema_version": "fair-clock-v1", "mode": "cpu", "budget_seconds": 180.0, "charged_seconds": 3.283, "speed_factor": 1.1635, "speed_factor_min": 1.1635, "speed_factor_max": 1.1635, "speed_samples": 1, "window_seconds": 3.824, "cpu_seconds": 3.82, "wait_seconds": 0.004, "run_wall_seconds": 4.124, "hard_cap_seconds": 360.0, "hard_cap_reached": false, "cpu_meter": "cpu"}, "termination": "survey_complete"}
